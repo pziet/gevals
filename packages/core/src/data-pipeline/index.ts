@@ -3,7 +3,7 @@ import ffmpeg from 'fluent-ffmpeg';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import { promisify } from 'util';
-import { writeFile } from 'fs/promises';
+import { writeFile, rename } from 'fs/promises';
 
 export async function downloadAudio(url: string, outPath: string): Promise<void> {
   console.log(`Starting download of audio from: ${url}`);
@@ -37,41 +37,63 @@ export async function mixChatter(
   console.log(`- Base MP3: ${baseMp3}`);
   console.log(`- Chatter MP3: ${chatterMp3}`);
   console.log(`- Level: ${level}dB`);
+  console.log('[DEBUG] Volume option:', `${level}dB`);
   
   const outputPath = join(tmpdir(), `mixed-${Date.now()}.mp3`);
   console.log(`Output will be saved to: ${outputPath}`);
   
   return new Promise((resolve, reject) => {
     console.log('Starting FFmpeg processing...');
-    ffmpeg()
+
+    // Debug: inspect streams in the input files
+    ffmpeg.ffprobe(baseMp3,   (err, info) => console.log('[DEBUG ffprobe base]   ', err, info?.streams));
+    ffmpeg.ffprobe(chatterMp3, (err, info) => console.log('[DEBUG ffprobe chatter]', err, info?.streams));
+
+    const command = ffmpeg()
       .input(baseMp3)
       .input(chatterMp3)
+      // DEBUG: first turn down/up the chatter track…
       .complexFilter([
+        {
+          filter: 'volume',
+          options: `${level}dB`,
+          inputs: '1:a',
+          outputs: 'chatter_adj'
+        },
         {
           filter: 'amix',
           options: {
             inputs: 2,
             duration: 'first',
             dropout_transition: 0
-          }
-        },
-        {
-          filter: 'volume',
-          options: `${level}dB`,
-          inputs: '[1]',
-          outputs: ['chatter']
+          },
+          // now mix base (0:a) with our adjusted chatter stream
+          inputs: ['0:a', 'chatter_adj'],
+          // **label the mixed result so -map [mixed] finds it**
+          outputs: 'mixed'
         }
-      ])
+      ], 'mixed');
+
+    // Debug: show the exact FFmpeg command
+    command.on('start',   cmd => console.log('[DEBUG FFMPEG START] ', cmd));
+    // Debug: stream FFmpeg stderr in real time
+    command.on('stderr',  line => console.log('[DEBUG FFMPEG STDERR]', line));
+    // Debug: output codec/stream info once FFmpeg parses the graph
+    command.on('codecData', data => console.log('[DEBUG CODEC DATA]   ', data));
+    // Debug: inspect the full array of CLI arguments passed to FFmpeg
+    console.log('[DEBUG ARGUMENTS]', command._getArguments());
+
+    command
       .output(outputPath)
       .on('end', () => {
         console.log('FFmpeg processing completed successfully');
         resolve(outputPath);
       })
-      .on('error', (err) => {
+      .on('error', err => {
         console.error(`FFmpeg processing error: ${err.message}`);
         reject(new Error(`FFmpeg error: ${err.message}`));
       })
-      .on('progress', (progress) => {
+      .on('progress', progress => {
         console.log(`FFmpeg progress: ${JSON.stringify(progress)}`);
       })
       .run();
@@ -107,7 +129,9 @@ export async function generateSyntheticDataset(
     console.log(`Processing noise level: ${level}dB`);
     const outputPath = join(outputDir, `noise-level-${level}.mp3`);
     console.log(`Output path for this level: ${outputPath}`);
-    await mixChatter(basePath, chatterPath, level);
+    const tempPath = await mixChatter(basePath, chatterPath, level);
+    console.log(`[DEBUG] Moving mixed file from ${tempPath} to ${outputPath}`);
+    await rename(tempPath, outputPath);
     console.log(`Completed processing for noise level: ${level}dB`);
   }
   console.log('Synthetic dataset generation completed');
