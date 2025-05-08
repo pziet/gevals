@@ -1,6 +1,7 @@
 {
-    "name": "gevals",
+    "name": "@gevals/cli",
     "version": "0.0.1",
+    "type": "module",
     "description": "Granola evaluation framework CLI",
     "main": "dist/index.js",
     "bin": {
@@ -11,6 +12,7 @@
         "dev": "tsc -w"
     },
     "dependencies": {
+        "@gevals/core": "workspace:*",
         "commander": "^11.0.0",
         "dotenv": "^16.0.0",
         "fast-glob": "^3.3.0",
@@ -19,6 +21,7 @@
         "tsx": "^4.0.0"
     },
     "devDependencies": {
-        "@types/node": "^22.15.3"
+        "@types/node": "^22.15.3",
+        "typescript": "^5.3.3"
     }
 }
