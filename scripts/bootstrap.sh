@@ -8,4 +8,4 @@ pnpm i --frozen-lockfile
 [[ -f .env.local ]] || cp .env.example .env.local
 
 # 4. (optional) spin infra
-docker compose up -d   # brings up redis:6-alpine & postgres:15
+docker compose -f infra/docker-compose.yml up -d   # brings up redis:6-alpine & postgres:15
