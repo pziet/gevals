@@ -3,6 +3,9 @@
 # tmp files
 tmp/
 
+# Prisma
+generated/
+
 # Dependencies
 node_modules
 .pnp
