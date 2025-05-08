@@ -3,6 +3,11 @@
 # tmp files
 tmp/
 
+# turbo files that I don't want to commit yet, and will be deleted soon
+packages/ui/
+packages/docs/
+apps/docs/
+
 # Prisma
 generated/
 
