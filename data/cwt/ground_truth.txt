@@ -1,0 +1,198 @@
+TYLER COWEN: Hello everyone, and welcome back to Conversations with Tyler. Today, I am at Anthropic with Jack Clark. As you may know, there is now an Anthropic Economic Index which is measuring the effect of advanced AI on the US economy. There are two associated reports as of March 2025, and soon, more to come. Jack, of course, is the co-founder of Anthropic. Before that, he was the policy director at OpenAI, a reporter at Bloomberg, and originally, has his background in the humanities. He comes from Brighton, England. Jack, welcome.
+
+JACK CLARK: Well, thanks for having me, Tyler. Pleasure to be here.
+
+COWEN: Where is it in our economy that AGI will affect last in a significant manner?
+
+CLARK: Ooh, I’d hazard a guess that it’s going to be things that are the trades and the most artisanal parts of them. You might think of trades as having things like electricians or plumbing, or also things like gardening. I think within those, you get certain high-status, high-skill parts, where people want to use a certain tradesman, not just because of their skill but because of their notoriety and sometimes an aesthetic quality. I think that my take might be gardening, actually.
+
+COWEN: They won’t use AGI to help design the garden? Or just the human front will never disappear?
+
+CLARK: I think the human front will never disappear. People will purchase certain things because of the taste of the person, even if that taste looks like certain types of modern art production, where the artist actually backs onto thousands of people that work for them, and they’re more orchestrating it.
+
+COWEN: How about in the more desk-bound part of the service sector? Where will it come last?
+
+CLARK: Come last? Ooh, good question. I think that on this, there are certain types of desk-bound work that just require talking to other people and getting to alignment or agreement. If you count certain types of sales —
+
+COWEN: But it’s great at doing that already, right? It’s a wonderful therapist.
+
+CLARK: It is, but we don’t send Claude to sell Claude, yet. We send people to sell Claude, even though Claude could probably generate the text to do the sales motion. People want to do commerce with other people, so I think that there’ll be certain relationships which get mediated by people, and people will have a strong preference, probably, for deals that they make on behalf of their larger pools of capital, where the deals are done by human proxies for large automated organizations or pools of capital.
+
+COWEN: Where will AGI encounter the strongest legal obstacles?
+
+CLARK: I think a few years ago, it was encountering quite strong obstacles in the law itself because lawyers tended to like being able to charge very high prices and had a dislike of things that could bid them down.
+
+My less flippant answer is, probably big chunks of healthcare because it’s bound up in certain things around how we handle personal data, all of the standards around that. All of those standards are probably going to need to be changed in some form to make them amenable to being used by AI. We’ve had a really hard time updating or changing data standards in general.
+
+COWEN: Once you can put the AI on your own hard drive, which will be pretty soon, won’t that all change?
+
+CLARK: It will change in the form of gray market expertise, but not official expertise. I had a baby recently. Whenever my baby bonks their head, while I’m dialing the advice nurse, I talk to Claude just to reassure myself that the baby isn’t in trouble.
+
+I don’t think we actually fully permit healthcare uses via our own terms of service. We don’t recommend it because we’re worried about all of the liability issues this contains, but I know through my revealed preference that I’m always going to want to use that, but I can’t take that Claude assessment and give it to Kaiser Permanente. I actually have to talk through a human to get everything else to happen on the back end to work out if they need to prescribe my child something.
+
+COWEN: So, the number one job will be surreptitiously transmitting the generation of information that comes from AIs, in essence?
+
+CLARK: Some of it may be that. Some of it is about laundering the information that comes from AIs into human systems that are not predisposed to that information going in directly.
+
+On AI’s adoption curve in government
+COWEN: I was thinking you might say the United States government, or some parts of it, would be where strong AI would come last. I think that would be my forecast. They still use software from the ’60s or maybe even the ’50s sometimes.
+
+CLARK: They do, but I actually suspect that that could be a place where we see really rapid changes, actually, and for a couple of reasons. One, we know that AI has relevance to national security. It develops certain types of capabilities.
+
+COWEN: Oh, yes, that will happen quickly —
+
+CLARK: Yes, that’ll happen quickly.
+
+COWEN: — but the rest of government.
+
+CLARK: The rest of government.
+
+COWEN: The Department of Education, HHS, HUD.
+
+CLARK: The non-scary, sharp parts of government. I would wager that it will become surprisingly easy to get it into really hard parts of government, and then there will be a question of political will. All around the world — and I’m sure you experience this — governments desperately want growth, and they desperately want efficiency. We see that here today in —
+
+COWEN: Do they?
+
+CLARK: They say that.
+
+COWEN: Oh, I agree there.
+
+[laughter]
+
+CLARK: But I think if you look at, also, things like voter polling and other things, people want to see more changes out of government than they’re currently getting. I think, sometimes, constituent preferences do ultimately change what their elected officials do. I would just take the other side of this, that government may move slightly faster than you think. It may be very large, established companies that end up having some of the greatest resistance to this in certain areas.
+
+COWEN: Let’s say it was decided that half of the staff of HUD or Department of Education could be replaced by strong AI or AGI. Do we first need to hire more people to make that happen? Who is it we can hire and at what wage that switches the system so you can lay off the remaining half? I don’t understand how that’s ever going to work.
+
+CLARK: I think that it will only work in a scenario where the system has got so powerful that you can bring the AI system in itself to help you think through this. Then there will be a question of political will, which is where this all might break down.
+
+COWEN: What do you think is the chance that we decide to protect, say, half of the jobs in existence today with laws analogous to those we find in law and medicine against strong AGI?
+
+CLARK: I think there is a high chance for a political movement to arrive which tries to freeze a load of human jobs in bureaucratic amber as a way to deal with the political issues posed by this incredibly powerful technology and how fast the changes are going to come from. I don’t think that we’ll do this in a reasoned way. I think it’ll be driven by the chaotic winds of political forces.
+
+It feels like the sort of outcome that happens if we, as the companies building this stuff, and our customers don’t generate enough examples of what good transitions look like. The fewer bits of evidence you have there and the more evidence you have of larger economic changes, probably the higher chance there’ll be a desire to step in and protect workers in different domains, which comes from an impulse based around wanting to help people, but it might ultimately not be the most helpful thing over the course of decades to do that.
+
+COWEN: But is it possible that’s actually, in a constrained sense, the very best outcome? People will still have a job. They’ll go somewhere in the morning. A lot of the work, especially the hard work, will be done by the AIs. Obviously, we’ll be richer, so we can afford this. All of a sudden, it won’t feel that bad to people. Life will look familiar. Isn’t that, in a sense, what we should be aiming for?
+
+CLARK: I think we should be aiming for a —
+
+COWEN: In the same sense, you might need, say, a generous welfare state to have free trade. The welfare state isn’t always the most efficient, but if people accept freer trade, it’s an okay bargain. Isn’t this, in a sense, the welfare state for the service workers? And they still get to go somewhere in the morning if they want to, but they don’t have to.
+
+CLARK: I believe that all people, have a desire for meaning and salience to what they do on a day-to-day basis. My worry with what you describe — it might not feel like it has sufficient meaning. I think that there is some giant class of activity that we want to continue happening in the world that people do and from which they draw meaning, but I don’t know that the best way to get there is to take some class of work and say this is work that we’re protecting and from which meaning will spring. Because I’m not confident that you’ll pick a load of jobs which naturally create their own meaning in that sense.
+
+COWEN: Hasn’t this succeeded in academia pre-AI? Most academic jobs are not that meaningful. The research people do — it’s not read by anyone. Maybe they’re decent teachers, but people take great pride in their research. They put a lot of effort into it. It’s meaningless. It seems we solved that problem already. We’re just going to take the academic model, but instead of it being research, bring it to, say, half of our current economy just to keep it going.
+
+CLARK: Isn’t there a kind of angst and nihilism even within high-achieving parts of academia for this reason? Seems like when you speak to people, even very smart people who sometimes are doing the things you describe, they know they could be doing different things, and they are trapped into some kind of status game.
+
+COWEN: There’s some of that, but even the Nobel laureates — they’re rivalrous with each other. They can be very bitchy, very petty, but that’s just human nature, right? If the Nobel laureates aren’t happy, there’s no post-AI world that’s going to do much better than how we’re doing for the Nobel laureates today, right?
+
+CLARK: Maybe my pushback is, I think that all of this could happen sufficiently quickly that we might have the opportunity to just play different higher-status games that are afforded to us via AI and the productive capacity it unlocks. There are definitely going to be entirely new jobs that involve marshaling and fielding AI systems for all kinds of work. I think there’ll be —
+
+COWEN: But those are hard jobs, right?
+
+CLARK: Yes, but I think that there are going to be analogs which look more like creative, fun exercises in getting AIs to build things, or make things, or almost carry out competitions and games where people can play them with one another. And I think there’ll be entirely new forms of entertainment that has some amount of meaning, and perhaps an economic engine wired into it that people can participate in.
+
+On AI teddy bears
+COWEN: I believe we’re not that far from the age of what I call the AI teddy bears. You know what I mean when I say that?
+
+CLARK: Yes.
+
+COWEN: What percentage of parents now will buy those teddy bears for their kids and allow it?
+
+CLARK: I’ve had this thought since I have a person, that is my child, that’s almost two.
+
+COWEN: Sure.
+
+CLARK: I am annoyed I can’t buy the teddy bear yet. I think most parents —
+
+COWEN: You’re an outlier [laughs].
+
+CLARK: No. I don’t know. I don’t know.
+
+COWEN: You are cofounder of Anthropic, right?
+
+CLARK: I don’t think I’m an outlier. I think that once your lovable child starts to speak and display endless curiosity and a need to be satiated, you first think, “How can I get them hanging out with other human children as quickly as possible?” So, we’re on the preschool list, all of that stuff.
+
+I’ve had this thought, “Oh, I wish you could talk to your bunny occasionally so that the bunny would provide you some entertainment while I’m putting the dishes away, or making you dinner, or something.” Often, you just need another person to be there to help you wrangle the child and keep them interested. I think lots of parents would do this.
+
+COWEN: Say that the kid says to you, “Daddy, I prefer the bunny to my friends. Can I stay at home today?” Do you take the bunny away? That’s the tough part, right?
+
+CLARK: I think that’s the part where you have them spend more time with their friends, but you keep the bunny in their life because the bunny is just going to get smarter and be more around them as they grow up. If you take it away, they’ll probably do something really strange with smart AI friends in the future.
+
+No, I don’t think I’m an outlier here. I think most parents, if they could acquire a well-meaning friend that could provide occasional entertainment to their child when their child is being very trying, they would probably do it [laughs].
+
+COWEN: I feel the word “occasional” is doing a lot of work in that sentence.
+
+CLARK: [laughs]
+
+COWEN: If you can just ration how much your kid has the bunny, parents are going to love it, I agree. The same as with screens. A lot of children — they keep on wanting it. It’s hard to tell the child you can’t have it now. In the old days, it was watching television. “Oh, Mom, can I watch Star Trek again? Can I watch TV seven hours a day?” Well, that’s not good, and that’s hard to ration.
+
+CLARK: Yes, so there’s some question here of how we portion this out. We do this today with TV, where if you’re traveling with us, like on a plane with us, or if you’re sick, you get to watch TV — the baby — and otherwise, you don’t, because from various perspectives, it seems like it’s not the most helpful thing. You’ll probably need to find a way to gate this. It could be, “When mom and dad are doing chores to help you, you get the thing. When they’re not doing chores, the thing goes away.”
+
+COWEN: Do you end up with too much surveillance over your kid? You’ll know everything if you want to, right? That might be a reason why you give the kid the bunny all the more.
+
+CLARK: I think it comes down to frequency, which I mentioned, and also what you are and aren’t allowed to know. I find surveillance puzzling. We have one of these smart webcams that we got when the kids were early, so that you just see that they’re asleep. If they’re waking up, you work out if they’re okay or not. The main thing that that meant is that when the baby cries at night, sometimes we go in less than if we didn’t have the camera because if we didn’t have the camera, we’d have to go and check.
+
+As a consequence, my baby tends to sleep through the night a lot more because they don’t get occasionally interrupted. Sometimes they wake and cry for a minute and just go back to sleep. I think sometimes this stuff allows you to actually interfere less in a person’s life if you know certain things about it.
+
+COWEN: Say you have the hypothesis that so many seven-year-olds — they talk to themselves. They say weird things, and the AI bunny is going to report back to you, “Your kid says — “
+
+CLARK: If the bunny says your kid is saying strange stuff —
+
+COWEN: But they all say strange stuff. I might have been chattering on about the New York Mets at age seven, and it would have been perfectly harmless, but it may not have sounded that way.
+
+CLARK: You’re going to need to create spaces for unmonitored creativity in people. Actually, the same as how we have an approach to AI research today. Now, AI systems can output their chains of thought, which is the reasoning they use to come up with answers. We’ve had this question at Anthropic of how much should we monitor the chains of thought?
+
+If you actually monitor them, you might create an anti-goal where the system ends up wanting to have chains of thought which are safe to be monitored and which don’t cause demerits, which might actually break how it thinks in a bunch of ways. I think this analog applies here, where you’re going to need to choose how much you actually decide to know about people, or you risk creating incentives that change their behavior such that they have a negative effect.
+
+COWEN: You’ll go out on a date, and your date will say, “Please show me your AI report, what you’ve been talking to yourself about for the last three months.” You can not show it, which is a negative signal, or show it.
+
+[laughter]
+
+COWEN: We all learn what other people are really like, and we just grow to accept that?
+
+CLARK: Yes. Although, if the person asked you to do that on the first date, it’s fine. If they ask on a second date, you probably shouldn’t be dating that person.
+
+COWEN: Even during the swipe, the AI — you’re asked to upload it. The AI just reads the other AI report, and the person never sees it, and it tells you when you should swipe in the correct way.
+
+CLARK: I don’t know. I don’t know if that’s so bad. I met my wife on OkCupid. I don’t know if you recall this. It was an online dating site where you would fill out a survey.
+
+COWEN: Of course. Match.com, for me, is where I met my wife.
+
+CLARK: Exactly. Then I met her. Our non-AI but automated system had said, “You guys might get along.” So, we met each other that way. I don’t know that this is so different to previous things we’ve used.
+
+COWEN: But that’s information you’re putting in voluntarily as opposed to it watching you all the time.
+
+CLARK: Yes. I just think that this is an area where we’re going to figure out the new norms of this technology and what seems appropriate and not appropriate. Some of that is just going to be solved through the logic of business, and other things through usage.
+
+On the new economics of media
+COWEN: What will the economics of media look like? If you can read a digest of everything that is probably better than the original, or certainly not worse, or more synthetic. Who gets paid for what?
+
+CLARK: I think that this is one of the toughest questions in front of us. As you know, I’m a former journalist. I grew up as a professional during the period when online ad market changes were altering the business model of journalism. They were switching from what you might think of as value that you derive through quality, through subscriptions or people buying your stuff to value that you derive from just large-scale attention because that became a lot of the model for funding this stuff.
+
+As a consequence, you saw the need to cross-subsidize journalists with journalists that got loads of eyeballs, and journalists like me, who would write about databases got less eyeballs. We were cross-subsidized by the people that wrote about Justin Bieber or what have you.
+
+I think for media — it’s going to be really challenging to think through how the economics of this work. I think that it’ll change in a couple of ways. One, you might move to some of these larger-scale publishing house–style models for certain types of fictional universes which have subsidy and cross-subsidy within them.
+
+COWEN: Where does the cross-subsidy come from? Bloomberg — we know how that works. If AGI is truly general, and it’s based on what’s out there already, it should be able to do better than media on all dimensions.
+
+CLARK: I think some things, you want to have come from a person for reasons that are based on the fact that we’re people. I think people will preferentially select the media which is fronted by other people, even if they’re making it using other means. I also think you want a kernel of humanity in a load of this stuff. Then there’ll be another type of media which is maybe attached to these subscription models, which is just on-tap permutations of anything and everything. So, there might be two markets that emerge.
+
+COWEN: Even the things we want to come from humans — say we want Ann Landers, the advice columnist, to come from an actual Ann Landers. The Ann Landers of the world — they’re using AIs, maybe surreptitiously, but the value of that is bid down because anyone can do that for the price of energy. So, we don’t really end up with this one part of the revenue-generating sector that can cross-subsidize the other parts. Just if intelligence is pretty cheap, that hits all of media.
+
+CLARK: It hits all of media, and you will end up wanting to pay individuals. I think that happens even in the world we’re in today. People want to subsidize individual creators who may be using a whole bunch of this stuff.
+
+COWEN: It’s like Substack world.
+
+CLARK: It’s Substack Patreon world for a large chunk of people, some of which will be incredibly successful. Then, I think, there’s also going to be universe world for certain universes which are very large and rich, which are being extended by AI systems.
+
+COWEN: You mean, like a Lord of the Rings universe.
+
+CLARK: Yes, or Warhammer 40k, to show my nerd credentials.
+
+COWEN: They’ll publish fictional news, right?
+
+CLARK: Yes.
+
+COWEN: Real news will come from Substack? Substack is not an obvious cross-subsidy. There might be within the Substack company.
+
+CLARK: Real news — I genuinely don’t know. I think some real news comes from analysis of publicly available facts, and it being composed together in a way that shows you insights that didn’t exist. Semianalysis on Substack is a good example of this, a lot of public stuff leading to interesting conclusions. But news in the moment that has loads of context was subsidized by previous business models which mostly no longer work, and I genuinely don’t know what happens to it.
