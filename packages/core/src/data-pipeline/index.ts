@@ -106,7 +106,11 @@ export async function generateSyntheticDataset(
   levels: number[],
   outputDir: string
 ): Promise<void> {
-  console.log(`Generating synthetic dataset with ${levels.length} noise levels`);
+  // If user only supplied one level (e.g. [3]), expand to [1,2,3], otherwise use as given
+  const levelsToGenerate = levels.length > 1
+    ? levels
+    : Array.from({ length: levels[0] }, (_, i) => i + 1);
+  console.log(`Generating synthetic dataset with ${levelsToGenerate.length} noise levels`);
   console.log(`Source URL: ${url}`);
   console.log(`Chatter URL: ${chatterUrl}`);
   console.log(`Output directory: ${outputDir}`);
@@ -124,8 +128,7 @@ export async function generateSyntheticDataset(
   console.log('Chatter audio download complete');
   
   // Generate synthetic versions with different noise levels
-  console.log(`Generating ${levels.length} synthetic versions with different noise levels`);
-  for (const level of levels) {
+  for (const level of levelsToGenerate) {
     console.log(`Processing noise level: ${level}dB`);
     const outputPath = join(outputDir, `noise-level-${level}.mp3`);
     console.log(`Output path for this level: ${outputPath}`);
