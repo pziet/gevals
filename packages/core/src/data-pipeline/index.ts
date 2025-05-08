@@ -4,6 +4,7 @@ import { tmpdir } from 'os';
 import { join } from 'path';
 import { promisify } from 'util';
 import { writeFile, rename } from 'fs/promises';
+import { existsSync } from 'fs';
 
 export async function downloadAudio(url: string, outPath: string): Promise<void> {
   console.log(`Starting download of audio from: ${url}`);
@@ -48,7 +49,7 @@ export async function mixChatter(
     // Debug: inspect streams in the input files
     ffmpeg.ffprobe(baseMp3,   (err, info) => console.log('[DEBUG ffprobe base]   ', err, info?.streams));
     ffmpeg.ffprobe(chatterMp3, (err, info) => console.log('[DEBUG ffprobe chatter]', err, info?.streams));
-
+    const attenuationDb = -6 * level;
     const command = ffmpeg()
       .input(baseMp3)
       .input(chatterMp3)
@@ -56,7 +57,8 @@ export async function mixChatter(
       .complexFilter([
         {
           filter: 'volume',
-          options: `${level}dB`,
+          // note the minus sign here
+          options: `${attenuationDb}dB`,
           inputs: '1:a',
           outputs: 'chatter_adj'
         },
@@ -115,17 +117,25 @@ export async function generateSyntheticDataset(
   console.log(`Chatter URL: ${chatterUrl}`);
   console.log(`Output directory: ${outputDir}`);
   
-  // Download base audio
+  // Download base audio if not already present
   const basePath = join(outputDir, 'base.mp3');
-  console.log(`Downloading base audio to: ${basePath}`);
-  await downloadAudio(url, basePath);
-  console.log('Base audio download complete');
+  if (!existsSync(basePath)) {
+    console.log(`Downloading base audio to: ${basePath}`);
+    await downloadAudio(url, basePath);
+    console.log('Base audio download complete');
+  } else {
+    console.log(`Base audio already exists at: ${basePath}, skipping download.`);
+  }
 
-  // Download chatter audio
+  // Download chatter audio if not already present
   const chatterPath = join(outputDir, 'chatter.mp3');
-  console.log(`Downloading chatter audio to: ${chatterPath}`);
-  await downloadAudio(chatterUrl, chatterPath);
-  console.log('Chatter audio download complete');
+  if (!existsSync(chatterPath)) {
+    console.log(`Downloading chatter audio to: ${chatterPath}`);
+    await downloadAudio(chatterUrl, chatterPath);
+    console.log('Chatter audio download complete');
+  } else {
+    console.log(`Chatter audio already exists at: ${chatterPath}, skipping download.`);
+  }
   
   // Generate synthetic versions with different noise levels
   for (const level of levelsToGenerate) {
