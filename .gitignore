@@ -3,6 +3,9 @@
 # tmp files
 tmp/
 
+# chroma data
+chroma-data/
+
 # turbo files that I don't want to commit yet, and will be deleted soon
 packages/ui/
 packages/docs/
