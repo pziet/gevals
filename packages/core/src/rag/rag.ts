@@ -86,11 +86,11 @@ async function addToCollection(
   console.log("Collection got");
 
   // Add debug logging
-  console.log("Adding to collection with:", {
-    ids: ids.slice(0, 2), // Log first 2 items
-    docs: docs.slice(0, 2),
-    metas: metas.slice(0, 2)
-  });
+  // console.log("Adding to collection with:", {
+  //   ids: ids.slice(0, 2), // Log first 2 items
+  //   docs: docs.slice(0, 2),
+  //   metas: metas.slice(0, 2)
+  // });
 
   await collection.add({ 
     ids: ids, 
@@ -109,23 +109,23 @@ export async function processTranscript(
   const collectionName = make_collection_name(collectionId, fileName);
   console.log("Collection name:", collectionName);
   await makeCollection(collectionName, efName);
-  console.log("Collection made");
+  // console.log("Collection made");
 
   // Create a document from the text
   const docs = [{ 
     pageContent: transcriptContent, 
     metadata: { source: fileName } 
   }];
-  console.log("Docs created");
+  // console.log("Docs created");
 
   // Split the text into chunks
   const splitter = new RecursiveCharacterTextSplitter({
     chunkSize: CHUNK_SIZE,
     chunkOverlap: CHUNK_OVERLAP,
   });
-  console.log("Splitter:", splitter);
+  // console.log("Splitter:", splitter);
   const chunks = await splitter.splitDocuments(docs);
-  console.log("Chunks computed");
+  // console.log("Chunks computed");
   // Format the chunks for the collection
   const chunkIds: string[] = [];
   const chunkTexts: string[] = [];
@@ -136,7 +136,7 @@ export async function processTranscript(
     chunkTexts.push(c.pageContent);
     chunkMetas.push(c.metadata.loc.lines);
   });
-  console.log("Chunks formatted");
+  // console.log("Chunks formatted");
   // Add the chunks to the collection
   await addToCollection(
     collectionName, 
