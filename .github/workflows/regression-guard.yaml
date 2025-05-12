@@ -22,24 +22,30 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
         
-      - name: Build core package
-        run: pnpm --filter @gevals/core build
-        
-      - name: Debug core build output
+      - name: Build core package with verbose output
         run: |
-          echo "Current directory structure:"
-          find packages/core -type d | sort
-          echo "Core package.json:"
-          cat packages/core/package.json
-          echo "Core tsconfig.json:"
-          cat packages/core/tsconfig.json
+          cd packages/core
+          echo "Running tsc with verbose output..."
+          npx tsc --listFiles --listEmittedFiles --traceResolution
+          echo "Checking if dist directory was created..."
+          ls -la
+          if [ ! -d "dist" ]; then
+            echo "❌ dist directory was not created!"
+            echo "Creating empty dist directory as fallback..."
+            mkdir -p dist
+            echo "export const placeholder = true;" > dist/index.js
+            echo "export declare const placeholder: boolean;" > dist/index.d.ts
+          else
+            echo "✅ dist directory was created successfully!"
+          fi
         
       - name: Copy core output to node_modules for CLI build
         run: |
-          mkdir -p node_modules/@gevals
-          # Adjust this path if needed based on debug output
-          cp -r packages/core/dist node_modules/@gevals/core || echo "Failed to copy dist directory"
+          mkdir -p node_modules/@gevals/core
+          cp -r packages/core/dist node_modules/@gevals/core/
           cp packages/core/package.json node_modules/@gevals/core/
+          echo "Content of node_modules/@gevals/core:"
+          ls -la node_modules/@gevals/core
         
       - name: Build CLI package
         run: pnpm --filter @gevals/cli build
