@@ -1,0 +1,6 @@
+dataset: noise-level-1
+embedding: text-embedding-3-large
+id: gpt-4o-mini-text-embedding-3-large-simple-noise-level-1
+model: gpt-4o-mini
+prompt: system-prompt-1.txt
+rag: simple
