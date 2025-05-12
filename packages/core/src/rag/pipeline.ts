@@ -8,6 +8,7 @@ import { OpenAI } from "openai";
 import { computeAll } from "../metrics/registry.js";
 import { readFileSync } from "fs";
 import path from "path";
+import { getWorkspacePath } from "../utils/paths.js";
 
 
 // usage: gevals run configs/<config-name>.yaml or gevals run . 
@@ -58,7 +59,7 @@ export async function runPipeline(
 
   // 4. Compute metrics
   // Read gold standard and compute metrics
-  const goldStandard = readFileSync(path.join("data", "cwt", "gold_standard.txt"), "utf-8");
+  const goldStandard = readFileSync(getWorkspacePath(path.join("data", "cwt", "gold_standard.txt")), "utf-8");
   const metrics = await computeAll(goldStandard, enhancedNotes || "");
 
   // 5. Clean up
