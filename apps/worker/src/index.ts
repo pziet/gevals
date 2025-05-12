@@ -6,9 +6,15 @@ import { createBullBoard } from '@bull-board/api';
 import { BullMQAdapter } from '@bull-board/api/bullMQAdapter.js';
 import { ExpressAdapter } from '@bull-board/express';
 import express from 'express';
+import path from 'path';
+import { writeFileSync, existsSync, mkdirSync } from 'fs';
+import { getWorkspacePath } from '@gevals/core';
 
 // Load environment variables
 dotenv.config();
+
+// Number of jobs to process in parallel
+const CONCURRENCY = 10;
 
 // Initialize Prisma client
 const prisma = new PrismaClient();
@@ -23,20 +29,25 @@ const evalQueue = new Queue('eval', {
 
 // Create a worker to process jobs
 const worker = new Worker('eval', async (job) => {
-  const { config, transcriptName, transcriptContent, promptFileContent, roughNotes } = job.data;
+  const { config, transcriptName, transcriptContent, promptFileContent, roughNotes, resultFile } = job.data;
   
   try {
     console.log(`Processing job ${job.id} for config ${config.id}`);
+    
+    // Extract run ID from the job ID
+    const jobParts = job.id?.split('-') || [];
+    const runId = jobParts[jobParts.length - 1];
     
     const result = await runPipeline(
       config,
       transcriptName,
       transcriptContent,
       promptFileContent,
-      roughNotes
+      roughNotes,
+      runId
     );
 
-    // Store result in database
+    // Save result to database
     await prisma.run.create({
       data: {
         configHash: config.id,
@@ -48,6 +59,29 @@ const worker = new Worker('eval', async (job) => {
       }
     });
 
+    // Make sure the directory exists
+    const resultFileDir = path.dirname(resultFile);
+    if (!existsSync(resultFileDir)) {
+      mkdirSync(resultFileDir, { recursive: true });
+    }
+    
+    // Create absolute path to ensure it's saved in the project root
+    // This handles both monorepo and standalone app scenarios
+    const absoluteResultFile = path.isAbsolute(resultFile) 
+      ? resultFile 
+      : path.join(process.cwd(), '..', '..', resultFile);
+    
+    const resultData = {
+      config,
+      transcriptName,
+      runNumber: parseInt(runId),
+      timestamp: new Date().toISOString(),
+      result
+    };
+    
+    writeFileSync(absoluteResultFile, JSON.stringify(resultData, null, 2));
+    console.log(`Saved result to ${absoluteResultFile}`);
+
     console.log(`Job ${job.id} completed successfully`);
     return result;
   } catch (error) {
@@ -58,7 +92,8 @@ const worker = new Worker('eval', async (job) => {
   connection: {
     host: process.env.REDIS_HOST || 'localhost',
     port: parseInt(process.env.REDIS_PORT || '6379')
-  }
+  },
+  concurrency: CONCURRENCY
 });
 
 // Handle worker events

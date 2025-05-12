@@ -20,34 +20,42 @@ export async function GET() {
     for (const configDir of configDirs) {
       const configPath = path.join(resultsDir, configDir);
       if (!fs.statSync(configPath).isDirectory()) continue;
-
-      const runs = [];
-      for (let i = 0; i < 5; i++) {
-        const filePath = path.join(configPath, `${i}.json`);
-        if (fs.existsSync(filePath)) {
-          const content = fs.readFileSync(filePath, 'utf-8');
-          runs.push(JSON.parse(content));
+      
+      // Find all transcript directories within the config directory
+      const transcriptDirs = fs.readdirSync(configPath)
+        .filter(dir => fs.statSync(path.join(configPath, dir)).isDirectory());
+      
+      for (const transcriptDir of transcriptDirs) {
+        const transcriptPath = path.join(configPath, transcriptDir);
+        
+        const runs = [];
+        for (let i = 0; i < 5; i++) {  // Assuming 5 runs per transcript
+          const filePath = path.join(transcriptPath, `${i}.json`);
+          if (fs.existsSync(filePath)) {
+            const content = fs.readFileSync(filePath, 'utf-8');
+            runs.push(JSON.parse(content));
+          }
         }
+
+        if (runs.length === 0) continue;
+
+        const firstRun = runs[0];
+        const latencies = runs.map(r => r.result.metadata.latencyMs);
+        const costs = runs.map(r => r.result.metadata.cost);
+        const llmCritics = runs.map(r => r.result.metadata.metrics.llmCritic);
+
+        aggregatedResults.push({
+          id: firstRun.config.id,
+          model: firstRun.config.model,
+          prompt: firstRun.config.prompt,
+          embedding: firstRun.config.embedding,
+          rag: firstRun.config.rag,
+          transcriptName: firstRun.transcriptName,
+          latency: calculateStats(latencies),
+          cost: calculateStats(costs),
+          llmCritic: calculateStats(llmCritics),
+        });
       }
-
-      if (runs.length === 0) continue;
-
-      const firstRun = runs[0];
-      const latencies = runs.map(r => r.result.metadata.latencyMs);
-      const costs = runs.map(r => r.result.metadata.cost);
-      const llmCritics = runs.map(r => r.result.metadata.metrics.llmCritic);
-
-      aggregatedResults.push({
-        id: firstRun.config.id,
-        model: firstRun.config.model,
-        prompt: firstRun.config.prompt,
-        embedding: firstRun.config.embedding,
-        rag: firstRun.config.rag,
-        transcriptName: firstRun.transcriptName,
-        latency: calculateStats(latencies),
-        cost: calculateStats(costs),
-        llmCritic: calculateStats(llmCritics),
-      });
     }
 
     return NextResponse.json(aggregatedResults);

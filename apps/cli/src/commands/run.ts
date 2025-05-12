@@ -7,7 +7,7 @@ import path from "path";
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const NSIM = 5; // Number of simulations per config
+const NSIM = 2; // Number of simulations per config
 
 // Create queue and queue events instances
 const evalQueue = new Queue('eval', {
@@ -59,12 +59,6 @@ const runCmd = new Command("run")
       const promptFileContent = readFileSync(promptFile[0], "utf-8");
       // console.log("Prompt file content:", promptFileContent);
 
-      // Create results directory for this config if it doesn't exist
-      const resultsDir = path.join("results", config.id);
-      if (!existsSync(resultsDir)) {
-        mkdirSync(resultsDir, { recursive: true });
-      }
-
       for (const transcriptFile of transcriptFiles) {
         console.log(`Processing transcript: ${transcriptFile}`);
         const transcriptJson = JSON.parse(readFileSync(transcriptFile, "utf-8"));
@@ -76,12 +70,19 @@ const runCmd = new Command("run")
         // For now, using a dummy rough notes - you might want to modify this
         const roughNotes = readFileSync("data/cwt/rough_notes.txt", "utf-8");
         // console.log("Rough notes:", roughNotes);
+
         
+        // Create results directory for this config if it doesn't exist
+        const resultsDir = path.join(process.cwd(), "results", config.id, transcriptName);
+        if (!existsSync(resultsDir)) {
+          mkdirSync(resultsDir, { recursive: true });
+        }
+
         // Create NSIM jobs for each config/transcript combination
         for (let i = 0; i < NSIM; i++) {
           const jobId = `${config.id}-${transcriptName}-${i}`;
           const resultFile = path.join(resultsDir, `${i}.json`);
-          
+          console.log(`Result file: ${resultFile}`);
           // Skip if result already exists
           if (existsSync(resultFile)) {
             console.log(`Skipping run ${i} for ${config.id} - result already exists`);
@@ -94,7 +95,8 @@ const runCmd = new Command("run")
             transcriptName,
             transcriptContent,
             promptFileContent,
-            roughNotes
+            roughNotes,
+            resultFile
           });
           
           jobs.push(job);

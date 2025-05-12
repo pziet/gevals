@@ -24,8 +24,8 @@ export const CHUNK_OVERLAP = 100;
 
 const chroma = new ChromaClient();
 
-const make_collection_name = (collectionId: string, fileName: string) => 
-  `${collectionId}-${fileName}`;
+const make_collection_name = (collectionId: string, fileName: string, runId: string) => 
+  `${collectionId}-${fileName}-${runId}`;
 
 function getEmbeddingFunc(efName: string) {
   if (efName === "default") return new DefaultEmbeddingFunction();
@@ -37,9 +37,10 @@ function getEmbeddingFunc(efName: string) {
 
 async function getCollection(
   collectionId: string, 
-  fileName: string
+  fileName: string,
+  runId: string
 ) {
-  const collectionName = make_collection_name(collectionId, fileName);
+  const collectionName = make_collection_name(collectionId, fileName, runId);
   return await chroma.getCollection({ name: collectionName });
 }
 
@@ -48,10 +49,12 @@ export async function queryCollection(
   fileName: string, 
   query: string,
   nResults: number = 10,
+  runId: string
 ) {
   const collection = await getCollection(
     collectionId, 
-    fileName
+    fileName,
+    runId
   );
   return await collection.query({
     queryTexts: [query],
@@ -70,9 +73,10 @@ async function makeCollection(
 
 export async function deleteCollection(
   collectionId: string, 
-  fileName: string
+  fileName: string,
+  runId: string
 ) {
-  const collectionName = make_collection_name(collectionId, fileName);
+  const collectionName = make_collection_name(collectionId, fileName, runId);
   await chroma.deleteCollection({ name: collectionName });
 }
 
@@ -105,9 +109,10 @@ export async function processTranscript(
   fileName: string,
   transcriptContent: string,
   efName: string,
+  runId: string
 ) {
   // Make collection
-  const collectionName = make_collection_name(collectionId, fileName);
+  const collectionName = make_collection_name(collectionId, fileName, runId);
   // console.log("Collection name:", collectionName);
   await makeCollection(collectionName, efName);
   // console.log("Collection made");
@@ -153,12 +158,14 @@ export async function getRAGprompt(
   fileName: string,
   roughNotes: string,
   method: string,
+  runId: string
 ) {
   const textResults = await queryCollection(
     collectionId, 
     fileName, 
     roughNotes,
-    15
+    15,
+    runId
   );
   let textAugmentation = "";
   let prompt_tokens = 0;

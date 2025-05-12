@@ -18,7 +18,8 @@ export async function runPipeline(
   transcriptName: string,
   transcriptContent: string,
   promptFileContent: string,
-  roughNotes: string
+  roughNotes: string,
+  runId: string
 ): Promise<{ enhancedNotes: string; metadata: any }> {
   const startTime = Date.now(); // Start timing the entire pipeline
 
@@ -28,7 +29,8 @@ export async function runPipeline(
     config.id, 
     transcriptName,
     transcriptContent,
-    config.embedding
+    config.embedding,
+    runId
   );
 
   // 2. RAG processing: Compose system prompt + relevant chunks + rough notes
@@ -37,6 +39,7 @@ export async function runPipeline(
     transcriptName, 
     roughNotes, 
     config.rag,
+    runId
   );
 
   // 3. Call model (OpenAI, etc.) to generate enhanced notes
@@ -63,7 +66,7 @@ export async function runPipeline(
   const metrics = await computeAll(goldStandard, enhancedNotes || "");
 
   // 5. Clean up
-  await deleteCollection(config.id, transcriptName);
+  await deleteCollection(config.id, transcriptName, runId);
 
   // Calculate total pipeline latency
   const totalLatencyMs = Date.now() - startTime;
