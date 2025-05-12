@@ -1,5 +1,5 @@
 import { EvalConfig } from "../types.js";
-import { deleteCollection, processTranscript, queryCollection } from "./rag.js";
+import { deleteCollection, processTranscript, queryCollection, getRAGprompt } from "./rag.js";
 import { OpenAI } from "openai";
 import { computeAll } from "../metrics/registry.js";
 import { readFileSync } from "fs";
@@ -27,27 +27,21 @@ export async function runPipeline(
   );
 
   // 2. Query collection and retrieve relevant chunks
-  const textResults = await queryCollection(
-    config.id, 
-    transcriptName, 
-    roughNotes
-  );
+  // const textResults = await queryCollection(
+  //   config.id, 
+  //   transcriptName, 
+  //   roughNotes
+  // );
   // console.log("Text results:", textResults);
 
-  // 3. Compose prompt: system prompt + relevant chunks + rough notes
-  const prompt = `
-  Here are the rough notes:
-  <rough_notes>
-  ${roughNotes}
-  </rough_notes>
-  Here are the relevant chunks:
-  <relevant_chunks>
-  ${textResults.documents[0].join('\n\n')}
-  </relevant_chunks>
-
-  Now take the rough notes and the relevant chunks and generate the "Enhanced Notes".
-  `;
-  // console.log("Prompt:", prompt);
+  // 3. RAG processing: Compose system prompt + relevant chunks + rough notes
+  const prompt = await getRAGprompt(
+    config.id, 
+    transcriptName, 
+    roughNotes, 
+    config.rag,
+  );
+  console.log("Prompt:", prompt);
   // console.log("End of prompt content");
 
   // 4. Call model (OpenAI, etc.) to generate enhanced notes

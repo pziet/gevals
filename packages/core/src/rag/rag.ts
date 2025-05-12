@@ -1,10 +1,11 @@
-import path from "node:path";
-import fs from "node:fs/promises";
+// import path from "node:path";
+// import fs from "node:fs/promises";
 import {
   ChromaClient,
   DefaultEmbeddingFunction,
   OpenAIEmbeddingFunction,
 } from "chromadb";
+import { OpenAI } from "openai";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Document } from "@langchain/core/documents";
 import dotenv from "dotenv";
@@ -144,4 +145,53 @@ export async function processTranscript(
     chunkTexts, 
     chunkMetas);
   console.log("Chunks added to collection");
+}
+
+
+export async function getRAGprompt(
+  collectionId: string,
+  fileName: string,
+  roughNotes: string,
+  method: string,
+) {
+  const textResults = await queryCollection(
+    collectionId, 
+    fileName, 
+    roughNotes,
+    15
+  );
+  let textAugmentation = "";
+  if (method === "simple") {
+    textAugmentation = textResults.documents[0].join("\n\n");
+  } else if (method === "rerank") {
+    // Format the text results into a string and ask the model to rerank and return the top 10 results
+    const textResultsString = textResults.documents[0].map((chunk, index) => 
+      `[${index + 1}] ${chunk}`
+    ).join("\n\n");
+    console.log("Text results string:", textResultsString);
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+    const response = await openai.chat.completions.create({
+      model: "gpt-4o-mini",
+      messages: [
+        {role: "system", content: "You are a helpful assistant that reranks the text results based on relevance to the query."},
+        {role: "user", content: "Rerank the following text results and return the top 10 results. The text results are: " + textResultsString},
+      ],
+    });
+    textAugmentation = response.choices[0].message.content || "";
+    console.log("Reranked text results:", textAugmentation);
+  }
+  return `
+  Here are the rough notes:
+  <rough_notes>
+  ${roughNotes}
+  </rough_notes>
+  Here are the relevant chunks:
+  <relevant_chunks>
+  ${textAugmentation}
+  </relevant_chunks>
+
+  Now take the rough notes and the relevant chunks and generate the "Enhanced Notes".
+  `
 }
