@@ -10,8 +10,7 @@ import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Document } from "@langchain/core/documents";
 import * as dotenv from 'dotenv';
 import { getWorkspacePath } from "@gevals/core";
-dotenv.config();
-console.log("DATA_PATH!!!", process.env.DATA_PATH);
+dotenv.config( { path: getWorkspacePath('.env')});
 
 type Metadata = { [key: string]: string | number | boolean };
 
