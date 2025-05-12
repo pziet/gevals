@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 247,
+  "timestamp": "2025-05-12T18:25:47.812Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview\nThe meeting centered around the implications of advanced AI on the economy, worker protections, and the social landscape, featuring discussions on the balance between technological advancement and human welfare.\n\n## Key Topics Discussed\n\n- **Trade and Worker Welfare**\n  - The concept of trade being an acceptable bargain for service workers was discussed, likening it to a welfare state that provides meaning and purpose to their daily activities.\n  - The implications of free trade were emphasized, suggesting that a generous welfare state may be necessary to support the transition to new economic realities influenced by AI.\n\n- **Legal Push Back in Healthcare**\n  - There was discussion on strong resistance against AI in specific sectors, particularly healthcare, due to its dependency on personal data standards and legal regulations.\n  - A prediction was made about a potential political movement aiming to protect jobs similarly to established laws in fields like medicine and law, against the rise of AGI.\n\n- **Rapid Adoption of AI in Defense**\n  - The meeting noted the fast adoption of AI technologies in the defense sector, raising questions about regulatory challenges and ethical implications.\n\n- **Union Bargaining Dynamics**\n  - The role of unions in negotiating worker rights and protections was highlighted, particularly in contexts where AI and automation threaten job security.\n\n- **Surveillance and Personal Data Trade-offs**\n  - Mentioned was the trade-off between technological advancements (e.g., AI surveillance) and personal privacy, particularly in how these tools might be employed in labor settings.\n\n- **Journalism and Cross-Subsidy Models**\n  - The conversation explored the evolving landscape of journalism, emphasizing the need for funding models that maintain journalistic integrity amid the financial pressures posed by platforms like Substack and the societal need for reliable information.\n  - The importance of maintaining a \"human face\" in journalism and broader media channels was stressed to ensure a connection with audiences.\n\n## Conclusion\nThe discussions encompassed vital considerations about the future intersection of AI, labor rights, and societal values, stressing the importance of ethical frameworks and protective measures as technology evolves.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1562,
+      "latencyMs": 19684,
+      "cost": 0.0016806,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

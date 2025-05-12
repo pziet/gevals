@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 305,
+  "timestamp": "2025-05-12T18:27:32.015Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs in AI and surveillance**: The discussion touches on the balance between the use of AI, such as in surveillance, and the need to protect human jobs, exemplified by the mention of teddy bears (symbolic of comforting or nostalgic elements) versus modern trade-offs.\n\n- **Legal and policy pushback in healthcare**: Concerns are raised about legal challenges and resistance to implementing new AI-driven solutions in healthcare, reflecting broader issues of regulation and societal acceptance.\n\n- **Defense and rapid technology uptake**: The military or defense sector is noted as a domain where AI's adoption is happening swiftly, potentially outpacing other areas, and raising questions about security and strategic advantages.\n\n- **Unions and labor bargaining**: The potential role of unions in negotiating wages, working conditions, and job protections amidst rapid technological change is highlighted as a key factor in managing economic transitions.\n\n- **News media, cross-subsidies, and humanity**: The influence of journalism, including cross-subsidization models (e.g., platforms like Substack), impacts public discourse about AI, economy, and societal values, emphasizing the human element amid technological shifts.\n\n- **Lasting human trades and artisanal work**: Certain high-skilled, artisanal trades such as electricians, plumbers, and gardening may persist longer despite AI advances, serving high-status roles where human expertise is valued.\n\n- **Potential political movements for job protection**: There is a high likelihood of political efforts aiming to freeze or protect human jobs through legislation or regulation as AI continues to evolve rapidly, which might hinder or complicate economic progress.\n\n- **Economic impacts and transitions**: The overall theme involves how AI influences economic structure, job security, and welfare policies, with a focus on ensuring ample evidence of good transitions to avoid large-scale economic upheavals.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3136,
+      "latencyMs": 20534,
+      "cost": 0.0027017,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

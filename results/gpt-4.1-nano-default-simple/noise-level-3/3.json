@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 284,
+  "timestamp": "2025-05-12T18:26:58.889Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n### AI and Economic Transformation\n- AI's rapid integration is likely to impact trades, artisanal jobs (e.g., electricians, plumbers, gardening) and high-skill, high-status trades.\n- Trades that require craftsmanship and personal trust may be most affected or could evolve into new high-status roles involving AI.\n- There is a potential for AI to create entirely new job categories, especially those involving complex interfacing with AI systems, creative AI management, or \"marshalling\" AI-driven projects.\n- National security considerations make AI particularly relevant to foundational sectors and sensitive industries.\n\n### Workforce and Policy Response\n- There is a high likelihood of political movements aiming to restrict or \"freeze\" human jobs in bureaucratic, paper-based sectors as a response to AI's disruptive power.\n- The idea of protecting a significant portion of jobs through regulation reflects a desire to shield human work, though this may not be the most efficient long-term approach.\n- Discussions suggest that a generous welfare state serves as a practical \"bargain\" to support workers affected by AI-driven economic changes, despite not being fully optimal.\n\n### Human-AI Interaction and Surveillance\n- \"Trades last, human face\" indicates the enduring importance of human presence and human-centric interactions in certain sectors.\n- Surveillance trade-offs involve balancing privacy, security, and human oversight—e.g., \"teddy bears\" and surveillance trade-offs highlight the tension between AI monitoring and human privacy.\n\n### Media, Humanity, and Information\n- The media landscape, including outlets like Substack, involves cross-subsidies and shifts in journalistic models, reflecting broader societal changes.\n- News and information laundering are critical, involving transmitting and filtering AI-generated data into human systems that are not naturally predisposed to such information.\n\n### Broader Societal and Cultural Changes\n- AI's effect may lead to new \"higher status\" and \"higher value\" activities, transforming what is considered rewarding or prestigious work.\n- The potential for a \"play different, higher status games\" enabled by AI and increased productivity suggests opportunities for societal evolution beyond traditional labor models.\n- There is concern about the speed of these changes and the likelihood of poor management or unanticipated consequences.\n\n### Notable Observations\n- The U.S. government, particularly in defense and national security, might become a major AI actor, still relying on outdated software but increasingly integrated with AI systems.\n- The importance of \"laundering\" AI-generated information into human systems to prevent misinformation and system failure is highlighted.\n- Overall, the discussion underscores a complex picture of economic, social, and political adaptation in an AI-driven future, emphasizing both opportunities and challenges.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1682,
+      "latencyMs": 7989,
+      "cost": 0.00032930000000000004,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

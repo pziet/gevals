@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 171,
+  "timestamp": "2025-05-12T18:18:22.122Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades last, human face**  \n  There is a discussion about preserving human roles in the economy amid AI automation. People value meaningful work and prefer human-mediated deals even as large pools of capital become increasingly automated. The idea of \"trades last\" reflects a desire to maintain a human presence and face in economic transactions, offering a sense of meaning and salience in work.\n\n- **Legal pushback in healthcare**  \n  Healthcare is highlighted as a domain with strong legal and regulatory protections due to personal data handling and standards, making it one of the last areas where AGI might face significant legal obstacles. There is a high chance of political movements aiming to \"freeze\" many human jobs in bureaucratic sectors like healthcare to manage the social impact of AI.\n\n- **Fast uptake defense**  \n  An approach to managing AI’s impact involves demonstrating good transitions and providing evidence of successful economic adaptations to alleviate political pressures. Rapid uptake of AI benefits could lead to wealth increases, enabling society to afford a generous welfare state or mechanisms that soften the impact on displaced workers.\n\n- **Unions, bargain**  \n  Workers, often represented by unions, are expected to bargain to protect jobs and negotiate the conditions under which AI is integrated. This could manifest as political efforts to protect half or more of current jobs with legal safeguards, akin to protections existing in law and medicine sectors against strong AGI disruptions.\n\n- **Teddy bears, surveillance trade-off**  \n  A cultural reference to \"AI teddy bears\" symbolizes emerging AI-powered forms of entertainment or companion technologies. These introduce surveillance or data trade-offs that parents and users may tolerate due to the perceived benefits, indicating a societal willingness to accept some privacy compromises in exchange for AI utility.\n\n- **News, journalist cross subsidy, humanity, Substack**  \n  The role of journalism and news media is evolving, with AI influencing the economic models sustaining journalistic integrity and humanity. Platforms like Substack are noted as examples where journalism operates with a form of cross-subsidy, helping maintain quality and meaningful human input despite pressures from AI-driven content production.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1572,
+      "latencyMs": 12031,
+      "cost": 0.0011364,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

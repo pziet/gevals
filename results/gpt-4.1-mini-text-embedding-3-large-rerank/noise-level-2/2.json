@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 188,
+  "timestamp": "2025-05-12T18:18:59.475Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Touch:**  \n  The most artisanal trades, such as electricians, plumbers, and gardening, are anticipated to be the last to be automated by AGI, as these roles involve a significant human element and face-to-face interactions. People have a strong desire for meaningful work and human involvement in day-to-day activities, suggesting trades that rely heavily on the human face and craftsmanship will persist longer.\n\n- **Legal and Regulatory Pushback in Healthcare and Other Domains:**  \n  There is a likely political movement to protect certain professions, particularly those involving specialized skills such as law and medicine, through legislation that restricts or tightly regulates the use of strong AGI. This legal pushback can extend to other sensitive fields like healthcare where human judgment is crucial.\n\n- **Rapid Adoption in Defense Sector:**  \n  The defense sector is expected to experience a fast uptake of AGI technologies, possibly due to strategic advantages and the nature of its operations, though this area also raises surveillance and ethical trade-off questions.\n\n- **Role of Labor Unions:**  \n  Unions are expected to play a significant role in bargaining to protect workers and negotiate the terms of AGI adoption in various industries, helping safeguard jobs that involve human elements and influence fair labor practices.\n\n- **Surveillance and Privacy Trade-offs (Teddy Bears Analogy):**  \n  There was discussion of surveillance trade-offs, metaphorically described by \"teddy bears.\" This likely refers to the balance between the acceptance of monitoring or data collection for safety or convenience against the loss of privacy, especially relevant in contexts where AI surveillance might become pervasive.\n\n- **News Media, Journalism, and Financial Models:**  \n  The evolving news and journalism industry faces challenges with AI influence. There is a discussion around using models like Substack, where journalists engage in cross-subsidization to maintain the humanity and integrity of reporting, emphasizing sustainable revenue streams to preserve journalistic quality and independence.\n\n- **Welfare State and Free Trade Analogy:**  \n  The welfare state is posited as an essential bargain enabling free trade, providing a safety net for service workers affected by economic shifts, including AGI-driven changes. This coverage grants workers freedom while maintaining dignity and meaning in their work despite disruptions.\n\nOverall, the discussions highlight a nuanced transition toward AGI: prioritizing protection and meaningful human roles in trades, managing legal and union responses, ethical trade-offs in surveillance, and evolving economic models in journalism, all underpinned by a social safety net akin to the welfare state to support workers through change.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3199,
+      "latencyMs": 26747,
+      "cost": 0.0035496,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

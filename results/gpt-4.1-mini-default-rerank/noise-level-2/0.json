@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 346,
+  "timestamp": "2025-05-12T18:28:41.552Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element:** \n  - There is a focus on the artisanal and trade sectors (e.g., electricians, plumbing, gardening) as areas where human involvement remains significant despite technological advancements.\n  - Trades are considered important for maintaining a \"human face\" in the economy, preserving meaning and salience for workers.\n\n- **Welfare State and Economic Bargaining:**\n  - Discussions highlighted the welfare state as a type of social bargain that supports service workers amid free trade.\n  - The welfare system provides a social safety net, enabling people to have meaningful work or the option not to work.\n  - Unions are part of this bargain, advocating for workers' rights and bargaining power.\n\n- **Legal and Healthcare Sector Challenges:**\n  - There is pushback in sectors such as healthcare and legal services due to regulatory and privacy concerns, especially around personal data handling.\n  - Lawyers have historically resisted AI adoption as it threatens traditional high fees, reflecting a broader legal pushback around technological disruption.\n\n- **AI Uptake and Defense:**\n  - Fast uptake of AI in certain sectors is notable, but regulatory and societal acceptance varies.\n  - The strongest legal acceptance of AI may occur where large capital pools use human proxies for decision-making, implying a structured integration rather than wholesale replacement.\n\n- **Surveillance and Privacy Trade-offs:**\n  - The conversation touches on the trade-off between surveillance and privacy, metaphorically referred to with \"teddy bears,\" indicating the balancing act between safety, monitoring, and individual freedoms.\n\n- **Media and Journalism:**\n  - There is mention of cross-subsidy models in journalism, with platforms like Substack providing alternative revenue streams.\n  - The role of humanity and maintaining journalistic integrity amidst technological changes were discussed.\n\nOverall, the meeting addressed the economic, legal, and social adaptations needed to manage AI's growing role, emphasizing the preservation of human elements in trades, maintaining robust welfare systems, navigating legal resistance, and balancing surveillance with privacy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3131,
+      "latencyMs": 20780,
+      "cost": 0.0034327999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 81,
+  "timestamp": "2025-05-12T18:15:49.238Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## The Future of Work and Employment\n- Concerns about economic shifts leading to increased efforts to protect jobs, especially in bureaucratic and manual trades, possibly through political movements aiming to freeze employment.\n- Discussions on how AI and automation could impact various sectors, with particular focus on trades such as electricians, plumbers, and artisanal crafts.\n- Potential for new jobs involving AI system management, orchestration, and creative engagement—e.g., marshalling, fueling, and making AIs perform complex tasks.\n- The importance of transmitting and laundering AI-generated information into human systems, ensuring smooth transitions and understanding.\n\n## Economic Policy and Social Safety Nets\n- Exploration of whether welfare and social safety policies are an adequate \"bargain\" to support workers during technological upheaval.\n- Potential high likelihood of political efforts to implement protective measures, such as job freezing or increasing welfare, which may not always yield optimal long-term outcomes.\n- The notion that a generous welfare state might be necessary but not always the most efficient solution.\n\n## Legal and Human Face in Trades\n- Emphasis on the importance of trades that last and maintain a human face, aligning with the sentiment of human-centric work.\n- Recognizing that certain high-skilled, artisanal, and high-status trades could persist but will evolve with AI integration.\n\n## Defense and Security\n- Rapid changes in AI could have significant implications for national security, with some sectors, like defense, potentially experiencing swift technological adoption.\n- The influence of AI on security-related industries might accelerate due to the need for advanced systems and rapid adaptation.\n\n## Media, Journalism, and Subscriptions\n- Discussion on the role of news outlets, cross-subsidies, and the evolving landscape of journalism, including new models like Substack.\n- The focus on humanity in media and the ongoing importance of human judgment amid AI automation.\n\n## Surveillance, Trade-offs, and Ethical Considerations\n- Mention of trade-offs involved in surveillance, with references to \"teddy bears\" and the delicate balance between security and privacy.\n- Concerns about surveillance trade-offs and the social implications of AI monitoring.\n\n## Market Dynamics and Business Models\n- Observation that legacy software remains prevalent, yet there are rapid changes in potentially high-impact sectors like national security.\n- The importance of business and government initiatives in adopting AI, with a possible shift toward stronger AI companies in the future.\n\n## Overall Reflection\n- The rapid pace of AI development likely requires proactive discussions on policy, ethics, and societal values to manage transitions effectively.\n- The importance of playing higher-status \"games\" enabled by AI, including creative and organizational roles, rather than solely focusing on job preservation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1679,
+      "latencyMs": 10683,
+      "cost": 0.0003281,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

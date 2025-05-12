@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 216,
+  "timestamp": "2025-05-12T18:21:45.403Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Elements and Trade Dynamics\n- Emphasis on maintaining personal, human-centered interactions (\"trades last, human face\").\n- Certain relationships and deals remain mediated by people, with preferences for human proxies, especially in large-scale or capital-intensive negotiations.\n- Trades, particularly artisanal or craft-based ones like electricians, plumbing, gardening, and certain artisanal arts, are likely to be affected last by AGI advancements.\n\n## Legal and Regulatory Challenges\n- Significant legal pushback expected in the healthcare sector due to issues around personal data and standards; potential need for regulatory updates.\n- AGI may encounter the strongest legal obstacles in highly regulated sectors such as healthcare, law, and medicine.\n- Governments might adapt regulations faster than anticipated, possibly resisting broad AGI integration due to legal and safety concerns.\n- Resistance may also come from large established companies in certain areas, hindering AGI adoption.\n\n## Economic and Social Implications\n- Larger economic transitions could trigger political movements aimed at protecting jobs, potentially through laws similar to those in law and medicine (e.g., strong protections against AGI disruption).\n- Welfare states are analogized as a form of protection for service workers impacted by AI; the idea that generous social safety nets help smooth transitions.\n- Potential breakdowns in the system if insufficient evidence of good transition models exists; importance of demonstrating successful AI transitions.\n\n## Surveillance, Trade-offs, and Society\n- Trade-offs involved in surveillance, such as balancing security (e.g., surveillance trade-offs with teddy bears) and privacy.\n- News media and journalism might see cross-subsidies and shifts, as parts of the system like Substack and independent journalism evolve, impacting the dissemination of information and humanistic values.\n\n## Cultural and Artistic Shifts\n- AGI's influence reaches into arts and modern art production, where artists increasingly orchestrate large teams, blending human effort with AI-generated content.\n- Art involving extensive collaboration, possibly with thousands of contributors, may evolve, reflecting AI's role in creative industries.\n\n## AI's Last Areas of Impact\n- AGI is expected to affect the most artisanal and craft-based trades last; trades requiring manual dexterity and personal touch (e.g., electricians, plumbers, gardeners).\n- The health sector, especially front-end patient interactions and personalized care, may see earlier disruptions but with some eventual resistance or slower adoption.\n- Administrative and bureaucratic functions, such as generating information flow or laundering AI-derived data into human systems, will be critical in the AI integration process.\n\n## Final Reflection\n- The overall trajectory involves careful navigation of legal, societal, and economic challenges, with an emphasis on human-centered interactions and the importance of evidence-based transition strategies.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1683,
+      "latencyMs": 14799,
+      "cost": 0.00033120000000000003,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

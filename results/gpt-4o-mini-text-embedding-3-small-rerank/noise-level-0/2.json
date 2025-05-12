@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 38,
+  "timestamp": "2025-05-12T18:14:37.132Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Discussion Highlights\n\n- **Human Element in Trades**: \n  - The last significant effects of AGI will likely be seen in trades such as electricians and plumbers, emphasizing the importance of maintaining a human face in these industries.\n\n- **Legal Challenges in Healthcare**: \n  - There is anticipated legal pushback regarding the integration of AGI in healthcare due to the intricacies of personal data handling and existing standards that need to be updated.\n\n- **Rapid Adoption in Defense**: \n  - AGI technologies are being adopted quickly within defense sectors, raising discussions about ethical implications and oversight.\n\n- **Union Bargaining and Labor Rights**: \n  - There are ongoing discussions about the role of unions in bargaining for workers' rights in light of advancements in AGI and its potential impact on job security.\n\n- **Surveillance and Public Sentiment**: \n  - The metaphor of \"teddy bears\" was used to describe the trade-off between surveillance and public comfort, raising concerns about privacy and ethical use of technology.\n\n- **Media and Journalism Dynamics**: \n  - The topic of cross-subsidization in journalism was discussed, particularly regarding how new platforms like Substack challenge traditional media, emphasizing humanity in reporting.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2907,
+      "latencyMs": 23824,
+      "cost": 0.0034793999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

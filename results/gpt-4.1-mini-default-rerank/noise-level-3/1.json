@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 342,
+  "timestamp": "2025-05-12T18:28:37.806Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Economic and Labor Issues\n- Discussion on the likelihood of political movements aiming to protect certain human jobs, especially in trades and service sectors, as a response to rapid economic and technological changes.\n- Recognition that jobs requiring human interaction and alignment, such as council work or trades like electricians and plumbers, may be among the last to be fully automated.\n- Emphasis on the value of the \"human face\" in trades and other artisanal roles where skill and personal trust are significant.\n\n## Legal and Healthcare Challenges\n- Noted legal pushback concerning healthcare, possibly related to adapting laws to new economic realities and technology impacts.\n\n## Defense and Security\n- Fast uptake of defense-related AI applications, highlighting national security as a key area experiencing rapid technological integration.\n\n## Unions and Labor Bargaining\n- The role of unions in bargaining to protect workers and manage the transition caused by AI and economic shifts was acknowledged.\n\n## Surveillance and Privacy Trade-Offs\n- Mention of a \"teddy bears\" analogy referring to trade-offs between convenience or safety and surveillance/privacy concerns.\n\n## Media, Journalism, and Subsidization Models\n- Concerns about journalism's financial sustainability, with a focus on potential cross-subsidies involving platforms like Substack.\n- Emphasized the importance of preserving journalistic humanity and integrity amid economic pressures.\n  \n## Welfare State Considerations\n- Discussion about the welfare state as an accepted, though not always efficient, bargain to support workers during economic transitions.\n- The need for generous welfare mechanisms to help those affected by technological displacement was highlighted.\n\n---\n\nThese notes synthesize the key points from the meeting, focusing on job protection efforts, legal and healthcare challenges, security implications, union roles, privacy issues, and the future of journalism and welfare in an AI-impacted economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3092,
+      "latencyMs": 23690,
+      "cost": 0.0033748,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

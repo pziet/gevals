@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 227,
+  "timestamp": "2025-05-12T18:22:11.777Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview\nThe discussion centered around the long-term impact of advanced AI and trade on the economy, welfare state, and workers' rights, with particular emphasis on the human face of trade and technology.\n\n## Key Themes\n\n### 1. Human-Centered Trade and Welfare\n- Current trade practices tend to prioritize the human face—preserving human involvement and dignity in work.\n- There is a notion that maintaining human-centric trade and services might serve as a form of welfare for service workers, providing meaning and salience in their daily activities.\n- The concept of a \"welfare state for service workers\" was discussed, implying a system that supports workers even as automation increases.\n\n### 2. AI's Impact on Trades and Artisanal Work\n- Advanced AI, especially AGI, is expected to significantly affect trades, notably artisanal sectors such as electricians, plumbing, gardening, and other crafts.\n- Protection of workers in these domains may become more necessary as economic changes accelerate.\n- There is a possibility that AI will enhance wealth, making it more feasible to support workers through welfare measures.\n\n### 3. Legislative and Policy Considerations\n- Potential for laws similar to those in healthcare to be implemented to protect jobs, personal data, and standards around service delivery.\n- Discussions about protecting a substantial portion of current jobs through legislation, analogous to regulations in law and medicine, against the threat of strong AGI.\n- Anticipation of political movements advocating for job protections in response to AI advancements.\n\n### 4. Surveillance and Trade-Offs\n- The deployment of surveillance technologies (e.g., teddy bears as surveillance tools) raises questions about trade-offs between safety, privacy, and human rights.\n- Balancing the life-saving benefits of surveillance with potential infringements on privacy rights.\n\n### 5. Media, Humanity, and Cross-Subsidies\n- The media landscape, including platforms like Substack, is involved in discussions about cross-subsidization, journalism, and maintaining human-centered narratives.\n- Concerns about how AI and automation might influence the human element in news and storytelling, possibly affecting the perceived humanity of the media.\n\n### 6. Economic Index and AI's Broader Impact\n- Introduction of the Anthropic Economic Index measuring AI's effects on the US economy.\n- The role of laundering AI-generated information into human systems to ensure responsible integration.\n- Overall, the consensus suggests that as AI and economic changes unfold, society may need to adapt policies to protect workers, preserve human-centric trade, and maintain social stability.\n\n## Conclusion\nThe meeting highlighted the importance of balancing technological advancement with human welfare, the need for protective legislation, and the societal implications of AI's integration into trades, healthcare, and media. Maintaining a human face in trade and ensuring fair transitions remain central concerns.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3335,
+      "latencyMs": 25586,
+      "cost": 0.0027808,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

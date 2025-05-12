@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 270,
+  "timestamp": "2025-05-12T18:26:30.207Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n1. **Trades and Human Impact**\n   - Emphasis on the value of human touch in trades, particularly in the context of automation and AI.\n\n2. **Healthcare Legal Pushback**\n   - There is ongoing legal resistance concerning healthcare-related issues, possibly related to AI's integration into healthcare services.\n\n3. **Rapid Adoption in Defense Sector**\n   - The defense industry is witnessing a swift adoption of new technologies, raising questions about operational adaptations and workforce implications.\n\n4. **Union Negotiations**\n   - Discussion on the role of unions in bargaining for worker rights and protections in a changing economic landscape influenced by AI.\n\n5. **Surveillance vs. Autonomy**\n   - A metaphor involving \"teddy bears\" representing comfort and the trade-off concerning surveillance technology. This highlights concerns about privacy in exchange for convenience.\n\n6. **Media Landscape Changes**\n   - Conversations around journalism and its financing, mentioning concepts like cross-subsidy and platforms like Substack. The importance of maintaining a humane narrative in news despite economic pressures.\n\n### Additional Insights\n\n- **Welfare State and Protection for Workers**\n   - The idea that a welfare state might serve as a protective buffer for service workers in light of economic changes driven by AI.\n\n- **Need for Human Mediation**\n   - As AI grows, discussions highlighted the preference for mediated interactions over automation in certain economic transactions to sustain meaningful employment.\n\n- **Political Movements for Job Protection**\n   - Speculation on the likelihood of political movements advocating for job protections akin to those in established professions like law and medicine against the backdrop of advanced AI.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3035,
+      "latencyMs": 23272,
+      "cost": 0.0037362000000000003,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

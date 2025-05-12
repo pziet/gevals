@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 281,
+  "timestamp": "2025-05-12T18:26:55.146Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## AI and Economic Impact\n- Rapid adoption of AI technologies is influencing various sectors, especially the service industry and artisanal trades like electricians, plumbing, and gardening.\n- There is significant concern about how AI will disrupt traditional jobs, with possible rapid changes in high-skill, high-status trades.\n- The impact of AI on national security and the potential role of governments (e.g., the U.S. government) as major AI operators due to reliance on outdated software are notable points.\n\n## Workforce and Policy Responses\n- Possibility of political movements advocating to freeze or protect a significant portion of human jobs as a response to AI's rapid development.\n- Discussions around implementing a welfare state as a \"good bargain\" to serve workers affected by AI-driven changes, despite its inefficiencies.\n- Consideration of whether to focus on broad protections or to innovate with new high-status, creative roles for humans, such as marshalling and fueling AI systems.\n\n## Human-AI Interface and Surveillance\n- The importance of \"trades last, human face,\" emphasizing human interaction and craftsmanship in the age of AI.\n- Surveillance trade-offs are part of the ongoing negotiation between technological advancement and privacy.\n\n## Ethical and Social Dimensions\n- Ethical pushback against healthcare technologies and the balance of surveillance versus human benefits.\n- Issues related to trade-offs seen in contexts like teddy bears (possibly symbolic or for comfort) contrasted with surveillance concerns.\n\n## Media, Journalism, and Humanity\n- Discussions on cross-subsidies in journalism and news, highlighting Substack and similar platforms that explore humanity and independent coverage.\n- Concerns about how news media and journalism can adapt in an AI-dominated landscape and the importance of maintaining human perspective.\n\n## Summary\n- The meeting reflects on the sweeping changes AI will bring to the economy, jobs, policy, and society, emphasizing both potential disruptions and opportunities for new human roles.\n- Critical debate surrounds government intervention, welfare, and the preservation of human face and agency amidst technological shifts.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1547,
+      "latencyMs": 7781,
+      "cost": 0.0002753,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

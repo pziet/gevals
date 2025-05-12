@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 242,
+  "timestamp": "2025-05-12T18:25:53.064Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion centered on the economic impact of advanced AI and its implications for the workforce and welfare systems.\n\n## Key Topics\n\n### Economic Changes and Workforce Protection\n- There is a significant shift in the economy due to advanced AI, particularly affecting job security.\n- A potential political movement may arise aiming to protect jobs, particularly in bureaucratic areas, amidst rapid technological changes.\n- The discussion questioned the ideal balance of a welfare state in relation to job protections and efficiency for workers.\n\n### Sectors with Lasting Human Demand\n- Certain trades, such as electrical work and plumbing, are expected to remain in demand as they require human intervention despite technological advancements.\n- The emergence of new jobs that leverage AI capabilities is anticipated, focusing on tasks that enhance creativity and problem-solving.\n\n### Health and Legal Considerations\n- There is legal pushback regarding healthcare-related matters in the wake of these changes, which needs to be addressed.\n\n### Role of Unions\n- The discussion highlighted the importance of unions, and the need to bargain effectively to protect workers' interests during economic transitions.\n\n### Surveillance Concerns\n- A metaphor was used comparing the trade-off between using \"teddy bears\" (surveillance tools) and the impacts on privacy and data security, indicating a balance that needs to be maintained.\n\n### Journalism and Information Dynamics\n- Concerns were raised about the sustainability of journalism in an age where cross-subsidization, particularly through platforms like Substack, becomes increasingly common.\n- The necessity for journalism to maintain its humanity and relevance amid economic pressures was emphasized. \n\n## Conclusion\n- The meeting concluded with reflections on the necessity for adaptable frameworks to support workers and address societal shifts caused by AI, while ensuring that essential human roles remain valued in the evolving landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1504,
+      "latencyMs": 24939,
+      "cost": 0.0015485999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

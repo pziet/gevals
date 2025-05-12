@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 187,
+  "timestamp": "2025-05-12T18:18:53.383Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element:** Trades, especially artisanal and skilled ones like electricians, plumbers, and gardening, are expected to be the last affected by AI automation. These jobs retain a human face and involve complex, interpersonal tasks that are difficult to fully automate.\n\n- **Legal and Regulatory Pushback in Healthcare:** There is potential for strong legal protections in sectors such as healthcare and law. These protections may act as barriers against rapid AI adoption to safeguard jobs and ensure service quality.\n\n- **Fast Uptake in Defense Sector:** The defense sector is anticipated to quickly adopt AI technologies, highlighting varying speeds of AI integration across different industries.\n\n- **Unions and Bargaining Power:** With the arrival of AI-driven automation, there is a considerable likelihood of political and union movements striving to protect existing jobs through laws analogous to those in healthcare and law, designing safeguards for workers.\n\n- **Trade-offs: Surveillance vs. Privacy (Teddy Bears Analogy):** The discussion acknowledges the surveillance trade-off inherent in AI and technological surveillance, metaphorically referred to as “teddy bears.” This reflects concerns about balancing privacy and security in an AI-enhanced environment.\n\n- **Media, Journalism, and Economic Models:** There is a trend in journalism involving cross-subsidy models where humanity and authenticity are valued commodities. Platforms like Substack illustrate how journalists can sustain their work financially while maintaining a human and meaningful touch in their reporting.\n\n- **Welfare State as Part of the Bargain:** A generous welfare state underpins free trade, especially as AI transforms service sectors. This can be seen as a social bargain, providing a safety net for service workers impacted by economic changes, preserving meaning and purpose in everyday work.\n\n- **Human Mediation in Economic Deals:** Despite automation, many economic transactions will still require human mediation, especially where alignment, negotiation, and trust are key, supporting the role of humans in managing large pools of capital and automated organizations.\n\n- **Political Movement Anticipated:** There is a high chance of political advocacy emerging to protect substantial portions of existing jobs from automation, reflecting growing societal concern about rapid AI-driven disruption.\n\nThese notes synthesize discussions around the intersection of AI automation, trade, worker protection, and societal values emphasizing humanity and fairness in economic transitions.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3213,
+      "latencyMs": 23856,
+      "cost": 0.0035575999999999997,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

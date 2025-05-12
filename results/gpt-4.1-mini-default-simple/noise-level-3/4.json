@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 325,
+  "timestamp": "2025-05-12T18:28:08.183Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Elements**  \n  There is an expectation that trades, particularly skilled artisanal work such as electricians, plumbing, and gardening, will remain significant even as AI advances. These jobs often require a human touch and personal trust, giving them a \"human face\" that AI cannot easily replace. High-status trades may evolve but are likely to maintain importance because of their craftsmanship and personal interaction.\n\n- **Legal and Political Pushback in Healthcare and Jobs**  \n  There is a high chance of political and legal movements aimed at protecting human jobs from rapid automation. These efforts may involve regulatory freezes or bureaucratic protections to preserve employment while governments and societies try to manage the disruptive impact of AI on labor markets, particularly in sensitive sectors like healthcare.\n\n- **Rapid AI Adoption in Defense and National Security**  \n  AI's fast uptake in defense sectors is anticipated, as national security considerations drive early adoption. However, older legacy systems are still widely used, showing a contrast between rapid AI innovation and slower institutional modernization.\n\n- **Unions and Bargaining Power**  \n  As AI impacts traditional job roles, unions and collective bargaining entities may play a crucial role in negotiating new terms of employment, protections, and welfare provisions for workers displaced or affected by AI technologies.\n\n- **Surveillance Trade-Off and \"Teddy Bears\" Metaphor**  \n  Discussions referenced surveillance as a critical issue, possibly representing a trade-off between safety and privacy. The \"teddy bears\" analogy may imply the comforting or humanizing aspects that come at the cost of increased surveillance or control mechanisms.\n\n- **Journalism, News, and Cross-Subsidy Models**  \n  The role of journalism in the age of AI is evolving, with discussion around cross-subsidies from other economic sectors to support quality, humanity-focused news production. Platforms like Substack exemplify new economic models for sustaining journalism by directly connecting creators with audiences rather than relying purely on advertising.\n\n- **Humanity and AI Integration**  \n  There is an underlying theme about balancing AI’s efficiency with preserving human values and societal structures, including welfare states that protect workers. The goal is to find an \"okay bargain\" that supports both innovation and social good.\n\n- **Emerging Job Roles around AI**  \n  New job avenues may emerge that involve managing, customizing, and \"laundering\" AI-generated information into human systems. This work requires human judgment and alignment between AI capabilities and societal needs, blending creativity with technical oversight.\n\nOverall, the meeting centered on balancing rapid technological advancement with human-centric values, legal protections, and evolving economic structures, particularly focusing on trades, worker protections, and the future of journalism.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1685,
+      "latencyMs": 13919,
+      "cost": 0.001322,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

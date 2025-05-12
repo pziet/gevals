@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 354,
+  "timestamp": "2025-05-12T18:29:06.314Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Human Face**: There was a discussion about the importance of maintaining a \"human face\" in trades and deals, particularly emphasizing that even as AI takes on more functions, there will still be a strong preference for human-mediated deals, especially when large pools of capital are involved. People tend to prefer human proxies handling deals on their behalf.\n\n- **Legal Pushback in Healthcare**: Healthcare is expected to encounter strong legal resistance to AI integration, mainly because it involves sensitive personal data and strict regulatory standards. This sector might retain a lot of human involvement due to these legal and privacy challenges.\n\n- **Fast Uptake in Defense**: Although not deeply expanded on, there was an implication that defense could see a rapid uptake or integration of AI technologies, suggesting a sector where AI adoption might be faster than in others.\n\n- **Unions and Bargaining**: There is a potential political movement or push to protect jobs by freezing certain roles, particularly bureaucratic or service jobs, in regulatory \"amber.\" This is akin to union bargaining protecting workers and their jobs from rapid displacement by AI.\n\n- **Teddy Bears and Surveillance Trade-off**: The phrase suggests a metaphorical discussion about balancing comforting or familiar aspects of technology (\"teddy bears\") against the surveillance or privacy trade-offs that come with advanced AI systems.\n\n- **News, Journalism, and Cross-Subsidy Models**: Emerging economic models in journalism, including potentially new platforms like Substack, were discussed in the context of how news and humanity intersect. This suggests a recognition of challenges in sustaining journalism financially and maintaining human-centric news production in an AI-influenced environment.\n\n- **Political Will and Job Protection**: The conversation touched on the role of political will in determining how many jobs are protected by legislation analogous to those in law and medicine sectors to counterbalance strong AGI impacts on employment.\n\nOverall, the discussion highlighted the social, legal, and political complexities around AI integration, emphasizing maintaining human roles where trust, privacy, and bargaining power are critical, while acknowledging areas like defense may see quicker adoption.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3081,
+      "latencyMs": 24005,
+      "cost": 0.0033645999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 194,
+  "timestamp": "2025-05-12T18:19:07.842Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Welfare State**: Discussion highlighted the concept of maintaining a generous welfare state as a compensatory mechanism for freer trade. The welfare state acts as a form of social bargaining, allowing people meaningful work and stability despite economic changes driven by AI advancements.\n\n- **Human Element in Trades**: Emphasized the importance of preserving human roles and the 'human face' in trades and services, even as AI takes over many tasks. This approach addresses people's desire for meaningful participation in work.\n\n- **Legal Pushback in Healthcare**: Noted a particular resistance within healthcare, due to legal and personal data standards, that may slow AI and automation adoption. This sector is complex due to regulatory and privacy considerations.\n\n- **Rapid Uptake in Defense**: There is an expectation of fast adoption of AI technologies in defense, driven by urgent strategic needs and competitive pressures.\n\n- **Unions and Bargaining**: Political movements may arise aiming to protect existing human jobs, similar to protections found in law and medicine sectors. Unions and collective bargaining could play a role in advocating for workers in the face of rapid AI displacement.\n\n- **Surveillance and Trade-offs (Teddy Bears Metaphor)**: The conversation touched on the trade-offs between surveillance and privacy. This reflects concerns about how informational inputs from AI are managed and regulated within human systems and governments.\n\n- **Journalism and Humanity**: Discussion about the evolving media landscape, focusing on challenges faced by journalists, the role of platforms like Substack, and the need for preserving human-driven journalism despite technological disruptions. There was mention of cross-subsidy models to support journalism's sustainability.\n\nThese points summarize key political, economic, and social challenges posed by AI and automation, highlighting the interplay between technology adoption, human dignity in work, regulation, and social support systems.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3132,
+      "latencyMs": 21712,
+      "cost": 0.0034262,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

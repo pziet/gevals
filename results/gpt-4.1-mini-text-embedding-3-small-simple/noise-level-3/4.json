@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 125,
+  "timestamp": "2025-05-12T18:17:00.473Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Human-Centered Trades and Jobs:**\n  - The most artisanal and human-centric trades, such as electricians, plumbers, and gardening, are likely to be among the last sectors to be fully automated.\n  - These roles retain a \"human face\" and involve high-status, skilled work where personal interaction and craftsmanship matter.\n  - New jobs may emerge involving managing and fueling AI systems, combining creative and technical skills.\n\n- **Legal and Political Responses:**\n  - There is a strong possibility of political movements seeking to legally freeze or protect a portion of existing human jobs from automation.\n  - Such measures, akin to bureaucratic paperwork, would serve as attempts to slow or manage the rapid technological and economic changes.\n  - These efforts may stem from a desire to protect workers, especially younger people, and to maintain a semblance of a welfare-state-like bargain to support affected individuals.\n\n- **Healthcare and Legal Pushback:**\n  - Anticipated legal challenges and pushbacks are expected in sensitive and regulated sectors such as healthcare as AI adoption accelerates.\n\n- **Rapid Uptake in Defense Sector:**\n  - The defense sector is expected to see a fast uptake of advanced AI technologies, driven by national security priorities.\n  - Government and defense agencies may become major players in adopting AI despite traditionally slower technology transition in bureaucracy.\n\n- **Union Roles and Bargaining:**\n  - Labor unions are likely to play a critical role in bargaining for worker protections and negotiating the terms of workplace changes due to AI.\n  - These negotiations may influence policy and legal frameworks around job security and transitions.\n\n- **Surveillance and Privacy Trade-offs:**\n  - The group discussed trade-offs between surveillance and personal privacy/security, metaphorically compared to \"teddy bears,\" highlighting emotional and societal impacts of increased monitoring driven by technology.\n\n- **Journalism, News, and Media Economics:**\n  - Journalists face economic challenges as news models evolve, particularly with the rise of platforms like Substack.\n  - There is concern about cross-subsidization in news media, affecting the humanity and quality of journalism.\n  - AI and automation pose new dynamics for sustaining independent and human-centered journalism.\n\nThese points sketch an evolving landscape where human elements in work and society clash and blend with rapid technological progress, resulting in complex legal, economic, and cultural negotiations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1622,
+      "latencyMs": 11602,
+      "cost": 0.0012212000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

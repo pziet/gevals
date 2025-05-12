@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 116,
+  "timestamp": "2025-05-12T18:16:48.866Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade Durability & Human Element**  \n  The ongoing importance of trades that last longer and retain a human face, such as electricians, plumbing, gardening, and artisanal professions, even amid the rise of AGI.\n\n- **Legal & Healthcare Challenges**  \n  AGI faces significant legal obstacles, particularly in sectors like healthcare, where regulation and compliance are complex. There is also notable legal pushback against its deployment.\n\n- **Defense & Rapid Adoption**  \n  The defense sector shows a fast uptake of AGI technologies, likely due to national security interests and strategic advantages.\n\n- **Labor Negotiations & Unions**  \n  The influence of unions and bargaining processes in managing AI integration, attempting to protect workers' interests during economic shifts.\n\n- **Trade-offs & Surveillance**  \n  The deployment of AGI involves trade-offs, including increased surveillance and privacy concerns, which are weighed against benefits like efficiency and safety.\n\n- **Media & Humanity**  \n  News outlets and journalists are discussing the socioeconomic impacts of AI, including issues like cross-subsidization and the role of Substack and other platforms in preserving independent journalism and human-centered narratives.\n\n- **Economic & Societal Transitions**  \n  The broader societal changes driven by AGI, including the potential need for legal protections similar to those in law and medicine, and the possibility of a political movement to protect jobs.\n\n- **Welfare State & Economic Adaptation**  \n  The importance of a strong welfare system to facilitate fair trade, support service workers, and maintain social stability amidst economic transformations induced by AI technologies.\n\n- **Information Laundering & Governance**  \n  Strategies like laundering AI-generated information into human systems to mitigate risks of direct misinformation, and considerations of how different government sectors, especially in the U.S., will encounter AGI last or face unique challenges.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3117,
+      "latencyMs": 19782,
+      "cost": 0.0026766999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

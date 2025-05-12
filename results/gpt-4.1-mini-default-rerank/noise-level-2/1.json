@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 347,
+  "timestamp": "2025-05-12T18:28:45.188Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Artisanal Jobs:**  \n  Discussion highlighted that advanced AI is likely to affect mass employment significantly in trades and artisanal domains such as electricians, plumbing, and gardening. These roles may retain a distinct human element, often referred to as having a \"human face,\" which could protect them from full automation.\n\n- **Legal Pushback in Healthcare and Other Sectors:**  \n  There is notable legal resistance to full AI adoption, especially in professional sectors like law and medicine. Lawyers, for example, have opposed AI to protect their market due to high fee structures. Similarly, health care may see legal barriers that slow or limit AI deployment.\n\n- **Fast Uptake and Defense Mechanisms:**  \n  Rapid adoption of AI technologies may prompt strong political and legal movements aimed at protecting certain jobs. There is a realistic chance that laws will be introduced to safeguard up to half of existing jobs, drawing parallels to existing strong protections in regulated industries.\n\n- **Role of Unions and Bargaining Power:**  \n  Worker organizations and unions are expected to play a critical role in bargaining for job protection and fair transitions in the labor market as AI disruption progresses. Larger economic changes might increase demands for protective policies.\n\n- **Trade-offs Between Surveillance and Privacy (\"Teddy Bears\" Metaphor):**  \n  The metaphor of \"teddy bears\" was used to illustrate societal trade-offs involving surveillance—implying a balance must be struck between privacy and safety/security or convenience in AI adoption.\n\n- **Journalism, News, and Economic Models:**  \n  News organizations and journalists face economic challenges under AI transformation. There is discussion about possible cross-subsidies and new models such as Substack that support the humanities and preserve journalistic integrity amid technological change.\n\n- **Welfare State as a Bargain in Free Trade and AI Economy:**  \n  The welfare state plays a crucial role in cushioning the workforce, particularly service workers, against the shocks of free trade and automation. While not fully efficient, it is considered an important \"bargain\" to maintain social and economic stability by guaranteeing meaning and salience in people's daily work.\n\n- **Humanity and Meaning in Work:**  \n  Emphasis was placed on the importance of human meaning and engagement in labor, which AI cannot replace. This aspect supports arguments for preserving certain job categories despite automation potential.  \n\nThese themes together reflect a broad picture of the challenges, protections, and societal values involved in the transition to an AI-driven economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3226,
+      "latencyMs": 23552,
+      "cost": 0.0035852,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

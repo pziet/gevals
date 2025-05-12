@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 174,
+  "timestamp": "2025-05-12T18:18:26.068Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from the Meeting\n\n- **Trade and Human Element**  \n  Discussion centered on the balance between embracing freer trade and the need for social safety nets, likened to a \"welfare state for service workers.\" The importance of meaning and salience in work was emphasized, suggesting that while AI may take over many tasks, human mediation and engagement remain valuable.\n\n- **Legal Challenges in Healthcare and AGI Regulation**  \n  Strong legal and regulatory challenges are expected, particularly in healthcare due to concerns related to personal data and standards. There is a significant political risk of attempts to \"freeze\" large numbers of human jobs legally to address challenges posed by advanced AI (AGI). This could manifest as bureaucratic protections reminiscent of protections found in fields like law and medicine against strong AGI use.\n\n- **Rapid AI Adoption in Defense**  \n  The conversation hinted at rapid uptake of AI technologies in defense sectors, driven by political and strategic pressures, though detailed elaboration was not included in the extracted chunks.\n\n- **Role of Unions and Collective Bargaining**  \n  There is an underlying theme that political forces—including unions and collective bargaining—will play a critical role in shaping how labor, capital, and AI-driven automation interact moving forward.\n\n- **\"AI Teddy Bears\" - The Surveillance and Trade-off Concept**  \n  The notion of \"AI teddy bears\" was introduced as an analogy for AI companions or technologies blending surveillance with emotional or social benefits. This suggests an emerging trade-off where surveillance is accepted in exchange for certain benefits, especially in entertainment and personal spaces.\n\n- **News Media, Journalism, and Economics of Content**  \n  The conversation touched on journalism's financial challenges, highlighting issues like cross-subsidization within news industries. Reference was made to humanity in journalism and new platforms such as Substack, indicating evolving economic models and kinds of engagement in media driven by AI and technology.\n\n- **Economic and Political Implications of AI**  \n  The Anthropic economic index was mentioned as a tool to measure AI's effects on the U.S. economy, with reports available as of March 2025. The discussion also underscored concerns about political will necessary to manage transitions, protect jobs, and regulate AI's integration into society.\n\nThese points capture the major themes and insights discussed regarding the intersection of AI technology, labor, law, and socioeconomic transitions.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1625,
+      "latencyMs": 13364,
+      "cost": 0.0012212000000000002,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

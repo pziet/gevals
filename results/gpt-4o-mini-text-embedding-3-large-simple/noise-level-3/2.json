@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 43,
+  "timestamp": "2025-05-12T18:14:38.802Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n1. **Trades and Job Market**:\n   - Discussion on the importance of trades (e.g., electricians, plumbing) in the evolving job market.\n   - High chance of political movements aiming to protect certain jobs due to rapid changes brought on by AI.\n\n2. **Healthcare Legal Concerns**:\n   - Legal pushback regarding healthcare implications related to advancements in AI and automation in the workforce.\n\n3. **Economic Changes and Welfare**:\n   - Mention of a potential need for a more generous welfare state, despite its inefficiencies.\n   - Concerns about how political decisions might impact job security in various sectors.\n\n4. **Adoption of AI in Defense**:\n   - Fast uptake of AI technologies in defense sectors, highlighting both benefits and risks.\n\n5. **Union Negotiations**:\n   - The role of unions in bargaining for workers' rights amid changing economic landscapes.\n\n6. **Surveillance and Ethical Trade-offs**:\n   - Discussion on the ethical trade-offs of surveillance technologies, likened to \"teddy bears.\" This metaphor suggests that comforts may come at the cost of privacy.\n\n7. **Media and Cross-Subsidization**:\n   - The role of journalism and new media formats (e.g., Substack) in navigating economic models, aiming for a balance between humanity and profitability.\n   - Examination of the impact of news on public perception and the economy. \n\nOverall, the conversation encompassed the implications of AI advancements on various sectors, particularly focusing on job security, ethical considerations, and the evolving nature of labor in the context of a transforming economy.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1473,
+      "latencyMs": 10033,
+      "cost": 0.0014742,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

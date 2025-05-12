@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 59,
+  "timestamp": "2025-05-12T18:15:04.493Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Key Topics Discussed\n\n### 1. Trade Dynamics\n- Discussion around the significance of trades in the economy, particularly those involving skilled labor such as electricians and plumbers. It was suggested that these trades may be the last to be fundamentally impacted by AGI (Artificial General Intelligence).\n\n### 2. Healthcare Legal Pushback\n- Legal challenges surrounding healthcare were highlighted, especially regarding the integration and management of personal data related to AI technologies. It was noted that the healthcare sector may require significant adjustments to address new challenges posed by AGI.\n\n### 3. Rapid Uptake of Defense Mechanisms\n- There is a trend towards faster adaptation and adoption of defense strategies against AGI, indicating that companies and sectors may prioritize protection measures.\n\n### 4. Labor and Unions\n- The role of unions in negotiating for worker protections was emphasized, pointing out the potential for labor movements to protect jobs in the face of AGI advancements.\n\n### 5. Surveillance and Privacy Concerns\n- The metaphor of \"teddy bears\" was used to discuss the trade-off between surveillance and privacy in AI systems. Concerns regarding how personal data is managed were raised.\n\n### 6. Media and Journalism\n- The changing landscape of journalism in the age of AI was discussed, with references to models like Substack that support independent journalism against traditional media funding models. The idea of cross-subsidization in journalism was also touched upon, highlighting the need to maintain humanity within news delivery.\n\n### 7. AGI's Impact on Human Interactions\n- The preference for human-mediated transactions was discussed, where people may opt for personal interactions in commerce, indicating a sustained demand for human involvement in certain economic exchanges. \n\nThese notes encapsulate the major points of discussion, illustrating the multifaceted implications of AGI on economy, labor, healthcare, and media.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1517,
+      "latencyMs": 12601,
+      "cost": 0.0015888,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

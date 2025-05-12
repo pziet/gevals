@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 75,
+  "timestamp": "2025-05-12T18:15:47.022Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n- **Trades and Human Element**\n  - Emphasis on the importance of maintaining a human face in the context of trade agreements and interactions, particularly related to welfare states and their implications for service workers. \n\n- **Legal Concerns in Healthcare**\n  - Discussion on the legal pushback surrounding healthcare reforms, highlighting the complexities involved in regulating health data and ensuring privacy.\n\n- **Rapid Adoption of Advanced Defense Technologies**\n  - Observations on the fast uptake of defense technologies and the need to adapt to changes associated with AI-related developments.\n\n- **Union Bargaining Power**\n  - Consideration of how unions may negotiate on behalf of workers to navigate transitions brought about by economic changes and technology.\n\n- **Surveillance and Trade-offs**\n  - Examination of the implications of surveillance in society, likened to the comfort of \"teddy bears,\" and the necessary trade-offs between security and personal freedom.\n\n- **Media and Journalist Dynamics**\n  - Discussion on the evolving landscape of journalism, including the concept of cross-subsidization in reporting and how platforms like Substack are reshaping the industry. The emphasis was on sustaining the humanity in journalism amidst economic pressures.\n\n## Economic Implications\n\n1. **Freer Trade and Welfare States**\n   - The necessity for a balance between freer trade agreements and the stability provided by welfare states to ensure service workers have viable options in the job market.\n\n2. **Transition to AI-Driven Economy**\n   - Recognition of the need for clear examples of positive transitions to an AI-driven economy, with the potential for political movements advocating for protective measures for existing jobs.\n\n3. **Healthcare's Role in Economic Structure**\n   - Acknowledgment that healthcare is deeply entwined with economic factors, especially as related to data handling and standards, indicating areas for future policy focus.\n\n4. **AGI and Legal Barriers**\n   - Discussion on the likelihood of strong legal frameworks emerging to address the challenges posed by Artificial General Intelligence (AGI) in terms of job preservation and regulatory practices. \n\nThese notes provide a synthesized overview of the discussions held during the meeting, focusing on key considerations related to economic transitions, welfare, trade, and the societal implications of AI.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3194,
+      "latencyMs": 27411,
+      "cost": 0.0040782,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

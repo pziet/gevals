@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 91,
+  "timestamp": "2025-05-12T18:15:59.822Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered and Long-Lasting Trades\n- Emphasize the importance of trades that maintain human interaction and face-to-face engagement, ensuring lasting relationships and trust.\n\n## Legal and Regulatory Challenges in Healthcare\n- Healthcare remains a significant area for potential legal pushback due to issues surrounding personal data standards, privacy, and the intersection with regulation of AI-generated health solutions.\n\n## Defense and Fast Uptake of AI Technologies\n- Defense sectors are deploying AI rapidly, highlighting a swift adoption cycle driven by strategic needs.\n- The pace of AI integration may stimulate political movements aimed at restricting or \"freezing\" certain jobs, especially within bureaucratic systems, to address societal concerns about AI's power.\n\n## Unionization and Bargaining Power\n- The emergence of unions and collective bargaining could influence how AI impacts employment, advocating for worker protections amid rapid technological change.\n\n## Surveillance and Trade-offs\n- The development of AI-enabled surveillance tools introduces trade-offs between security, data privacy, and individual rights, potentially leading to societal debates over surveillance trade-offs.\n\n## Impact on Media, Journalism, and Substack\n- Changes in journalism and media, including Cross-subsidization models and platforms like Substack, reflect shifts in information dissemination and economic models within the news industry.\n- News organizations may face pressures balancing profitability, funding of journalism, and the humanity of truthful reporting.\n\n## AI in Entertainment and Everyday Life\n- Introduction of \"AI teddy bears\" and personalized entertainment tools signals a near-future where AI deeply integrates into children’s products, family life, and daily consumer experiences.\n- A significant percentage of parents are expected to adopt AI-infused toys, transforming the landscape of social and emotional development in children.\n\n## Economic and Societal Implications\n- The \"AI index\" measuring AI's effect on the US economy indicates increasing automation and economic growth, potentially making life more familiar despite technological upheavals.\n- The goal is to bring AI into a broad swath of the economy (potentially half of current economic activity) to sustain growth and manage societal transition.\n\n## Political Will and Job Protection\n- There's a high likelihood of political movements aiming to protect existing jobs through laws similar to those in healthcare and law, potentially \"freezing\" jobs in bureaucratic amber against strong AGI threats.\n\n## Information Integrity and AI-Generated Data\n- Challenges in managing AI-produced information include laundering AI outputs into human systems less susceptible to direct manipulation, with the US government and other institutions (e.g., Education, HHS) as key players.\n\n## Legal Obstacles and Historical Context\n- Previously, legal barriers to AI stemmed from professionals' interests, such as lawyers preferring high fees and resisting downward price pressure.\n- AI's legal challenges will continue to involve balancing innovation with societal protections, with government agency readiness playing a central role.\n\n## Overall Outlook\n- The societal trajectory involves balancing technological benefits—like increased wealth and automation—with potential regulatory and social safeguards to prevent destabilization.\n- The upcoming era might see a convergence of economic growth, societal adaptation, and cautious regulation driven by political, legal, and cultural forces.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1778,
+      "latencyMs": 8721,
+      "cost": 0.00036650000000000007,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

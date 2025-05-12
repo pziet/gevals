@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 69,
+  "timestamp": "2025-05-12T18:15:23.295Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n- **Trade Dynamics**\n  - Discussion on the nature of trades and their impact on workers, relating to the idea of providing a \"human face\" to trades. \n  - Consideration of trade-offs in various sectors, including the balance between profits and worker welfare.\n\n- **Healthcare and Legal Challenges**\n  - Legal pushback in the healthcare sector regarding regulatory practices and the integration of AI.\n  - Emphasis on the need for protecting sensitive personal data in healthcare contexts.\n\n- **Defense and Rapid Acceptance**\n  - Notable increase in the defense sector's rapid uptake of advanced technologies, specifically AI-driven solutions.\n\n- **Union Negotiations**\n  - Discussion on the role of unions in bargaining for improved conditions amidst technological changes and automation.\n\n- **Surveillance and Ethics**\n  - Conversation about the ethical implications of surveillance in technology, using \"teddy bears\" as a metaphor for how the public perceives surveillance tools and their trade-offs.\n\n- **Media Landscape and Subsidies**\n  - Analysis of the evolving media landscape, focusing on issues like journalist cross-subsidization and the role of platforms like Substack.\n  - Exploration of how new media can reflect humanity and the challenges presented in retaining journalistic integrity in a rapidly changing environment. \n\n## Key Themes\n- Balancing technological advancement with human-centric approaches in trades.\n- The implications of AI for workforce transitions and worker protections.\n- The shifting dynamics of journalism and media subscriptions in the digital landscape.\n\nThis summary encapsulates the core discussions and insights shared during the meeting, highlighting important issues around trade, healthcare, ethics, and media.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3012,
+      "latencyMs": 18765,
+      "cost": 0.0036989999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

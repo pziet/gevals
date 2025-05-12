@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 267,
+  "timestamp": "2025-05-12T18:26:30.205Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n### 1. Impact of Trade and Labor\n- The conversation centered around how trade affects labor dynamics, specifically relating to the **human aspect of jobs** and the necessary balance between automation and employment.\n- Discussion about the need for a **strong welfare state** to support workers in a rapidly changing job environment, viewing this as a potential **bargain for service workers**.\n\n### 2. Legal and Healthcare Challenges\n- Legal pushback on issues surrounding **healthcare** and the complexities introduced by new labor dynamics and technology in the workforce.\n- Implications of laws on professions and how this might affect the pace of adopting new technologies like AI.\n\n### 3. Rapid Adoption of Defense Technology\n- There was talk about the **fast uptake of defense technologies**, emphasizing the importance of staying ahead in this sector as it evolves.\n\n### 4. Unions and Bargaining Power\n- The role of **unions** in negotiating benefits and protections for workers as industries adapt to technological changes, stressing the need for robust bargaining frameworks.\n\n### 5. Ethical Considerations in Technology\n- Addressed the trade-offs in technology use, particularly referencing the metaphor of **teddy bears** to illustrate the tension between **surveillance and privacy**.\n- Discussed how emerging technologies might compromise personal freedoms in pursuit of security.\n\n### 6. Media and Economic Models\n- Exploration of **journalism's economic model**, focusing on cross-subsidies and platforms like Substack, which are attempting to redefine how **humanity and journalism** interact.\n- Reflection on the future of media in a landscape where traditional revenue models are being challenged by new forms of content distribution.\n\n### Conclusion\n- The discussion highlighted critical intersections between technology, labor, ethics, and media, suggesting a complex future that demands thoughtful policy and societal engagement.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3087,
+      "latencyMs": 25160,
+      "cost": 0.0038537999999999997,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

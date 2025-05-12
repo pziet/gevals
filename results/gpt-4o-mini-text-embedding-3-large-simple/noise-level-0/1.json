@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 57,
+  "timestamp": "2025-05-12T18:14:59.921Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion on the implications of Advanced AI (AGI) on various sectors, particularly in relation to trade, healthcare, and societal structures.\n\n## Key Topics\n\n### Human Element in Trade\n- Emphasis on the importance of maintaining a \"human face\" in trade and commerce, even with the rise of automation and AI technologies.\n- The preference for human-mediated deals, especially in artisanal trades like plumbing and electrical work.\n\n### Legal and Healthcare Concerns\n- Anticipated legal pushback regarding the integration of AI in healthcare systems, due to sensitive personal data handling and evolving standards.\n- Significant discussions around protective legislation for workers in light of potential AGI impacts, comparing this to existing frameworks in law and medicine.\n\n### Labor and Unions\n- The role of unions in negotiating and safeguarding worker rights amid transformations brought by AI and automation.\n- Consideration of a \"generous welfare state\" potentially needed to support displaced workers from free trade and AI disruptions.\n\n### Surveillance and Trade-offs\n- Debate on the balance between surveillance technologies and personal privacy, highlighted by analogies with activities such as teddy bears indicating a form of monitoring.\n\n### Media and the Information Landscape\n- Exploration of the evolving relationship between journalists and news media in the context of AI, especially the concept of cross-subsidy models like Substack for fostering human-centric narratives amidst AI-generated content.\n\n### Future Considerations\n- Serious consideration of the timing and sectors in which AGI will be adopted, suggesting that trades and artisanal sectors may be among the last to experience significant changes due to societal attachment to human involvement.\n- The potential rapid movement of regulatory frameworks compared to the pace of technological adoption, particularly among established industries facing resistance. \n\n## Conclusion\n- The meeting encapsulated varied perspectives on the interplay between advanced AI, labor, and societal norms. A strong call for thoughtful integration that values human contributions and safeguards rights in an increasingly automated future was emphasized.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1535,
+      "latencyMs": 11414,
+      "cost": 0.0016319999999999998,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

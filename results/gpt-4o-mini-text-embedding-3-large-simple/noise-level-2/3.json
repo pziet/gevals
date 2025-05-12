@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 49,
+  "timestamp": "2025-05-12T18:14:51.884Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n1. **Trades and Employment:**\n   - The conversation focused on the nature of trades and the concept of a welfare state that could emerge for service workers, allowing them to maintain a sense of purpose in their daily activities.\n   - There is a belief that, as advanced AI technologies evolve, they will likely handle many jobs, yet people will still seek meaningful work experiences.\n\n2. **Legal Challenges in Healthcare:**\n   - There was significant discussion on potential legal pushbacks in the healthcare sector concerning AI integration, particularly around how personal data is managed and the associated standards.\n   - The healthcare industry may resist AI advancements due to existing frameworks that prioritize high pricing and established practices.\n\n3. **Fast Uptake of Defense Mechanisms:**\n   - Organizations may react quickly to protect jobs through legal methods, especially in the face of potentially disruptive AI technologies.\n   - Evidence suggests that larger economic shifts could spur a political movement focused on worker protection initiatives as AI begins to replace jobs.\n\n4. **Union Bargaining:**\n   - The role of unions in bargaining for workers' rights amidst AI advancements is likely to become more prominent, especially as the workforce landscape shifts significantly.\n\n5. **Trade-offs in Surveillance:**\n   - The discussion included the analogy of “teddy bears” representing surveillance and the complex trade-offs that come with adopting AI solutions in various sectors, including privacy versus efficiency.\n\n6. **Media and Journalism:**\n   - The evolving landscape of journalism and the impact of platforms like Substack was highlighted, specifically in terms of cross-subsidization and retaining a human touch in reporting.\n   - There is a collective concern regarding maintaining humanity in news production as automations become more common, showcasing the intersection of technology and ethical journalism.\n\n## Additional Insights\n\n- A question arose concerning where AGI will first be legalized and its strongest impacts. There is speculation that it may initially affect more artisanal trades such as plumbing or electrical work before impacting larger, desk-bound jobs.\n- The potential angst among high-achieving individuals in academia regarding the future of work was a theme, emphasizing a sense of disillusionment amidst transitions toward AI.\n\nThese notes encapsulate the main themes discussed in the meeting, highlighting the intersection of AI, employment, legal considerations, and societal impacts.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1615,
+      "latencyMs": 13151,
+      "cost": 0.0018077999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

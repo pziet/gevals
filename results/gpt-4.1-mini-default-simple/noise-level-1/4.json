@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 335,
+  "timestamp": "2025-05-12T18:28:21.631Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs in Free Trade and Welfare State**  \n  There is a conceptual parallel between a generous welfare state and free trade. A robust welfare system can be seen as a bargain that supports service workers who benefit from free trade but still require social safety nets. This social contract allows people meaningful employment and autonomy in their daily lives.\n\n- **Human Element in Transactions and Automation**  \n  People have a preference for human-mediated deals, even when large pools of capital and automated organizations are involved. This suggests a continued desire for a \"human face\" in trades and negotiations despite increasing automation by AI.\n\n- **Legal and Regulatory Challenges with AI and Healthcare**  \n  Healthcare faces significant legal pushback due to regulations around personal data, privacy, and standards of care. These legal hurdles may extend to attempts to regulate or \"freeze\" certain jobs in bureaucratic areas as a political response to the disruptive potential of strong AGI.\n\n- **Political Will and Protection of Human Jobs**  \n  There is a high chance of political movements aiming to protect half or more of existing human jobs, creating legal constraints similar to those seen in law and medicine, to manage the societal impact of powerful AI technologies. Transition examples demonstrating good practices will be critical in shaping political and social acceptance.\n\n- **Unions and Bargaining Power**  \n  As AI adoption accelerates, unions may play a crucial role in bargaining for workers' rights and protections against rapid labor displacement.\n\n- **AI “Teddy Bears” and Surveillance Trade-offs**  \n  The development of AI-driven consumer products, such as AI-enabled \"teddy bears,\" exemplifies new forms of entertainment and companionship with embedded economic engines. However, these raise concerns about surveillance and privacy, reflecting a trade-off between intimate AI interaction and data monitoring.\n\n- **Journalism, News, and Cross-Subsidy Models**  \n  Journalism faces challenges as AI reshapes news production and distribution. There is discussion about new financial models, such as journalist subsidies from platforms like Substack, to preserve humanity and quality in news reporting despite AI’s rapid uptake.\n\n- **Fast Uptake in Defense Sector**  \n  The defense industry is identified as an area experiencing rapid AI adoption, potentially influencing economic and political dynamics related to AI deployment.\n\nThese points summarize the interplay between AI advancement, economic transitions, legal constraints, social bargaining mechanisms, and ethical concerns raised during the meeting.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1633,
+      "latencyMs": 13441,
+      "cost": 0.001234,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

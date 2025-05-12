@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 316,
+  "timestamp": "2025-05-12T18:27:54.373Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Impact of AGI on Trades and Artisanal Jobs\n- AGI is expected to affect traditional trades last, particularly those involving artisanal skills such as electricians, plumbing, gardening, and similar handcrafted professions. These sectors may remain more resilient initially due to the human face of their work.\n\n## Legal and Regulatory Challenges\n- Significant legal pushback is anticipated, especially in sectors like healthcare where handling personal data is critical. Existing standards will likely need substantial revisions to accommodate AI advances.\n- AGI may face strong legal obstacles, particularly in areas involving personal data standards and healthcare regulations, necessitating new legal frameworks.\n\n## Economic and Labor Market Adjustments\n- There could be a political movement aimed at protecting a substantial portion of current jobs through laws analogous to medical and legal protections.\n- The implementation of a generous welfare state might be necessary to support workers displaced by AI, ensuring social stability and equitable trade.\n- Companies and government entities might attempt to launder AI-generated information into human systems to mitigate disruptions, leading to complex legal and social considerations.\n\n## Societal and Human Factors\n- Human-centric trade-offs will persist, exemplified by symbolic items like teddy bears, which emphasize the importance of human touch and surveillance trade-offs.\n- Workers and unions will engage in bargaining to navigate the evolving landscape, attempting to preserve employment rights amidst rapid AI adoption.\n\n## Media, Humanity, and Subventions\n- Media outlets, including journalists, may experience cross-subsidization or subsidies, raising questions about the relationship between AI, journalism, and societal support systems.\n- Platforms like Substack exemplify new media models that focus on personalized, human-centric content, reflecting broader shifts in how society values human input and presence.\n\n## General Outlook\n- The economic landscape will likely require significant adaptations, balancing AI efficiency with human employment and societal well-being.\n- Ongoing discussion revolves around ensuring that AI integration benefits humanity without undermining core social and legal structures.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3172,
+      "latencyMs": 21516,
+      "cost": 0.0027293,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

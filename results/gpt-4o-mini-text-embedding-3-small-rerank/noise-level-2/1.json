@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 27,
+  "timestamp": "2025-05-12T18:14:13.143Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\nThe discussion revolved around the interplay between trade, the welfare state, and service worker protections, highlighting several key topics.\n\n### 1. Trade and Human Impact\n- The implications of trade decisions were considered, focusing on the need to maintain a \"human face\" to ensure that workers' needs are addressed amidst ongoing changes in the economy.\n\n### 2. Legal Pushback in Healthcare\n- There is notable legal pushback regarding healthcare provisions related to trade agreements, indicating potential conflicts between economic policies and essential services.\n\n### 3. Fast Uptake of Defense Strategies\n- Discussion on the rapid implementation of defense strategies meant to protect workers within shifting economic frameworks where jobs may increasingly be automated.\n\n### 4. Unions and Bargaining Power\n- The role of unions was emphasized, highlighting their significance in bargaining for worker rights and protections in the context of trade and economic systems.\n\n### 5. Surveillance and Trade-offs\n- The use of surveillance technology (symbolized by \"teddy bears\") was critiqued, citing potential trade-offs between personal privacy and security in economic transactions.\n\n### 6. Journalism and Media Landscape\n- The conversation touched on the evolving landscape of journalism, including models such as Substack, and their impact on cross-subsidization. This reflects on the need for maintaining humanity in media amid commercialization pressures.\n\n## Reflections\n- Participants reflected on the necessity of a strong welfare state to mitigate the adverse effects of free trade on service workers, advocating for a balance between economic efficiency and humane working conditions.\n- There’s an acknowledgment of the need for more evidence and examples of successful transitions to guide policy-making regarding workers’ protections and economic adaptations. \n\nThese notes encapsulate the main points raised during the meeting, focusing on the interconnectedness of trade, welfare, surveillance, and media in crafting a suitable environment for service workers.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3126,
+      "latencyMs": 25421,
+      "cost": 0.0039168,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

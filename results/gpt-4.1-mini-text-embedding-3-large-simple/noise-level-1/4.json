@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 175,
+  "timestamp": "2025-05-12T18:18:26.891Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Last, Human Face**  \n  There is an emphasis on preserving meaningful work and human involvement in economic transitions driven by AI. The goal is to maintain roles that provide salience and meaning to people while adapting to technological change. Society may accept freer trade and automation if it’s balanced by adequate welfare systems, providing security while keeping human work relevant.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare is identified as one of the sectors likely to face strong legal and regulatory resistance to AI implementation. This is due to privacy concerns around personal data and strict standards regulating the industry. The legal system may freeze certain human jobs in bureaucratic roles to manage political and ethical concerns surrounding advanced AI.\n\n- **Fast Uptake in Defense**  \n  Advanced AI is expected to be rapidly adopted in defense and governmental sectors. There is growing accessibility to AI tools across various branches of government and some parts of the system may quickly incorporate AI despite political challenges.\n\n- **Unions and Bargaining Power**  \n  Political forces, including unions, may push to protect jobs and negotiate terms for workers impacted by AI-driven automation. There is a high likelihood of political movements aiming to legislate and safeguard large swaths of employment to stabilize transitions.\n\n- **Teddy Bears, Surveillance Trade-Off**  \n  The metaphor of “AI teddy bears” illustrates the near future of AI-enabled forms of entertainment and emotional fulfillment products which may require a trade-off in terms of surveillance or privacy. This reflects the balance between technological benefits and societal costs.\n\n- **News, Journalists, Cross-Subsidy, Humanity, Substack**  \n  Journalism faces the challenge of economic sustainability with AI's rise, and there could be new models such as cross-subsidies to maintain the human element in news creation. Platforms like Substack represent alternative approaches to support journalistic voices, emphasizing the importance of preserving humanity and credibility in news media as AI transforms the industry.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1542,
+      "latencyMs": 10942,
+      "cost": 0.0010884000000000002,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

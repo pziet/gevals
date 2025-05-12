@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 313,
+  "timestamp": "2025-05-12T18:27:54.225Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trade and Human Face\n- Emphasis on maintaining the human element in trade and economic activity, even as automation and AI advance.\n\n## Legal and Regulatory Challenges\n- Increasing pushback against AI impacts within healthcare and other critical sectors, highlighting regulatory and legal resistance.\n\n## Defense of Workforce and Fast Uptake\n- Rapid adoption of AI technologies necessitates defense mechanisms for workers, including potential legal protections similar to healthcare laws.\n- Likelihood of political movements aiming to preserve jobs by creating legal barriers to AI-driven displacement.\n\n## Union Bargaining and Worker Protections\n- The importance of unions and collective bargaining in negotiating AI's impact on employment and working conditions.\n\n## Surveillance Trade-offs\n- Trade-offs between surveillance measures (e.g., \"teddy bears\" as monitoring tools) and personal privacy, raising questions about the balance between safety and privacy rights.\n\n## Media, Humanity, and Subisidies\n- Discussion on how news organizations and journalists are affected by AI commercialization, including potential cross-subsidies.\n- The impact of platforms like Substack on human-centered journalism and maintaining human touch in storytelling.\n\n## Broader Societal Implications\n- Concerns around the fast-paced adoption of AI, potential legal pushbacks, and societal adaptation.\n- Consideration of how AI influences informational integrity, with deliberations on laundering AI-generated info into human-readable forms resistant to direct manipulation.\n\n## Economic and Policy Outlook\n- The role of political will and regulatory action in shaping AI's integration into society.\n- Potential for laws to protect jobs and prevent \"bureaucratic amber\" scenarios where jobs are frozen to avoid displacement.\n- The need for good transition strategies to guide societies through AI-driven change.\n\n## Healthcare and Data Standards\n- Healthcare remains a critical sector due to its data sensitivity and standards, often resisting rapid price reductions and automation.\n- Standardization around personal data handling in healthcare is a key concern amid AI integration.\n\n## Summary\n- The meeting covered the importance of balancing technological progress with human and legal considerations, emphasizing the need for careful regulation, worker protections, and societal resilience in an era of rapid AI adoption.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3188,
+      "latencyMs": 23517,
+      "cost": 0.002712,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

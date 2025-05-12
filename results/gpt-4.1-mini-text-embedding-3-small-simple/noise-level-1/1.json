@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 132,
+  "timestamp": "2025-05-12T18:17:09.579Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Major Themes and Discussions\n\n### Trades Last, Human Face\n- Emphasis on preserving jobs that involve a \"human face\" or personal interaction, as part of the social contract underpinning the welfare state and free trade.\n- Desire for meaning and salience in human work remains strong, suggesting human involvement in service-oriented jobs should be maintained even as automation advances.\n- Idea that transitions to AI-driven economies should be managed carefully to protect workers and maintain dignity and relevance in work.\n\n### Legal Pushback in Healthcare\n- Healthcare is highlighted as a sector likely to face strong legal barriers against automation due to strict regulations around personal data privacy and standards.\n- Political movements may seek to \"freeze\" human jobs in bureaucratic and medical sectors as a way to manage rapid technological changes and their societal impacts.\n- Legal obstacles historically arose from professions like law where fees and tradition resist automation; similar patterns may appear in healthcare and other regulated areas.\n\n### Fast Uptake Defense and Political Will\n- The pace of AI adoption drives political dynamics and responses. Without clear examples of good transition strategies, political forces might react chaotically.\n- There is a significant chance of political pushback to protect jobs, possibly through legislative analogs to medical or legal safeguards.\n- Success depends on companies and stakeholders demonstrating responsible AI integration that balances economic growth with social stability.\n\n### Unions and Bargaining Power\n- Workers and unions will play critical roles in negotiating the terms of automation and AI deployment.\n- The balance between human proxies and automated decision-makers is pivotal in how capital and labor negotiate deals going forward.\n\n### AI Teddy Bears: Surveillance vs. Convenience Trade-offs\n- Concept introduced of “AI teddy bears” — forms of AI-enhanced entertainment or services that involve some trade-off between surveillance and convenience or emotional connection.\n- This highlights the nuanced societal trade-offs between technological benefit and concerns about privacy or control.\n\n### Journalism, News, and Economic Models\n- Journalism and news industries are exploring new business models such as cross-subsidies to maintain human-centric journalism.\n- Platforms like Substack exemplify efforts to support directly funded, human-centered journalism that preserves the \"humanity\" and integrity of news production amid technological shifts.\n\n---\n\nThese notes synthesize the main points from the discussion, grounded in the key rough notes and corresponding transcript excerpts, highlighting the economic, legal, and societal implications of AI integration into various sectors.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1635,
+      "latencyMs": 12518,
+      "cost": 0.0012372000000000001,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

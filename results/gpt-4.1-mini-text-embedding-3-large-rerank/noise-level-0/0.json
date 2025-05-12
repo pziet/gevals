@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 196,
+  "timestamp": "2025-05-12T18:19:17.152Z",
+  "result": {
+    "enhancedNotes": "\n# Enhanced Notes\n\n- **Trades and Human Element**  \n  AGI is expected to have the least impact on trades and artisanal jobs such as electricians, plumbers, and gardeners. These roles, often involving hands-on, human-centric work, are likely to be among the last affected by automation.\n\n- **Legal and Regulatory Pushback in Healthcare**  \n  The healthcare sector may see significant legal resistance to AGI adoption due to strict personal data protections and regulatory standards, which will require substantial changes before widespread AGI integration.\n\n- **Fast Uptake in Defense Sector**  \n  Although not explicitly detailed in the provided chunks, rapid adoption of AGI within sectors like defense is suggested by context, emphasizing the need to understand sector-specific uptake speeds.\n\n- **Unions and Bargaining Power**  \n  There is a high chance of political and labor movements arising to protect workers through laws akin to those in professions like law and medicine, aiming to shield jobs from the impact of strong AGI.\n\n- **Surveillance Trade-offs and Privacy Concerns**  \n  The introduction of technologies such as \"teddy bears\" metaphorically points to the surveillance and privacy trade-offs that accompany AI adoption, particularly where personal or sensitive data is involved.\n\n- **Journalistic Models and Economic Sustainability**  \n  Journalists and news sectors may rely increasingly on alternative economic models such as cross-subsidies and platforms like Substack, balancing technological advancement with preserving human values and the humanity of the profession.\n\n- **Welfare State as a Social Bargain**  \n  A generous welfare state could be necessary to support and accommodate freer trade and economic shifts driven by AGI, acting as a social bargain that mitigates transitional economic disruptions, especially for service workers.\n\n- **Human Mediation in AGI Transactions**  \n  Complex deals, often representing large pools of capital, might still require human proxies to negotiate on behalf of automated systems, especially where current legal frameworks present obstacles to direct AGI participation.\n\n- **Transition Management and Economic Stability**  \n  The development of good transition examples and managing economic changes are critical to reducing resistance and ensuring smoother adoption of AGI technologies across various sectors.\n\nThese notes capture the nuanced economic and social dimensions surrounding AGI’s impact on employment, regulation, privacy, and sectoral adaptation strategies.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3222,
+      "latencyMs": 23758,
+      "cost": 0.0035776,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

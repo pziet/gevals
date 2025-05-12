@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 147,
+  "timestamp": "2025-05-12T18:17:40.273Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Human Element**  \n  Discussion highlighted the importance of trades and artisanal roles (electricians, plumbing, gardening) as areas where human involvement remains essential, even as automation advances. These roles represent the \"welfare state for service workers,\" balancing free trade with meaningful human work.\n\n- **Legal Pushback in Healthcare and Other Sectors**  \n  There is notable legal resistance protecting certain professions (e.g., law and medicine) from automation. This reflects broader political movements aiming to safeguard jobs by applying laws analogous to those in regulated industries, preserving human participation in key services.\n\n- **Fast Uptake Defense and Economic Transitions**  \n  Rapid adoption of AI technologies is expected, but concerns remain about managing smooth transitions. The political and economic systems may try to protect a significant portion of existing jobs through regulation to mitigate disruption, especially for trades and artisanal roles.\n\n- **Unions and Bargaining Power**  \n  Worker organizations and unions play a crucial role in negotiating the terms of this evolving labor landscape, potentially advocating for protections and benefits that align with a generous welfare state model.\n\n- **Surveillance Trade-offs Illustrated by \"Teddy Bears\" Analogy**  \n  The group touched on surveillance concerns, likening the trade-offs to everyday objects such as teddy bears. This metaphor underscores the balance between privacy, monitoring, and acceptance in various economic contexts.\n\n- **Journalism, News, and Economic Models**  \n  The future of journalism was discussed in terms of funding and sustainability. Notably, journalists may rely on cross-subsidization models, where platforms like Substack help maintain the humanity and quality of news in a changing economic environment.\n\nThese insights collectively emphasize the interplay between technology adoption, labor protections, welfare frameworks, and the evolving nature of work and services in the economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3087,
+      "latencyMs": 22366,
+      "cost": 0.0033640000000000002,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

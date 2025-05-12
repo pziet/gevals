@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 224,
+  "timestamp": "2025-05-12T18:22:07.139Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Themes and Topics Discussed\n\n### Economic and Labor Market Transformations\n- Anticipated large-scale economic changes driven by AI, impacting traditional trades (e.g., electricians, plumbing, gardening).\n- Potential emergence of new high-skilled, artisanal, or creative jobs involving AI system management and creative manipulation.\n- Discussions on the possibility of new \"higher status\" jobs that leverage AI and robotics, which may involve marshalling and fueling AI systems.\n\n### Policy and Social Responses\n- Consideration of a generous welfare state as a bargaining tool rather than an optimal solution, aimed at protecting workers amid rapid technological change.\n- High likelihood of political movements attempting to freeze or protect a significant portion of human jobs to mitigate economic disruptions.\n- Concerns that responses might focus on bureaucratic protections, potentially leading to inefficient job retention strategies.\n\n### Challenges and Risks\n- Fast pace of AI-driven change poses risks of social and economic breakdown if effective transition models are not developed.\n- The importance of generating sufficient positive examples of transitions to avoid adverse economic outcomes.\n- Discussions on the legal pushback in healthcare and other sectors as a response to AI implementation and automation.\n- Ethical trade-offs, such as surveillance versus the benefits brought by AI innovations.\n\n### Media and Public Discourse\n- Role of journalism and cross-subsidies in disseminating information about AI's societal impact.\n- The influence of Substack and similar platforms in fostering discussions around human-centered AI development.\n- The \"trade last, human face\" approach emphasizing the importance of maintaining human elements in the face of rapid automation.\n\n### Additional Insights\n- The resilience of traditional trades might be tested, but high-skilled segments will likely remain valuable.\n- Future economic landscape may involve new types of jobs that combine technical, artisanal, and creative skills related to AI systems.\n- Possible societal shifts towards new \"higher status\" activities enabled by AI and robots, changing notions of work and leisure.\n\n*This synthesis prioritizes discussions of welfare states, job protection, economic changes due to AI, and future labor markets, integrating the initial rough notes with relevant detailed insights from the top-ranked discussions.*",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3156,
+      "latencyMs": 21731,
+      "cost": 0.0026756999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

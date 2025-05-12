@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 82,
+  "timestamp": "2025-05-12T18:15:53.194Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of Economic and Technological Changes\n- Discussion on the rapid impact of AI and automation on the economy, especially within the service sector, artisanal trades, and high-skill jobs such as electricians and plumbers.\n- Anticipation of major shifts in job structures, with certain trades and artisanal crafts becoming highly affected by advanced AI and robotics.\n\n## Human Face and Trade-offs\n- Emphasis on maintaining a human presence (\"trades last, human face\") in essential roles, particularly those requiring trust, personal interaction, or artisanal skill.\n- Recognition of complex trade-offs involving surveillance, privacy, and value—highlighted by the analogy of teddy bears representing surveillance trade-offs.\n\n## Policy and Political Responses\n- Concerns about potential political mobilization to freeze or protect a portion of human jobs (possibly half), analogous to bureaucratic or welfare state protections.\n- The likely rise of bureaucratic and legislative pushback, aiming to preserve employment amid fast technological change.\n- Skepticism about the effectiveness and desirability of these interventions, predicting that responses may not be optimal or pleasing.\n\n## Economic Safeguards and Welfare\n- Consideration of the welfare state as a necessary but imperfect \"bargain\" to serve workers during economic transitions.\n- The idea that protecting jobs might be an understandable impulse, but not always the most beneficial over decades.\n\n## New Opportunities and Creative Work\n- AI's productive capacity could enable higher-status, creative, and engaging roles such as marshalling, fueling, and managing AI systems.\n- The potential for entirely new job categories centered around AI, including creative exercises and \"fun\" tasks that leverage human ingenuity.\n\n## Sector-specific Effects\n- Trades, especially highly artisanal or skilled trades, are likely to experience rapid changes in response to AI advancements.\n- The U.S. government could become a significant AI-driven entity, potentially relying on legacy software from the 1960s or 1980s but also where rapid innovation may occur due to national security interests.\n\n## Information Generation and Laundering\n- The primary role for humans may be to interpret, transmit, and refine AI-generated information into usable insights, ensuring it fits into existing human systems.\n- Challenges related to \"laundering\" AI outputs into human-centric systems that are not naturally predisposed to process such information.\n\n## Future Outlook\n- The speed and scale of these changes suggest the possibility of playing new, higher-status societal \"games\" enabled by AI and robotics.\n- The importance of developing good transition models and evidence to avoid chaotic or suboptimal economic adaptation.\n- A recognition that sudden, large-scale change may necessitate novel social, economic, and policy frameworks to manage the transition effectively.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1692,
+      "latencyMs": 13089,
+      "cost": 0.0003333,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

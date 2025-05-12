@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 237,
+  "timestamp": "2025-05-12T18:22:37.818Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Faces:** The notion that trade often lasts longer when there is a human element involved, possibly highlighting the importance of personal connections in commerce.\n\n- **Legal Pushback in Healthcare:** Significant legal and regulatory challenges may arise in the healthcare sector, especially concerning data handling, standards, and standards adjustments needed to accommodate advancements like AGI.\n\n- **Rapid Adoption of Defense Technologies:** Defense-related AI and technological solutions tend to be adopted quickly due to their strategic importance and the desire for national security.\n\n- **Role of Unions and Bargaining:** Workers' unions could play a crucial role in negotiating protections or benefits as AI and automation impact the workforce, potentially advocating for laws or agreements that safeguard jobs.\n\n- **Trade-Offs in Surveillance and Consumer Goods:** The use of items like teddy bears as surveillance devices illustrates trade-offs between consumer comfort or innocence and security or surveillance needs.\n\n- **Media and Cross-Subsidization:** News organizations, journalists, and emerging platforms like Substack face cross-subsidization challenges, which raise questions about the sustainability of journalism and the human element in reporting, especially as AI's role expands.\n\n- **Economic Resilience and Welfare State:** To facilitate free trade and mitigate AI displacement, a robust welfare state is essential to help service workers and others adapt, making economic transitions more manageable.\n\n- **Protection of Jobs via Legislation:** There is a high likelihood of political movements advocating for laws to protect jobs from the disruptive effects of strong AGI, emphasizing the importance of legal frameworks.\n\n- **Legal Challenges for AGI:** AGI encountering obstacles primarily in sectors involving trades, artisanal work, and heavily regulated industries like healthcare, due to data standards and privacy concerns.\n\n- **Economic Changes and Worker Protections:** As AI impacts larger segments of the economy, there will be increased desire to intervene and safeguard workers, driven by social and economic impulses.\n\n- **Art, Orchestration, and AI:** Modern art and creative industries are increasingly collaborative, involving many individuals working under a central creator, reflecting AI's potential to orchestrate complex outputs.\n\n- **Last Sectors Affected by AGI:** Trades requiring manual or artisanal skills—such as electricians, plumbers, gardeners—are likely to be impacted later, as these areas are more resistant to automation.\n\n- **Information Laundering and Human Systems:** Concerning the integration of AI-generated information into human-regulated systems, with government and regulated sectors possibly experiencing AI impacts later due to existing safeguards and standards.\n\n- **Focus on Healthcare and Data Standards:** The healthcare sector, tightly bound by personal data and standards, is expected to be among the last to experience significant AI impacts, due to regulatory complexities and need for data privacy.\n\n- **News and Humanity in AI:** With the rise of AI, questions about maintaining human-centered journalism and the role of human touch in media are vital, especially amid cross-subsidization and evolving business models like Substack.\n\nThis set of enhanced notes encapsulates discussions on economic and technological transitions, legal and societal impacts, and the importance of safeguarding human elements amid rapid AI advancements.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3366,
+      "latencyMs": 26191,
+      "cost": 0.0027729,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

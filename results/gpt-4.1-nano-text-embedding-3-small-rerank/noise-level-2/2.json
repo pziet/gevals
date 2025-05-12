@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 108,
+  "timestamp": "2025-05-12T18:16:29.079Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The conversation emphasizes that trades and human-centered professions tend to have a lasting value, highlighting the importance of retaining the human face in economic activities.  \n- There is discussion about legal pushback in healthcare and other sectors as AI and automation advance, with potential resistance from regulated professions like law and medicine.  \n- The fast adoption of AI tools presents a defense against economic disruptions, but also raises questions about potential trade-offs, such as surveillance and trade-offs in personal privacy, exemplified metaphorically by teddy bears.  \n- Unions and collective bargaining may play a critical role in shaping the transition, advocating for worker protections amid economic change.  \n- The media landscape, including journalism and cross-subsidies, is evolving with AI, raising issues of humanity and integrity, similar to debates about Substack and independent journalism models.  \n- There's recognition that the welfare state can serve as a buffer, especially during rapid economic shifts driven by AI, with some viewing strong social safety nets as essential for maintaining stability and fairness.  \n- The discussion touches on the influence of news and journalism in shaping public perception and the importance of transparent, humane policies during technological transitions.  \n- Overall, the meeting acknowledges the complex trade-offs between technological advancement, regulation, labor, and social welfare, emphasizing that protecting human-centered trades and ensuring equitable policies are crucial as AI continues to impact the economy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3006,
+      "latencyMs": 19421,
+      "cost": 0.0026135,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

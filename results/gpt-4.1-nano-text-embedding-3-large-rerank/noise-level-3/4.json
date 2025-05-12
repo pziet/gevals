@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 225,
+  "timestamp": "2025-05-12T18:22:11.933Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n## Workforce and Economic Impacts of AI\n- The rapid adoption of advanced AI technology poses significant challenges for the workforce, including the potential for a political movement aiming to freeze or protect existing jobs, especially in bureaucratic and service sectors.\n- There is concern about maintaining a balance between automation and human employment, with discussions on whether to protect a portion of jobs through legislative or regulatory measures.\n- The effect of AI is expected to be most profound in artisanal trades and crafts—such as electricians, plumbers, and gardeners—where high-skilled, artisanal work will still be valued.\n- Many of the hardest and most creative jobs, including those involving marshalling AI systems, may become entirely new or significantly transformed, emphasizing the need for new skill sets.\n\n## Legal and Political Pushback\n- Governments and unions may push back against rapid AI deployment to safeguard human jobs and bargaining rights.\n- Legislation could try to limit or slow down the pace of AI integration into critical sectors.\n\n## Defense and Security Considerations\n- AI's relevance to national security is a concern, with rapid technological changes potentially impacting defense industries and security frameworks.\n- Companies with longstanding or legacy software may experience rapid change due to AI influence, especially those involved in high-stakes or high-security contexts.\n\n## Human-Centric Trade-offs and Surveillance\n- Discussions around the trade-offs involved in deploying AI technology, such as surveillance versus the benefits of automation.\n- Symbolic items like teddy bears could be metaphorical representations of the human face in AI deployment—balancing human touch with technology.\n\n## Media and Humanity\n- News outlets and journalists face economic pressures, including cross-subsidies and new business models like Substack, which reflect broader shifts in the media landscape and the importance of maintaining human storytelling amidst automation.\n\n## Future of Human Face and Lasting Trades\n- While many jobs may be automated, the \"trades last\"—human-centric crafts and services—are likely to endure as valuable and high-status roles.\n- The focus remains on balancing technological progress with preserving human dignity and human-centric professions.\n\n## Overall Outlook\n- A complex interplay of economic, social, and legal factors will shape the future workforce, requiring adaptive policies, union negotiations, and careful management of AI's integration into society.\n",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3197,
+      "latencyMs": 26439,
+      "cost": 0.0027022999999999995,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

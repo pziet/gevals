@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 332,
+  "timestamp": "2025-05-12T18:28:13.429Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Welfare State**  \n  The discussion emphasized how freer trade might require the presence of a generous welfare state, as a form of a social bargain. Analogously, for service workers, a welfare-like system could support transitioning into new economic realities, allowing freedom with a safety net.\n\n- **Human-Centered Trades and Meaningful Work**  \n  People inherently desire meaning and salience in their work. There is an expressed preference for human involvement — trades carried out with a human face, implying that fully automated deals mediated purely by AI or algorithms might face resistance.\n\n- **Legal Challenges and Healthcare**  \n  Healthcare is identified as a key sector likely to resist fast adoption of AI due to legal and regulatory pushback, especially regarding personal data and standards. Legal systems and professions (lawyers, medical fields) could serve as significant obstacles to rapid AI integration.\n\n- **Political Resistance and Job Protection**  \n  There is a strong political possibility for movements aiming to “freeze” many human jobs to mitigate the rapid impact of AI technologies. Laws protecting jobs—similar to protections in law and medicine—could emerge to address societal concerns about job displacement.\n\n- **Fast Uptake in Defense Sector**  \n  AI development and adoption might be faster in defense sectors, driven by different priorities and political forces, contrasting with slower uptake in healthcare and regulated industries.\n\n- **Unions and Bargaining Power**  \n  Worker organizations (unions) may play a critical role in bargaining and shaping the response to AI-driven economic transitions, influencing protections and the terms of work moving forward.\n\n- **Trade-Offs: Surveillance vs. Interaction (AI Teddy Bears)**  \n  The concept of \"AI teddy bears\" represents friendly, interactive AI companions enhancing forms of entertainment and engagement, illustrating a potential trade-off between surveillance and humanity in AI applications.\n\n- **Journalism, News, and Economic Models**  \n  The traditional news industry faces challenges with AI integration; journalists and news outlets may require cross-subsidies to sustain their work while preserving humanity and quality in reporting. Platforms like Substack could represent alternative economic models supporting journalistic efforts alongside AI advances.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1583,
+      "latencyMs": 10133,
+      "cost": 0.001154,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 149,
+  "timestamp": "2025-05-12T18:17:44.588Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on Economic and Social Impact of AGI\n\n1. **Trades and Human Element**\n   - AGI is expected to impact trades that require artisanal skills such as electricians, plumbers, and gardeners.\n   - These trades are more resistant to automation due to their hands-on nature and personal touch (\"human face\").\n\n2. **Legal and Regulatory Challenges in Healthcare**\n   - Healthcare presents particular legal pushback due to strict regulations around personal data and standards.\n   - Laws analogous to those in law and medicine may protect certain jobs from strong AGI influence.\n   - The healthcare sector is likely to have a slower uptake of AGI technologies due to these legal concerns.\n\n3. **Fast Uptake in Defense Sector**\n   - Defense is identified as a sector with fast adoption of AGI technologies, possibly due to strategic advantage.\n\n4. **Unions and Labor Bargaining**\n   - There is a high chance of political movements advocating for protection of jobs through unions and legislation.\n   - Bargaining powers and collective action may play a key role in how workers adapt to economic changes driven by AGI.\n\n5. **Trade-offs: Surveillance vs Privacy (Teddy Bears)**\n   - Discussions touched on surveillance trade-offs, metaphorically linked with \"teddy bears,\" possibly referring to comfort vs privacy/security concerns in adopting new technologies.\n\n6. **News and Journalism Economics**\n   - News and journalism face economic challenges, including the need for cross-subsidies to maintain journalistic integrity and humanity.\n   - Platforms like Substack are seen as new models supporting independent journalism with a more human-centered approach.\n\n7. **Welfare State as a Social Bargain**\n   - The welfare state can be viewed as a bargain that supports service workers in a free trade environment.\n   - It helps provide meaning and security in people's daily work lives amidst rapid economic changes.\n\n---\nThese notes summarize the key points linking AGI's economic impact, legal frameworks, labor issues, and societal trade-offs, anchored by the rough notes and supported by relevant discussion excerpts.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3147,
+      "latencyMs": 23796,
+      "cost": 0.0034568,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 60,
+  "timestamp": "2025-05-12T18:15:05.447Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Economic Adaptations and the Welfare State**  \n  - Considerations around the need for a generous welfare state to support the acceptance of free trade. \n  - Potential for greater socio-economic changes to lead to protective measures for workers in various domains.\n  \n- **Impact of AGI on Employment Sectors**  \n  - It's speculated that trades involving skilled labor (e.g., electricians, plumbers) will be among the last areas affected by AGI. \n  - There is a possibility of political movements advocating for legal protections for certain jobs against strong AGI.\n\n- **Healthcare Sector and Legal Challenges**  \n  - Anticipated pushback in the healthcare sector due to changes related to personal data handling and regulatory standards. \n  - The legal landscape may need substantial alteration to accommodate AGI technologies.\n\n- **Human Interaction in Commerce**  \n  - Despite advancement in AI, the preference for human involvement in commerce may remain strong, especially regarding personal transactions.\n\n- **Unions and Bargaining Power**  \n  - The role of unions in negotiations could become increasingly significant in a landscape where AGI impacts employment.\n\n- **Cultural and Ethical Considerations**  \n  - The discussion touched upon the ethical implications of AGI, including the need for balance (e.g., surveillance vs. personal privacy) mirrored in other sectors like media and journalism. \n  - Mentioned the idea of \"surveillance trade-off\" involving public perception and implications for industries producing creative work.\n\n- **Media and Technology**  \n  - The influence of journalism and platforms like Substack in supporting a more humane approach amidst the technological transformations spurred by AGI. \n  - The importance of maintaining human-centric narratives in economic discussions affected by AI advancements. \n\nThese notes encapsulate the essential themes and discussions from the meeting, emphasizing the intersection of technology, economy, labor, and ethics.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1526,
+      "latencyMs": 12595,
+      "cost": 0.0016104,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

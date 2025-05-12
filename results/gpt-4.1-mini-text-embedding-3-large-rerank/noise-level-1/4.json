@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 195,
+  "timestamp": "2025-05-12T18:19:15.860Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Human Role in Trades and Work**  \n  There is an expectation that while AI will perform many tasks, there will still be value and preference for trades and deals carried out with a human face or human proxies. People generally prefer having meaningful roles and interactions in their work, even if AI powers the backend or capital.\n\n- **Legal and Political Pushback in Healthcare and Other Sectors**  \n  Certain sectors such as healthcare, especially those involving sensitive personal data and strict standards, may see strong legal and political resistance to automation and AI-driven disruption. Similar protections might be enacted to preserve human jobs analogous to existing restrictions in law and medicine.\n\n- **Rapid Defense Uptake and Transition Challenges**  \n  The integration and uptake of advanced AI technologies in defense and other strategic sectors may happen quickly, influenced by political winds. Successful transitions require clear examples of good practices to avoid chaotic political outcomes.\n\n- **Unions and Bargaining Power Dynamics**  \n  As AI changes the labor landscape, unions may play a role in bargaining for protections, new welfare state arrangements, or rules that shield certain jobs or industries from rapid AI-driven change.\n\n- **Tradeoffs Between Surveillance and Privacy (Teddy Bears Metaphor)**  \n  There is a trade-off in technology adoption where increased surveillance—sometimes metaphorically illustrated as something innocuous like “teddy bears”—raises concerns around privacy. Balancing technological benefits with human rights remains a critical challenge.\n\n- **News Media, Journalism, and Economic Models**  \n  The news industry and journalists face economic pressures and might need to adopt new models, such as “cross-subsidy” approaches or platforms like Substack, to preserve the humanity and depth of journalism in an AI-influenced world.\n\nThese themes highlight the socio-economic and political complexities accompanying AI adoption, emphasizing human roles, legal frameworks, labor relations, and cultural values.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3109,
+      "latencyMs": 23250,
+      "cost": 0.0033958,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

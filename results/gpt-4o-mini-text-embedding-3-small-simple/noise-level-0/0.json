@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 16,
+  "timestamp": "2025-05-12T18:13:49.185Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### Trades and Workforce\n- There is a belief that **trades will be the last sector affected by advanced AGI** (Artificial General Intelligence), particularly roles like electricians, plumbers, and gardeners due to their inherently human aspects.\n- A significant emphasis was placed on the necessity of maintaining a **human face** in commerce and personal interactions, as people have a strong preference for deals made through human intermediaries.\n\n### Healthcare and Legal Considerations\n- Potential **legal pushback** in healthcare sectors is anticipated, particularly surrounding issues of personal data management and necessary standards that may require reform due to emerging technologies.\n- There is high potential for political movements advocating for protections for jobs within healthcare and other vital services from the impacts of AGI.\n\n### Economic Implications and Social Safety Nets\n- The discussion highlighted the importance of a **generous welfare state** to support free trade and mitigate the adverse effects of automation on workers.\n- The conversation acknowledged that the transition towards incorporating AGI in the workforce could create demands for new laws to protect existing jobs, reminiscent of current legal frameworks in healthcare.\n\n### Union and Bargaining Dynamics\n- Unions may play a critical role in **bargaining for worker protections** in the face of automation and AGI, highlighting the need for organized labor to adapt to technological changes.\n\n### Surveillance and Ethical Considerations\n- The concept of **trade-offs between surveillance technologies** and personal freedoms was brought up, using the metaphor of teddy bears to illustrate these societal dilemmas.\n- The ethical dimensions of AGI implementation, particularly regarding personal data privacy, were discussed as crucial factors influencing public perception and acceptance.\n\n### Media Landscape Evolution\n- The role of journalists and media outlets is transitioning, with notions of **cross-subsidy and support for independent platforms** like Substack being mentioned as key components in the evolving landscape of media and information dissemination.\n\nOverall, the meeting tackled a variety of interconnected themes surrounding the potential societal transformations due to advanced AI, touching on workforce dynamics, legal frameworks, ethical implications, and the shifting media paradigm.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1562,
+      "latencyMs": 17302,
+      "cost": 0.0016967999999999998,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

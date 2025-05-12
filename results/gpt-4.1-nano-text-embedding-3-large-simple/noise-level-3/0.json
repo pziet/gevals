@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 201,
+  "timestamp": "2025-05-12T18:21:30.646Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Economic and Workforce Impacts of AI\n- There is a high likelihood of political movements attempting to freeze or heavily regulate human jobs as AI and automation accelerate, posing a challenge for managing economic transitions.\n- The strongest economic effects are expected in artisanal and trade sectors (e.g., electricians, plumbers, gardening), especially in high-skilled, high-status segments where trust and craftsmanship matter.\n- Certain desk-bound, social jobs that require human interaction, such as council work or specialized services, may persist longer or be among the last to be fully automated.\n- The impact of AI will likely necessitate a reevaluation of social safety measures like the welfare state, making their design and efficiency critical to future economic balance.\n- New kinds of jobs are anticipated, involving marshaling, fueling, and managing AI systems, with a focus on creative and fun exercises that leverage AI’s productive capacity.\n\n### Regulatory and Political Challenges\n- Government regulation, especially from entities like the U.S. government still utilizing outdated software, may influence AI deployment and economic adaptation.\n- There is concern about the speed of economic change and the potential for \"playing higher status games\" enabled by AI, which could redefine social and professional hierarchies.\n\n### Human-AI Interaction and Information Laundering\n- A key role will involve transmitting and laundering AI-generated information into human systems that are not naturally predisposed to process it, such as through journalism, cross-subsidies, and educational channels.\n- Protecting human jobs may involve substantial bureaucratic efforts and legal pushback, especially within healthcare and defense sectors.\n- The news media, including platforms like Substack, play a role in humanizing AI outputs and maintaining societal trust.\n\n### Surveillance, Trade-offs, and Human Face\n- The trade-off between surveillance and privacy (e.g., teddy bears or surveillance devices) will be an ongoing concern, highlighting societal debates on autonomy versus security.\n- Maintaining a human face in trade and public interactions will be crucial, especially as AI systems become more prevalent in trade and service industries.\n\n### Media, Humanity, and Cross-Subsidies\n- Journalism and media are expected to undergo transformations, with some models relying on cross subsidies, raising questions about the integrity and human element in news production.\n- The notion of humanity in media and services will be challenged by AI’s capabilities, prompting discussions on authenticity and societal values.\n\n### Summary\nOverall, the meeting centered on the profound economic, social, and political changes driven by AI advancements, emphasizing the importance of regulation, the potential reshaping of trades, and the critical roles of information management and societal trust in navigating this transition.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1677,
+      "latencyMs": 15737,
+      "cost": 0.00032730000000000004,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 276,
+  "timestamp": "2025-05-12T18:26:56.219Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Highlights\n\n### 1. Economic Changes and Welfare\n- Discussion around the necessity of a generous welfare state to support free trade.\n- Emphasis on making life familiar and acceptable for service workers amidst economic transformations.\n\n### 2. Legal Challenges in Healthcare\n- There is significant legal pushback regarding the integration of AGI in healthcare.\n- Current laws and standards surrounding personal data in healthcare need reevaluation to accommodate technological advancements.\n\n### 3. Transitioning Workforces\n- The least affected jobs by AGI may include trades that require a human touch, such as plumbing and electrical work.\n- Concerns were raised about the pace at which government and large corporations may respond to these changes in employment landscapes.\n\n### 4. Union Negotiations\n- Importance of unions in bargaining for workers' rights as changes unfold within various industries influenced by AGI.\n\n### 5. Surveillance and Privacy Concerns\n- Discussion on the trade-offs between surveillance measures and privacy, likening this to the metaphor of \"teddy bears\" as a symbol of comfort amidst oversight.\n\n### 6. Media and Economic Models\n- Exploration of journalist funding models, discussing concepts like cross-subsidy and platforms such as Substack that strive to maintain journalistic integrity and humanity in reporting.\n\n### Conclusion\nThe meeting highlighted critical intersections between economic changes due to AGI, implications for the workforce, legal considerations in healthcare, and the role of unions and media in navigating these transformations.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3019,
+      "latencyMs": 27406,
+      "cost": 0.0036888,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 322,
+  "timestamp": "2025-05-12T18:28:03.257Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Presence**\n  - The impact of advanced AI is expected to be significant in various economic sectors.\n  - Skilled trades such as electricians, plumbing, gardening, and other artisanal jobs may see rapid changes and maintain high status due to the human element.\n  - These trades may have elements of personalization or craftsmanship that AI cannot fully replicate, preserving human jobs longer.\n  \n- **Legal and Political Responses**\n  - Likely political movements will aim to protect or “freeze” certain human jobs through legal frameworks amidst fast AI-driven changes.\n  - Governments may introduce regulations or welfare state initiatives to support displaced workers.\n  - While welfare states provide imperfect but accepted social bargains, similar models might evolve specifically supporting the workforce impacted by AI.\n\n- **Healthcare and Unions**\n  - The healthcare sector might see legal pushback related to AI-driven automation or changes.\n  - Unions and worker organizations could intensify bargaining efforts to protect jobs and workers’ rights in a rapidly evolving technological landscape.\n\n- **Speed of AI Uptake and Defense**\n  - AI adoption across sectors is expected to be rapid, especially in defense and national security fields.\n  - Some sectors might resist or slow adoption legally or culturally, reflecting tensions between innovation and job preservation.\n\n- **Surveillance and Trade-offs**\n  - The expansion of AI and surveillance technologies creates trade-offs, balancing security or efficiency against privacy and human dignity.\n  - Analogies such as “teddy bears” hint at emotional or human-friendly interfaces/approaches in technology acceptance.\n\n- **News, Journalism, and Economic Models**\n  - The news industry faces pressures to adapt, with journalists potentially relying on new economic models such as cross-subsidies.\n  - Platforms like Substack highlight new modes of journalism that emphasize personal connection and humanity amidst technological shifts.\n  - AI might influence how news is gathered, curated, and distributed, with implications for journalistic integrity and sustainability.\n\n- **Human-AI Collaboration and Transition Roles**\n  - Emerging jobs may focus on managing, fueling, or marshaling AI systems.\n  - Human workers will be essential in interpreting, translating, and integrating AI-generated outputs into existing human systems.\n  - Roles could involve creative interaction with AI to produce new types of work and human-centric value.\n\nThese themes highlight a complex interplay between advanced AI technologies, changing economic structures, worker protections, and cultural adaptations in a near-future economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1636,
+      "latencyMs": 11237,
+      "cost": 0.0012436,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

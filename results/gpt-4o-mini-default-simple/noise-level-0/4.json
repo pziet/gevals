@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 260,
+  "timestamp": "2025-05-12T18:26:05.861Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trades and Human Connection**: There is a belief that trades such as plumbing, electrical work, and gardening will be among the last areas significantly impacted by Artificial General Intelligence (AGI), due to the artisanal and human-centric nature of these professions.\n\n- **Legal Pushback in Healthcare**: Anticipation of substantial legal challenges in the healthcare sector where AGI applications will intersect with personal data and current standards.\n\n- **Rapid Adoption of Defense Technologies**: Recognition of a fast uptake in defense-related applications of AGI, highlighting a proactive stance in integrating advanced AI for national security.\n\n- **Labor and Unions**: Discussion around the role of unions in bargaining and protecting workers’ rights as AGI becomes more prevalent, signaling a need for protective laws similar to those in healthcare and other regulated professions.\n\n- **Surveillance and Trade-offs**: The conversation included metaphors such as \"teddy bears\" representing the balance between surveillance and trade-offs, suggesting a nuanced view on privacy versus safety in the context of AI advancements.\n\n- **Media and Journalism**: Addressed the evolving landscape of journalism, including the economic models supporting news production—such as cross-subsidization by platforms like Substack—and the moral implications of sustaining a human-centric journalism in the face of AI.\n\n## Summary of Views\n\n- It was suggested that a broader welfare state model might be necessary to cushion the societal shifts brought by free trade enabled by AGI, highlighting potential economic disparities.\n  \n- There is optimism that as long as substantial evidence of effective transitions exists, society may choose to protect jobs from AGI impacts, particularly in sensitive sectors.\n\n- The conversation hinted at the idea that governmental and large companies may resist AGI adoption in certain fields, potentially leading to a slower integration process in those arenas. \n\nOverall, the discussion encompassed various dimensions of AGI's impact, including economic, legal, and ethical considerations, reflecting a thoughtful approach to the future of work and society's structure as we incorporate advanced technologies.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1553,
+      "latencyMs": 10652,
+      "cost": 0.0016752,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

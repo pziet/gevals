@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 352,
+  "timestamp": "2025-05-12T18:29:03.084Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Last, Human Face**  \n  Discussion centered on the idea that while many jobs will be automated by AI, some roles involving direct human interaction (\"human face\") may persist longer. This concept ties to maintaining meaningful work for service workers despite technological advancement.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare is likely to resist rapid AI adoption due to regulatory complexities, privacy standards, and legal protections similar to those in law and medicine. Political and legal efforts may aim to preserve human roles and control the integration of AI in sensitive sectors.\n\n- **Fast Uptake in Defense**  \n  There is an implied strong and rapid adoption of AI technologies in defense, though the conversation hints at concerns over political will and regulatory responses influencing the pace and nature of this uptake.\n\n- **Unions and Bargaining**  \n  Anticipated political movements and labor union activities may seek to protect human jobs through legal frameworks, bargaining to \"freeze\" positions and establish a form of welfare to balance technological disruption and worker welfare.\n\n- **Teddy Bears and Surveillance Trade-offs**  \n  Emerging AI-powered consumer products like \"AI teddy bears\" bring up trade-offs between surveillance and entertainment, reflecting societal attitudes about privacy versus AI benefits in everyday life.\n\n- **News, Journalism, and Cross-Subsidy Models**  \n  The future of journalism may see shifts involving AI and new economic models like cross-subsidies through platforms such as Substack. These developments highlight challenges in maintaining humanity and meaningfulness in media amid automation.\n\nOverall, the discussion emphasizes the need for thoughtful political, legal, and social strategies to manage AI’s integration, balancing efficiency with human values and protections.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3062,
+      "latencyMs": 25271,
+      "cost": 0.0033222,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

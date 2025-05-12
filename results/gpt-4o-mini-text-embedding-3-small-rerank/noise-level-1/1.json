@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 32,
+  "timestamp": "2025-05-12T18:14:21.896Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion centered around the societal and economic implications of AI, healthcare, and journalistic integrity amidst technological shifts.\n\n## Key Topics Addressed\n\n### 1. **Human Element in Trade**\n   - The importance of maintaining a human touch in trading practices was emphasized, suggesting that as AI continues to advance, human engagement remains crucial.\n\n### 2. **Legal Challenges in Healthcare**\n   - There are significant legal barriers facing the integration of AI in healthcare, especially regarding job protection and regulation akin to those seen in law and medicine.\n\n### 3. **AI Adoption in Defense**\n   - Rapid uptake of AI technologies in defense sectors was noted, raising questions about the ethical implications and potential repercussions of such advancements.\n\n### 4. **Union Dynamics and Bargaining**\n   - The role of unions in negotiating the future landscapes affected by AI was discussed, highlighting the need for strategies that protect workers' interests in evolving job markets.\n\n### 5. **Technological Trade-offs**\n   - The discussion included the concept of \"teddy bears\" as surveillance tools, suggesting a trade-off between comfort/security and privacy in the context of technological adoption.\n\n### 6. **Journalism and Economic Models**\n   - Concerns about the future of journalism were raised, particularly about the viability of news reporting amid technological transformation and reliance on models like cross-subsidy and platforms such as Substack.\n\n## Conclusion\nThe meeting underscored the interplay between technological advancement, economic upheaval, and social considerations, urging a balanced approach to harnessing AI while safeguarding human interests across various sectors.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3026,
+      "latencyMs": 17657,
+      "cost": 0.0037145999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

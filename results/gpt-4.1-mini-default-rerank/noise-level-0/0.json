@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 356,
+  "timestamp": "2025-05-12T18:29:07.924Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Affected Last by AGI**: The most artisanal and trade-based jobs, such as electricians, plumbers, and gardeners, are likely to experience the impact of AGI the latest. These trades often require human interaction and a 'human face,' making them more resistant to full automation.\n\n- **Legal Pushback in Healthcare and Other Sectors**: There is an anticipated political and legal movement aimed at protecting significant portions of jobs—similar to protections currently in place for law and medicine—from replacement by strong AGI. Legal obstacles are expected to arise as AGI attempts to integrate into regulated sectors.\n\n- **Fast Uptake in Defense**: Certain sectors, particularly defense, are expected to adopt AGI technologies rapidly due to strategic advantages, contrasting with slower adoption in trades and unionized industries.\n\n- **Union Involvement and Bargaining**: Unions may play a crucial role in negotiating protections and bargaining for workers impacted by AI-driven economic changes. Political movements might arise advocating for worker protections analogous to historic precedents.\n\n- **Surveillance and Privacy Trade-Offs ('Teddy Bears')**: The discussion involves a metaphor highlighting the trade-off between surveillance and privacy/security, possibly referencing the cost of monitoring by AI systems to maintain safety or compliance.\n\n- **Media and Journalism Economics**: The rise of AI has implications for news and journalism, where traditional models face disruption. Issues such as cross-subsidization, preserving humanity in reporting, and platforms like Substack are part of the adaptation dialogue to maintain quality journalism in the AI era.\n\nOverall, these points emphasize the complex interplay of economic, legal, social, and ethical issues emerging as AGI technologies evolve and embed deeper into society.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3077,
+      "latencyMs": 23817,
+      "cost": 0.003352,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 262,
+  "timestamp": "2025-05-12T18:26:22.354Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- **Theme**: Economics and AI's impact on the workforce, with a focus on the welfare state and labor dynamics.\n\n## Key Discussions\n1. **Trades and Higher Skills**:\n   - The last sectors where human labor will be essential include skilled trades (e.g., electricians, plumbers).\n   - There is a significant distinction in the demand for high-status, artisanal skills even as AI continues to automate simpler tasks.\n\n2. **Welfare State Implications**:\n   - Discussion emphasized the need for a generous welfare state to support workers faced with job displacement due to AI.\n   - Questions raised about the efficiency and effectiveness of welfare systems in accommodating workers' needs were highlighted. \n\n3. **Legal and Political Factors**:\n   - There may be potential legal push-back against AI implementation in healthcare, which suggests significant implications for labor in sensitive sectors.\n   - The possibility of political movements aimed at preserving specific job categories in the face of rampant AI adoption was noted.\n\n4. **Union Bargaining Power**:\n   - Unions will play a crucial role in negotiating terms for workers as AI reshapes the job landscape.\n\n5. **Trade-Offs in Technology**:\n   - Surveillance technology was likened to the trade-offs faced in societal acceptance of AI—benefits versus privacy concerns.\n\n6. **Media Landscape**:\n   - The concept of cross-subsidization in journalism was discussed, particularly focusing on how platforms like Substack may enable individual journalists while also reflecting the broader economic challenges of the media industry. \n\n7. **Youth Employment**:\n   - Young people may become the primary workforce for harder jobs as economic conditions evolve. The concern over whether current support systems will effectively aid them in navigating this shift is paramount.\n\n8. **Evidence of Economic Change**:\n   - Identifying successful transitions for workers in an AI-driven economy is vital; lack of positive examples could lead to increased calls for intervention to safeguard jobs.\n\n## Conclusion\nThe discussion underscored the complexities of integrating AI into the workforce, addressing the potential for job displacement, the need for a robust welfare system, and the role of unions in advocating for workers' rights amidst rapid technological advancement. The challenges posed by legal frameworks and societal acceptance of surveillance technologies were also emphasized as key areas for future focus.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3121,
+      "latencyMs": 24695,
+      "cost": 0.003993,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

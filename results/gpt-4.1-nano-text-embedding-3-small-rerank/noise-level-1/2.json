@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 113,
+  "timestamp": "2025-05-12T18:16:46.451Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Face of Economy**  \n  The lasting aspect of trades emphasizes maintaining human elements amidst automation and AI integration.\n\n- **Legal Challenges in Healthcare**  \n  Healthcare faces significant legal pushback, especially concerning data handling, privacy standards, and regulations around personal information.\n\n- **Defense Against Rapid AI Adoption**  \n  There is an active debate over implementing legal and regulatory measures to slow down or regulate the swift uptake of AI technologies.\n\n- **Union Influence and Bargaining Power**  \n  Unions are key players in negotiating protections and rights for workers, potentially bargaining against job displacement due to AI.\n\n- **Surveillance Trade-offs** (e.g., Teddy Bears Analogy)  \n  Balancing surveillance benefits with trade-offs in privacy; likened metaphorically to teddy bears — comforting yet intrusive.\n\n- **Media, Cross-Subsidies, and Humanity**  \n  News and journalism face economic pressures, including cross-subsidization models (e.g., Substack), raising questions about the future of humane, independent reporting in the digital age.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2894,
+      "latencyMs": 21461,
+      "cost": 0.0025246999999999995,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

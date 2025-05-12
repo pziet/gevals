@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 306,
+  "timestamp": "2025-05-12T18:27:32.809Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trade and Economic Shifts\n- Trades last, human face — emphasizing the importance of maintaining human elements in trade and profession.\n- Fast uptake of AI and automation affecting industries, especially artisanal trades like electricians, plumbing, and gardening.\n- The depth of economic change may lead to increased legal and political efforts to protect current jobs and trades.\n\n## Welfare State and Social Protections\n- The concept of a generous welfare state as a foundation to support free trade and worker stability.\n- Welfare state acts as a social bargain, ensuring workers' rights and benefits amid rapid technological and economic changes.\n- Potential need for laws and policies to safeguard jobs, akin to protections in law and medicine, against the disruptive influence of strong AGI.\n\n## Legal and Regulatory Challenges\n- Legal pushback in healthcare due to data standards and regulation surrounding personal information.\n- Large organizations with pools of capital and human proxies may dominate automated deal-making and legal negotiations.\n- The legal system might face breakdowns or significant changes as AI tools and automation become more prevalent.\n\n## Human Factors and Societal Impact\n- Human face of trades last and remains important for trust and social bonding.\n- AI-driven changes could influence the nature of human work, with a focus on meaningful engagement and social alternatives such as cross subsidies in journalism and news reporting.\n- The balance between surveillance, trade-offs, and human privacy continues to be a concern, exemplified by discussions around surveillance trade-offs and human-centered considerations.\n\n## Media and Public Discourse\n- Media landscape evolving with cross-subsidization models like Substack, emphasizing humanity and personalized content.\n- News outlets and journalism may face shifts in funding and operation models driven by AI and societal demands.\n\n## Broader Societal and Political Dynamics\n- Potential political movements advocating for job protections as AI and automation threaten existing employment.\n- The ongoing debate about balancing technological progress with social stability and human well-being.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3109,
+      "latencyMs": 19655,
+      "cost": 0.0026496,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 30,
+  "timestamp": "2025-05-12T18:14:11.489Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Trades and Human Aspect**: Emphasis on the importance of keeping a human face in trades. There's a recognition that trades, such as electricians and plumbing, retain a significant human component that is essential in the transition to advanced technology.\n\n- **Legal Challenges in Healthcare**: There is notable resistance from legal frameworks regarding healthcare, particularly as it intersects with new technologies. Discussions highlighted the complexities surrounding personal data and compliance with regulations.\n\n- **Fast Adoption of Defense Mechanisms**: Observations on the rapid uptake of certain defense strategies, possibly in response to the threats posed by advanced AI and its implications for workers.\n\n- **Union Negotiations**: The role of unions in advocating for worker rights and bargaining for equitable outcomes in the changing economic landscape.\n\n- **Public Sentiment on Surveillance**: Tension between the need for surveillance (to ensure safety or compliance) and the potential trade-offs for personal liberties and privacy, exemplified by references to \"teddy bears\" as metaphors for protective yet intrusive measures.\n\n- **Media and Journalism Landscape**: Discussion on the changing nature of journalism, including the economic models, such as cross-subsidies, and the shift towards platforms like Substack that emphasize the protection of humanity and in-depth narratives.\n\n### Economic Considerations\n\n- **Welfare State as a Bargain**: The concept of a welfare state was discussed as a necessary framework to support free trade, ensuring that service workers have ongoing support as economic structures shift. \n\n- **Evidence of Economic Changes**: Importance of gathering and analyzing evidence regarding economic transformations, to better understand the effects on various sectors and advocate for protective measures for workers.\n\n- **Implications of Advanced AI**: The integration of Artificial General Intelligence (AGI) in economic systems could potentially affect not only high-value professions but also traditional skilled trades, prompting discussions about the future of work and regulatory needs.\n\n### Conclusions\n\nThe meeting underscored the interconnectedness of technology, regulation, and welfare, particularly focusing on how these elements affect service workers and the overall labor market. Continued discussions in these areas are essential as the landscape of work and economic policies evolve.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3167,
+      "latencyMs": 22283,
+      "cost": 0.0040349999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 304,
+  "timestamp": "2025-05-12T18:27:32.852Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs in AI and Surveillance:** The discussion touched on how AI involves balancing various societal interests, such as surveillance trade-offs and privacy concerns (e.g., teddy bears as a metaphor for comfort versus monitoring). \n\n- **Human-Centered Trades and Long-lasting Human Roles:** Emphasis was placed on the importance of human face-to-face interactions and artisanal trades like electricians, plumbing, and gardening, especially in high-skilled, high-status niches. These trades may be more resistant to automation.\n\n- **Legal and Policy Pushback Against AI in Healthcare:** There is notable resistance from legal and regulatory fronts, particularly concerning AI deployment in healthcare, reflecting societal concerns over safety, ethics, and regulation.\n\n- **Defense and Fast Adoption of AI Technologies:** Countries and industries are rapidly adopting AI solutions for defense and other sectors, with swift uptake expected due to competitive pressures.\n\n- **Union Bargaining and Political Movements to Protect Jobs:** There is a high likelihood of organized efforts, such as unions, advocating for negotiating protections or even freezing certain human jobs to manage upheavals caused by AI advances.\n\n- **Media, Humanity, and Cross-Subsidies:** News organizations and journalists are navigating issues of funding (e.g., cross-subsidies), with platforms like Substack representing new models that challenge traditional media, raising questions of human role and economic sustainability.\n\n- **Emergence of New, Creative AI Roles:** Novel jobs will likely involve coordinating, fueling, and marshalling AI systems—these are complex and creative tasks. While new job categories will emerge, they may resemble or build upon existing creative exercises.\n\n- **Economic Impact and New Opportunities:** The rapid progression of AI could enable entirely new fields—even higher-status, more engaging work—potentially serving as alternative pursuits or \"higher status games\" enabled by AI productivity.\n\n- **Trade or Artisanal Sectors as Future AI Interfaces:** Skilled trades, which require manual dexterity and nuanced judgment, are expected to endure and evolve, with some high-skill trades gaining prestige. These sectors may serve as archetypes of AI-human synergy.\n\n- **Potential for Regulation and Job Preservation:** Political movements may attempt to freeze or regulate human employment to prevent societal upheaval amid fast-Paced AI development, though such measures may not be implemented in the most effective way.\n\nOverall, the discussion centers on the complex interplay between technological advancement, societal resistance, legal pushback, and the shifting landscape of work, emphasizing the enduring value of human face-to-face interactions and artisanal skills amidst rapid AI integration.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3213,
+      "latencyMs": 21481,
+      "cost": 0.0026764,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 244,
+  "timestamp": "2025-05-12T18:25:52.239Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic Changes and Worker Protection\n- There is a potential rise in political movements aimed at protecting jobs as technological advancements, particularly AI, evolve.\n- Discussions highlight the need for a welfare state, but debates exist over its efficiency and effectiveness for workers.\n- The conversation suggests that supporting young workers is essential, though it may not be the most beneficial long-term strategy.\n\n## Sector Specific Impacts\n- Certain sectors, particularly trades and skilled artisanal jobs, may be less affected by AI due to their human-centric nature. Examples include electricians and plumbers, where a personal touch is valued.\n- Desk-bound roles that require interpersonal communications might also remain crucial, indicating where human jobs will persist.\n\n## Legal and Ethical Discussion\n- Legal pushback is anticipated in the healthcare sector due to the rapid technological changes, raising ethical considerations about job security and workplace dynamics.\n  \n## Union Negotiations\n- There are implications for labor unions as they may need to renegotiate terms in response to these systemic changes brought about by AI and automation.\n\n## Surveillance and Privacy Concerns\n- The conversation touched on trade-offs in societal surveillance, likening it to 'teddy bears'—suggesting a comfort with surveillance if it guarantees other societal benefits.\n\n## Media Evolution\n- The role of journalism was also discussed, mentioning the idea of cross-subsidy models in media akin to platforms like Substack, which blend economic sustainability with ethical journalism and humanity.\n\n## Future Outlook\n- The discussion emphasizes preparing for rapid AI transitions, proposing that companies need to generate positive transition examples to mitigate economic disruptions. The need for new roles that can bridge AI with human systems is critical to navigate these changes effectively.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1484,
+      "latencyMs": 24116,
+      "cost": 0.0015006,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

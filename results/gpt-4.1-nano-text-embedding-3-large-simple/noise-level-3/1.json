@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 202,
+  "timestamp": "2025-05-12T18:21:29.029Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## AI and Economic Changes\n- The rapid adoption of AI is expected to significantly impact various sectors, particularly trades and artisanal jobs like electricians, plumbers, and gardeners.\n- AI's relevance to national security may accelerate changes in key industries, possibly leading to rapid shifts especially in high-skill, high-status trades.\n- New job categories are anticipated, involving tasks like marshalling and fueling AI systems, which require complex, creative efforts.\n- There is speculation about entirely new roles that focus on managing AI-generated information, including laundering data into human systems that are not initially designed to process it.\n\n## Workforce and Social Policies\n- There is concern over protecting jobs in the face of AI-driven automation, with discussions about political movements aimed at freezing or protecting a large portion of human employment.\n- The idea of a \"welfare state\" or a broader social safety net is discussed as a way to balance economic efficiency with worker protection, recognizing that such systems are not always perfect but serve as a reasonable bargain.\n- A potential outcome is a bureaucratic approach to job protection, which may not be efficient or pleasing but could be a response to technological upheavals.\n\n## Human and Human Face in Trades\n- Despite technological advances, trades that require human interaction and artisanal skills will still be valued, especially for their high-status and high-skill elements.\n- Certain work, such as in council or community roles requiring alignment and negotiation, will likely persist as human-only domains.\n\n## Public Discourse and Media\n- News media and journalism face challenges related to cross-subsidization and the ethical trade-offs of surveillance and AI integration.\n- Discussions include the role of Substack and other independent journalism platforms in maintaining human-centric news and humanity-focused reporting.\n\n## Broader Implications\n- The \"lasts\" of human trades and the \"human face\" in work highlight the enduring aspects of human involvement even as AI advances.\n- The importance of thoughtful transition strategies and evidence-based policy making is emphasized to manage economic and social shifts caused by AI.\n\n**Note:** These enhanced notes synthesize core themes from the rough notes and relevant chunks, emphasizing the impact of AI on jobs, society, and policy considerations.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1589,
+      "latencyMs": 14166,
+      "cost": 0.0002921,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

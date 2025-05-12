@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 310,
+  "timestamp": "2025-05-12T18:27:37.313Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview\nThe discussion centered around the societal and economic impacts of advanced AI, particularly AGI, on the workforce, trade, and public policy.\n\n## Key Topics\n\n- **Trade and Human-Centric Approach**\n  - Emphasis on maintaining human presence (\"trades last, human face\") in economic activities.\n  - Concerns about the fast adoption of AI defense mechanisms and their implications.\n\n- **Labor and Welfare**\n  - Potential for AI to disrupt service and artisanal trades such as electricians, plumbers, and gardeners.\n  - Consideration of protective measures, like laws similar to those in law and medicine, to shield a significant portion of existing jobs.\n  - The idea that a robust welfare state may serve as a social contract for workers in the face of automation and free trade, providing economic security despite workforce changes.\n\n- **Legal and Policy Challenges**\n  - Pushback from legal sectors, especially regarding surveillance and trade-offs involved in AI deployment.\n  - The necessity of legal frameworks to regulate and protect jobs as AI roles expand.\n  - Potential influence of large organizations and pools of capital in shaping legal use of AI.\n\n- **Economic and Social Transitions**\n  - The importance of generating positive examples of smooth economic transitions to avoid societal backlash.\n  - Discussions on the influence of AI on the economy, with a focus on artisanal trades and smaller, specialized sectors.\n  - The risk that economic disruptions could lead to political movements advocating protectionism.\n\n- **Media, Humanity, and Public Discourse**\n  - The role of journalism and cross-subsidies in shaping public understanding of AI impacts.\n  - The mention of platforms like Substack as part of the broader conversation around human-centric narratives and accountability.\n\n- **Trade-offs and Surveillance**\n  - Acknowledgment of trade-offs, such as the use of surveillance in AI deployment, including symbolic items like teddy bears representing the need for human touch.\n\n- **Future Outlook**\n  - The expectation that AI will make society wealthier, alleviating some concerns about change.\n  - The ongoing measurement of AI’s economic effects, including reports from Anthropic’s Economic Index, indicating a growing recognition of AI's influence on the U.S. economy.\n\nThis synthesis underscores the complex interplay between technological advancement, legal frameworks, economic stability, and societal values in the evolving landscape of AI and its impact on human work and welfare.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3216,
+      "latencyMs": 21339,
+      "cost": 0.0027026,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

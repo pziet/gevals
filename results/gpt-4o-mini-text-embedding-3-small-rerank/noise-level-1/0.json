@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 31,
+  "timestamp": "2025-05-12T18:14:20.419Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n1. **Human Employment and AI Integration**\n   - Discussion on how AI will impact job markets. The aim is to ensure a human-centric approach to maintain a familiar life for people amidst technological advancement.\n\n2. **Healthcare and Legal Concerns**\n   - There is an ongoing legal pushback regarding the integration of AI in healthcare. Concerns were raised about personal data handling and the standards governing healthcare practices.\n\n3. **Defense and Rapid Adoption**\n   - A focus on the fast uptake of AI technology within defense sectors. This relates to the need for effective integration and consideration of public implications.\n\n4. **Labor Unions and Bargaining Power**\n   - The dynamics between labor unions and the increasingly automated workforce were examined, emphasizing the need for fair bargaining agreements in the context of AI advancements.\n\n5. **Surveillance vs. Freedom**\n   - The concept of \"teddy bears\" was mentioned as a metaphor for technology and surveillance. It highlights the trade-offs society makes between security and personal freedoms.\n\n6. **Journalism and Economic Models**\n   - Discussion on the changing landscape of journalism, particularly the role of journalism as a public good versus a commercial model. Topics included cross-subsidy, the importance of humanity in journalism, and platforms like Substack that influence this space.\n\n### Additional Insights\n- The conversation included explorations of societal responses to AI and potential political movements aimed at protecting jobs. \n- There is an emphasis on generating examples of successful transitions to ensure the benefits of AI are realized while mitigating adverse effects on employment and privacy. \n\n### Conclusion\nThe meeting highlighted key intersections between AI technologies, ethical considerations, labor issues, and the future of societal structures, advocating for a balance between technological advancement and human welfare.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3092,
+      "latencyMs": 20046,
+      "cost": 0.0038477999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

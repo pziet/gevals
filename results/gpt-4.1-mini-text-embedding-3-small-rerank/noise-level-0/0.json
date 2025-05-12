@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 156,
+  "timestamp": "2025-05-12T18:18:04.568Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Trades and Human Elements\n- Trades such as electricians, plumbing, and gardening are likely to be affected last by AGI, preserving a more \"human face\" in these professions.\n- These artisanal and craft-based trades may remain less automated due to their hands-on nature.\n\n## Legal Challenges and Healthcare\n- There is significant legal pushback anticipated, particularly in healthcare.\n- Healthcare involves handling sensitive personal data and stringent standards, which may require comprehensive regulatory adaptations before AGI can be widely integrated.\n\n## Fast Uptake and Defense Sectors\n- Defense sectors are likely to see fast adoption of AGI technologies.\n- There may be moves to legally protect certain jobs or sectors against automation comparable to protections seen in law and medicine.\n\n## Unions and Bargaining Power\n- Unions may play a key role in bargaining for workers' rights and protections in the face of rapid technological change.\n- Political movements could arise to protect a substantive portion of existing jobs through legal means.\n\n## Surveillance Trade-offs and Society\n- The trade-off between surveillance and privacy, symbolized metaphorically by \"teddy bears,\" highlights societal concerns over monitoring in an AI-driven world.\n- Ethical considerations on data privacy and surveillance need to be balanced carefully with technological advancement.\n\n## Media, Journalism, and Humanity\n- Journalism faces challenges with new economic models, including the reliance on cross-subsidies to sustain quality reporting.\n- Platforms like Substack represent new models supporting journalists while maintaining a focus on humanity and thoughtful content.\n- Ensuring the human element and integrity in news production is an important ongoing discussion.\n\n## Economic and Welfare Considerations\n- A generous welfare state may be necessary to accompany free trade and technological transitions, acting as a social safety net.\n- While not always the most efficient, welfare policies are viewed as an acceptable bargain to ensure social stability.\n- Protecting service workers and facilitating good transition examples are crucial to managing the economic impact of AGI.\n\n---\n\nThese notes capture the key themes discussed around the social, legal, economic, and ethical challenges presented by advanced technologies and automation, reinforcing the importance of human-centered approaches and protections.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3157,
+      "latencyMs": 24290,
+      "cost": 0.0034808,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

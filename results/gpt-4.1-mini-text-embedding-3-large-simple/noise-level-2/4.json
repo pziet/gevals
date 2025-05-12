@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 170,
+  "timestamp": "2025-05-12T18:18:18.769Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Human-Centric Trades and Jobs\n- The discussion emphasized that trades and artisanal jobs (e.g., electricians, plumbers, gardening) are likely to be the last sectors to be heavily affected by advanced AI.\n- There is an inherent human desire for salience and meaning in day-to-day work. Human interaction and face-to-face deals will remain important, especially in service and desk-bound jobs that require alignment or agreement.\n- A \"welfare state for service workers\" was proposed as a conceptual framework where even with automation, people retain the option to work or not, preserving human dignity and choice.\n\n## Legal Pushback and Healthcare\n- Healthcare stands out as a domain with strong legal protections likely to resist rapid AI integration, due to stringent standards around personal data and medical laws.\n- There may be political movements to protect a significant fraction of jobs (e.g., half of those existing today) in sectors like healthcare through laws analogous to those seen in medicine and law.\n- Legal frameworks currently act as a barrier to unchecked AI use, but larger economic shifts might increase pressure to protect workers.\n\n## Fast Uptake and Resistance in Defense and Established Sectors\n- Advanced AI adoption has seen rapid uptake in defense-related sectors.\n- Some large, established companies may show strong resistance to AI adoption to protect their market positions.\n- Government, while perceived as slow, may move faster or play a substantial regulatory role in how AI impacts the economy and jobs.\n\n## Role of Unions and Bargaining Power\n- Unions and collective bargaining are relevant in shaping the balance between AI integration and worker protections.\n- Strong collective representation might influence the pace and nature of AI-driven labor changes.\n\n## Surveillance Trade-offs and Privacy Concerns\n- The trade-off between privacy and surveillance was briefly touched upon, symbolized by metaphors like \"teddy bears,\" likely indicating concerns about the human cost of pervasive AI surveillance or data use.\n- The handling and laundering of AI-generated information into traditional human systems pose challenges that affect trust and privacy.\n\n## Journalism, News, and Economic Models\n- The journalism sector is evolving with AI impact, involving cross-subsidies and new platforms like Substack.\n- There is concern about maintaining the humanity and integrity of news and journalism amid technological changes.\n- Advanced AI might reshape economic models and support structures for news media but the human element remains crucial.\n\n---\n\nThese notes synthesize the meeting's exploration of AI's economic impacts, the resilience of human-centered trades, legal and ethical constraints (especially in healthcare), and society's broader bargaining and privacy considerations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1670,
+      "latencyMs": 11051,
+      "cost": 0.0012932000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

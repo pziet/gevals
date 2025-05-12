@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 235,
+  "timestamp": "2025-05-12T18:22:35.833Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Technological Impact on Jobs and Society\n- Anticipate rapid adoption of AI/AGI, with potential measures to protect jobs, such as laws similar to those in healthcare and law, to prevent displacement (Theme: job protection, legal pushback).  \n- Discussions about creating \"legal buffers\" or frozen job sectors (\"bureaucratic amber\") as a political response to technological upheaval (Ref: [5], [11]).\n\n## Political and Social Strategies\n- The importance of political will in maintaining the welfare state in the face of automation and AI-driven economic changes, including debates over legal protections for human jobs (Ref: [11], [5], [10]).  \n- Potential rise of political movements to shield certain sectors, possibly leading to a form of institutionalized job protection.  \n\n## Welfare State and Economic Transitions\n- Similarities drawn between free trade agreements and the welfare state's role in providing stability amid economic shifts, aiming to balance efficiency with social safety nets (\"welfare state for service workers\") (Theme: welfare state, economic transition).  \n- The necessity of large-scale social support systems, like a generous welfare state, especially as AI could automate substantial portions of work, raising questions about societal purpose and human meaning (Ref: [3], [1]).\n\n## Ethical and Legal Considerations in Healthcare and Data\n- Healthcare remains a key sector with high stakes, especially regarding handling personal data, standards, and privacy concerns related to surveillance trade-offs (Ref: [4]).  \n- Regulation issues surrounding AI-generated information, data laundering, and the standards governing AI and human data interactions (Ref: [12]).\n\n## Media, Humanity, and the Role of Journalism\n- Cross-subsidization in media, the importance of journalism, and the societal role of Substack and independent media outlets in maintaining human-centric perspectives amid AI proliferation (Theme: humanity, surveillance trade-off).\n\n## Broader Implications\n- The negotiation between the benefits of AI in increasing prosperity versus the social costs, including potential loss of face-to-face human interactions and the tension between human values and technological efficiency (Theme: human face, trade-offs).  \n- The need for deliberate evidence and positive examples of transitions to avoid chaotic political outcomes driven by uncertainty or insufficient governance (Ref: [6], [10]).  \n\n---\n\n*These notes synthesize discussions around AI's rapid adoption, job protection via legal and political means, the role of the welfare state, regulatory challenges, and societal implications, structured around the core themes highlighted in the rough notes.*",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3294,
+      "latencyMs": 25859,
+      "cost": 0.0027714000000000003,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

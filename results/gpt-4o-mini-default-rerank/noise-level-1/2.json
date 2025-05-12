@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 273,
+  "timestamp": "2025-05-12T18:26:49.329Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Discussion Points\n\n- **Human Element in Technology:** \n  - Emphasis on maintaining a \"human face\" in trades, suggesting a preference for human interaction over automation.\n\n- **Legal Challenges in Healthcare:** \n  - Discussion around potential legal pushback against the integration of advanced technologies in healthcare, particularly concerning data handling and job security.\n\n- **Rapid Adoption in Defense Sectors:** \n  - Notable fast uptake of technological advancements within defense industries, indicating a trend towards quicker integration.\n\n- **Union Negotiations:** \n  - Importance of unions in negotiating terms and conditions in the face of technological changes, ensuring workers' rights are protected.\n\n- **Privacy vs. Surveillance:** \n  - The metaphor of \"teddy bears\" was used to illustrate public sentiment regarding surveillance, weighing the benefits against the trade-offs of privacy.\n\n- **News and Media Dynamics:** \n  - Examination of the intersection between journalism and tech, including cross-subsidization models and platforms like Substack that impact the integrity and humanity of news dissemination.\n\n### Insightful Reflections\n\n- **Future of Work and Economic Models:** \n  - Consideration of how advancements like AI might alter job markets, leading to a possible political movement aimed at protecting specific jobs against automation.\n\n- **Socio-Economic Bargains:** \n  - Discussions suggested a parallel between social welfare systems and labor market adjustments to accommodate technological changes, supporting a balance between free trade and workers' rights.\n\n### Action Items\n\n- Assess strategies for addressing legal frameworks in healthcare as technology evolves.\n- Engage with union representatives to discuss potential impacts of technological advancements on labor agreements.\n- Explore privacy concerns surrounding surveillance technologies and public reception.\n- Investigate the implications of subscription models in journalism on news quality and accessibility.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 2990,
+      "latencyMs": 25872,
+      "cost": 0.003693,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

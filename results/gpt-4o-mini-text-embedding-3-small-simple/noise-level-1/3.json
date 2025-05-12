@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 14,
+  "timestamp": "2025-05-12T18:13:46.867Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nDiscussion centered around the implications of advanced artificial intelligence (AI) on various sectors, including healthcare, labor, and media.\n\n## Key Topics\n\n### 1. **Trade-Offs and Welfare State**\n- Emphasis on the necessity of a welfare state to support the acceptance of free trade.\n- Consideration of how effective transitions between old and new economic frameworks can help protect workers.\n\n### 2. **Legal Implications in Healthcare**\n- Anticipated legal pushback against AI integration in healthcare, primarily due to concerns about handling personal data and the standards surrounding it.\n\n### 3. **Speed of AI Adoption**\n- Observations regarding the rapid adoption of AI technology and its potential to disrupt traditional job markets.\n- Need for clear examples of successful transitions to alleviate public anxiety and political pushback.\n\n### 4. **Union and Bargaining Dynamics**\n- Discussion about the role of unions in negotiating workers' rights in the face of increasing automation and AI implementation.\n\n### 5. **Cultural Observations**\n- Mention of \"AI teddy bears\" as a metaphor for meaningful forms of entertainment and engagement that can emerge from advanced AI.\n- Importance of infusing human elements into AI-generated content and interactions.\n\n### 6. **Media and Journalism**\n- Exploration of the evolving landscape of journalism, focusing on cross-subsidization of content (e.g., Substack) and the need for a human touch to ensure quality and integrity in reporting.\n\n### 7. **Future Considerations**\n- The likelihood of a political movement aiming to safeguard human jobs amid the rise of AI, with comparisons drawn to existing regulations in law and medicine.\n- Addressing existential concerns and feelings of nihilism within academia and professionals regarding the future landscape influenced by AI.\n\nThese notes reflect the core discussions and concerns from the meeting regarding the intersection of AI technology, legal frameworks, labor markets, and societal values.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1537,
+      "latencyMs": 17081,
+      "cost": 0.0016205999999999998,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

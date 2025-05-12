@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 249,
+  "timestamp": "2025-05-12T18:25:49.720Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe discussion revolved around the implications of advanced AI on the economy, particularly focusing on labor, legal frameworks, and the human experience within trade sectors.\n\n## Key Topics Discussed\n\n### 1. **Impact on Trades and Service Workers**\n- There's a notion of a welfare state for service workers where they maintain a balance between work and autonomy. \n- The potential of trade professions (electricians, plumbing, gardening) may experience the effects of AI at different rates compared to other sectors.\n\n### 2. **Legal and Healthcare Challenges**\n- Anticipated legal pushback in sectors like healthcare due to concerns about data handling and personal information standards associated with AI.\n- Reflects the complexity of integrating AI into established legal frameworks and the resistance from professionals who benefit from traditional billing structures.\n\n### 3. **AI Uptake and Defense**\n- Swift adoption of AI technologies may outpace the establishment of adequate protections for workers, leading to a significant transition in labor markets.\n\n### 4. **Union Negotiations**\n- The role of unions in negotiating the balance between automated efficiencies and human labor rights was highlighted as essential in safeguarding worker interests.\n\n### 5. **Surveillance and Privacy Concerns**\n- Discussion centered around the trade-off between the use of AI for surveillance purposes and the rights to privacy, illustrated metaphorically with \"teddy bears\" representing comfort versus invasive oversight.\n\n### 6. **Media and Cross-Subsidization**\n- The journalism landscape is being reshaped, where platforms like Substack represent a cross-subsidy model, reflecting the need for a human touch amidst the growing influence of algorithms.\n\n### 7. **Future Political Movements**\n- There is a predicted rise in political movements aimed at implementing protections for jobs vulnerable to AI displacement, suggesting a shift toward legislative measures similar to those seen in law and medicine.\n\n## Conclusions\n- The meeting underscored the necessity of balancing technological advancements with human values and protections, emphasizing the role of active negotiations and legal frameworks in adapting to the changing economic landscape influenced by AI.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1569,
+      "latencyMs": 21587,
+      "cost": 0.0016974,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

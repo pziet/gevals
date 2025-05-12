@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 198,
+  "timestamp": "2025-05-12T18:19:23.271Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades as Last to be Affected by AGI**  \n  Discussions pointed to the artisanal trades such as electricians, plumbers, and gardeners as sectors likely to experience the impact of AGI last. These roles often require a human face or personal touch, which creates a natural barrier to automation.\n\n- **Legal Pushback in Healthcare Sector**  \n  The healthcare industry is expected to have significant legal obstacles slowing AGI integration, largely due to laws protecting personal data and strict regulatory standards. This may result in slower uptake of AGI technologies within healthcare.\n\n- **Rapid Adoption in Defense Sector**  \n  While some areas have legal hurdles, the defense sector is expected to have a faster AGI uptake, as implied in the context of strategic advantages and technological advancement demands.\n\n- **Unions and Worker Bargaining**  \n  There is anticipation of political and labor movements aiming to protect jobs from automation, analogous to protections in medicine and law. Unions may seek bargaining power to safeguard workers’ interests amidst technological change.\n\n- **Humanity-Surveillance Trade-off Symbolized by ‘Teddy Bears’**  \n  A metaphorical reference to “teddy bears” was discussed in relation to the surveillance trade-off, highlighting concerns about privacy and the human aspects lost or compromised as AI systems become more pervasive.\n\n- **Media, Journalism, and Economic Models**  \n  The financial viability of traditional journalism faces challenges, potentially leading to a cross-subsidy model through platforms like Substack. There was reflection on the human dimension of news and journalism in the AI era, emphasizing the value of maintaining humanity in this sector.\n\n- **Economic and Welfare Context**  \n  The importance of social safety nets such as a generous welfare state was noted to facilitate adaption to freer trade and technological disruption, framing welfare as a necessary bargain to support service workers amid changing economic landscapes.\n\nThese points encapsulate the key themes and concerns about the intersection of AGI with various sectors, legal frameworks, and societal values discussed in the meeting.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3115,
+      "latencyMs": 25000,
+      "cost": 0.0034176,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

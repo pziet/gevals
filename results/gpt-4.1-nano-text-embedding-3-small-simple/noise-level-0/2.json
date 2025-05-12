@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 98,
+  "timestamp": "2025-05-12T18:16:08.227Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Interaction and Face-to-Face Trade\n- Emphasis on maintaining human presence in trades, especially in artisanal and service sectors like electricians, plumbers, gardening, and custom art production.\n- Personal relationships remain crucial, with transactions often mediated by people to uphold trust and preferences.\n\n## Regulation and Legal Challenges\n- Significant legal pushback expected in sectors like healthcare, particularly around handling personal data and standards.\n- Governments may respond faster than anticipated, with established companies possibly facing the greatest resistance to AI regulation.\n- Future laws may need to evolve to address new risks and economic impacts from AGI.\n\n## Economic and Political Implications\n- Larger economic changes may trigger political movements aimed at protecting jobs, potentially legislating protections similar to those in law and medicine.\n- A high likelihood that many jobs will be deemed critical and protected, with some sectors last affected being trades and artisanal jobs.\n- Discussions on whether strong AGI will impact sectors last, with some believing government or certain complex human-centered roles might be the last to experience disruption.\n\n## Defense and Adoption of AI Technologies\n- The importance of \"trades\" and artisanal work as slow adopters of AI, possibly because of their specialized nature.\n- Faster uptake expected in areas involving surveillance, data laundering, and information mediation where integrating AI into human systems presents both opportunities and risks.\n\n## Media, Journalism, and Information Flow\n- Concerns about cross-subsidization in journalism and media, emphasizing the need for sustainability (\"substack\" model).\n- The role of information laundering from AI outputs into human systems to ensure trustworthiness and compliance.\n\n## Trade-offs and Surveillance\n- Trade-offs involve surveillance versus privacy, including potential use of AI to monitor trades and human activities, akin to surveillance bears or teddy bears.\n- Balancing the human face in commerce with technological efficiencies is a recurring theme.\n\n## Summary\n- The impact of AGI will be uneven across sectors, with trades and artisanal services being last affected.\n- Legal and regulatory frameworks will need to adapt swiftly, especially in healthcare and government.\n- Maintaining human-centric interactions remains vital amidst AI integration, with a cautious approach to surveillance and data privacy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1580,
+      "latencyMs": 11139,
+      "cost": 0.00029,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

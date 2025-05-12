@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 330,
+  "timestamp": "2025-05-12T18:28:11.424Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Presence:**  \n  Trades, especially artisanal and hands-on trades such as electricians, plumbing, and gardening, are likely to be among the last sectors heavily impacted by advanced AI. Human involvement remains critical in these domains due to the nature of the work, which often requires physical presence and dexterity.\n\n- **Legal Pushback in Healthcare:**  \n  Healthcare is expected to face significant legal barriers due to regulations around personal data and stringent standards, which could limit rapid AI adoption. Laws analogous to those in law and medicine may emerge to protect jobs and maintain human oversight in healthcare sectors.\n\n- **Rapid Defense Sector Uptake:**  \n  The defense industry is implied to adopt advanced AI quickly, potentially due to strategic advantages and less restrictive regulatory environments compared to other sectors.\n\n- **Unions and Bargaining Power:**  \n  There is an anticipated political movement aiming to safeguard a substantial portion of existing jobs through legal frameworks, supported by unions that bargain to protect workers in the face of AI-driven automation.\n\n- **Surveillance Trade-Off – Teddy Bears Analogy:**  \n  The concept of \"teddy bears\" symbolizes a trade-off involving surveillance, where the benefits of AI technologies come at the cost of increased monitoring or privacy compromises, reflecting societal concerns around data usage and trust.\n\n- **News Media and Journalism Economics:**  \n  Journalistic endeavors face economic challenges, with traditional models requiring cross-subsidization. Platforms like Substack offer new pathways that blend human-centered journalism and economic sustainability, preserving the humanity and meaning of news work in an AI-augmented environment.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1471,
+      "latencyMs": 10687,
+      "cost": 0.0009748000000000001,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

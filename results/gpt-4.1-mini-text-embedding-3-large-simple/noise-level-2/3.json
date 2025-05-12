@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 169,
+  "timestamp": "2025-05-12T18:18:23.828Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from the Meeting\n\n## Trades Last, Human Face\n- The economic sectors affected last by AGI (Artificial General Intelligence) disruption are likely to be artisanal trade sectors such as electricians, plumbers, and gardeners.\n- These jobs require a human element, personal interaction, and have a tangible, physical component, which is difficult for AI to replace fully.\n- There is discussion about aiming for a future where AI handles many tasks, but human roles in trades remain as part of a balanced bargain, akin to a welfare state model for service workers to maintain meaningful work and salience.\n\n## Legal Pushback in Healthcare\n- Healthcare is expected to face strong legal and regulatory resistance to AI takeover.\n- Personal data standards and legal frameworks in healthcare protect jobs and services.\n- Stronger protections analogous to current laws in medicine might be enacted to preserve jobs from AI automation.\n- The legal pushback emerges partly due to concerns about how AI handles sensitive personal information and the need to maintain safety and ethical standards.\n\n## Fast Uptake Defense\n- There is a recognition that certain entities, including large companies and governments, may resist rapid AI adoption to protect economic interests and jobs.\n- Some skepticism exists about how quickly policies or political movements will evolve to protect half of existing jobs with laws against strong AGI impacts.\n- Political movements might arise as reactions to preserve jobs and ensure smooth transitions.\n\n## Unions and Bargaining\n- The idea of workers bargaining collectively, akin to unions, to protect livelihoods in a rapidly automating economy is implied.\n- This can be part of a broader system or welfare approach, supporting human roles and maintaining economic balance amidst AI advancements.\n\n## Teddy Bears, Surveillance Trade-Off\n- The metaphor of “teddy bears” was not explicitly outlined but suggests a discussion on trade-offs between comfort/security and surveillance or monitoring in new AI-driven systems.\n- This might align with concerns regarding surveillance as part of AI integration in human workspaces or services.\n\n## News, Journalism Cross Subsidy, Humanity, Substack\n- Journalism and news industries face challenges with AI disruption but might find models to sustain humanity in reporting.\n- Cross-subsidization and platforms like Substack are mentioned as ways journalists might maintain income and retain human-driven content in an AI-influenced landscape.\n- Maintaining humanity and meaningfulness in journalism is a key concern amid technological changes.\n\n---\n\nThese notes highlight the balance between AI-driven transformation and social, economic, and legal frameworks aiming to preserve meaningful human roles and protect sensitive sectors from rapid automation. The conversation reflects ongoing debates about maintaining solidarity, fairness, and humanity in an increasingly automated future.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1675,
+      "latencyMs": 16168,
+      "cost": 0.0013012000000000002,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 226,
+  "timestamp": "2025-05-12T18:22:11.599Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Main Themes:\n- **Trade and Human Element**: Emphasis on the enduring importance of human connection and representation in trade relations, highlighting the \"trades last, human face\" concept.\n- **Legal and Regulatory Challenges**: Notable resistance from legal frameworks, especially within healthcare sectors, where laws are pushing back against rapid AI adoption and automation.\n- **Defense of Rapid AI Adoption**: The \"fast uptake defense\" suggests arguments favoring quick integration of AI technologies to capitalize on economic gains and efficiencies.\n- **Union Dynamics and Bargaining**: Ongoing negotiations and bargaining processes involving unions, likely focusing on worker protections amid technological change.\n- **Trade-offs in Surveillance and Consumer Products**: The example of \"teddy bears\" represents surveillance trade-offs—balancing consumer comfort and data security.\n- **Media and Humanity**: Challenges posed by cross-subsidies in journalism and alternative media such as Substack, raising questions about the human impact of digitization and AI, and the societal value of news.\n- **Economic Impact of AI and Trades**: AI is expected to significantly affect artisanal trades like electricians, plumbing, and gardening, with a tentative focus on how AI might revolutionize or threaten these sectors.\n- **Welfare State and Free Trade**: The discussions suggest that a generous welfare state is necessary to sustain free trade, serving as a social buffer for service workers amid economic shifts.\n- **Trade Lasts, Human Face**: Despite technological changes, maintaining human aspects in trade and services remains a key concern.\n- **Legal Resistance and Industry Power**: Larger, established companies and legal institutions may resist AI-driven changes, impacting the pace and nature of adoption.\n- **Government and Corporate Roles**: Governments may adapt rapidly, sometimes outpacing expectations, with large corporations holding significant influence and resistance to innovation.\n- **Economic Indicators and AI Effects**: The Anthropic Economic Index highlights ongoing measurement of AI's impact on the US economy, indicating a broad recognition of AI's transformative potential.\n- **Trade-offs and Ethical Considerations**: The surveillance trade-offs and societal implications (e.g., \"teddy bears\") reflect ethical considerations in deploying AI and surveillance.\n- **Media, Humanity, and Cross-Subsidy**: The media landscape, including Cross-Subsidy models and platforms like Substack, underlines tensions between commercialization, human storytelling, and the dissemination of truthful information.\n\n**Summary:**  \nThe meeting explored the complex interplay of technological advances, regulation, economic shifts, and societal values. While AI offers significant benefits, especially in artisanal trades and economic productivity, legal pushback, union negotiations, and ethical trade-offs remain critical hurdles. Maintaining the human face in trade, media, and societal institutions continues to be a central concern amid rapid AI adoption and economic transformation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3292,
+      "latencyMs": 25409,
+      "cost": 0.0027210999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

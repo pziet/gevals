@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 233,
+  "timestamp": "2025-05-12T18:22:29.256Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs and Human Element**: Emphasis on maintaining a human face in trades and economic interactions, highlighting the importance of trust and human-centered approaches amidst technological advances.\n\n- **Legal Challenges in Healthcare**: There is significant pushback from legal and regulatory frameworks, particularly in healthcare, where data privacy and standards around personal information pose barriers to AI deployment and innovation.\n\n- **Rapid Adoption and Defense Mechanisms**: AI technologies are being adopted swiftly across sectors; there's a need for defensive strategies to manage risks and ensure stable integration.\n\n- **Union Influence and Bargaining Power**: Labor unions are actively involved in negotiations, bargaining for workers' rights and protections in a changing AI-influenced economy.\n\n- **Surveillance Trade-offs and Cultural Aspects**: The use of surveillance (e.g., teddy bears or other means) involves trade-offs between safety, privacy, and societal norms, reflecting broader debates on surveillance versus individual freedom.\n\n- **Media and Humanity**: News organizations and journalists face challenges related to cross-subsidization, the implications of AI-generated content, and preserving human-centric journalism—similar to models like Substack that emphasize independent, human-driven media outlets.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3042,
+      "latencyMs": 22114,
+      "cost": 0.0026893,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

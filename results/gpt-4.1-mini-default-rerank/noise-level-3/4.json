@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 345,
+  "timestamp": "2025-05-12T18:28:46.947Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human-Centric Jobs Last to Change:** AI and automation are expected to impact many job sectors, but the most artisanal and hands-on trades (e.g., electricians, plumbers, gardeners) are likely to be the last to undergo significant change due to the value of human skill and personalized service. These jobs often require a \"human face\" and personal interaction that AI cannot easily replace.\n\n- **Legal and Political Pushback in Healthcare and Other Sectors:** There is a strong likelihood of political movements and legal efforts to protect human jobs, particularly in bureaucratic and regulated sectors such as healthcare. Laws may be enacted to freeze or slow the replacement of human workers to manage the rapid societal changes brought by AI.\n\n- **Fast Uptake in Defense and National Security:** Certain sectors, especially defense and national security, are projected to rapidly adopt AI technologies due to their strategic importance, possibly faster than other areas.\n\n- **Role of Unions and Bargaining Power:** Unions and organized labor are expected to become prominent actors in negotiating and bargaining for worker rights, protections, and job security amid AI-driven transformations.\n\n- **Surveillance Trade-offs Symbolized by 'Teddy Bears':** The metaphor of \"teddy bears\" may represent the trade-offs society faces between surveillance and privacy in the AI era, balancing human comfort and security with the potential loss of privacy.\n\n- **News and Journalism Industry Changes:** The journalism sector is facing economic strain, often relying on cross-subsidies to sustain human-centered reporting. Platforms like Substack show promise in supporting independent journalists to maintain \"humanity\" in news production, emphasizing the importance of human storytelling and authenticity in media.\n\n- **Welfare State as a Worker Bargain:** Welfare systems remain crucial as part of the social contract to support workers transitioning through these changes, even if not the most efficient model. A generous welfare state can serve as a necessary bargain to manage economic disruptions.\n\n- **Challenges and Opportunities for New Jobs:** Though many existing jobs may be transformed or lost, new jobs are likely to emerge around AI management, creative AI collaboration, and marshalling AI systems. These roles might be more creative and intellectually engaging than traditional manual or bureaucratic work.\n\n- **Risk of Social and Economic Disruption:** Without clear examples and paths for smooth transitions, there is a higher risk of large-scale economic and social upheaval as AI continues to reshape the economy. Companies and policymakers need to actively demonstrate good transition strategies.\n\nThese notes reflect the complex interaction between AI technology and socio-economic structures, emphasizing the persistence of human roles in certain domains, legal and political reactions, and the need for thoughtful management of this transition.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3168,
+      "latencyMs": 27952,
+      "cost": 0.003516,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 117,
+  "timestamp": "2025-05-12T18:16:50.104Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trade and Human Presence\n- Trades are expected to last longer due to the human face still being valuable in industries such as artisanal trades, plumbing, electrical work, and gardening.  \n- The human element remains crucial in these sectors, influencing the longevity of human involvement in trade-related jobs.\n\n## Legal and Regulatory Challenges in Healthcare\n- The healthcare sector faces significant legal pushback regarding AI integration, especially around handling personal data and existing standards.\n- Major changes to regulations and standards are likely necessary to accommodate AI advancements in healthcare.\n\n## Defense Mechanisms and Market Uptake\n- There is a swift adoption of AI in defense, which requires careful management and strategic planning.\n- The pace of AI uptake could provoke regulatory or political responses to protect jobs, especially in vulnerable sectors.\n\n## Unions, Bargaining, and Worker Protection\n- Unions might play a key role in bargaining for worker rights and job protection as AI impacts employment landscapes.\n- Evidence suggests there is increasing desire to protect workers across various domains amid rapid technological changes.\n\n## Surveillance Trade-offs and Ethical Considerations\n- Concerns around surveillance trade-offs, exemplified by imagined scenarios like teddy bears, highlight ongoing debates about privacy versus safety/security.\n\n## Media, Humanity, and Funding\n- The media landscape, including platforms like Substack, may explore cross-subsidy models and new narratives around humanity’s relationship with AI.\n- Journalistic and media ecosystems could be influenced by economic shifts driven by AI developments.\n\n## Broader Economic and Societal Impact\n- Large-scale economic changes may lead to political movements aimed at protecting significant portions of the workforce.\n- AI's impact is expected to be strongest in trades and artisanal sectors, with later effects seen in more desk-bound service industries.\n\n## Summary\nThis meeting discusses the intersection of AI advancements with legal, economic, and societal factors, emphasizing the lasting role of human presence in trades, challenges in healthcare regulation, the importance of union bargaining, and the broader implications for employment and privacy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3066,
+      "latencyMs": 20118,
+      "cost": 0.0025865999999999997,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

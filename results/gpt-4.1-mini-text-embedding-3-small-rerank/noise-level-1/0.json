@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 151,
+  "timestamp": "2025-05-12T18:17:53.620Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on AGI and Societal Impact\n\n- **Human Element in Trades**: Emphasis on maintaining a \"human face\" in trades and jobs despite increasing automation by AI; people desire meaningful and salient work.\n\n- **Legal Challenges and Healthcare**: Notable legal pushback expected in sectors like healthcare. This includes managing personal data and stringent standards that may protect jobs from rapid automation.\n\n- **Fast Uptake in Defense Sector**: The defense industry is likely to experience rapid adoption of AI technologies, driving significant changes in that area.\n\n- **Role of Unions and Bargaining Power**: Unions may play a critical role in negotiating protections for workers as automation advances, potentially preventing drastic job losses.\n\n- **Trade-offs Involving Surveillance and Privacy**: Discussions touched on surveillance trade-offs, exemplified by metaphors like \"teddy bears,\" balancing privacy concerns with technology benefits.\n\n- **Media and Journalism Economics**: The economic model of journalism is evolving, with cross-subsidies playing a role; platforms like Substack are noted for their impact on journalistic humanity and viability.\n\n- **Political and Legal Movements to Protect Jobs**: There is a high chance of political efforts to freeze or protect significant numbers of jobs, similar to legal protections in law and medicine, to mitigate social disruption from powerful AI.\n\n- **Economic Welfare Context**: The welfare state and its role in supporting service workers during transitions to AI-driven economies was discussed, highlighting the desire for meaning in work alongside economic support.\n\n- **Information Integration Challenges**: Integration of AI-generated information into human systems raises concerns about how governments and organizations process and act on such data.\n\nThese points collectively outline the multifaceted impacts of advanced AI and AGI on society, emphasizing the balance between technological progress, legal frameworks, human dignity in work, and economic restructuring.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3124,
+      "latencyMs": 22589,
+      "cost": 0.0034158,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

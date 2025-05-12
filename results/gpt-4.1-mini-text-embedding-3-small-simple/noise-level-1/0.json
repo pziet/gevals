@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 131,
+  "timestamp": "2025-05-12T18:17:07.441Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Welfare State Balance**  \n  There was discussion about the need for a balanced approach to free trade. The idea is that a generous welfare state can be an acceptable bargain for freer trade, acting as a form of social protection for service workers. This can help individuals feel meaning and stability in their work even amid changes brought by AI.  \n\n- **Legal Pushback in Healthcare**  \n  Healthcare is identified as an area likely to see significant legal resistance to AI. This is due to issues around personal data, established legal standards, and strong regulatory frameworks that protect human roles in sensitive areas.\n\n- **Fast Uptake in Defense and Other Sectors**  \n  The pace of AI adoption, especially in defense and various bureaucratic roles, could trigger political movements aimed at \"freezing\" certain human jobs to manage political concerns related to rapidly evolving AI capabilities.\n\n- **Role of Unions in Bargaining**  \n  Unions and collective bargaining could play a key role in negotiating transitions within the workforce, providing a mechanism for protecting workers’ interests as automated systems become more prevalent.\n\n- **AI “Teddy Bears” and Surveillance Trade-offs**  \n  The concept of \"AI teddy bears\" was mentioned as a metaphor for AI-enabled products that blend entertainment, comfort, and economic participation. These products raise questions about the trade-off between surveillance and privacy, as they collect significant personal data.\n\n- **News, Journalism, and Economic Models**  \n  The future of journalism could involve novel financial models such as cross-subsidies through platforms like Substack, aiming to preserve the humanity and meaningfulness of journalistic work in a changing economic landscape dominated by AI influences.\n\n- **Human Face and Meaning in Work**  \n  There is a recurring theme of preserving a \"human face\" in economic interactions and work, emphasizing the importance of human mediation and meaning in economic and social activities despite increased automation.\n\nThese points reflect concerns and hopes for managing economic, legal, and social transitions in the age of advanced AI.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1558,
+      "latencyMs": 12510,
+      "cost": 0.0011140000000000002,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

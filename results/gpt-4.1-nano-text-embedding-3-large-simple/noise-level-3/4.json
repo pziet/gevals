@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 205,
+  "timestamp": "2025-05-12T18:21:30.727Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic Impact of Advanced AI and Job Security\n- Rapid AI advancements may lead to significant changes in the workforce, especially affecting trades and artisanal jobs like electricians, plumbers, and gardeners.\n- There is concern about protecting jobs through political movements, potentially resulting in policies to \"freeze\" human employment or bureaucratic interventions, which might not be effective long-term.\n- A high likelihood exists of governments or societies implementing measures to preserve a certain percentage of human jobs due to political pressures.\n\n## Human-AI Interaction and Trade-offs\n- The \"trade last, human face\" point emphasizes the enduring importance of human touch in services, especially where personal interaction is critical.\n- Jobs involving marshalling, fueling, and managing AI systems are expected to emerge as challenging but high-value roles, including creative tasks like designing prompts or orchestrating AI outputs.\n- Laundering information from AI into human systems will become a vital role, ensuring AI-generated data is integrated appropriately and ethically.\n\n## Legal and Ethical Challenges\n- There is likely to be legal pushback, especially within healthcare, as AI's rapid adoption raises concerns about transparency, accountability, and human oversight.\n- The surveillance trade-off (e.g., teddy bears) highlights ongoing debates about privacy versus safety and convenience.\n\n## Defense and National Security\n- Rapid technological shifts, particularly in AI, are relevant to national security, with some industries and sectors (like high-skilled trades) potentially experiencing more rapid change.\n- The US government might act as a major AI developer or adopter, utilizing outdated software from earlier decades, indicating institutional lag but strategic importance.\n\n## Media, Humanity, and Subscriptions\n- Discussions pointed to the role of journalism, cross-subsidies, and the evolving landscape with platforms like Substack, emphasizing that media’s survival might depend on new economic models that balance humanity and profit.\n- The idea of \"news\" and \"journalist cross subsidy\" suggests innovative funding approaches essential to sustain high-quality information dissemination in an AI-driven era.\n\n## Societal and Cultural Shifts\n- As AI transforms work, society might focus on playing \"higher status games\" and engaging in creative, fun activities that leverage AI's capabilities.\n- The presence of toys or symbols like teddy bears can symbolize the cultural dimension of AI—balancing the trade-off between surveillance and comfort or human connection.\n\n## Closing Reflection\n- The pace of change is expected to accelerate swiftly, and the ability to adapt may define future societal success.\n- Whether through new jobs, policies, or cultural shifts, society is likely to face complex decisions balancing technological benefits with ethical, legal, and social considerations.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1675,
+      "latencyMs": 15836,
+      "cost": 0.0003265,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

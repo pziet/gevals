@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 120,
+  "timestamp": "2025-05-12T18:16:57.050Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Face:** The longevity of human involvement in trades underscores the importance of maintaining the human element in economic and professional interactions.\n\n- **Legal Pushback in Healthcare:** There is notable resistance from legal frameworks concerning AI and automation in healthcare sectors, potentially influencing adoption and regulation.\n\n- **Fast Uptake Defense:** Industries are adopting new AI technologies rapidly, prompting discussions on how to defend or regulate this swift integration effectively.\n\n- **Unions and Bargaining:** Worker unions are actively engaging in bargaining processes, which may be impacted by AI-driven automation and the acceleration of technological change.\n\n- **Trade-offs in Surveillance and Consumer Comfort (e.g., Teddy Bears):** The use of surveillance technology, exemplified by symbolic items like teddy bears, involves balancing consumer privacy and safety with trade-offs in human interaction.\n\n- **Media and Cross-Subsidization (e.g., News, Journalism, Substack):** The journalism industry faces challenges related to cross-subsidization, the shifting landscape of media, and discussions around human-centered news dissemination versus AI-generated content.\n\n- **Economic and Political Dynamics:** Larger economic shifts may trigger protective measures, such as legislation to safeguard jobs, similar to laws in medicine and law against strong AI impacts.\n\n- **Transition and Evidence:** Adequate examples of smooth AI transitions are crucial for social acceptance; lack of positive evidence may foster resistance or political movements aimed at protecting employment.\n\n- **AI’s Impact Timing and Last Sectors Affected:** Artisanal trades (electricians, plumbers, gardening) are likely to experience AI influence later than other sectors, given the complexity and human touch required.\n\n- **Legal Obstacles to AI Adoption:** The strongest legal barriers to AI deployment may be found in sectors with complex legal requirements, like healthcare and artisanal trades.\n\n- **Trade-offs and Surveillance:** Surveillance tools, potentially embodied symbolically (e.g., teddy bears), involve trade-offs that need balancing regarding privacy, safety, and human interaction.\n\n- **AI in Media and Human Interaction:** The shift in content creation and dissemination by AI influences journalism and media industries, with cross-subsidization and public trust considerations.\n\n- **Overall Outlook:** The discussion emphasizes the importance of thoughtful regulation, safeguarding employment, and understanding where and how AI will impact the economy and society last or hardest.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3131,
+      "latencyMs": 19079,
+      "cost": 0.0026122999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

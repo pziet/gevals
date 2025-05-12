@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 324,
+  "timestamp": "2025-05-12T18:28:09.590Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**  \n  The artisanal and skilled trades, such as electricians, plumbing, and gardening, may be the last sectors significantly impacted by AI. These roles often require a human face and presence, providing a unique value beyond automation. Within these trades, there are high-status areas where people seek artisanship for quality and personal touch.\n\n- **Legal and Political Pushback in Healthcare and Employment**  \n  There is a strong likelihood of political movements aimed at freezing or protecting a significant number of human jobs from automation. This legal resistance may create bureaucratic barriers as society struggles to address the rapid changes introduced by powerful AI technology.\n\n- **Rapid Defense and Security Adoption**  \n  AI is highly relevant to national security, which may drive fast uptake and integration in defense sectors. This urgency may set a precedent for the speed at which AI impacts other industries.\n\n- **Unions and Bargaining Power**  \n  Worker organizations may leverage collective bargaining to protect jobs, wages, and working conditions amid technological disruption, reflecting a broader social negotiation between automation and labor.\n\n- **Surveillance and Privacy Trade-offs**  \n  The metaphor of \"teddy bears\" illustrates the trade-offs between comfort or convenience provided by AI and the increase in surveillance and privacy concerns that come along with that.\n\n- **Journalism, News, and New Economic Models**  \n  The future of news and journalism may evolve toward models that include cross-subsidies, potentially supported by platforms like Substack. This shift emphasizes preserving the humanity and integrity of journalism in an AI-influenced economy.\n\n- **Human-AI Collaboration and New Jobs**  \n  New roles will emerge centered on managing, fueling, and creatively working with AI systems. These jobs may involve complex tasks like translating AI-generated data into formats usable by humans or engaging in fun, creative exercises with AI outputs.\n\n- **Welfare State and Economic Adjustments**  \n  There is debate about whether a generous welfare state is necessary to protect workers during transitions prompted by AI. While it may not be the most efficient system, it could be a pragmatic social bargain to support displaced workers and maintain societal stability.\n\n- **Information Transmission and Systems Integration**  \n  A crucial future job function involves \"laundering\" or translating AI-generated information into existing human systems that may not be prepared to handle such data directly, ensuring smooth integration and usability.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1628,
+      "latencyMs": 15358,
+      "cost": 0.0012308,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

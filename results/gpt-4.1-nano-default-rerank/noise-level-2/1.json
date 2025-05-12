@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 307,
+  "timestamp": "2025-05-12T18:27:34.794Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Face**: Emphasis on the lasting nature of trade and maintaining a human presence or face in economic exchanges, possibly to preserve trust and social bonds.  \n  \n- **Legal Pushback on Healthcare**: Anticipated legal resistance in the healthcare sector as AI and automation potentially disrupt traditional practices, raising questions about regulation and human oversight.  \n  \n- **Fast Uptake of Defense Mechanisms**: Rapid adoption of defensive strategies in response to AI advancements, highlighting the importance of quick adaptation to technological changes.  \n  \n- **Unions and Bargaining Power**: The role of unions in negotiating and bargaining amidst automation, possibly to protect worker rights and ensure fair transitions in the changing economy.  \n  \n- **Trade-offs in Surveillance (\"Teddy Bears\")**: The implicit trade-offs between user privacy and surveillance, symbolized by \"teddy bears,\" which indicates balancing human-centric services with data collection.  \n  \n- **Media and Cross-Subsidies (\"News, Journalist, Substack\")**: Shifts in the media landscape, emphasizing how cross-subsidization (e.g., journalism, Substack) impacts the discussion of humanity and information dissemination in the AI era.  \n  \n- **Welfare State and Free Trade**: The analogy that a generous welfare state supports free trade, acting as a safety net for service workers affected by globalization and automation. This can be viewed as a form of social insurance, maintaining stability amid economic shifts.  \n  \n- **Implication for Service Workers**: The welfare state or social protections serve as a buffer (\"welfare state for service workers\"), helping them adapt to the evolving job landscape influenced by AI and technological change.  \n  \n- **AI's Impact on Trades and Artisans**: AI and AGI will significantly affect trades requiring artisanal skills, such as electricians, plumbers, and gardeners, potentially transforming these fields.  \n  \n- **Legal and Economic Constraints**: The likelihood of laws resembling healthcare or medical laws being applied to protect certain jobs or regulate AI use, possibly leading to political movements aimed at job protection.  \n  \n- **Transition Challenges and Evidence**: The importance of generating positive examples of economic and social transitions to prevent breakdowns; larger economic changes tend to invoke stronger protective responses.  \n  \n- **AI's Effect on the Economy**: The introduction of structures like the Anthropic Economic Index to measure AI's impact on the US economy, indicating ongoing efforts to understand and manage AI-driven economic shifts.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3240,
+      "latencyMs": 20691,
+      "cost": 0.0027206999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

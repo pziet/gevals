@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 289,
+  "timestamp": "2025-05-12T18:27:05.217Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of Economic and Social Impacts of AI and Trade\n- The discussion emphasizes the analogy of trade being a \"welfare state\" for service workers—allowing flexibility and reduction of unnecessary labor while maintaining social meaning.\n- AI's influence on the economy is expected to shape labor dynamics, with strong effects on trades, artisanal jobs (like electricians, plumbers, gardeners), and possibly desk-bound, interpersonal roles such as sales and negotiation.\n\n## Legal and Regulatory Challenges\n- There is significant legal pushback against AI in healthcare and other highly regulated sectors, especially concerning personal data standards and standards of care.\n- Strong opposition from lawyers historically encountered by AGI applications, as legal professionals seek to preserve high fees and control over information flows.\n- Potential for governments to enact laws protecting a substantial portion of jobs—similar to protections in medicine and law—aiming to prevent AI-driven displacement.\n\n## AI Adoption in Different Sectors\n- The strongest legalized use of AI likely pertains to industries with existing regulatory frameworks, like healthcare, and the handling of sensitive personal data.\n- Resistance is anticipated in power structures such as large corporations and government, which may oppose rapid AI integration to preserve economic control.\n- Certain artisanal and service trades could be early adopters due to their manual, craft-based nature, while highly interpersonal desk jobs might be last due to the necessity of human interaction.\n\n## Human and Social Considerations\n- People value meaningful work and social salience; AI and trade-offs may shift how societies balance automation with human purpose.\n- There is an underlying concern about societal nihilism and angst among high-achievers and academia, reflecting fears of obsolescence and loss of purpose.\n- The conversation hints at a future where AI enables wealth generation that could make life seem \"familiar\" and manageable despite extensive automation.\n\n## Cultural and Media Factors\n- Surveillance trade-offs are discussed alongside symbolic items like teddy bears, hinting at the social dimensions of AI deployment.\n- The role of journalism, cross-subsidies, and platforms like Substack are touched upon, possibly indicating media's role in mediating AI's impact on information and human connection.\n\n## Summary\n- Overall, the meeting explores the complex interplay between technological advancement, legal regulation, economic adaptation, and human values. Protecting workers, navigating legal frameworks, and understanding sector-specific impacts are central themes as AI integration progresses.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1631,
+      "latencyMs": 8968,
+      "cost": 0.00030770000000000005,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

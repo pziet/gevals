@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 250,
+  "timestamp": "2025-05-12T18:25:47.813Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n- **Trades Last, Human Face**  \n  There's a belief that trades, including artisan roles such as electricians and plumbers, will be less impacted by AGI compared to other sectors. The human interaction and communication required in these roles are essential, suggesting that they may endure longer amid technological advancements.\n\n- **Legal Push Back in Healthcare**  \n  The healthcare sector may face significant legal challenges influenced by AGI, especially concerning personal data handling and compliance with existing standards. Resistance may arise from professionals who benefit from high pricing structures and fear competitive pressure from AI.\n\n- **Fast Uptake in Defense**  \n  The discussion highlighted an expectation for a rapid uptake of AGI in defense sectors, where the incorporation of technology may occur more swiftly compared to services heavily reliant on human interactions.\n\n- **Unions and Bargaining Power**  \n  As job markets shift due to AI, there is concern about the need for organized labor, such as unions, to bargain on behalf of workers and address job protections against the disruptions caused by automation.\n\n- **Teddy Bears and Surveillance Trade-offs**  \n  The metaphor of \"teddy bears\" was used to illustrate the trade-offs between comfort and the surveillance implications inherent in the adoption of AI technologies. This represents a broader societal conversation about privacy and technology.\n\n- **News, Journalist Cross-Subsidy**  \n  The conversation touched on media and the evolving role of journalists amid AI. The mention of \"cross-subsidies\" reflects the changing landscape of journalism as platforms like Substack offer new business models that balance profitability with maintaining humanity in reporting.\n\n## Overall Sentiment\nThe meeting underscored the complexities of integrating AI across various sectors, particularly in balancing economic efficiency with the need for human meaning and connection in work. Participants shared varied predictions about the pace of AGI adoption, the role of organized labor, and the legal frameworks that will underpin future technological advancements.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1542,
+      "latencyMs": 19681,
+      "cost": 0.0016326,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

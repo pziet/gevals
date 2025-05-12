@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 360,
+  "timestamp": "2025-05-12T18:29:14.607Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting Discussion\n\n- **Trades affected last by AI:**  \n  It is anticipated that trades, particularly artisanal and hands-on professions such as electricians, plumbers, and gardeners, will be impacted last by strong AI systems. These roles have a “human face” aspect that might be slower to be automated.  \n\n- **Legal pushback in healthcare:**  \n  Healthcare is identified as a domain likely to experience significant legal and regulatory obstacles to AI adoption. This stems from privacy concerns, management of personal data, and established standards that would require modifications for AI integration.\n\n- **Fast uptake in defense sector:**  \n  The defense sector is expected to adopt advanced AI technologies rapidly, given strategic interests and government involvement, although the government itself might act cautiously or with deliberate pacing.\n\n- **Role of unions and bargaining:**  \n  There is a political and social possibility that movements or unions may push to protect existing jobs through laws and bargaining, similar to protections in law and medicine. This could result in attempts to shield a substantial portion of current jobs from AI disruption.\n\n- **Trade-offs with surveillance and privacy (\"Teddy bears\" metaphor):**  \n  Discussion included trade-offs involving increased surveillance as part of AI implementation. This surveillance might be a form of compromise or trade-off to maintain certain human-centric elements or safety, metaphorically referenced by \"teddy bears.\"\n\n- **Media and news ecosystem changes:**  \n  Journalists face economic pressures amid technological changes. Models like cross-subsidy and platforms like Substack contribute to sustaining journalistic humanity and integrity despite disruptions from AI and digital transformation.\n\n- **Welfare state and economic transition:**  \n  The conversation emphasized the importance of a generous welfare state as part of the bargain for freer trade and economic transitions. Providing support for service workers and others affected by AI-driven economic changes could help manage societal impacts and maintain stability.\n\n- **Need for examples of good transitions:**  \n  The companies building AI technologies and their customers are encouraged to generate sufficient evidence and examples of successful economic transitions to avoid negative outcomes and political backlash.\n\nThese points highlight the intersection of AI adoption with legal frameworks, worker protections, economic welfare, ethical trade-offs, and changes in media economics.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3168,
+      "latencyMs": 22946,
+      "cost": 0.0034984,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

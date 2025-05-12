@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 13,
+  "timestamp": "2025-05-12T18:13:44.518Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Key Topics Discussed:\n\n### 1. Trades and Economic Models\n- Discussion on finding an acceptable balance between freer trade and the welfare state for service workers, suggesting a need for a supportive framework to ease transitions.\n\n### 2. Legal Challenges in Healthcare\n- Noted concerns about legal pushback regarding healthcare, particularly in relation to personal data and privacy standards amidst advancements in technology.\n\n### 3. Adoption of Defense Mechanisms\n- Emphasis on the rapid adaptation of defense strategies related to economic changes and the role of political movements in protecting jobs from automation.\n\n### 4. Labor Unions and Bargaining\n- Importance of unions in negotiating labor conditions in the context of advancing technologies and changing workforce dynamics.\n\n### 5. Surveillance and Technology Trade-offs\n- The paradox of modern technology illustrated by the concept of \"AI teddy bears,\" highlighting societal acceptance of surveillance for perceived benefits of technology.\n\n### 6. Media Landscape Shifts\n- Discussion around the changing role of journalists and news delivery, addressing themes of cross-subsidization and humanity in media, particularly in relation to platforms like Substack. \n\n## Conclusion:\nThe meeting highlighted the intersection of economic models, legal frameworks, labor dynamics, and the implications of technological advancement on society, stressing the importance of finding balanced approaches to navigate these changes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1420,
+      "latencyMs": 14747,
+      "cost": 0.0013398,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

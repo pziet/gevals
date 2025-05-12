@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 88,
+  "timestamp": "2025-05-12T18:15:57.048Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Themes and Discussions\n\n### Human Element in Trade and AI\n- Emphasis on the \"human face\" in trades, suggesting ongoing importance of human oversight and involvement even as AI advances.\n- Consideration of the \"trade-off\" between surveillance and personal freedoms, exemplified through metaphors like teddy bears, indicating balancing safety with privacy.\n\n### Economic Impact and Regulation\n- AI's integration into the economy may prompt strong legal and regulatory responses, especially in sectors like healthcare where data privacy and standards are critical.\n- Potential for laws to be enacted to protect jobs against the disruptive effects of strong AGI, possibly covering a significant portion of current employment.\n\n### Welfare State and AI\n- Comparisons of the social safety net to a \"welfare state for service workers,\" suggesting that economic security measures are necessary to accept and manage free trade and AI-driven changes.\n- The idea that a generous welfare system, despite inefficiencies, could be an acceptable bargain in a future where AI raises living standards.\n\n### AI and the Workforce\n- AGI likely to impact \"artisanal\" trades (electricians, plumbers, gardeners) first, with some sectors encountering resistance from existing legal structures.\n- Certain fields requiring human interaction, agreement, and negotiation (e.g., sales, consulting) may be among the last to be fully automated.\n\n### Legal and Political Landscape\n- The strongest legalized use of AI might initially face opposition from established legal professions—lawyers favoring high charges and limiting AI competition.\n- Governments might adapt quickly to regulate AI, potentially outpacing some industry responses.\n- Resistance from large, established corporations could influence the pace of AI adoption in various sectors.\n\n### Societal Attitudes and Challenges\n- A sense of angst, nihilism, and existential concern persists even among highly educated groups regarding AI's future impact.\n- The discussion hints at societal tension between economic growth, job security, and the ethical considerations of AI deployment.\n\n### Media and Information\n- Concerns around \"cross-subsidies\" in journalism and media, with platforms like Substack providing alternative models emphasizing humanity in content creation.\n- The trade-offs involved in surveillance, news dissemination, and the role of AI in shaping public discourse.\n\n### Final Reflection\n- The overall conversation underscores a balance between economic benefits brought by AI and the societal, legal, and ethical challenges it presents, emphasizing the importance of thoughtful regulation, safety, and maintaining human oversight.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1643,
+      "latencyMs": 10015,
+      "cost": 0.0003125,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

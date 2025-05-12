@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 89,
+  "timestamp": "2025-05-12T18:15:58.166Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Overview of AI and Economic Impact\n- Discussions around the economic influence of advanced AI, including the Anthropic Economic Index measuring AI's effects on the U.S. economy.\n- Notion that AI could largely automate trades and artisanal professions like electricians, plumbers, and gardeners, significantly reshaping the labor landscape.\n\n### Human-Centered Trade and Welfare\n- Emphasis on maintaining a human face in trade and economic exchanges.\n- Borrowing the concept of a welfare state as a mechanism to support service workers, offering them meaningful roles without the necessity of constant work, aiming for societal stability as automation increases.\n- The idea that free trade paired with a generous welfare state is an acceptable \"bargain\" for society, balancing efficiency with human salience.\n\n### Legal and Regulatory Challenges\n- Anticipation of legal pushback, especially in healthcare, due to issues surrounding personal data standards, standards constraints, and how laws adapt to new AGI capabilities.\n- The likelihood of laws or regulations protecting certain jobs—such as in healthcare—analogous to medical laws, to prevent displacement and manage economic upheaval.\n- The perception that large organizations with pools of capital will seek to protect their interests, potentially resisting rapid AI-driven change.\n\n### AI in the Legal Sector\n- Lawyers historically favor high charges; opposition to AI could emerge from legal professions concerned about bidding down prices and disrupting existing standards.\n- The potential for laundering AI-generated information into human systems that resist direct AI input, ensuring a controlled integration.\n\n### Implementation and Resistance\n- Established large companies may display the greatest resistance against AI integration in some sectors.\n- Government might adapt faster than expected, possibly enacting laws to protect significant portions of the workforce (e.g., half of all jobs), especially in sectors with artisanal and trades work.\n\n### Ethical and Social Considerations\n- Concerns about societal angst and nihilism, even among high-achieving academic and professional circles, due to rapid technological changes.\n- The complex trade-offs in surveillance and trade-offs involved in using \"teddy bears\" (symbolic of surveillance or monitoring tools) and the balance with human privacy.\n\n### Media, Humanity, and Information Ecosystem\n- Mentions of journalism, cross-subsidies in media, and platforms like Substack reflect ongoing shifts in how information is produced and consumed, and its implications for humanity and societal trust.\n\n### Summary\nThe meeting discussed the transformative potential of AI on the economy, labor, and regulation, emphasizing balancing technological progress with societal and legal protections, and highlighting challenges in legal, ethical, and societal adaptation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1671,
+      "latencyMs": 8923,
+      "cost": 0.0003237,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

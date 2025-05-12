@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 182,
+  "timestamp": "2025-05-12T18:18:42.687Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Economic Impact on Trades and Artisanal Jobs:**\n  - Trades and artisanal roles (e.g., electricians, plumbing, gardening) are expected to be among the last to be affected by AI advancements.\n  - These jobs often require human interaction, alignment, and a “human face,” making them less likely to be fully automated.\n  - Certain high-status, high-skilled tradesmen maintain value beyond mere technical skill.\n\n- **Legal and Political Pushback:**\n  - There is a significant chance of political movements emerging aimed at freezing certain human jobs to address rapid technological disruption.\n  - This pushback could manifest as legal protections or bureaucratic measures intended to preserve jobs.\n  - Healthcare is highlighted as a sector where legal challenges to automation may be particularly strong.\n\n- **Rapid Adoption in Defense and Other Sectors:**\n  - Some sectors, particularly defense, may experience fast uptake of AI and automation technologies due to strategic advantages.\n\n- **Labor and Unions:**\n  - Unions and collective bargaining may play a critical role in negotiating the future of work and protecting job quality in the face of automation.\n\n- **Surveillance and Privacy Trade-offs:**\n  - The group referenced \"teddy bears\" metaphorically in connection with surveillance, suggesting a trade-off between increased surveillance and some societal or economic benefits.\n\n- **Media, Journalism, and Financial Models:**\n  - The discussion touched on the sustainability challenges in journalism.\n  - There is mention of cross-subsidy models, with platforms like Substack supporting journalists financially.\n  - The theme of maintaining humanity and ethical considerations in news production was emphasized.\n\nThese topics collectively highlight the multifaceted impact of AI on labor markets, legal frameworks, societal norms, and economic models in journalism.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 2869,
+      "latencyMs": 18849,
+      "cost": 0.0030616000000000003,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

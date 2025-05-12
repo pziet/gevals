@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 295,
+  "timestamp": "2025-05-12T18:27:14.878Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trade, Human Elements, and Economic Safeguards\n- Emphasis on the enduring importance of human faces and human interaction in trade and services.\n- The analogy of a welfare state supporting free trade, implying that large-scale economic shifts may require protections or safety nets for workers.\n- The idea that some sectors, such as healthcare, have unique challenges due to personal data privacy and regulatory standards, which could influence how AI impacts these fields.\n\n## Legal and Political Challenges\n- Anticipation of significant legal pushback against AI, particularly in sensitive areas like healthcare and personal data management.\n- Concerns over strong AGI potentially causing political movements aimed at \"freezing\" human jobs in bureaucratic form to manage the rapid technological changes.\n- The likelihood of AI encountering strong legal obstacles, especially in professions with high regulatory standards such as law and medicine, due to vested interests and high pricing power of traditional professions.\n\n## Defense and Regulatory Measures\n- Possibility of laws enacted to protect a substantial portion of current jobs by banning or limiting AI in critical sectors, similar to existing regulations in healthcare and law.\n- Fears of societal or governmental breakdown if political will is lacking to regulate or control AI growth effectively.\n\n## Technological Impact and Cultural Shifts\n- The concept of \"AI teddy bears\" as a future consumer product, reflecting societal acceptance and integration of AI into everyday life.\n- The potential for AI to handle a large share of work, leading to increased wealth and a more familiar life, aligning with societal goals for an improved standard of living.\n- Concerns about nihilism or angst among high-achieving academic sectors regarding AI, indicating internal tensions within intellectual communities about AI's future.\n\n## Media, Surveillance, and Human Values\n- Discussion on the delicate trade-off between surveillance, privacy, and societal benefits, exemplified by the teddy bear analogy.\n- News and journalism may face cross-subsidization challenges, balancing humanity, truth, and commercial interests, especially with new AI-driven media platforms like Substack.\n\n## Summary\nOverall, the meeting explored the complex interplay between AI advancements, legal frameworks, economic impacts, societal values, and future technological products, emphasizing the importance of human-centric approaches and thoughtful regulation to manage the transition.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1602,
+      "latencyMs": 12936,
+      "cost": 0.00029610000000000004,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

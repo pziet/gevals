@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 52,
+  "timestamp": "2025-05-12T18:14:52.846Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Human-Centric Trade Approaches**\n  - There is a sentiment that for free trade to be accepted, a robust welfare state may be necessary as a trade-off, particularly for service workers. This reflects broader societal needs for meaning and engagement in work.\n\n- **Legal Considerations in Healthcare and AI**\n  - Concerns were raised about potential legal pushback against AI developments, particularly in sectors like healthcare where personal data management and existing legal standards play a crucial role.\n\n- **Transition Strategies in the Age of AI**\n  - The urgency for creating successful examples of how to navigate transitions in the workforce due to AI was emphasized. This includes the political implications and potential movements aimed at preserving certain jobs from being overtaken by AI technologies.\n\n- **Unions and Collective Bargaining**\n  - Unions may need to engage in bargaining to protect worker rights and employment in the face of rapidly advancing AI technologies, highlighting the importance of human involvement in negotiation processes.\n\n- **Surveillance and Technological Trade-offs**\n  - The metaphor of \"AI teddy bears\" was used to represent the consumerism driven by new technologies. Discussion centered around the trade-offs involving privacy and surveillance necessary for consumer convenience.\n\n- **Journalistic Integrity and Financial Models**\n  - The role of journalists and news organizations in an age of AI was discussed, particularly regarding cross-subsidization methods (e.g., Substack) and the importance of maintaining humanity in reporting amidst technological advancements.\n\n## Conclusion\n\nThe meeting underscored the complex dynamics of integrating AI into various sectors while prioritizing human interests, legal frameworks, and societal values. The balance between efficiency, surveillance, labor rights, and economic structures was a central theme of the dialogue.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1502,
+      "latencyMs": 11460,
+      "cost": 0.0015366,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

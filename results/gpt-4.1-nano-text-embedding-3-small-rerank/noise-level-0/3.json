@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 119,
+  "timestamp": "2025-05-12T18:16:50.160Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade Lasts, Human Face**  \n  Emphasis on maintaining human involvement in trades, especially artisanal and manual jobs such as electricians, plumbing, and gardening, which are likely to be impacted later by AGI.\n\n- **Legal Pushback in Healthcare**  \n  Significant legal and regulatory challenges are anticipated in the healthcare sector, particularly concerning personal data standards and privacy. These standards will likely need substantial amendments to accommodate AI advancements.\n\n- **Fast Uptake Defense**  \n  The rapid adoption of AI technologies will necessitate robust defenses, including regulations and policies to manage economic and societal shifts.\n\n- **Unions and Bargaining**  \n  The role of unions may become increasingly important as workers seek to bargain for protections and rights against the swift changes brought by AI, possibly leading to new forms of labor negotiations.\n\n- **Trade-offs in Surveillance and Consumer Goods**  \n  Concepts like teddy bears and surveillance trade-offs highlight the delicate balance between innovation, consumer comfort, and privacy. AI's integration into everyday items may raise societal and ethical questions.\n\n- **Media, Humanity, and Cross-Subsidies**  \n  Media outlets, including platforms like Substack, may rely on cross-subsidies, raising concerns about the future of journalism, human-centric values, and the economic sustainability of news in an AI-driven landscape.\n\n- **Broader Economic and Societal Implications**  \n  The overall impact of advanced AI on the U.S. economy and society requires careful monitoring. There may be increased efforts to protect jobs and ensure economic stability through legislation, welfare, or other interventions, especially in sectors with artisanal trades and manual labor.\n\n- **Potential for Political Movements**  \n  Severe economic changes driven by AI could lead to political movements aimed at protecting existing jobs and industries, possibly advocating for laws similar to those in medicine and law to shield vulnerable sectors.\n\n- **Transition Challenges and Evidence Gaps**  \n  As AI progresses, the scarcity of successful transition examples could hinder societal adaptation, emphasizing the need for visible and effective transition strategies.\n\n- **Overall Aim**  \n  The goal remains to ensure society stays \"richer\" and maintains a 'familiar' life, possibly through welfare states and regulations that buffer the economic shocks of AI and AGI developments.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3151,
+      "latencyMs": 18998,
+      "cost": 0.0026444,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

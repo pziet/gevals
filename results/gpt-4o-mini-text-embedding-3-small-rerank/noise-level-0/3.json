@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 39,
+  "timestamp": "2025-05-12T18:14:39.145Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Impact of Trades and Human Touch**  \n  - It is anticipated that trades (like plumbing and electrical services) will be among the last areas affected by advanced AI, highlighting the importance of a human element in these jobs.\n\n- **Legal Push Back in Healthcare**  \n  - The discussion included potential legal obstacles for AI implementation in healthcare sectors, driven by the sensitive nature of personal data and existing regulations.\n\n- **Fast Uptake of AI in Defense**  \n  - There is a notable trend in the rapid adoption of AI technologies within the defense sector.\n\n- **Union Bargaining and Worker Protections**  \n  - The conversation touched on the role of unions in advocating for workers and negotiating on their behalf, especially in light of significant economic changes due to AGI.\n\n- **Surveillance and Trade-offs**  \n  - The implications of surveillance measures in various sectors were explored, with analogies drawn to the trade-off between security and privacy.\n\n- **Support for Journalism and Cross-Subsidy Models**  \n  - The challenges faced by journalism in the context of support systems, such as cross-subsidization and the emergence of alternatives like Substack, were discussed, focusing on how to maintain humanity in the industry amidst economic pressures. \n\n### Additional Insights\n\n- The potential for a political movement advocating to protect certain jobs from AI influences was noted, akin to existing protections in healthcare and law.\n\n- Concerns were raised about the need for clear examples of beneficial transitions to make a compelling case for protecting workers' rights amid evolving economic landscapes due to AI advancements. \n\nThese notes encapsulate vital discussions on the intersection of AI, economics, labor, and ethical considerations within various fields.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3053,
+      "latencyMs": 24800,
+      "cost": 0.0037901999999999996,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

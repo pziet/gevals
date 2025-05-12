@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 265,
+  "timestamp": "2025-05-12T18:26:23.448Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion centered on the impact of AI on various sectors, particularly focusing on trades, healthcare, and media.\n\n## Key Themes\n\n### Economic & Job Market Implications\n- The impact of AI on trades and artisanal jobs was highlighted, examining how these roles may experience different timelines and challenges in adaptation compared to other sectors.\n- Concerns were raised about a potential political movement aimed at protecting human jobs within the system, reflecting anxiety about job displacement due to AI advancements.\n\n### Healthcare Sector\n- There is notable legal pushback regarding the integration of AI in healthcare, indicating that the transition may involve navigating complex regulatory environments.\n\n### Fast Uptake in Defense\n- Discussion on the rapid adoption of AI technologies in defense sectors, emphasizing the challenge of keeping up with technological advancements.\n\n### Union Negotiations\n- The role of unions in bargaining for worker rights and protections in the face of increasing automation and AI was addressed.\n\n### Ethical Considerations\n- The concept of balancing trade-offs was explored, particularly regarding surveillance and privacy alongside the deployment of AI technologies (metaphorically described as \"teddy bears\").\n\n### Media and Journalism\n- The conversation touched on the evolving landscape of journalism with AI's role in cross-subsidizing news, emphasizing the need for a humanistic approach in reporting amidst technological changes.\n\n## Conclusion\n- Overall, attendees expressed a need for strategic discussions on how to manage AI advancements responsibly while safeguarding human jobs and ethical standards in various industries.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3012,
+      "latencyMs": 24291,
+      "cost": 0.0036791999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

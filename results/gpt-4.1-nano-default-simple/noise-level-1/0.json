@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 291,
+  "timestamp": "2025-05-12T18:27:09.015Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n## Human-Centered Trade and Social Safety Nets\n- Emphasis on the importance of human touch and face-to-face interactions in trade and services.\n- Discussions around the need for legal and policy responses, particularly in healthcare, to address challenges posed by advanced AI and automation.\n- The concept of a \"welfare state\" or safety net for service workers, ensuring meaningful work and economic security amid rapid technological change.\n  \n## Legal and Political Challenges of AI\n- Potential for widespread legal pushback, especially concerning healthcare and data standards, due to privacy and personal data issues.\n- High likelihood that political movements may attempt to \"freeze\" certain jobs in bureaucratic forms to manage societal impacts of powerful AI technologies.\n- Legal obstacles are significant in sectors like law and medicine, but may become more permeable as AI integrates into government systems (e.g., US agencies like Education and HHS).\n- Concerns that AI will challenge traditional legal frameworks, especially in industries where high margins exist due to regulation and professional standards.\n\n## Defense and Regulatory Responses\n- The importance of demonstrating good transition strategies to mitigate societal and economic disruptions caused by AI.\n- Risks of political inertia or breakdown if insufficient efforts are made to showcase positive AI integration examples.\n- Possibility of laws akin to those in medicine and law to protect existing jobs, although the effectiveness remains uncertain.\n\n## Economic Impact and AI-driven Innovation\n- AI's role in transforming the economy, with projections suggesting significant work being automated.\n- The potential for increased wealth and familiar lifestyles once AI enhances productivity.\n- Introduction of the \"AI teddy bears\" concept as an example of emerging AI products that will influence everyday life, e.g., in parenting.\n\n## Media, Information, and Society\n- The role of AI in media, journalism, and cross-subsidies in news organizations.\n- Growing importance of mediated information, including laundering AI-generated data into human-verified systems.\n- The influence of AI on entertainment and participation-based economic activities.\n- The emergence of concepts like Substack and new models for news and content delivery, emphasizing human-AI collaboration.\n\n## Future Outlook\n- The importance of managing societal transitions thoughtfully to avoid chaos driven by political and corporate forces.\n- The potential for strong AI to lead to a \"nihilism\" or existential angst within academia and high-achieving sectors, reflecting uncertainties about future societal roles and norms.\n- The need for strong policy, legal frameworks, and societal adaptation to harness AI's benefits while mitigating risks.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1652,
+      "latencyMs": 10311,
+      "cost": 0.00031610000000000004,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

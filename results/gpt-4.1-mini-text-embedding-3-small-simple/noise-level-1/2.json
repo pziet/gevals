@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 133,
+  "timestamp": "2025-05-12T18:17:16.552Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on AI Economic and Social Impact\n\n## Trades Last, Human Face\n- Emphasis on maintaining meaningful human roles in the economy despite AI progression.\n- It is important to aim for transitions that keep jobs meaningful and allow for human mediation in transactions.\n- The \"welfare state for service workers\" concept: providing a social safety net that supports free trade and technological shifts without leaving workers behind.\n\n## Legal Pushback in Healthcare\n- Healthcare is expected to encounter significant legal and regulatory challenges regarding AI adoption.\n- Handling of personal data and established standards in healthcare create unique legal barriers.\n- Anticipation of political movements to protect certain human jobs in healthcare and bureaucracy as a response to rapid technological advancement.\n\n## Fast Uptake in Defense\n- Although not explicitly detailed, the discussion implies a rapid application and integration of AI technology in sectors like defense, highlighting the fast uptake and the need for careful regulatory and legal frameworks.\n\n## Unions and Bargaining Power\n- There is potential for political and social forces, including unions, to bargain for protections and bargains for workers.\n- Workers and their representatives will prefer deals negotiated by human proxies even in highly automated contexts.\n\n## AI Teddy Bears and Surveillance Trade-off\n- The concept of \"AI teddy bears\" represents emotionally intelligent AI entities entering everyday life and raising questions of surveillance versus convenience.\n- Society will face trade-offs between surveillance and benefits provided by AI companions and services.\n\n## News, Journalism, Cross-Subsidy, and Humanity\n- AI's influence on news media and journalism creates economic and ethical discussions.\n- There is a model where journalism is cross-subsidized, potentially with new economic engines wired into AI.\n- The human element and demand for meaning remain crucial in media, even as automated technologies increase.\n- New platforms like Substack exemplify shifts where creators maintain a direct economic connection with their audience.\n\n---\n\n**Summary:**  \nThe meeting highlighted the necessity of thoughtful transitions in economic and social systems to accommodate AI technologies. Emphasis was placed on preserving human roles and legal protections, especially in sensitive fields like healthcare. The rise of AI-driven personal companions and their surveillance implications were discussed, alongside changing dynamics in news media economics. Unions and political movements may act to freeze certain jobs or protect worker bargaining power, ensuring technology adoption benefits society fairly.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1615,
+      "latencyMs": 16890,
+      "cost": 0.0012052,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

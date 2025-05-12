@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 66,
+  "timestamp": "2025-05-12T18:15:20.662Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Topic: Trade, Welfare State, and the Economic Impact of AGI\n\n### Key Discussions:\n- **Lasting Trades and Human Elements**: Emphasis on the importance of retaining a human touch in trades, suggesting that human involvement is crucial even in an increasingly automated environment.\n  \n- **Legal Pushback in Healthcare**: Discussion around anticipated resistance from legal sectors regarding healthcare changes brought about by AGI. This highlights the complexities of integrating advanced technologies into sensitive areas such as health.\n\n- **Rapid Adoption in Defense Sector**: Notable fast uptake of AGI applications within the defense sector, indicating a potential trend in how technologies are integrated into critical industries.\n\n- **Unions and Bargaining**: The role of unions in negotiating fair terms for workers amidst changing economic landscapes influenced by AGI. Highlighted the need for collective bargaining to protect workers' rights.\n\n- **Surveillance Trade-Offs**: Conversation on the trade-offs involved in surveillance technologies, symbolized by the metaphor of \"teddy bears\", pointing towards a balance between privacy and security.\n\n- **Journalism and Economic Cross-Subsidization**: Addressed the impact of platforms like Substack in journalism, focusing on the themes of humanity and the economic sustainability of news organizations.\n\n### Additional Insights:\n- Generous welfare states may support favorable trade conditions, creating a safety net for service workers affected by economic transitions brought on by AGI.\n  \n- The debate over whether AGI will lead to efficiency or significant economic change is inconclusive, but there's a strong need to protect workers as the landscape shifts.\n\n- Strong implications noted for how trades, including artisanal roles, may be transformed by AGI, emphasizing the need for adaptation and innovation within the workforce.\n\n- Legal systems are facing challenges from emerging technologies and the need for updated regulations that reflect new realities in the economy.\n\nThese notes encapsulate key themes discussed in the meeting regarding trade dynamics, the role of welfare systems in supporting transitions, and the implications of AGI on the workforce and industries.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3134,
+      "latencyMs": 22203,
+      "cost": 0.0039558,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 11,
+  "timestamp": "2025-05-12T18:13:41.009Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n1. **Human-Centric Perspectives on Trade:**\n   - Discussion emphasized the importance of creating a human face to trades and economic transitions, especially concerning the welfare state for service workers.\n\n2. **Legal Considerations in Healthcare:**\n   - There is anticipated legal pushback regarding healthcare and personal data management as AI integration increases, potentially impacting employment in bureaucratic roles.\n\n3. **Speed of AI Adoption and Defense:**\n   - Concerns were raised about the rapid uptake of AI technologies and their implications for job security, prompting suggestions for defense strategies.\n\n4. **Union Engagement:**\n   - The discussion referenced the need for unions to play a crucial role in bargaining to protect workers’ interests amid technological advancements.\n\n5. **Trade-offs in Surveillance:**\n   - The topic of 'teddy bears' was introduced to illustrate the balance between technological surveillance and personal privacy, indicating societal expectations for meaningful engagement with AI tools.\n\n6. **Media Landscape and Support Structures:**\n   - The role of journalists and the concept of cross-subsidization within news outlets were discussed, including the relevance of platforms like Substack in supporting a humane media environment.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1389,
+      "latencyMs": 11523,
+      "cost": 0.0012653999999999999,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

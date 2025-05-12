@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 167,
+  "timestamp": "2025-05-12T18:18:19.980Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting with Jack Clark at Anthropic\n\n## Trades and Human Element\n- Trades and artisanal vocations such as electricians, plumbing, and gardening may be the last sectors profoundly affected or replaced by AGI.\n- Human interaction remains crucial in some desk-bound jobs, especially those requiring communication, alignment, and agreement.\n- There is an expressed societal desire for meaning and salience in daily work, suggesting that fully replacing human roles in certain trades may not be optimal or desirable.\n- The current concept of work in these sectors may be akin to a \"welfare state\" for service workers, allowing people choices about their engagement with work.\n\n## Legal and Regulatory Challenges\n- There is significant legal pushback expected in healthcare due to privacy concerns and established standards around handling personal data.\n- Healthcare is highlighted as a sector where legal protections and the structure of the system may slow down or regulate the adoption of AGI.\n- There could be a political movement aimed at protecting a considerable portion of existing jobs through laws akin to those protecting legal and medical professions.\n- Large, established companies might resist AGI adoption more than governments, particularly in areas with strong existing regulation.\n\n## Rapid Adoption in Defense and Other Sectors\n- Certain sectors, such as defense, are expected to see fast uptake of AGI technologies.\n- The balance between innovation and resistance will vary widely across different industries depending on regulatory, economic, and social factors.\n\n## Labor Unions and Bargaining Power\n- Unions may play a role in bargaining to protect workers and jobs as AGI changes the economic landscape.\n- The interplay between unions, workers, and capital owners will shape AGI’s integration into the workforce.\n\n## Surveillance and Privacy Trade-offs\n- The metaphor of “teddy bears” was used to illustrate the trade-off between surveillance and comfort/security.\n- Societies will have to weigh the benefits of AI-enhanced services against the privacy costs associated with increased surveillance.\n\n## Media, Journalism, and Economic Models\n- Journalistic enterprises face challenges; new models like Substack offer cross-subsidization and new ways to sustain journalistic humanity.\n- The economic impact on news media and the value of human-driven journalism remain important considerations in the evolving AI economy.\n\n## Summary\n- The meeting highlighted a complex interplay of economic, legal, and human factors shaping the future role of AGI.\n- Trade professions and human-mediated roles will likely persist longest, while healthcare and regulated domains face significant pushback.\n- Legal frameworks and unions may act as key barriers or negotiators in protecting jobs.\n- Ethical trade-offs such as surveillance versus comfort and new media funding models reflect broader societal impacts.\n- The goal is to balance technological progress with human welfare and meaningful employment opportunities.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1700,
+      "latencyMs": 15382,
+      "cost": 0.0013412,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

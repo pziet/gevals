@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 112,
+  "timestamp": "2025-05-12T18:16:42.248Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of AI's Impact on Society and Economy\n- AI-driven automation is expected to significantly extend the duration of certain trades, emphasizing the value of human interaction (\"trades last, human face\").\n- The adoption of AI and automation technologies is happening rapidly, especially in sectors like healthcare, where regulatory standards and data privacy are major considerations.\n\n## Legal and Regulatory Challenges\n- There is notable legal pushback against AI implementation in healthcare, involving regulations around personal data handling and standards.\n- Governments and institutions may find it surprisingly easy to integrate AI into complex sectors like healthcare and education, raising concerns about political will and systemic breakdowns.\n- Potential for laws to be enacted that freeze or protect a significant portion of human jobs, similar to existing regulations in medicine and law, as a response to AI advancements.\n\n## Workforce and Economic Protections\n- History suggests there may be strong impulses to protect workers through legal means, such as bargaining with unions or creating welfare-like safeguards (\"bargain\", \"unions\").\n- There is discussion about the possibility of protecting half of current jobs via legislation, especially in reaction to economic changes driven by AI.\n\n## Power Dynamics and Market Strategies\n- Certain industries, like healthcare, may leverage standards and data privacy regulations to charge high prices and resist downward bidding.\n- AI's information output might be manipulated or laundered into human systems to bypass direct AI influence, impacting sectors like government and media.\n\n## Media, Humanity, and the Role of Journalism\n- The relationship between news/media and AI raises issues of cross-subsidization, human oversight (\"journalist cross subsidy\"), and the importance of maintaining human-centric reporting.\n- The proliferation of AI tools in journalism and Substack-type platforms could influence how humanity perceives information and trust in media.\n\n## Ethical Trade-offs and Surveillance\n- Balancing surveillance with personal freedoms remains a key concern, exemplified by discussions around \"surveillance trade-offs,\" such as monitoring through AI versus respecting privacy (\"teddy bears, surveillance trade off\").\n\n## Long-term Outlook\n- AI's integration into government and societal institutions may accelerate, with non-scary sectors like education and health services becoming surprisingly accessible for AI deployment.\n- Overall, the discussion highlights the complex interplay between technological progress, legal frameworks, human employment, and societal values.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3102,
+      "latencyMs": 18931,
+      "cost": 0.0025756,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

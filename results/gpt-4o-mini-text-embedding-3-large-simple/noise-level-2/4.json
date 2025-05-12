@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 50,
+  "timestamp": "2025-05-12T18:14:50.944Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### 1. Trades and Economic Bargains\n- Discussion on how free trade can be perceived as a trade-off akin to a welfare state for service workers.\n- Highlighted the necessity of maintaining human interaction and proxy negotiations in automated transactions involving large pools of capital.\n\n### 2. Healthcare and Legal Pushback\n- Notable concerns regarding the impact of advanced AI on the healthcare sector and the legal frameworks that may arise to protect personal data.\n- Mentioned the potential for strong political resistance against job displacement in sectors such as healthcare, due to the complexities of handling personal data and established standards.\n\n### 3. Fast Uptake in Defense Techniques\n- Although specifics were not elaborated in the notes, there is awareness of rapid advancements in defense mechanisms against potential threats posed by AI technology.\n\n### 4. Unions and Bargaining Power\n- The discussion acknowledged the ongoing role of unions in negotiating terms of employment in the face of AI's influence on job security and working conditions.\n\n### 5. Surveillance and Trade-offs in Society\n- Introduced the debate surrounding surveillance technology, likening it to a 'trade-off' with societal benefits such as security against threats, potentially illustrated by the metaphor of \"teddy bears\".\n \n### 6. Media and Cross-subsidization\n- Covering the state of journalism today, touching on issues of financial sustainability, the influence of platforms like Substack, and the need for a balance between cross-subsidization of news and maintaining integrity and humanity in reporting.\n\n## Closing Thoughts\n- There's a shared sentiment that as the economy adapts to advancements like AI, there will be a necessity for adequate legal frameworks to guard against potential job losses, particularly in sectors traditionally protected by laws, paralleling discussions about the middle ground humanity seeks in an evolving technological landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1524,
+      "latencyMs": 12136,
+      "cost": 0.0015894,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

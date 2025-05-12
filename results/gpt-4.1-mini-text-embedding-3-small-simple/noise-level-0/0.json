@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 136,
+  "timestamp": "2025-05-12T18:17:16.455Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Trades Last, Human Face\n- AGI’s impact on the economy will affect trades and artisanal jobs last (e.g., electricians, plumbers, gardeners).\n- These jobs depend heavily on human interaction and relationships, with a preference for deals mediated by human proxies especially in large pools of capital.\n- The \"human face\" remains vital in commerce and trade where personal trust and interaction are key.\n\n## Legal Pushback in Healthcare\n- Healthcare is likely to encounter strong legal resistance due to the sensitive handling of personal data and existing regulatory standards.\n- Laws analogous to those in medicine and legal professions might protect large chunks of current jobs from automation by strong AGI.\n- There is a high chance of political movements pushing to safeguard many jobs in sectors like healthcare.\n\n## Fast Uptake Defense\n- The speed of AI adoption could be influenced by the \"evidence\" of successful transitions.\n- Companies and customers need to generate examples of good AI transitions to mitigate strong pushbacks.\n- Resistance may come not only from the government but from large, established companies protecting their domains.\n\n## Unions and Bargaining Power\n- Protection of workers might resemble a welfare state for service workers, providing a social bargain that balances free trade with job security.\n- Larger economic changes often trigger impulses to protect workers through unions and collective bargaining.\n- These protections help prevent job displacement without significant economic hardship for the workforce.\n\n## Teddy Bears, Surveillance Trade-offs\n- There is a possible trade-off in surveillance and privacy as AI systems become more ingrained in human systems.\n- Some transmission of AI-generated information into human decision-making processes might be surreptitious, reflecting privacy and monitoring concerns.\n\n## News, Journalism Cross Subsidy, Humanity, and Substack\n- Journalistic work is supported by models that may involve cross-subsidies from other economic areas, maintaining humanity and depth in reporting.\n- Independent platforms like Substack allow for human-driven journalism to coexist and thrive despite increasing automation.\n- The humanities influence understanding and communication of AI impacts on society, reflecting the human side of technological change.\n\n---\n\nThese points collectively highlight how human-centric roles and legal frameworks will shape the pace and nature of AI integration in the economy, ensuring that jobs requiring human judgment and interactions remain valued and somewhat protected.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1601,
+      "latencyMs": 14981,
+      "cost": 0.0011936,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

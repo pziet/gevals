@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 341,
+  "timestamp": "2025-05-12T18:28:44.101Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Impact of Advanced AI on Trades and Artisanal Jobs**  \n  There is a growing recognition that trades—such as electricians, plumbers, and gardeners—represent some of the most artisanal and human-centered parts of the economy. These roles may retain a \"human face\" and high status because of the skill and personal touch involved. Advanced AI is less likely to fully replace these hands-on, skilled trades, supporting continued demand for human involvement.\n\n- **Legal and Political Pushback in Healthcare and Worker Protections**  \n  As AI advances rapidly, there is an anticipated political and legal pushback aimed at preserving jobs in critical sectors like healthcare. Movements might emerge attempting to freeze or protect a significant portion of human jobs through legislation, reflecting concerns about the speed and scale of change. This could manifest as new laws designed to safeguard workers, though these measures may not be universally effective or palatable.\n\n- **Fast Uptake of AI Technologies in Defense and Other Sectors**  \n  Defense industries are likely to experience rapid AI integration due to the strategic advantages conferred by such technologies. This fast uptake highlights a broader trend across sectors where AI adoption is accelerating, influencing job dynamics and economic structures.\n\n- **Role of Unions in Bargaining for Worker Interests**  \n  Unions may become increasingly important actors in negotiating how AI impacts labor conditions, wages, and job security. Collective bargaining could play a key role in shaping the \"bargain\" between workers and employers amidst technological disruption.\n\n- **Trade-offs Between Surveillance and Human Comfort (Teddy Bears Analogy)**  \n  Discussions referenced \"teddy bears\" as a metaphor for the trade-offs individuals make when accepting surveillance or monitoring in exchange for comfort, security, or other benefits. This highlights ethical and social considerations in the deployment of AI and surveillance technologies.\n\n- **Media Economics: Journalism, Cross-Subsidy, and Humanity**  \n  The news industry is facing economic challenges in the AI era, including cross-subsidies in journalism models. Platforms like Substack represent alternative models that preserve journalistic humanity and independence by directly connecting writers with audiences, mitigating dependence on traditional advertising and corporate subsidies.\n\n- **Broader Economic and Societal Themes**  \n  The evolving economic landscape suggests the need for a potentially generous welfare state to support workers displaced or transformed by AI, accepting some inefficiencies as part of a social bargain. New jobs may arise connected to managing and fueling AI systems, blending technical skill with creative and fun roles. The hope is society can transition to higher-status and more productive activities afforded by AI and robotics advancements.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3236,
+      "latencyMs": 32356,
+      "cost": 0.0036087999999999997,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

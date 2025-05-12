@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 311,
+  "timestamp": "2025-05-12T18:27:52.016Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Focus on Human Elements and Trade-offs\n- Emphasis on maintaining human presence (\"trades last, human face\") amidst increasing automation and AI integration.\n- Recognition of trade-offs involved in surveillance, exemplified by the teddy bears analogy, highlighting the balance between safety/security and privacy.\n\n## Legal and Political Challenges\n- Anticipated legal pushback, especially in healthcare, due to data privacy standards and regulatory standards.\n- Growing political movement to protect existing jobs by enacting laws similar to those in law and medicine for strong AGI, aiming to \"freeze\" jobs in bureaucratic protections.\n- Concerns about the potential breakdown of political will to adapt to technological changes, risking resistance and protectionist measures.\n\n## Economic and Workforce Transitions\n- Discussions of the \"fast uptake defense,\" where rapid AI adoption may lead to societal shifts.\n- The role of unions and bargaining power as mechanisms to navigate changes brought by AI and automation.\n- Transition strategies involve good examples of how to manage economic shifts and protect workers, though evidence and effective models are still developing.\n\n## Humanity, Media, and Information\n- Critical view of the news ecosystem, noting cross-subsidization, the role of journalists, and platforms like Substack that impact the dissemination of information and human storytelling.\n- Surveillance trade-offs (e.g., teddy bears) symbolize the balancing act between leveraging AI for security and maintaining human trust and privacy.\n\n## Broader Themes\n- The importance of maintaining human oversight and face-to-face interactions (\"trades last, human face\").\n- The need for deliberate policy, legal frameworks, and societal acceptance to navigate AI's rapid growth.\n- Potential for AI to influence media and information laundering, emphasizing the importance of trustworthy human systems and proxies.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3039,
+      "latencyMs": 24815,
+      "cost": 0.0025912,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

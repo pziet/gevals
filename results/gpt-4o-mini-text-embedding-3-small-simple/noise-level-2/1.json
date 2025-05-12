@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 7,
+  "timestamp": "2025-05-12T18:13:29.779Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### 1. Trade and Welfare State\n- Discussion on the relationship between free trade and a generous welfare state.\n- Concept noted that free trade may serve as a form of welfare for service workers, providing them flexibility in their daily lives while seeking meaning in their work.\n\n### 2. Legal Considerations in Healthcare\n- Examination of potential legal pushback against healthcare changes, particularly in connection with data management and personal data standards.\n- Concerns raised about how automation and AI could affect healthcare, given lawyers' typical opposition to price competition from AI.\n\n### 3. Adoption of AI and Defense Sectors\n- Noted a fast uptake of AI in the defense sector and how it may reshape traditional roles.\n- Discussion on the potential for politically driven movements to protect jobs from the impact of AI, particularly concerning strong AGI regulations.\n\n### 4. Role of Unions and Bargaining\n- Consideration of how unions may adapt and bargain in a landscape increasingly influenced by AI and automation.\n- Recognition of changing economic conditions leading to a greater need for labor protections.\n\n### 5. Surveillance and Ethical Trade-offs\n- Discussion around the concept of utilizing surveillance methods, likened to \"teddy bears\", raising concerns over the ethical trade-offs associated with technology.\n- The balance between technological benefits and privacy/information ethics explored.\n\n### 6. Journalism and Cross-subsidization\n- Mention of issues faced by journalists, particularly regarding cross-subsidization models like Substack, and how they can impact the future of journalism and humanity.\n- Consideration on maintaining the human aspect in journalism amidst rising AI-generated content.\n\n### Conclusion\nThe meeting focused on the intersection of advanced AI and its social, economic, and ethical implications across various sectors, emphasizing the need for balanced approaches to ensure worker protections and ethical technology integration.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1526,
+      "latencyMs": 17693,
+      "cost": 0.0015942,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 129,
+  "timestamp": "2025-05-12T18:17:03.787Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n### Trades and Human Element\n- Trades such as electricians, plumbers, and gardeners are likely to be among the last sectors significantly impacted by advanced AI.\n- These roles involve artisanal, hands-on work that requires a human face and presence.\n- There is a strong preference and value placed on human mediation for certain tasks that require talking, alignment, and agreement.\n\n### Legal Pushback in Healthcare\n- Healthcare may experience strong legal resistance against AI due to personal data handling and existing regulatory standards.\n- There is a high chance of political movements aiming to protect jobs in law, medicine, and healthcare sectors from AI displacement.\n- Healthcare’s legal environment creates natural barriers for aggressive AI penetration.\n\n### Rapid Uptake in Defense Sector\n- Although not explored in depth in the provided text, rapid AI adoption in defense is implied as a sector that will experience fast changes, potentially requiring careful governance.\n\n### Unions and Bargaining Power\n- There is an expectation that workers and unions may bargain for protections or benefits in the face of widespread AI-driven automation.\n- This parallels the concept of a welfare state that supports service workers displaced by AI, where free trade and automation coexist with social safety nets.\n\n### Surveillance and Privacy Trade-Offs\n- The analogy of \"teddy bears\" hints at the trade-off between convenience or security (surveillance) and privacy or autonomy.\n- This trade-off will be an important ethical topic as AI technology and surveillance tools become more pervasive.\n\n### Journalism and Media Subsidization\n- Journalists and news media may face economic pressures and need alternative revenue models.\n- Substack and similar platforms have begun cross-subsidizing journalism by supporting individual creators, thus helping maintain humanity and quality in news reporting.\n- There is recognition of the importance of preserving meaningful human involvement in media despite AI transformation.\n\n---\n\nThese topics collectively emphasize the need to balance technological progress with human-centered values, legal protections, and social contracts. The trade-offs between efficiency, privacy, job security, and meaningful work remain central issues in this transition.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1561,
+      "latencyMs": 11707,
+      "cost": 0.0011188,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 101,
+  "timestamp": "2025-05-12T18:16:23.309Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The long-term dynamics of AI and automation emphasize sustained \"trade\" relationships, balancing human involvement with technological advancement.\n- There is ongoing legal pushback concerning healthcare, regarding how AI impacts medical practices, regulations, and policy frameworks.\n- The defense sector is experiencing a fast adoption rate of AI technologies, highlighting concerns over rapid technological shifts and their implications.\n- Unions are actively bargaining to influence AI's integration into labor markets, aiming to protect worker rights and job security amidst automation.\n- Ethical trade-offs are evident, exemplified by surveillance practices like the teddy bears, which raise questions about privacy versus safety.\n- Media and journalism face challenges related to cross-subsidies and maintaining human-centric reporting; platforms such as Substack illustrate shifts toward independent journalism emphasizing humanity.\n- There is a broader societal debate about protecting existing jobs versus embracing economic efficiency, with potential political movements seeking to \"freeze\" human jobs through regulation.\n- The artisanal and trades sectors (electricians, plumbers, gardeners) are identified as areas where AI might have a significant impact, but also where high-skilled craftsmanship maintains high status.\n- The evolution of jobs may include entirely new roles focused on managing and fueling AI systems, alongside creative and engaging work that leverages AI capabilities.\n- Overall, economic changes driven by advanced AI will challenge traditional welfare and labor models, prompting discussions on acceptable trade-offs and the role of policy, unions, and societal values in navigating this transition.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2956,
+      "latencyMs": 23413,
+      "cost": 0.0025429999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+embedding: default
+id: gpt-4o-mini-default-simple
+model: gpt-4o-mini
+prompt: system-prompt-1.txt
+rag: simple

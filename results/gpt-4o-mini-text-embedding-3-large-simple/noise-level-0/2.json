@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 58,
+  "timestamp": "2025-05-12T18:15:03.715Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trades and Human Face**: The last sectors to be significantly affected by AGI are anticipated to be trades, such as electricians and plumbers. These human-centric jobs, especially those requiring personal touch, will feel the impact slower than others.\n\n- **Legal Pushback in Healthcare**: There are expected challenges in the healthcare sector regarding AGI integration, especially about personal data handling and regulatory standards. A strong likelihood exists for political movements advocating protections for existing jobs within this industry.\n\n- **Fast Uptake in Defense**: The defense sector appears to be embracing AGI solutions rapidly, but there may be substantial legal hurdles to navigate.\n\n- **Unions and Bargaining**: Union actions may be seen as necessary to protect service workers and negotiate fair terms as AGI becomes more prevalent in various industries.\n\n- **Surveillance Trade-offs**: The conversation around surveillance technologies includes the notion of teddy bears symbolizing the trade-offs we make in terms of privacy and security in the context of technological advancements.\n\n- **Media and Information**: The role of journalists and the concept of cross-subsidization in media fosters concerns about maintaining human perspectives in an increasingly automated content landscape. This includes discussions about platforms like Substack as alternatives for sustaining journalistic integrity and humanity in reporting.\n\n## Additional Insights\n\n- **Economic Changes and Welfare**: There is a consensus that increased economic evidence can lead to stronger desires to protect workers, potentially indicating the necessity of a welfare state as a counterbalance to free trade.\n\n- **AGI's Gradual Impact**: It is posited that some sectors might resist the adoption of AGI due to the fundamental human relationships at stake, suggesting that the economic rewards will not completely overshadow the human need for connection in commerce.\n\n- **Government Response to AGI**: Discussion included contrasting views on the speed at which governments will adapt to AGI technologies, suggesting some may outpace traditional corporations in regulating new technologies. \n\nThe meeting emphasized the intersection of technology, economy, and humanity, considering the ethical and practical implications of AGI across various sectors.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1565,
+      "latencyMs": 12761,
+      "cost": 0.0017039999999999998,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

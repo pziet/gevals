@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 296,
+  "timestamp": "2025-05-12T18:27:11.471Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centric Aspects and Social Impact\n- Emphasis on maintaining human presence in trades (\"trades last, human face\"), highlighting the importance of personal interaction and trust.\n- Potential for AI to influence traditional artisanal and craft trades, such as electricians, plumbing, gardening, and art production where human orchestration is key.\n- Concerns about the adaptation of human systems to AI-generated information, including laundering AI outputs into systems not predisposed to accept such inputs.\n\n## Legal and Regulatory Challenges\n- Significant legal pushback expected in healthcare, especially regarding personal data standards and privacy regulations.\n- AGI might encounter the strongest legal obstacles in regulated sectors like healthcare and government, with some resistance from large established companies.\n- The legal landscape could evolve rapidly, potentially moving faster than anticipated, especially where large organizations resist change.\n\n## Economic and Workforce Implications\n- AI impacts will vary across sectors; trades and artisanal jobs may experience effects last, while more back-end, administrative, and managed sectors could see earlier disruption.\n- Potential policies to protect jobs, akin to laws in medicine and law, aiming to shield a proportion of existing jobs from automation.\n- The future economy may require a robust welfare state to balance free trade and technological change, serving as a \"welfare state\" for service workers.\n- Large pools of capital may prefer to transact through human proxies or automated organizational layers, emphasizing relationships mediated by people.\n\n## Strategic and Trade Considerations\n- AI-driven commerce is likely to favor relationships mediated by people, cultivating trust and personal negotiation.\n- The \"trades last\" notion underscores a possible gradual evolution where manual and artisanal skills may persist longer.\n- The importance of generating exemplary transition cases and evidence of beneficial economic change to mitigate resistance and ease AI adoption.\n\n## Media, Humanity, and Substack\n- Discussions around news media and journalism, with references to cross-subsidies and the human aspect in storytelling.\n- The balance between automation and human storytelling is crucial, possibly involving trade-offs like surveillance and trade-offs in AI-assisted human work.\n\n## Overall Outlook\n- There is a recognition that AI's integration into society will be complex, involving legal, economic, social, and technological dimensions.\n- A proactive approach is necessary to shape good transition models and policy responses to ensure AI benefits are widely distributed while managing resistance and legal barriers.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1616,
+      "latencyMs": 9396,
+      "cost": 0.0003044,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

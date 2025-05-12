@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 359,
+  "timestamp": "2025-05-12T18:29:17.288Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Affected Last by AGI**: Discussion focused on the idea that certain trades, such as electricians, plumbing, gardening, and artisanal crafts, will be the last sectors significantly impacted by advanced AI. These roles often require a human face and hands-on skills that are not easily automated.\n\n- **Legal Pushback in Healthcare and Other Sectors**: There is a high chance of political and legal movements aiming to protect certain jobs, especially in law and medicine, by restricting the involvement or influence of strong AGI technologies. Legal obstacles are expected to be a key challenge in deploying AGI in sensitive sectors.\n\n- **Rapid Uptake in Defense and Other Sectors**: Some sectors, particularly defense, may experience a fast uptake of advanced AI technologies due to their specific operational dynamics and less regulatory resistance.\n\n- **Role of Unions and Collective Bargaining**: Unions are likely to play a significant role in negotiating protections and bargains for workers in the face of AI-driven economic changes. Protection of labor interests and managing transitions will be critical.\n\n- **Surveillance Trade-offs and “Teddy Bears” Metaphor**: A balance or trade-off was discussed between surveillance (data monitoring and control) and some form of amenity or reassurance, metaphorically referred to as \"teddy bears.\" This likely reflects the tension between privacy, safety, and acceptance of AI systems.\n\n- **Journalism, News, and the Role of Human Judgment**: Journalism and news production face unique challenges, with a cross-subsidy dynamic where human elements uphold journalistic integrity and humanity. The discussion included the idea that platforms like Substack support this by allowing a more direct connection between journalists and audiences, preserving a human angle in the news.\n\n- **Welfare State and Economic Bargains for Service Workers**: The conversation examined how a generous welfare state can support freer trade and help service workers transition amidst AI-driven economic changes, providing a social bargain that cushions impacts.\n\n- **Human Mediation for AI Outputs in Government and Legal Settings**: There is an expectation that AI-generated information will be filtered through human systems, especially in government and legal contexts, to ensure checks and balances and avoid direct reliance on AI decisions.\n\n- **Need for Good Transition Examples**: Highlighted the importance of generating positive examples of economic transitions where workers and companies adapt successfully to AI transformations, providing evidence to mitigate societal fears.\n\nThese points collectively emphasize the complex social, legal, and economic dimensions shaping the integration of AGI into society, with particular attention to protecting human roles and maintaining societal trust.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3250,
+      "latencyMs": 28822,
+      "cost": 0.0036287999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 238,
+  "timestamp": "2025-05-12T18:22:35.474Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n- **Trade and Human Element**  \n  Emphasized the importance of maintaining human face-to-face interactions in trades, highlighting that trades often last longer due to personal connections.\n\n- **Legal and Regulatory Challenges in Healthcare**  \n  Discussed the significant legal pushback against AI and automation in healthcare, involving complex standards related to personal data handling and existing regulatory frameworks. The potential need to overhaul standards and laws to accommodate AI advancements was noted.\n\n- **Defense Against Rapid AI Adoption**  \n  Addressed the quick uptake of AI technologies and the importance of having strategies in place to defend and regulate these rapid changes, especially within critical sectors.\n\n- **Role of Unions and Worker Bargaining**  \n  Highlighted the influence of unions in bargaining processes and the potential for policies aimed at protecting jobs amid automation and AI integration.\n\n- **Surveillance Trade-Offs and Ethical Considerations**  \n  Touched upon the surveillance trade-offs involved in deploying AI, such as Teddy bears and other monitoring tools, and the broader implications for privacy and humanity.\n\n- **Media, Journalism, and Subventions**  \n  Raised concerns about the cross-subsidization in journalism and news industries, including platforms like Substack, and how AI might influence these sectors' sustainability and the human element involved.\n\n- **Economic Changes and Welfare State**  \n  Discussed how large economic shifts may require stronger welfare policies to ensure societal stability, drawing parallels to the importance of a generous welfare state in enabling free trade and protecting service workers.\n\n- **Long-term Impact on Trades and Artisanal Work**  \n  Noted that AI and automation are likely to impact last in trades requiring artisanal skills—such as electricians, plumbers, and gardeners—where human craftsmanship remains essential.\n\n- **Protection of Jobs and Legal Barriers**  \n  Considered the possibility of laws protecting existing jobs (similar to healthcare regulations) as AI advances, and the potential political movements advocating for job security.\n\n- **Trade-offs with Surveillance and Data Handling**  \n  Addressed challenges related to laundering AI-generated data into human systems that are resistant to direct AI input, alongside concerns about standards and data privacy.\n\n- **Focus on Last-Impact Sectors and Relationships**  \n  Predicted that sectors relying on personal relationships and craftsmanship will be affected last by AI, with people preferring mediated deals and human interaction in commerce.\n\n- **Overall Outlook**  \n  The discussion underscored the need to carefully balance innovation with regulation, protect human-centric industries, and manage societal impacts through thoughtful policy, unions, and welfare strategies.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3164,
+      "latencyMs": 23692,
+      "cost": 0.0026122,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

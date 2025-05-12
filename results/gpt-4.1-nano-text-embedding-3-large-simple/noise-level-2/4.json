@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 210,
+  "timestamp": "2025-05-12T18:21:30.597Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of AI's Economic and Social Impact\n- AI will significantly influence the economy, especially in trades and artisanal sectors such as electricians, plumbing, gardening, and other manual crafts.\n- The impact is expected to be strongest in sectors involving direct human craftsmanship, with potential for AI to automate or augment these roles.\n- AI's integration may lead to shifts in employment, possibly protecting some jobs through legal and policy measures.\n\n## Trade, Workforce, and Welfare\n- The concept of trade is compared to a \"welfare state\" for service workers, providing a safety net that allows workers the flexibility to choose whether to participate in certain jobs.\n- Free trade and AI adoption could be facilitated by a generous welfare state, helping society accept increased automation without severe hardship.\n- There is a preference for human proxies in economic deals, especially involving pools of capital and larger automated organizations.\n\n## Legal and Political Responses\n- Anticipated legal pushback against healthcare and data handling, particularly concerning personal data standards around AI.\n- Potential for political movements aiming to regulate and protect jobs—possibly legislating to preserve half of all current jobs against AI disruption.\n- Governments might act faster than expected, with established large companies possibly resisting change in certain sectors.\n\n## AI in Professional and Artisanal Work\n- Manual trades with a need for human interaction are likely to be last affected by AI, as certain desk-bound roles requiring negotiation and agreement (e.g., sales, some administrative tasks) may also be semi-resistant.\n- Fear and nihilism exist within high-achieving academic communities about AI's disruptive potential, reflecting a broader societal angst.\n\n## Ethical and Human Considerations\n- Ethical trade-offs, such as surveillance versus consumer safety (symbolized by teddy bears), highlight societal tensions around AI trade-offs.\n- Journalism and media, including platforms like Substack, face ongoing debates about cross-subsidization, humanity, and the role of AI.\n\n## Cultural and Media Aspects\n- The media landscape is evolving, with discussions on how news and journalism are influenced by AI, subsidies, and the importance of human-centered storytelling.\n\n## Conclusion\n- AI's integration into the economy evokes complex trade-offs between technological advancement, legal regulations, worker protection, and societal values. Continuous development of good transition examples and policies is crucial to navigate this transformation effectively.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1620,
+      "latencyMs": 15713,
+      "cost": 0.00030330000000000005,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

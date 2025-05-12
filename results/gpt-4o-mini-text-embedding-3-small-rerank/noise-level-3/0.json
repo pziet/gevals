@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 21,
+  "timestamp": "2025-05-12T18:14:00.356Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n1. **Impact on Trades and Human Workforce**\n   - Discussion focused on how trades (e.g., electricians, plumbers) may evolve with the integration of AI, emphasizing the importance of maintaining a human face in these professions.\n   - The potential for job changes within trades was highlighted, with a particular emphasis on high-status, high-skilled positions.\n\n2. **Legal Challenges in Healthcare**\n   - There's ongoing legal pushback relating to healthcare and AI integration, signaling important implications for the sector.\n\n3. **Strategic Defense Adoption**\n   - Fast uptake of AI in defense sectors was mentioned, indicating a rapid transition to advanced technologies.\n\n4. **Union Bargaining in the Age of AI**\n   - The role of unions in advocating for worker rights and facilitating bargaining amidst widespread technological change was emphasized.\n\n5. **Ethical Concerns: Surveillance vs. Privacy**\n   - The metaphor of \"teddy bears\" was used to discuss the trade-off between surveillance and individual rights, illustrating ethical considerations in technology and AI.\n\n6. **Media Landscape and Cross-Subsidies**\n   - The impact on journalism was discussed, particularly regarding cross-subsidy models like Substack, which aim to maintain humanity and independent voices in media despite the pressures of AI.\n\n### Additional Insights\n- There is a recognized need for a generous welfare state to support workers as job markets transform due to AI.\n- Political movements may arise to protect certain jobs, indicating a potential shift in how labor is viewed and maintained in the face of AI advancements.\n\n### Conclusion\nThe meeting highlighted critical areas of concern and potential strategies related to the integration of AI in various sectors, emphasizing the need for ethical considerations, union support, and adaptations in welfare to safeguard human employment and societal values.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3070,
+      "latencyMs": 19334,
+      "cost": 0.0038238,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

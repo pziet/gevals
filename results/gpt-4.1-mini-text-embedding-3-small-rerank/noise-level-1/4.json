@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 155,
+  "timestamp": "2025-05-12T18:18:03.850Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trade and Labor Shifts**  \n  Discussions highlighted the evolving nature of trades and work, emphasizing the importance of maintaining a human face in transactions and labor practices as AI technology advances. The future may see human jobs “frozen in bureaucratic amber” to address political and social challenges posed by strong AI systems.\n\n- **Legal and Regulatory Pushback in Healthcare**  \n  The healthcare sector is expected to face significant legal obstacles due to its heavy regulation around personal data and stringent standards. This pushback may slow AI integration and reflects broader concerns about privacy and the ethics of automated decision-making in sensitive areas.\n\n- **Rapid Adoption for Defense Purposes**  \n  There is anticipation of fast uptake of AI technologies within defense sectors, driven by competitive and political pressures, potentially faster than in civilian domains.\n\n- **Role of Unions and Bargaining Power**  \n  Political and social movements, including unions, may actively seek to negotiate protections and benefits for workers affected by AI-driven automation. This reflects a broader trend of bargaining to preserve jobs and workplace rights amid economic transitions.\n\n- **Surveillance and Privacy Trade-offs**  \n  A metaphor involving teddy bears was used to illustrate societal trade-offs between surveillance and privacy, hinting at how acceptance of monitoring might come with convenience or safety perks, but also potential compromises on personal freedoms.\n\n- **Media, Journalism, and Economic Models**  \n  The meeting touched on how news and journalism are financed, with a focus on cross-subsidy models. Platforms like Substack were noted as examples where journalism intersects with technology to maintain humanity and personal connection despite economic pressures.\n\n- **Economic and Political Dynamics**  \n  The conversation underscored the necessity of generous welfare arrangements akin to a \"welfare state\" to support freer trade and smoother transitions in a future with widespread AI. This reflects a bargaining and acceptance framework where society balances efficiency losses against social stability.\n\nThese points collectively argue that AI's integration into society must be managed carefully through legal frameworks, social bargaining, and economic safeguards, all while preserving human-centric values in labor and media.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3294,
+      "latencyMs": 24592,
+      "cost": 0.0036634,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

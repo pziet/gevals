@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 73,
+  "timestamp": "2025-05-12T18:15:45.440Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trade Dynamics and Welfare**:\n  - The conversation highlighted the relationship between freer trade and the welfare state, suggesting that accepting freer trade could be beneficial for service workers, providing them with opportunities for meaningful engagement while allowing flexibility in their work choices.\n\n- **Impact of AGI on Employment**:\n  - There was speculation about the role of Artificial General Intelligence (AGI) in transforming the workforce. The expectation is that if AGI performs much of the work, society will become wealthier, easing the transition and potentially maintaining a familiar lifestyle for individuals.\n\n- **Need for Welfare Systems**:\n  - It was proposed that a strong welfare state might be necessary to support the acceptance of free trade, indicating that while welfare systems may not be the most efficient, they might serve as a safety net during significant economic transitions.\n\n- **Political Challenges**:\n  - The discussion pointed out the potential political resistance against job automation due to AGI, with concerns about regulatory measures to protect certain jobs, similar to existing laws in healthcare and other fields.\n\n- **Legal Challenges in Healthcare**:\n  - There was mention of pushback from legal frameworks in the healthcare sector regarding data handling and standards, which may complicate the integration of AI technologies.\n\n- **Union Negotiations**:\n  - The role of unions in negotiating for workers' rights amidst these economic changes was acknowledged, emphasizing the importance of collective bargaining for worker protection.\n\n- **Surveillance and Privacy Concerns**:\n  - The metaphor of \"teddy bears\" was used to describe the trade-offs society faces between surveillance measures and individual privacy, particularly in light of growing technology use and data collection practices.\n\n- **Media and Information Economics**:\n  - The discussion also touched on the role of journalism and cross-subsidies in media, addressing the need for maintaining human-centered narratives in news amidst the rise of platforms like Substack. Concerns about how these shifts affect the humanity and integrity of information were raised.\n\n## Conclusion\nThese themes collectively illustrate the complex interplay between economic evolution, technological advancements like AGI, and the socio-political landscape, emphasizing the need for thoughtful policies that consider both economic benefits and ethical implications.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3243,
+      "latencyMs": 26616,
+      "cost": 0.0041508,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 286,
+  "timestamp": "2025-05-12T18:27:01.938Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered Trade and Economic Impact\n- Emphasis on maintaining a human face in trade relations; viewing trade as a form of welfare for service workers, providing stability and meaning.\n- Trade agreements are seen as a \"bargain\" akin to welfare states, supporting workers even as automation and AI advance.\n- The integration of AI and automation may lead to economic benefits, making life feel familiar and less threatening to the public.\n\n## Legal and Regulatory Challenges\n- There is significant legal pushback in healthcare, particularly around handling personal data and standards, which influences how AI is adopted.\n- The strongest legalized uses of AGI are expected in sectors where regulations are more established or where opponents have vested interests (e.g., law and medicine).\n- Governments may act swiftly in certain areas, potentially moving faster than expected to regulate or restrict AI deployment.\n\n## Industry and Workforce Dynamics\n- Professions involving artisanal trades like electricians, plumbers, or gardening are likely to be impacted early by AI.\n- Desk-bound and interpersonal jobs, such as sales and roles requiring negotiation, may be the last to be fully automated.\n- A possible political movement may arise to protect a significant portion of existing jobs through legislation modeled after healthcare laws.\n\n## AI, Surveillance, and Trade-offs\n- Concerns about surveillance trade-offs, exemplified by symbolic elements like teddy bears, highlighting societal negotiation between privacy and safety.\n- The use of AI for laundering information and integrating AI-generated content into human systems is a relevant issue.\n\n## Media, Humanity, and Information\n- Discourse on news, journalism, and the concept of cross-subsidies, Substack, and the role of humanity in the information economy.\n- Potential societal angst and nihilism even among high-achieving academic circles driven by rapid technological change and uncertainty.\n\n## Broader Reflections\n- The future impact of AGI on the economy might be most profound in artisanal and craft trades, with less immediate impact on highly interpersonal or negotiation-dependent sectors.\n- The balance between technological advancement, economic stability, regulation, and societal acceptance remains pivotal.\n",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1572,
+      "latencyMs": 7637,
+      "cost": 0.0002841,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

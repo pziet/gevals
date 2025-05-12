@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 93,
+  "timestamp": "2025-05-12T18:16:02.618Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human and AI Interaction in Trade and Society\n- Emphasize the importance of human faces and involvement in trades last, highlighting the value of human touch and personal interaction.\n- The \"welfare state\" analogy applied to service workers suggests protections may be needed as AI automates jobs, ensuring meaningful work and economic stability.\n\n## Legal and Regulatory Challenges\n- Growing legal pushback in healthcare due to handling of personal data and standards, potentially complicated by strong AGI.\n- The strongest legal obstacles for AGI may occur in government sectors, especially within agencies like the US Department of Education and HHS, where political will is crucial.\n- Historically, legal obstacles have existed because lawyers prefer high-priced, protective practices, but AI's encroachment could shift this dynamic.\n\n## Defense and Policy Responses\n- Rapid adoption of AI technologies may trigger political movements aiming to freeze certain jobs in bureaucratic \"amber\" to manage societal impacts.\n- There is a high likelihood that laws will attempt to protect a significant portion of existing jobs from AI displacement, akin to protections in law and medicine.\n- Governments might try to LAUNDER AI-generated information into human-mediated systems to prevent direct AI influence, but access to hard government sectors may become surprisingly easy.\n\n## Economic Impact and Future of Work\n- AI-driven automation is expected to make everyone richer, maintaining familiar lifestyles even as work is transformed.\n- A central goal might be to bring a large portion of the economy, possibly half, into AI participation to sustain economic activity without destabilization.\n- The concept of \"AI teddy bears\" illustrates the coming age of AI-human hybrid entertainment and companionship, with increasing parental acceptance.\n\n## Media, Humanity, and Power Structures\n- Discussions on sympathetic human-centric media, cross-subsidization in journalism, and the role of Substack highlight shifts in how news and information are consumed.\n- The balance between surveillance, trade-offs, and human dignity remains a critical consideration.\n\n## Broader Cultural and Political Dynamics\n- A desire for meaningful, salient activities persists among humans, even as AI takes on more functional roles.\n- The chaotic winds of political forces will drive how regulations evolve, emphasizing the need for concrete examples of good transitions to avoid societal chaos.\n- The age of \"AI teddy bears\" signifies a future where AI comfort and companionship become commonplace, influencing societal norms and parental choices.\n\n---\n\nThese enhanced notes synthesize rough notes with relevant discussion points from the meeting, emphasizing key themes of human-AI interaction, legal and regulatory challenges, economic impacts, and societal shifts.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1662,
+      "latencyMs": 9418,
+      "cost": 0.00032010000000000003,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

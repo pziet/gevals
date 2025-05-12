@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 245,
+  "timestamp": "2025-05-12T18:25:55.203Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Key Topics Discussed\n\n- **Human Jobs and Economic Impact**  \n  There is a significant concern about the future of human jobs with the rise of AI technology. Discussions centered around the political movements that may arise to protect certain jobs, particularly in service and bureaucratic sectors.\n\n- **Welfare State Considerations**  \n  The challenges of maintaining a generous welfare state were highlighted. While it may seem necessary to support workers, the efficiency of such models is debated. The effectiveness of welfare in serving the workers needs ongoing evaluation.\n\n- **Fast Uptake of Defense Mechanisms**  \n  The rapid adoption of defensive measures in various sectors is likely as AI continues to evolve. This includes assessing the needs for job security in light of fast-paced technological advancements.\n\n- **Union Bargaining**  \n  The role of unions in negotiating better terms amidst technological changes was emphasized. The impact of AI on labor rights and conditions is crucial for future discussions.\n\n- **Trade-offs with Surveillance Technology**  \n  The conversation mentioned the metaphor of \"teddy bears\" in relation to the trade-offs involved in surveillance for safety versus privacy concerns. This theme is gaining traction in broader societal discussions.\n\n- **Media and Cross Subsidy Dynamics**  \n  The need for a supportive environment for quality journalism was underscored, with references to the role of platforms like Substack in providing a cross-subsidy model. The potential consequences for media and humanity were also examined.\n\n### Additional Notes\n\n- The importance of balancing new job creations with the protection of existing roles as AI transforms the workforce.\n- A focus on high-skill, artisanal jobs such as electricians and plumbers that may benefit from AI integration while maintaining human oversight.\n- The unpredictability of emerging job markets and the challenges that may arise in transitioning to new workforce paradigms.\n- Discussion of the necessity for generating successful examples of AI integration in human work systems to guide future endeavors.\n\nThis meeting serves as a critical reflection on the intersection of advancing AI technology, economic disruption, and the evolving labor landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1557,
+      "latencyMs": 27080,
+      "cost": 0.0016757999999999999,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

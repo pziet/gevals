@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 217,
+  "timestamp": "2025-05-12T18:21:46.192Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered Trade and Economy\n- The lasting importance of personal, human interactions (\"trades last, human face\") in commerce and relationships.\n- Certain trades—especially artisanal and craft professions like electricians, plumbing, gardening—are expected to be affected last by AI advancements.\n- In service sectors, activities that involve orchestration and collaboration—such as modern art production where artists coordinate large teams—may also be among the final areas impacted.\n\n## Legal and Regulatory Challenges\n- Strong AGI faces significant legal hurdles, particularly around handling personal data and standards in healthcare.\n- Existing legal frameworks may need substantial updates to accommodate AI developments.\n- Governments might adapt regulations faster than anticipated, with some resistance from large, established companies in implementing AI-related laws.\n\n## Defense and Workforce Protection\n- There is concern about societal responses to AI-driven economic shifts, including the potential need to protect jobs via laws similar to those in law and medicine.\n- Discussions suggest that a political movement could emerge aiming to safeguard a portion of the current jobs list, possibly 50%, through protective legislation.\n\n## Surveillance, Data Laundering, and Trade-offs\n- Surveillance versus trade-offs: balancing the need for AI oversight with privacy concerns, especially in healthcare where data standards are evolving.\n- Critical role of \"laundering\" AI-generated information into human systems—making AI's outputs usable and trustworthy—especially in regulated sectors like healthcare and government.\n\n## Media, Humanity, and the Future of Journalism\n- News organizations may face challenges like cross-subsidization of journalism and maintaining human-centric reporting practices (\"news, journalist cross subsidy, humanity\").\n- The role of Substack and alternative media as part of the evolving landscape in maintaining human storytelling amidst AI advancements.\n\n## Economic Impact and Mediation of Relationships\n- AI will influence the economy last in areas requiring manual, artisanal, or highly personal interactions—such as trades and crafts.\n- Commercial relationships will likely prefer mediated deals through humans on behalf of large pools of capital, with trust and personal rapport remaining key.\n- AI's influence might prompt the creation of new evidence and good examples of smooth AI integration, which are currently lacking.\n\n---\n\n*This set of enhanced notes synthesizes the provided rough notes and relevant chunks, emphasizing the themes of human-centric work, legal/regulatory landscapes, societal responses, and the strategic role of AI in various sectors.*",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1621,
+      "latencyMs": 15442,
+      "cost": 0.0003064,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

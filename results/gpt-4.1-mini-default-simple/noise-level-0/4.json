@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 340,
+  "timestamp": "2025-05-12T18:28:23.953Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## AI Impact on Trades and Human-Centric Jobs\n- Trades such as electricians, plumbing, gardening are expected to be among the last sectors impacted significantly by AGI.\n- These roles involve artisanal and human-mediated components that are harder for AI to fully replace.\n- Preference will persist for human involvement in commerce and deal-making, especially where trust and personal interaction are vital.\n- Trades and artisanal jobs constitute a \"human face\" element in the economy, where fully automated processes encounter challenges.\n\n## Legal and Regulatory Pushback in Healthcare and Other Sectors\n- Healthcare is anticipated to face strong legal and regulatory resistance due to extensive personal data handling and established standards.\n- Protecting jobs in healthcare via laws similar to those protecting certain professional sectors is likely, especially against strong AGI involvement.\n- Legal pushbacks could extend to other sensitive areas linked with data privacy and human safety.\n- Governments and large companies may become significant actors in resisting or shaping AI deployment in regulated domains.\n\n## Fast Adoption in Defense and Other Domains\n- Though some sectors like healthcare and trades resist, defense and certain industries may see a rapid uptake of AGI technologies.\n- Acceptance of AI in these domains may depend on demonstrated examples of good transitions and economic adjustments.\n\n## Role of Unions and Bargaining Power\n- Political and social movements are expected to arise that will push for protection of jobs impacted by AGI.\n- Unions and collective bargaining might play an essential role in shaping the terms of AI integration and job protection.\n- The welfare state concept for service workers may evolve as part of the social bargain supporting free trade in AI-impacted economies.\n\n## Surveillance, Privacy, and Trade-offs (Teddy Bears Metaphor)\n- Discussions touched on the balance between surveillance and privacy, implying a \"trade-off\" symbolized metaphorically as “teddy bears.”\n- Surveillance concerns will be critical as AI systems are integrated with human systems, especially where personal data is involved.\n\n## Journalism, News, and Funding Models\n- Journalism is adapting to new economic realities with cross-subsidy models emerging, such as through platforms like Substack.\n- The human element remains crucial in news; technology supplements rather than replaces journalistic roles.\n- The preservation of humanity in journalism highlights ongoing challenges in balancing automation with human content creation.\n\n---\n\nThese enhanced notes synthesize key themes from the meeting around AI's varied economic impacts, legal and social responses, sectoral differences in adoption timing, and the importance of maintaining human roles in trusted, personal, and artisanal domains.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1654,
+      "latencyMs": 12234,
+      "cost": 0.0012784,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

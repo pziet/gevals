@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 56,
+  "timestamp": "2025-05-12T18:14:54.898Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### Trade and the Human Element\n- The conversation highlighted that trades such as plumbing and electrical work may be among the last significantly impacted by AGI, emphasizing the importance of human involvement in these fields.\n\n### Healthcare and Legal Implications\n- There is expected legal pushback regarding healthcare sector changes due to advancements in AI. Discussions indicated that the structure of personal data standards needs to adapt for healthcare applications of AI.\n\n### Fast Uptake and Defense\n- The adoption of AGI is perceived as potentially rapid, leading to discussions on the necessary defenses and safeguards required as these technologies are integrated.\n\n### Union Bargaining Power\n- The impact of AGI on employment may necessitate unions to engage in bargaining processes to protect workers' interests amid technological shifts.\n\n### Surveillance and Ethical Trade-Offs\n- Concerns were raised regarding the ethical implications of surveillance in relation to technological advancements, represented metaphorically by \"teddy bears,\" which symbolize comfort and security in trade-offs involving privacy.\n\n### Journalism and Business Models\n- The meeting also covered the evolution of journalism in the face of AGI. There's a noted shift towards new business models, including cross-subsidy mechanisms and platforms like Substack, which emphasize maintaining the human touch in storytelling and news reporting.\n\n### Cultural Perspective\n- Discussions reflected on how journalists with backgrounds in the humanities bring valuable insights into the ethical and human dimensions of AI's impact on society.\n\n---\n\nOverall, the meeting underscored the balance between technological advancement and its implications for labor, ethics, and societal structures, emphasizing the enduring need for a human touch in increasingly automated processes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1469,
+      "latencyMs": 9048,
+      "cost": 0.0014735999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

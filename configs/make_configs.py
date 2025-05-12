@@ -3,20 +3,16 @@ from itertools import product
 
 # Define the possible values for each type
 models = ["gpt-4o-mini", "gpt-4.1-mini", "gpt-4.1-nano"]
-embeddings = ["text-embedding-3-small", "text-embedding-3-large"]
+embeddings = ["text-embedding-3-small", "text-embedding-3-large", "default"]
 rag_methods = ["simple", "rerank"]
-datasets = ["noise-level-0", "noise-level-1", "noise-level-2", "noise-level-3"] 
 
 # Generate all combinations
-configurations = list(product(models, embeddings, rag_methods, datasets))
-# TODO: remove this debugging
-configurations = configurations[:10]
-print(configurations)
+configurations = list(product(models, embeddings, rag_methods))
 
 # Create a config file for each combination
-for model, embedding, rag, dataset in configurations:
+for model, embedding, rag in configurations:
     # Create the config ID following the convention
-    config_id = f"{model}-{embedding}-{rag}-{dataset}"
+    config_id = f"{model}-{embedding}-{rag}"
     
     # Create the config dictionary
     config = {
@@ -25,7 +21,6 @@ for model, embedding, rag, dataset in configurations:
         "prompt": "system-prompt-1.txt",  # Using the same prompt file as seen in examples
         "embedding": embedding,
         "rag": rag,
-        "dataset": dataset
     }
     
     # Write to YAML file

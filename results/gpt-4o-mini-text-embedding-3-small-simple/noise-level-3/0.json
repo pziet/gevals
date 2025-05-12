@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 1,
+  "timestamp": "2025-05-12T18:13:32.242Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- The discussion focused on significant changes in the economy due to advancements in AI, labor dynamics, and the implications for various sectors, including healthcare and trades.\n\n## Key Topics Discussed\n\n### 1. Economic Changes and Worker Protection\n- There is a growing concern about the desire to step in and protect workers amid rapid economic changes driven by AI.\n- The potential need for a generous welfare state was discussed, though its efficiency and acceptance among the populace are questionable.\n- A political movement may emerge aimed at preserving a number of human jobs in response to the challenges posed by AI technologies.\n\n### 2. Trades and Employment Dynamics\n- The importance of trades was highlighted, with trades like electricians, plumbing, and other artisanal roles being seen as resilient and essential.\n- The conversation touched upon who might take over various job roles, notably younger generations expected to perform much of the hard work.\n- The notion that new jobs will emerge related to AI, such as marshalling or calming AI systems, was entertained.\n\n### 3. Healthcare and Legal Challenges\n- There was mention of potential legal pushback regarding healthcare changes and the necessity for a human touch in various roles.\n\n### 4. Union Bargaining\n- The dynamics of unions and labor bargaining were highlighted, particularly in the context of worker rights and protections during economic transitions.\n\n### 5. Surveillance Trade-offs\n- A metaphor involving \"teddy bears\" was used to discuss the trade-offs surrounding surveillance and the balance between safety and privacy.\n\n### 6. Media and Information Dissemination\n- The role of journalism, including the concept of cross-subsidization in media, was briefly addressed, touching on how platforms like Substack can foster a more human-centered approach to news.\n\n### 7. Future Prospects\n- The group expressed optimism about the potential for elevated economic roles and the efficiency gains from AI:\n   - Rapid changes could lead to new opportunities and the creation of new, high-status jobs.\n   - There was a consensus on the excitement surrounding the upcoming changes, although caution was urged due to the potential for disruptive job loss. \n\n## Conclusion\n- The meeting ended with a strong acknowledgment of the transformative nature of AI in the economy and the need for thoughtful approaches to both safeguard current jobs and embrace new opportunities that will arise.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1617,
+      "latencyMs": 19659,
+      "cost": 0.0018197999999999999,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

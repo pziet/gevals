@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 124,
+  "timestamp": "2025-05-12T18:17:00.519Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**  \n  The artisanal and trades sectors, such as electricians, plumbers, and gardeners, are likely to be among the last affected by AI-driven economic change. These roles involve not just skill but a human aspect that technology struggles to replicate fully. There may be opportunities in these fields for high-status, highly skilled specialists as AI changes the landscape.\n\n- **Legal and Political Pushback in Employment**  \n  There is a significant chance of political movements aiming to legally protect a portion of human jobs from automation and AI advances. This could manifest as bureaucratic restrictions intended to \"freeze\" some jobs in place, reflecting a trade-off between preserving human work and adopting AI efficiency.\n\n- **Healthcare Sector and Legal Concerns**  \n  The healthcare sector could experience notable legal pushback in integrating AI technologies, reflecting concerns over legality, ethics, and the protection of human roles.\n\n- **Rapid AI Uptake in Defense and Government**  \n  AI adoption is expected to be particularly fast in defense-related applications and government entities, which may serve as strong adopters despite sometimes relying on legacy software systems.\n\n- **Unions and Bargaining Power**  \n  Worker unions may play a role in bargaining to protect jobs or secure favorable terms for workers affected by AI and automation, influencing policy responses and labor market dynamics.\n\n- **Surveillance and Privacy Trade-offs (\"Teddy Bears\")**  \n  The discussion hinted at a surveillance trade-off, metaphorically described as \"teddy bears,\" possibly referencing the balance between comfort/security and privacy or surveillance concerns in AI implementation.\n\n- **Journalistic Funding Models and Humanity in News**  \n  There is emerging interest in cross-subsidizing journalism via platforms like Substack, which might help preserve the human, personal aspects of news reporting amidst technological disruption.\n\n- **Economic and Welfare State Considerations**  \n  There is a debate about how AI-driven economic changes will impact workers and the welfare state, weighing the need for protection against efficiency and long-term outcomes for younger generations.\n\n- **New Job Types**  \n  AI will likely create entirely new roles, including jobs involving managing, fueling, and creatively directing AI systems, potentially offering creative and high-status work opportunities aligned with AI capabilities.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1598,
+      "latencyMs": 12395,
+      "cost": 0.0011828000000000001,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

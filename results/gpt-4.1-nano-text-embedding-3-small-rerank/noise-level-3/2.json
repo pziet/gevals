@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 103,
+  "timestamp": "2025-05-12T18:16:28.305Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of Economic and Workplace Changes\n- The fast adoption of advanced AI and technology is reshaping labor markets, with a focus on trades and artisanal work such as electricians, plumbers, and gardeners, which may be affected in distinctive ways.\n- There is an ongoing discussion about how AI is influencing traditional trades, with a particular emphasis on high-skill, high-status crafts, and the potential for new job categories to emerge that involve marshalling and fueling these artisanal sectors.\n\n## Human Element and the Trade-Offs\n- Despite technological advancements, trades and jobs with a human face—such as personalized service and artisanal work—are likely to persist, emphasizing the importance of human touch.\n- Trades last, human face: importance of maintaining human involvement in certain sectors even as automation progresses.\n\n## Legal and Political Pushback\n- Legal challenges are emerging, especially in healthcare, reflecting resistance to rapid AI-driven changes.\n- There is a high likelihood of political movements advocating to freeze or protect a significant portion of human jobs in reaction to rapid technological change, potentially leading to bureaucratic resistance and new policies to safeguard employment.\n\n## Social and Welfare Considerations\n- The potential for economic shifts to disrupt existing welfare models is significant, prompting discussions about the adequacy of the welfare state as a bargain for workers.\n- A generous welfare state may be necessary to buffer the impacts of AI-driven unemployment, though its efficiency and acceptance are debated.\n\n## Surveillance, Trade-offs, and Society\n- Surveillance trade-offs are part of the broader conversation, exemplified by metaphors like teddy bears representing comfort and surveillance, highlighting societal tensions between safety, privacy, and human connection.\n- News and journalism face cross-subsidization challenges, with platforms like Substack exemplifying shifts toward humanity-centered and less centralized information dissemination.\n\n## Strategic Responses and Future Outlook\n- There is room to play different, higher-status economic games enabled by AI and increased productive capacity, potentially transforming societal structures.\n- The importance of generating positive transition examples is critical; lack of evidence might signal larger economic upheavals.\n- The speed of technological change could outpace traditional societal responses, necessitating innovative approaches to labor and welfare policies.\n\n## Additional Insights\n- Human trades, especially in artisanal and high-skilled sectors, may become even more valued as leaders or specialists within the new economy.\n- The overall economic impact includes considerations of job displacement, new job creation, and societal adaptation, with a focus on maintaining human dignity and societal cohesion amidst rapid change.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3227,
+      "latencyMs": 25635,
+      "cost": 0.0027006999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

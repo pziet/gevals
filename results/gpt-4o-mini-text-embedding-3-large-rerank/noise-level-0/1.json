@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 77,
+  "timestamp": "2025-05-12T18:15:47.024Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Impact of AGI on Human Jobs**\n  - There is a significant concern regarding the future of trades and artisanal jobs (e.g., electricians, plumbing) as AGI technologies develop.\n  - A high likelihood of political movements aiming to protect jobs akin to regulations found in law and medicine for the workforce affected by AGI.\n\n- **Legal and Healthcare Concerns**\n  - Anticipated pushback in legal frameworks particularly around healthcare, highlighting the sensitivity of personal data.\n  - The intersection of healthcare standards and technological advancements may impede AGI adoption.\n\n- **Economic Changes and Worker Protection**\n  - The conversation around the need for a welfare state to support workers impacted by free trade and AGI was highlighted.\n  - Discussions suggested that incentives to protect workers could lead to broader discussions about economic fairness and societal well-being.\n\n- **Union Negotiations**\n  - The potential for unions to negotiate better conditions and protections for workers in response to changes brought about by AGI and economic shifts.\n\n- **Surveillance Trade-Off and Public Sentiment**\n  - The metaphor of \"teddy bears\" was used to illustrate the trade-off between surveillance and privacy, reflecting public concerns about the implications of technology on personal freedom.\n\n- **Journalism and Media Economics**\n  - The role of journalists in the economy, particularly concerning cross-subsidization models like Substack.\n  - Discussion on how financial models in media can influence the delivery of news and the underlying humanity in storytelling.\n\n### Additional Notes\n- Rapid uptake of defense against AGI’s implications was recognized, with an emphasis on the need for more robust preparedness in various sectors.\n- Overall, the meeting highlighted the complex interplay between emerging technologies, labor dynamics, and societal values, advocating for a thoughtful approach moving forward.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3068,
+      "latencyMs": 25426,
+      "cost": 0.003828,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

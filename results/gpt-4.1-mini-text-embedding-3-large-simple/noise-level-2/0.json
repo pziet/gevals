@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 166,
+  "timestamp": "2025-05-12T18:18:20.859Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trades and Human Interaction\n- Trades and artisanal jobs such as electricians, plumbers, and gardeners are expected to be among the last to be impacted by advanced AI.\n- Human mediation remains important; people prefer deals conducted via human proxies, especially when large pools of capital are involved.\n- Some desk-bound work involving negotiations and alignment between people may persist due to the necessity of human communication.\n- The desire for meaningful and salient daily work underpins some resistance to full automation in these trades.\n\n## Legal and Regulatory Pushback, Particularly in Healthcare\n- Healthcare is anticipated to face strong legal pushback against introduction of strong AGI due to privacy concerns and existing regulatory standards related to personal data.\n- There is a significant chance that laws analogous to those in law and medicine sectors will arise to protect jobs from strong AI displacement.\n- Resistance could come both from governments and large established companies wanting to maintain their high chargeable service models.\n- The legal landscape currently hinders wide AI usage, particularly due to vested interests that dislike competition from AI-driven services.\n\n## Fast Uptake in Defense Sector\n- Although not explicitly detailed in the chunk, the fast uptake of AI in defense likely relates to large economic and national security interests driving adoption despite regulatory challenges.\n\n## Role of Unions and Bargaining Power\n- Political movements could emerge seeking to protect workers in various domains by legislating job protections.\n- Unions and collective bargaining might play a role in negotiating terms for workers exposed to automation.\n- The \"welfare state\" model may extend to service and trade workers to provide a safety net amid economic changes brought by AI.\n\n## Trade-offs Between Surveillance and Comfort (Teddy Bears Metaphor)\n- The metaphor of \"teddy bears\" aligns with concerns about surveillance trade-offs in AI adoption, where comfort or convenience could come at the expense of privacy or increased monitoring.\n\n## News, Journalism, and Economic Models\n- Journalism and news sectors face challenges in funding with AI impacts.\n- There is a discussion about cross-subsidy models in journalism, where different revenue sources help maintain human-centered news production.\n- Platforms like Substack and issues of maintaining humanity in news generation and delivery are critical points.\n- Ensuring quality and human input in journalism is pivotal as automated tools expand.\n\n## Economic and Social Reflections\n- AI-driven wealth gains might allow society to afford transitions and protections for workers.\n- The goal should be to maintain familiar life aspects, balancing automation with human roles to preserve meaning and social stability.\n- Generous welfare states or protective policies may be necessary companions to free trade and automation growth.\n\n---\n\nThese enhanced notes synthesize the core discussion points regarding the impact of advanced AI across trades, legal constraints, healthcare, defense, labor bargaining, surveillance concerns, and journalism economics while emphasizing the human-centered aspects critical in navigating these changes.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1720,
+      "latencyMs": 16287,
+      "cost": 0.0013732000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

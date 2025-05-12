@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 158,
+  "timestamp": "2025-05-12T18:18:07.612Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Artisanal Jobs Likely Impacted Last:**  \n  Advanced AI and AGI are expected to affect trades and artisanal jobs (e.g., electricians, plumbing, gardening) later than other sectors. These roles often require a human face and direct interactions, which are challenging for AI to fully replicate. This creates a human element to the trades that is likely to delay AI displacement.  \n\n- **Legal Pushback in Healthcare and Strong Regulatory Hurdles:**  \n  Healthcare is anticipated to be a sector with significant legal and regulatory pushback against rapid AI adoption. This is due to stringent standards around personal data management and procedural safeguards. Legal frameworks in healthcare are expected to be among the last to accommodate strong AI integration, ensuring patient safety and privacy are preserved.  \n\n- **Fast Uptake in Defense Sector:**  \n  Defense, unlike healthcare, is expected to witness a relatively fast uptake of AI technologies. The strategic importance and the potential benefits drive quicker adoption in defense systems and decision-making processes.  \n\n- **Role of Unions and Bargaining Power:**  \n  Political movements and unions could emerge to protect jobs threatened by AI automation. These groups might bargain for laws analogous to those in sensitive professions (e.g., law and medicine) to safeguard worker roles and mitigate economic disruption. This aligns with historical trends where labor organizations negotiate conditions amid technological changes.  \n\n- **Trade-offs Between Surveillance and Privacy (Teddy Bears Metaphor):**  \n  There is a metaphorical trade-off discussed about surveillance versus privacy/security resembling \"teddy bears\" — indicating the challenges of balancing AI's monitoring capabilities with human values and trust. This highlights the societal negotiation between advanced technological surveillance and preserving individual freedoms.  \n\n- **Impact on Journalism and News Media Funding:**  \n  Journalism faces economic pressures, and advanced AI could impact traditional news funding models. Cross-subsidies, where more profitable areas support journalism, might become strained. Human-centric platforms like Substack are highlighted as innovative models preserving journalistic humanity and connection amidst technological changes.  \n\n- **Need for Welfare State as a Social Bargain:**  \n  The discussions suggest that a generous welfare state may be necessary to support free trade and transitions caused by AI-driven economic shifts. While not always the most efficient, such social safety nets represent a societal bargain to manage the distributional impacts on workers displaced or disrupted by AI.  \n\n- **Economic and Societal Transition Evidence:**  \n  There is concern that insufficient examples of smooth economic transitions due to AI may lead to stronger political demands for protective measures. Demonstrating good transition cases is critical to shaping public and policy responses to AI integration.  \n\nThese points collectively reflect the multifaceted challenges and responses anticipated as advanced AI technologies transform various sectors, emphasizing legal, economic, human, and societal dimensions.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3239,
+      "latencyMs": 25558,
+      "cost": 0.0036224,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

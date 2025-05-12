@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 302,
+  "timestamp": "2025-05-12T18:27:28.444Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Summary of Meeting Discussion\n\n- **Trade-offs Between Human and AI Labor**  \n  The conversation highlighted that AI and automation tend to displace human jobs, raising concerns about the last remaining human jobs being those with a \"human face,\" such as tradespeople and artisanal work. This shift prompts a reevaluation of which jobs are sustainable and valuable in an AI-driven economy.\n\n- **Legal and Regulatory Pushback**  \n  There is significant discussion about potential legal and regulatory responses to AI advancements, particularly in healthcare. Such pushback may aim to slow or regulate AI deployment to protect existing jobs and ensure human oversight.\n\n- **Defense Against Rapid AI Uptake**  \n  The rapid adoption of AI technologies presents challenges, leading to discussions about potential defense measures. One possibility is implementing policies to slow down AI integration or freeze certain human jobs to manage societal impacts.\n\n- **Union and Bargaining Dynamics**  \n  The role of unions and collective bargaining is anticipated to become more prominent as workers and organizations seek to negotiate protections against AI-related job displacement. The importance of forming a bargain—whether for wages, job security, or working conditions—is emphasized.\n\n- **Surveillance and Trade-offs**  \n  A trade-off was noted involving surveillance, possibly in relation to AI's role in monitoring and controlling access—such as in the context of tools or devices (symbolized metaphorically by \"teddy bears\")—raising questions about the balance between security and privacy.\n\n- **Media, Humanity, and Subscriptions**  \n  The news sector and journalism face transformations, including cross-subsidization models and new platforms like Substack that emphasize human storytelling and journalism. These changes reflect broader concerns about maintaining human-centric content amid technological shifts.\n\n## Key Takeaways\n\n- Societal and economic shifts caused by AI may lead to attempts to protect certain human jobs, especially those that involve human interaction and artisanal skills.\n  \n- There is an ongoing debate about implementing legal measures to slow or regulate AI deployment, especially in sensitive sectors like healthcare.\n\n- The possibility of political movements advocating for job freezes or restrictions indicates a potential for societal resistance to rapid technological change.\n\n- The transformation of the media landscape and the importance of human storytelling are crucial amidst these technological advancements.\n\n- The discussion emphasizes the need for evidence-based approaches to managing transitions, highlighting the importance of demonstrating successful models of change.\n\n---\n\n**Note:** This synthesis integrates rough notes with relevant discussion points extracted from the provided chunks, emphasizing the core themes and concerns about AI's economic impact, legal responses, union roles, and societal trade-offs.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3221,
+      "latencyMs": 19423,
+      "cost": 0.0026813,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

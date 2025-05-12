@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 192,
+  "timestamp": "2025-05-12T18:19:04.540Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Human Elements in Trades and Jobs:**\n  - There is a possibility of political movements aiming to protect many existing human jobs through laws similar to those in law and medicine as a response to the rapid advancement of AI and AGI.\n  - The desire for meaningful work and human interaction remains important, even as AI takes over more tasks. A welfare state model may be necessary to support service workers and maintain a sense of purpose.\n\n- **Legal and Regulatory Pushback:**\n  - Certain sectors, especially healthcare, are likely to face strong legal resistance to AI integration due to concerns about privacy, data standards, and established regulatory frameworks.\n  - Legal obstacles also exist in areas like law, where professionals may resist AI tools that could undercut traditional billing practices.\n\n- **Fast Adoption in Defense:**\n  - Defense is anticipated to be an area of rapid AI uptake, though this topic requires further observation to clarify dynamics and impacts.\n\n- **Labor Unions and Bargaining:**\n  - There is a recognized need for political will and organized labor groups to bargain effectively in the face of AI-induced changes, potentially seeking protections for workers and good transition models as AI reshapes industries.\n\n- **Surveillance and Privacy Trade-offs:**\n  - The trade-off between surveillance and convenience or safety is an emerging concern, illustrated metaphorically by “teddy bears,” symbolizing benign objects that may carry surveillance capabilities.\n\n- **Media and Journalism Economics:**\n  - Journalists and news organizations are navigating economic challenges, with some relying on cross-subsidies and newer platforms like Substack to maintain a human-centered approach to reporting.\n  - Maintaining journalistic integrity and humanity in news is vital amid technological advances and changing business models.\n\nThese notes reflect concerns about balancing AI integration with human job preservation, legal and ethical standards, and maintaining societal and economic structures that support meaningful work and privacy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3124,
+      "latencyMs": 20434,
+      "cost": 0.0034174,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 24,
+  "timestamp": "2025-05-12T18:14:09.741Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion on the economic implications of Advanced AI, focusing on workforce changes and legal considerations.\n\n## Key Topics Discussed\n\n### Trades and Human Element\n- The importance of retaining a human face in trades, emphasizing roles that require craftsmanship and personal interaction (e.g., electricians, plumbers).\n  \n### Legal Considerations\n- Acknowledgment of potential legal pushback in the healthcare sector concerning AI integration and its implications on employment.\n\n### Rapid Adoption in Defense\n- Analysis of the fast uptake of AI technologies in defense sectors and the related economic impacts.\n\n### Unions and Bargaining\n- The role of unions in negotiating terms for workers affected by AI advancements, highlighting the necessity for organized bargaining power.\n\n### Trade-Offs in Surveillance\n- Discussion on the trade-offs between advancing technologies (like surveillance) and societal values, illustrated by the metaphor of \"teddy bears\" representing comfort against potential overreach.\n\n### Media and Journalistic Integrity\n- Examination of the intersection of journalism and AI, particularly focusing on the concept of 'cross-subsidy' in news production platforms like Substack. Emphasis on balancing humanity in reporting against economic models driving journalism.\n\n## Conclusion\n- The meeting highlighted the multifaceted implications of AI on the economy, the necessity for legal frameworks, and the ongoing need for human elements within traditional industries.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3026,
+      "latencyMs": 22869,
+      "cost": 0.0036749999999999994,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

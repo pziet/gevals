@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 336,
+  "timestamp": "2025-05-12T18:28:18.987Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Trades and Human Presence\n- AGI is expected to impact trades last, especially artisanal trades such as electricians, plumbing, gardening, and similar human-mediated activities.\n- There is a strong human preference for commerce and deals involving interpersonal relationships, serving as a \"human face\" in transactions and capital management.\n\n### Legal Pushback in Healthcare\n- Healthcare is predicted to face significant legal resistance due to its ties to personal data handling and existing regulatory standards.\n- Laws protecting jobs in healthcare might mirror those protecting professions like law and medicine against strong AGI.\n- These legal frameworks may need substantial changes to accommodate AI advancements while safeguarding privacy and standards.\n\n### Fast Uptake in Defense Sector\n- While not explicitly detailed, sectors such as defense might adopt AI quickly, although this was mentioned in rough notes and would align with stronger institutional interests in rapid technology integration.\n\n### Unions and Bargaining Power\n- There could be political movements and union activities aimed at protecting jobs from automation and strong AGI impacts.\n- Workers may push for laws and protections analogous to those in healthcare and law to preserve employment in various sectors.\n\n### Surveillance and Privacy Trade-offs\n- Surveillance emerges as a trade-off concept seen as part of the broader societal negotiation surrounding AI adoption.\n- The balance between monitoring (potentially for security or compliance) and personal privacy requires careful management as AI becomes more integrated.\n\n### Journalism and the Media Landscape\n- Journalistic work and news sectors face challenges related to AI, with human elements like a reporter's background in humanities playing a role.\n- There is mention of journalist cross-subsidy models, like Substack, which reflect attempts to sustain humanity and quality in journalism amid AI influence.\n- The impact of AI in media highlights the importance of preserving human insight and editorial integrity.\n\n### Broader Economic Context\n- The need for welfare state-like support systems might increase to facilitate free trade and ease transitions in the labor market affected by AI.\n- Economically, there is an acknowledgment that life should feel familiar despite technological changes, aiming for managed progress that supports workers.\n- Companies and customers are encouraged to create positive transition examples to reduce resistance and demonstrate smooth integration of AI technologies.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1580,
+      "latencyMs": 10745,
+      "cost": 0.00116,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

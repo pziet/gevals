@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 255,
+  "timestamp": "2025-05-12T18:25:58.971Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe discussion centered around the implications of advanced AI on the economy, legal frameworks, human labor, and societal adjustments, touching upon the potential for serious political and economic shifts.\n\n## Key Topics Discussed\n\n1. **Human Face in Trades**:\n   - Emphasis on maintaining a human element within economic transactions and trades.\n\n2. **Legal Pushback in Healthcare**:\n   - Anticipation of resistance to AI integration within healthcare sectors, focusing heavily on regulations related to personal data.\n\n3. **Fast Uptake in Defense**:\n   - Observations on rapid advancements in defense technology and the need for preparedness in legislation and adaptation.\n\n4. **Unions and Bargaining Power**:\n   - Discussion on the role of unions in bargaining for workers' rights amidst evolving job landscapes influenced by AI.\n\n5. **AI Teddy Bears and Surveillance**:\n   - Notion of \"AI teddy bears\" as metaphorical representations of AI's role in daily life; reminding that certain comforts may come at the cost of surveillance and privacy trade-offs.\n\n6. **Journalism and Economic Sustainability**:\n   - Debate on the future of journalism, touching on the need for a revenue model (e.g., Substack) that balances journalistic integrity and financial sustainability, while fostering humanity in storytelling.\n\n7. **Bargaining for Free Trade**:\n   - Arguments made regarding the necessity of a robust welfare state to support freer trade, especially affecting service workers.\n\n8. **Political Movements**:\n   - Considering the likelihood of political initiatives aimed at protecting human jobs, potentially hindering the integration of AGI technologies.\n\n9. **Challenges Faced by Legal Systems**:\n   - Insight on how strong AGI might encounter legal obstacles predominantly from areas that are traditionally resistant to technological disruption, particularly in law and healthcare settings.\n\n10. **Economic Participation**:\n    - Discussion on the concept of economic roles evolving alongside AI advancements, and the necessity for inclusive transitions that provide meaningful participation in the economy for all individuals.\n\nThese notes encapsulate the main discussion points and themes from the meeting, reflecting the complexities and considerations surrounding the integration of AI into various facets of society.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1589,
+      "latencyMs": 11150,
+      "cost": 0.0017453999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

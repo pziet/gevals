@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 211,
+  "timestamp": "2025-05-12T18:21:39.569Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of AI and Economic Impact\n- AI is transforming the economy, with recent efforts like the Anthropic economic index measuring AI's effects on the US economy.\n- High-value activities such as healthcare and entertainment are increasingly being influenced or replaced by AI, exemplified by the emerging concept of \"AI teddy bears\" targeted at children.\n- As AI takes on more work, human roles shift towards providing meaningful, salience-driven experiences rather than routine tasks.\n\n## Societal and Political Considerations\n- There is concern about the rapid pace of AI development leading to political movements aimed at locking in jobs through regulation, effectively \"freezing\" some human roles in bureaucratic amber.\n- The political will is a critical factor: the system may struggle if action isn't taken swiftly and decisively.\n- Governments, especially in U.S. agencies like DHS and HHS, could face challenges in regulating AI, with some parts of government becoming surprisingly susceptible to AI infiltration.\n\n## Legal and Ethical Challenges\n- Legal obstacles for AGI are significant, particularly in industries like law and medicine, where existing standards and regulations hinder the integration of powerful AI.\n- Historically, legal barriers often stem from professional interests, such as lawyers wanting to maintain high fees and control.\n- Ensuring proper handling of personal data and standards around AI-generated information remains a core concern.\n\n## Defense and Human Face of AI\n- Human elements, such as customer-facing roles, will continue to dominate the \"last mile\" of AI deployment, emphasizing the importance of maintaining human contact and trust.\n- Fast adoption of AI in sectors like defense and healthcare suggests a \"human face\" as a vital buffer and interface.\n\n## Media, Information, and Humanity\n- The media landscape is shifting with cross-subsidies for journalism and platforms like Substack, raising questions about maintaining journalistic integrity and the human aspect.\n- The balance between automation, AI-generated content, and human oversight remains a key societal challenge.\n\n## Future Outlook\n- The future may see widespread use of AI in everyday objects (\"AI teddy bears\") and in entertainment, blending high-tech with human-like interaction.\n- As AI becomes more embedded, society must navigate trade-offs such as surveillance, privacy, and human trade-offs in AI-assisted decision-making.\n- Building evidence of good transition practices for workers displaced by AI, and fostering societal acceptance, are crucial steps forward.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1630,
+      "latencyMs": 10785,
+      "cost": 0.00030730000000000004,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

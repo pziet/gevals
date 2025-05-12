@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 118,
+  "timestamp": "2025-05-12T18:16:52.075Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n## Human-Centered Economic Impact and Trades\n- Discussions highlight that trades and artisanal jobs (e.g., electricians, plumbing, gardening) are expected to be affected last by advanced AI (AGI), emphasizing a human face in the workforce.\n- The importance of maintaining human presence and supervision in trades may serve as a defense against rapid automation.\n\n## Legal and Policy Challenges\n- Anticipation of legal pushback in healthcare sectors, with potential regulation hurdles for AGI integration.\n- The need for legal frameworks to protect existing jobs, possibly resembling laws in medicine designed for strong AGI.\n- Possible emergence of political movements advocating for job protections, with some trade-offs involved (notably expressed through metaphors like 'teddy bears' and surveillance trade-offs).\n\n## Defense of Economic and Societal Stability\n- Strategies to ensure the \"fast uptake\" of AI focus on balancing innovation with societal safeguards.\n- An emphasis on the importance of generating enough positive transition examples to mitigate economic disruptions.\n- Discussions imply that generating evidence of successful transitions can help guide better regulatory and societal responses.\n\n## Cultural and Media Dynamics\n- Issues concerning news media, journalism, and societal cross-subsidies are mentioned, referencing platforms like Substack—highlighting shifts towards more human-centered and independent content creation.\n- The role of media in fostering humanistic values amid AI developments is recognized, balancing automation with humanity.\n\n## Surveillance and Trade-offs\n- surveillance and trade-offs, exemplified through symbolic references like teddy bears, suggest trade-offs between privacy and societal benefits.\n- Such trade-offs could be part of broader discussions on ensuring AI benefits without sacrificing human rights.\n\n## Broader Societal Considerations\n- The importance of keeping life familiar and ensuring economic prosperity (“richer so we can afford this all of a sudden”) to avoid societal discomfort.\n- Potential parallels with welfare state strategies to support workers and maintain stability amid technological shifts.\n- Overall sentiment underscores that AI development should aim to preserve human-centric values and societal well-being, even as economic and technological changes accelerate.\n\n---\n\n*Note:* The notes synthesize the provided rough notes with the core themes from the relevant content chunks, emphasizing the intersection of AI impact, legal frameworks, societal values, and economic protections.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3146,
+      "latencyMs": 21103,
+      "cost": 0.0026441,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 338,
+  "timestamp": "2025-05-12T18:28:22.900Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades Last, Human Face**  \n  Advanced General Intelligence (AGI) is expected to impact the economy in various ways, but trades and artisanal jobs such as electricians, plumbing, and gardening will be affected last. These jobs involve human relationships and hands-on skills that are less susceptible to automation. There is a strong preference for human-mediated commerce and personal deals, particularly in larger capital pools.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare is a sector likely to experience significant legal resistance to AGI deployment. This is due to stringent regulations related to personal data management and industry standards that will need adaptation to accommodate AI. The emphasis on privacy and regulatory compliance makes healthcare a challenging area for rapid AI integration.\n\n- **Fast Uptake in Defense and Similarly Regulated Areas**  \n  Certain sectors may experience rapid adoption of AI technologies if examples of successful transitions and benefits are demonstrated. However, the pace of adoption depends on economic changes and demonstrated outcomes, which influence political and social responses.\n\n- **Unions and Bargaining Power**  \n  There is a high potential for political movements and organized labor (unions) to advocate for protecting existing jobs against strong AGI disruptions. Legal safeguards analogous to those protecting professions like law and medicine may emerge to shield significant portions of the workforce.\n\n- **Teddy Bears Analogy & Surveillance Trade-Off**  \n  The metaphor of \"teddy bears\" relates to the trade-offs society faces between surveillance and privacy when integrating AI technologies. Balancing the benefits of AI surveillance capabilities with human rights and privacy concerns is a critical issue.\n\n- **News Media, Journalism, and Subsidies**  \n  Journalism is undergoing transformation with AI’s influence. Traditional news organizations are exploring cross-subsidies and new models to preserve the \"humanity\" and integrity of news production. Platforms like Substack are mentioned as part of this evolving media landscape where independent and human-centric content remains vital.\n\nThese notes highlight the complex interplay of economic, legal, and social factors shaping AI integration, emphasizing human roles and regulatory challenges.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1558,
+      "latencyMs": 13305,
+      "cost": 0.0011248,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

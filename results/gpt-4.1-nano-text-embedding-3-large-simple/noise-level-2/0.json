@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 206,
+  "timestamp": "2025-05-12T18:21:28.772Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The longevity of trades and human interaction remains crucial; despite AI advancements, human faces and presence in trades are valued.\n- There is potential for legal pushback, particularly in healthcare, where regulations around personal data and standards may slow AI integration.\n- Defense against rapid AI adoption is necessary, possibly through regulation and cautious implementation strategies.\n- Unions and collective bargaining could play significant roles in managing AI's impact on workers, ensuring fair transitions.\n- Trade-offs exist between surveillance and protections, exemplified metaphorically by teddy bears and surveillance measures.\n- Media and journalism face challenges such as cross-subsidization, with discussions around humanity, and innovative funding models like Substack.\n- The concept of a welfare state acts as a social buffer, making the \"bargain\" of free trade and AI integration acceptable; it provides a safety net for service workers.\n- AI could change economic structures, favoring large pools of capital and automated organizations, with humans acting as proxies.\n- Major legal and economic shifts are likely to trigger increased efforts to protect workers, especially in highly regulated sectors like healthcare.\n- The most affected sectors are expected to be trades and artisanal professions (e.g., electricians, plumbers, gardening), which rely heavily on physical and personal interaction.\n- Sectors involving personalized, interpersonal work (like certain sales and negotiations) may be among the last to be fully replaced by AI.\n- Government responses might be swift, with large established firms potentially resisting AI-driven changes more than policymakers.\n- The impact of AI on the economy will be substantial, potentially requiring significant restructuring to support up to half of current employment.\n- Despite technological optimism, there exists angst and nihilism within high-achieving academic circles about AI's implications.\n- Overall, navigating AI's integration involves balancing economic gains with legal, social, and ethical considerations, emphasizing cautious transition strategies.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1525,
+      "latencyMs": 13901,
+      "cost": 0.00026530000000000005,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

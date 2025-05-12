@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 344,
+  "timestamp": "2025-05-12T18:28:42.304Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on Economic Changes and AI Impact\n\n- **Trades and Human Element**:\n  - The most artisanal parts of the economy, such as skilled trades (electricians, plumbing, gardening), may retain a human face and high-status roles despite AI developments.\n  - There will be demand for certain tradesmen not only for their skill but also for the human element they bring.\n\n- **Legal and Political Responses**:\n  - There is likely to be legal pushback against AI replacing jobs, especially in sensitive sectors such as healthcare.\n  - Political movements may arise to freeze or protect certain human jobs through bureaucratic means to manage the rapid technological changes.\n\n- **Rapid Uptake in Defense Sector**:\n  - AI adoption is expected to be fast in areas tied to national security and defense.\n\n- **Role of Unions and Bargaining**:\n  - Unions will play a critical role in bargaining to protect worker interests amidst economic disruptions caused by AI.\n\n- **Surveillance and Trade-offs**:\n  - Discussions included a metaphorical reference to \"teddy bears\" representing trust or comfort, balanced against surveillance concerns in the evolving economic landscape.\n\n- **Media, Journalism, and Economic Models**:\n  - Journalists and news organizations face financial challenges, potentially relying on cross-subsidy models.\n  - Platforms like Substack are noted as examples where humanity in journalism intersects with new economic models that may affect sustainability.\n\n- **Welfare State Considerations**:\n  - The welfare state remains a key but imperfect model to support workers transitioning through economic shifts influenced by AI.\n  - There's recognition of a need for a generous welfare approach to manage transitions and protect vulnerable populations.\n\nThese points encapsulate discussions about the intersection of AI-driven economic changes, the persistence of human labor in skilled trades, legal and political strategies for job protection, welfare considerations, and the evolving business models in journalism.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3082,
+      "latencyMs": 23459,
+      "cost": 0.0033644,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

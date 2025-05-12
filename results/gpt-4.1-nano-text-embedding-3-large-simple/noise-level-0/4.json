@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 220,
+  "timestamp": "2025-05-12T18:21:45.484Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centric Trades and Economic Impact\n- Trades require a human face and are last to be significantly affected by AGI advancement, particularly in artisanal and manual sectors such as electricians, plumbers, gardening, and certain crafts.\n- The system may see a breakdown without proper evidence of positive transitions; fewer successful examples could hinder acceptance of AI changes.\n\n## Legal and Policy Challenges\n- Significant legal pushback expected in healthcare, especially concerning personal data standards and regulations that will need updating due to AI integration.\n- AGI will encounter the strongest legal obstacles in sectors with high security or sensitive data, such as government operations and healthcare.\n- Governments might act faster than anticipated to regulate AGI, potentially resisting or slowing its penetration in major sectors.\n- Large established companies may also show resistance, especially in sectors with substantial regulatory or institutional barriers.\n\n## Defense and Political Movements\n- There is a high likelihood of political movements aiming to protect half of current jobs through laws similar to those in law and medicine to limit AGI impact.\n- The focus will be on protecting jobs that involve negotiations and relationship-mediated commerce, especially where deals are made on behalf of large pools of capital.\n\n## Surveillance, Trade-offs, and Cultural Aspects\n- Surveillance trade-offs, exemplified by teddy bears and personal data monitoring, may be central to debates around AI’s societal integration.\n- The \"news\" and media landscape could be affected by issues like cross-subsidization, humanity’s role, and platforms such as Substack influencing media and information dissemination.\n\n## Future of Art, Service Sectors, and AI Integration\n- Modern art production with many collaborators might serve as a model for AI-influenced creative industries, similar to orchestrated art projects.\n- The desk-bound service sector, including healthcare and education, will likely be among the last to fully incorporate AGI due to complexity and resistance.\n- AGI will influence artisanal trades last, primarily affecting manual and craft industries.\n\n## Economic and Social Adaptations\n- A move towards laundering and integrating AI-generated information into human systems will be necessary, possibly involving covert transmission methods.\n- People will prefer mediated relationships over direct AI interaction in commerce, highlighting the importance of human proxies and relationships in economic activities.\n- The \"Anthropic Economic Index\" and related reports are measuring the evolving impact of advanced AI on the U.S. economy, emphasizing the importance of evidence and role models for successful transition strategies.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1632,
+      "latencyMs": 14362,
+      "cost": 0.0003108,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

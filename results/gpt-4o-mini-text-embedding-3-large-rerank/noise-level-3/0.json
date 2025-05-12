@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 61,
+  "timestamp": "2025-05-12T18:15:17.844Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### 1. **Impact of AI on Jobs**\n   - There is a high probability of a political movement aimed at \"freezing\" certain human jobs as a response to rapid technological advancements, particularly in AI. \n   - A focus on preserving trades and artisanal jobs (e.g., electricians, plumbing) is essential as they are less likely to be affected by AI in the near term.\n   - Discussions highlighted the importance of maintaining high-status, skilled occupations as not only a matter of efficiency but also of societal value.\n\n### 2. **Welfare State Considerations**\n   - The concept of a generous welfare state was presented as a potential approach to support workers, particularly in light of AI-induced changes to employment models.\n   - A critique of the welfare state model being efficient was raised, suggesting an ongoing debate about its effectiveness in serving the workforce.\n\n### 3. **Union Bargaining Power**\n   - The need for unions to adapt and bargain effectively within the changing landscape of labor was emphasized, particularly as new tech changes traditional labor dynamics.\n\n### 4. **Surveillance and Personal Privacy**\n   - The discussion touched on the trade-offs related to surveillance in the workplace or community, particularly as it relates to monitoring and oversight versus individual privacy concerns.\n\n### 5. **Journalistic Ethics and Economic Models**\n   - The role of journalists and the economic model of \"cross-subsidy\" in maintaining the human aspect of reporting, especially in contrast to AI-generated news content, was examined. \n   - The emergence of platforms like Substack as alternatives for ethical journalism was also discussed, raising questions about the sustainability and humanity of new media.\n\n### 6. **Adaptation to Fast Changes**\n   - Acknowledgment of the fast uptake in defense industries and other sectors as they adapt to technological advances, highlighting the need for quick responses and adaptability within labor forces. \n\n### 7. **Cultural Impact**\n   - There was a discussion about the broader cultural implications of these economic and technological changes, particularly on community values and individual roles within society.\n\nOverall, the meeting captured a range of concerns about the interplay of AI with labor, welfare systems, and fundamental ethics in society, highlighting the urgent need for thoughtful policy and cultural adaptation in the face of rapid technological evolution.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3208,
+      "latencyMs": 24905,
+      "cost": 0.0041262,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

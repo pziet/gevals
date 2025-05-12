@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 301,
+  "timestamp": "2025-05-12T18:27:27.192Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs and Human Element**: The discussion emphasized the importance of maintaining human presence in trades and services, such as artisanal work (electricians, plumbing, gardening), highlighting their high status and skill requirements.\n\n- **Legal and Political Pushback on Healthcare AI**: There is concern over legal challenges and political movements aimed at regulating or restricting AI's role in healthcare, reflecting fears of rapid technological change overwhelming existing systems.\n\n- **Defense and Rapid Adoption**: The defense sector is noted for its quick uptake of AI technologies, possibly due to national security interests, which may influence broader societal adaptation.\n\n- **Labor Bargaining and Unions**: The potential role of unions in negotiating AI integration and protecting workers' rights was discussed, alongside possible government interventions to safeguard jobs.\n\n- **Surveillance Trade-offs**: Ethical considerations surrounding surveillance and its role in AI deployment, exemplified by the teddy bears analogy, point to balancing security benefits against privacy costs.\n\n- **Media, Journalism, and Funding Models**: The dynamics of news media and cross-subsidization—such as Substack's model—raising questions about the commodification of information, humanity, and the impact on quality journalism.\n\n- **Economic Impact of AI and Job Protection**: There is a high likelihood of political movements attempting to freeze or protect human jobs amidst rapid AI advancements; however, such measures may not be sustainable or effective long-term.\n\n- **Potential for New Jobs and Higher-Status Roles**: Emerging roles may involve coordinating AI systems—marshalling, fueling, and creative tasks—creating new, high-status opportunities that leverage human skills uniquely.\n\n- **Inequality and Welfare Considerations**: As AI may benefit the young and the wealthy, discussions touched on the need for robust welfare systems to address inevitable inequalities driven by technological progress.\n\n- **Overall Uncertainty and Future Trajectories**: The rapid pace of AI development could lead to new societal \"games\" and opportunities, but also raises questions about legal, ethical, and economic stability, necessitating careful navigation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3174,
+      "latencyMs": 19754,
+      "cost": 0.0027101,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

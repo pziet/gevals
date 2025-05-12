@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 142,
+  "timestamp": "2025-05-12T18:17:34.260Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Artisanal Jobs**  \n  AI's impact is likely to be felt most in trades and artisanal sectors such as electricians, plumbing, and gardening. These areas will retain a human face because they involve high-skill, high-status components that are less easily automated.\n\n- **Legal and Political Pushback in Job Protection**  \n  There is a significant possibility of political movements aimed at legally freezing or protecting certain human jobs as a reaction to rapid technological change, especially powered by AI. This may involve bureaucratic regulations to preserve jobs in various sectors, reflecting legal pushback against AI-driven displacement.\n\n- **Healthcare Sector Challenges**  \n  Legal complexities may arise in healthcare as part of the sectors resistant to rapid AI integration, representing pushback from policy and regulatory bodies concerned about AI's role and oversight within crucial human services.\n\n- **Fast Uptake in Defense Sector**  \n  The defense industry is predicted to see a rapid adoption of AI and related technologies, contrasting with slower uptake in other sectors due to political and legal debates.\n\n- **Unions and Bargaining Power**  \n  Unions are expected to play a critical role in negotiating the terms of AI integration in the workforce, particularly focusing on bargaining for workers' protections and job security amidst technological disruptions.\n\n- **Surveillance Trade-Offs and Privacy**  \n  Discussions highlighted concerns around surveillance — termed metaphorically as \"teddy bears\" — representing a trade-off between increased surveillance and the benefits of AI, pointing toward societal and ethical considerations.\n\n- **Media and Journalism Economics**  \n  The economic model of journalism is changing with AI and new technologies. There is a growing trend of cross-subsidization, where traditional journalism is supported by new platforms like Substack. The challenge remains to maintain humanity and quality in news amidst the shift to digital.\n\n- **Welfare State and Human-Centered Economy**  \n  There is recognition of the need for a generous welfare state to support workers in transition due to AI, maintaining a social bargain that acknowledges the human importance beyond pure efficiency metrics.\n\n- **Future Job Landscape**  \n  New kinds of jobs will emerge that involve managing and fueling AI systems, with some roles requiring creative and engaging interaction with AI rather than routine tasks.\n\nThese notes encapsulate the key themes regarding AI's societal and economic impacts, workforce challenges, legal and political responses, and evolving job markets discussed in the meeting.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3025,
+      "latencyMs": 24668,
+      "cost": 0.0033052000000000003,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

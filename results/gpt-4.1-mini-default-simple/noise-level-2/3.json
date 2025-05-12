@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 329,
+  "timestamp": "2025-05-12T18:28:11.725Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Last, Human Face:**\n  - Trades and artisanal jobs, such as electricians, plumbers, and gardening, are expected to be the last areas heavily impacted by AGI.\n  - These roles require human interaction, agreement, and alignment which might be difficult for AI to fully replace.\n  - People have a strong desire for meaning and salience in their daily work, which influences the persistence of human-led trades.\n\n- **Legal Push Back in Healthcare:**\n  - Healthcare sectors may face significant legal resistance to automation or AI-driven changes because of existing legal frameworks protecting personal data.\n  - Healthcare is tightly regulated with laws that could protect jobs from being fully automated by AGI.\n  - There is a high probability of political movements aimed at protecting a substantial portion of existing jobs, particularly in law and medicine.\n\n- **Fast Uptake Defense:**\n  - While automation may encounter legal and social resistance, companies and governments might also move quickly to adopt AI.\n  - Large established companies could resist AI more than governments in some areas.\n  - The uptake of AI will be influenced by how well transitions are managed and examples of successful integration without major disruption.\n\n- **Unions and Bargaining Power:**\n  - Unions and workers may bargain to protect jobs and working conditions in the face of AI advancement.\n  - The social contract could evolve to resemble a 'welfare state' for service workers, providing safety nets while still allowing choice and mobility.\n\n- **Teddy Bears and Surveillance Trade-off:**\n  - The discussion hints at a societal trade-off involving surveillance and personal privacy in the context of AI adoption.\n  - The analogy to \"teddy bears\" implies a negotiation between comfort/features and the loss of privacy or increased monitoring—reflecting broader concerns about AI's role and impact.\n\n- **News, Journalism, and Cross-subsidy:**\n  - Journalism and news media face economic challenges that may be mitigated by new models such as cross-subsidies from platforms like Substack.\n  - There remains a human element and a desire for 'humanity' in journalism in contrast with purely AI-generated content.\n  - The future of journalism could involve a blend of AI tools supporting journalists while maintaining journalistic values and human oversight.\n\nOverall, the conversation emphasized balancing the benefits of AI with preserving meaningful human roles and established legal and social protections, especially in sensitive sectors like healthcare and artisanal trades.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1643,
+      "latencyMs": 11827,
+      "cost": 0.00125,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

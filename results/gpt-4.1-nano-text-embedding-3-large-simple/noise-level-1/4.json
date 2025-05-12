@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 215,
+  "timestamp": "2025-05-12T18:21:46.571Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Element in Trade and Technology\n- Emphasized the importance of maintaining a human face in trades and negotiations, even as AI and automation progress.\n\n## Legal Challenges and Healthcare\n- Highlighted significant legal pushback in the healthcare sector, especially concerning personal data handling, standards, and regulations.\n- Recognized that healthcare's bureaucratic complexities may cause it to be heavily influenced or obstructed by legal frameworks, especially with the advent of strong AGI.\n\n## Defense and Regulation\n- Underlined the importance of a fast uptake of defense measures to keep pace with advancing AI technologies.\n- Discussed potential for a political movement aiming to freeze certain jobs or sectors in bureaucratic amber to address AI's disruptive impact.\n\n## Unions and Bargaining\n- Noted the role of unions and collective bargaining in shaping AI-related labor policies and protections.\n\n## Trade-offs and Surveillance\n- Mentioned the concept of \"surveillance trade-offs,\" such as the use of AI to monitor and protect, which may impact privacy and human oversight.\n\n## Media, Journalism, and Subventions\n- Touched on issues relating to news, journalistic struggles, cross-subsidies, and the rise of Substack as a platform emphasizing human and journalistic value.\n- Suggested that the media industry is evolving with AI, balancing humanity against automated content systems.\n\n## Future of Entertainment and AI \"Teddy Bears\"\n- Envisioned a near future where AI-driven entertainment, like \"AI teddy bears,\" becomes common, including their popularity among parents and children.\n- Indicated that such AI companions will form part of meaningful, economically embedded entertainment forms.\n\n## Economic Impact and AI Contributions\n- Referenced the Anthropic economic index measuring AI's effect on the US economy, expecting increased wealth and familiar societal structures driven by AI productivity.\n- Suggested that work will increasingly be done by AI, making society richer but raising questions about purpose and meaning.\n\n## Policy Responses and Protecting Jobs\n- Expressed concern about political will to regulate and protect jobs, with a high likelihood of laws similar to those in healthcare or medicine being enacted to shield a portion of existing jobs.\n- Discussed the possibility of laws trying to preserve about half of current employment against the disruptive effects of strong AGI.\n\n## Information and AI-mediated Systems\n- Raised issues about the flow of AI-generated information, potential laundering into human systems, and challenges related to governance and regulation.\n- Noted that government agencies like the US Department of Education and HHS could increasingly incorporate AI, raising questions about political and institutional obstacles.\n\n## Academic and Intellectual Perspectives\n- Acknowledged feelings of angst and nihilism within academia regarding AI's disruptive potential, even among high-achieving individuals.\n- Recognized the difficulty in managing AI's rapid development due to bureaucratic and legal obstacles, which historically have been driven by professional interests such as high legal fees and regulatory hurdles.\n\n## Overall Outlook\n- Concluding that the pace of AI advancement may lead to legal and societal challenges but also opportunities for regulation, protection, and adaptation in various sectors.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1767,
+      "latencyMs": 15966,
+      "cost": 0.0003621000000000001,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

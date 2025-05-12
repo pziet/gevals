@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 97,
+  "timestamp": "2025-05-12T18:16:10.733Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered Trade & Economic Impact\n- Trades tend to be long-lasting and involve a human face, emphasizing the importance of personal relationships and trust in commerce.\n- The influence of AI and economic shifts may result in new \"welfare state\" models, providing safety nets such as healthcare and service worker protections amid increased automation.\n- Freer trade may require a robust welfare state to cushion potential disruptions, especially for service workers.\n\n## Legal & Regulatory Challenges\n- Significant legal pushback is anticipated in healthcare, primarily related to handling personal data and existing standards needing updates.\n- AGI and AI innovations may face obstacles in regulation, with some sectors, like healthcare and government, possibly encountering the strongest resistance.\n- Governments might respond faster than expected to regulate or restrict AI deployment, especially in sensitive domains.\n\n## Defense & Workforce Protection\n- The potential for political movements aimed at protecting jobs against AGI-driven automation is high, proposing laws comparable to those in medicine and law.\n- A substantial portion of jobs—particularly artisanal trades (electricians, plumbers, gardeners)—may be impacted last or encounter the least change initially.\n- Laws may attempt to safeguard half of current jobs, leveraging proxies such as human intermediaries for large automated entities.\n\n## Surveillance, Trade-offs & Humanity\n- Surveillance implications of AI trade-offs, such as capturing data with trade-offs like comfort (e.g., teddy bears), reflect societal negotiations between privacy and utility.\n- News organizations and journalism might rely on cross-subsidies and alternative funding models like Substack to sustain human-centric narratives.\n\n## Commerce & Relationships in the AI Era\n- Despite AI advancements, there remains a strong preference for human-mediated interactions, especially in deal-making and commerce involving large pools of capital.\n- Relationships and trust form the core of economic transactions that are less likely to be mediated entirely by AI, emphasizing the human face in commerce.\n\n## Future of Art & Creative Industries\n- AI might influence art production, especially in large-scale, orchestrated projects involving many contributors rather than solo artists.\n- Art creation may shift towards more curated, orchestrated processes involving many human participants indirectly connected.\n\n## Summary\n- The last areas impacted by AGI are predicted to be highly artisanal trades, government functions, and deeply human services.\n- The transition involves balancing technological progress with societal, legal, and ethical considerations, with ongoing debates about the pace and regulation of AI integration.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1628,
+      "latencyMs": 14390,
+      "cost": 0.00030920000000000003,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

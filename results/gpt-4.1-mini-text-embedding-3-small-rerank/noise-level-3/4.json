@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 145,
+  "timestamp": "2025-05-12T18:17:39.219Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Artisanal Jobs**\n  - Trades such as electricians, plumbing, and gardening are seen as some of the last areas where human work will persist amidst AI advancements.\n  - These roles often have a \"human face\" and high-status, high-skilled components that make them uniquely resistant to full automation.\n  - Such trades may evolve but maintain the need for personal interaction and craftsmanship.\n\n- **Legal and Political Pushback in Healthcare and Employment**\n  - There is a strong likelihood of political movements aiming to freeze or protect a significant portion of human jobs through bureaucratic means, especially in response to rapid AI-driven changes.\n  - These efforts may manifest as legal pushbacks particularly in sensitive sectors like healthcare.\n  - This resistance reflects concerns over the pace of change and its societal impacts.\n\n- **Fast Uptake in Defense Sector**\n  - The defense sector is anticipated to adopt AI and automation rapidly given the national security implications.\n  - This fast uptake suggests a strategic priority placed on advanced technology in defense compared to other sectors.\n\n- **Unions and Bargaining**\n  - There is an ongoing discussion about the role of unions and collective bargaining as a mechanism to negotiate the terms of work in an AI-augmented economy.\n  - Unions may be pivotal in safeguarding workers’ rights as jobs change or disappear.\n\n- **Surveillance and Trade-offs (Teddy Bears Metaphor)**\n  - The metaphor of \"teddy bears\" refers to the surveillance trade-offs workers and society might face, balancing privacy with the efficiencies and safety AI provides in workplaces.\n  - This highlights the ethical and social dilemmas inherent in AI integration.\n\n- **Journalism, News, and Cross-Subsidy**\n  - Journalism faces unique challenges with AI, including funding and preserving humanity in news reporting.\n  - New models like Substack are emerging, helping journalists sustain their work through cross-subsidies and direct audience support.\n  - Maintaining the human element in reporting remains a priority despite technological transformations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3106,
+      "latencyMs": 22751,
+      "cost": 0.0034032,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

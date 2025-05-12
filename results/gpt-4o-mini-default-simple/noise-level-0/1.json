@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 257,
+  "timestamp": "2025-05-12T18:26:05.040Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussions\n\n- **Trades and Human Interaction**  \n  The last sectors to be affected significantly by AGI are likely to be those involving trades that require a personal touch, such as electricians, plumbers, and gardeners. The preference for human-mediated commerce is expected to persist.\n\n- **Legal Challenges in Healthcare**  \n  There was a discussion about the potential pushback from the legal system regarding healthcare, especially concerning how personal data is handled. The need for revised standards to adapt to technological advancements was emphasized.\n\n- **Response to AGI**  \n  Concerns were raised about how different sectors might respond to AGI implementation, with some predicting a political movement aiming to protect jobs through legal measures akin to those in law and medicine.\n\n- **Role of Unions**  \n  Unions may play a significant role in bargaining for workers' rights as AGI continues to affect various industries.\n\n- **Surveillance and Digital Economy**  \n  The topic of trade-offs between surveillance (for safety and compliance) and personal privacy was brought up, utilizing the metaphor of \"teddy bears\" (symbolizing comfort) in the context of digital life and trust.\n\n- **Impact on Journalism and News**  \n  There was reference to the evolving landscape of journalism, including the idea of cross-subsidy in media, and platforms like Substack that may redefine how content is monetized while maintaining a sense of human connection. \n\n## Additional Considerations\n\n- The concept of a welfare state as a necessary support system for free trade was discussed, suggesting that while not always efficient, it may be an acceptable compromise for public acceptance.\n- The discussion highlighted the need for generating concrete examples of effective technology transitions to alleviate fears and make smoother integrations into the job market and society at large.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1499,
+      "latencyMs": 12797,
+      "cost": 0.0015455999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

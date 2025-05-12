@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 35,
+  "timestamp": "2025-05-12T18:14:41.346Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Human-Centric Approach**: Emphasis on maintaining a 'human face' in the context of technological advancements and trade dynamics.\n  \n- **Legal Challenges in Healthcare**: Concerns about legal pushbacks affecting the healthcare sector, particularly in regards to personal data privacy and regulatory standards.\n  \n- **Rapid Adoption of Defense Technologies**: Noting a fast-paced uptake of defense-related technologies, indicating a shift in the landscape of security and military operations.\n\n- **Role of Unions**: Discussion on how unions can engage in bargaining processes amidst the changing job landscape influenced by technology.\n\n- **Privacy vs. Surveillance**: References to 'teddy bears' symbolizing the trade-off between consumer protection and surveillance practices, highlighting societal concerns about privacy.\n\n- **Media Landscape Changes**: Debate over the future of journalism in the context of cross-subsidization, with references to platforms like Substack. Discussed the tension between maintaining journalistic integrity and financial viability in an evolving news environment.\n\n## Additional Insights\n\n- The conversation included perspectives on how the integration of AIs in various sectors, including service industries, might necessitate adaptations, such as the establishment of a welfare state to support impacted jobs.\n\n- There was a concern about potential political movements that may arise to protect existing job roles from displacement caused by advanced technologies, drawing parallels to existing regulatory frameworks in law and medicine.\n\n- Overall, the meeting underscored the importance of proactive examples and good transitions in navigating the complexities introduced by rapid technological progress.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3060,
+      "latencyMs": 29849,
+      "cost": 0.0037548,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

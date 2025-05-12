@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 321,
+  "timestamp": "2025-05-12T18:28:00.729Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Human Element:** \n  - The impact of AI on the economy may be most strongly felt in the trades and artisanal sectors such as electricians, plumbing, and gardening.\n  - High-status, high-skilled parts of these trades will retain human involvement because people value the human element and craftsmanship.\n  - New jobs may emerge that involve managing and coordinating AI systems, effectively higher-status roles leveraging AI benefits.\n\n- **Legal and Political Pushback:**\n  - There is a high likelihood of political movements aiming to legally protect a significant portion of human jobs to manage the rapid changes brought by AI.\n  - Such protection might be implemented through bureaucratic means or laws to \"freeze\" jobs, reflecting a form of welfare or social safety net.\n  - This legal pushback may particularly be relevant in sensitive sectors like healthcare.\n\n- **Rapid Adoption and National Security:**\n  - AI adoption is expected to be very fast, especially in areas related to national security and defense.\n  - The defense sector is likely to see significant uptake due to AI’s strategic importance.\n\n- **Unions and Bargaining Power:**\n  - There is a potential role for unions and collective bargaining to negotiate the terms of AI integration into the workforce.\n  - These organizations might seek to preserve jobs or secure benefits for workers displaced by AI.\n\n- **Trade-offs: Surveillance and Society:**\n  - The introduction of advanced AI and surveillance technologies presents societal trade-offs.\n  - The metaphor of \"teddy bears\" was used to suggest a humanizing element amidst increased surveillance, highlighting the need to balance technology with humanity.\n\n- **News, Journalism, and Economic Models:**\n  - Journalism is facing economic challenges and may require new models for sustainability.\n  - Cross-subsidy models and platforms like Substack could help preserve the essential human and humanitarian aspects of news reporting.\n  - There is recognition of the need to maintain the humanity in journalism, even as AI changes economic structures.\n\nThese notes summarize the main themes discussed related to the economic and social impact of advanced AI technologies, emphasizing the human, legal, and economic dynamics involved.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1577,
+      "latencyMs": 10605,
+      "cost": 0.0011492000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

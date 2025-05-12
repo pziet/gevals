@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 266,
+  "timestamp": "2025-05-12T18:26:28.928Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n1. **Trade and Welfare State Connection**\n   - The relationship between free trade and the welfare state was emphasized, suggesting that a robust welfare framework may be necessary to support free trade among service workers. These concepts were discussed in the context of ensuring workers feel purposeful in their daily activities.\n\n2. **Legal Challenges in Healthcare**\n   - There was a discussion about the legal pushback faced in the healthcare sector, particularly in relation to personal data management and economic implications for service providers.\n\n3. **Impact of AI on Labor and Economy**\n   - The rapid adoption of AI technologies in defense and other areas was noted, with attention to potential economic shifts and threats to traditional job roles.\n   - A concern was raised regarding the possibility of political movements aimed at protecting existing jobs from automation.\n\n4. **Union Bargaining Power**\n   - Unions were mentioned as crucial players in negotiating better terms and outcomes for workers as the labor landscape changes.\n\n5. **Public Surveillance and Privacy Concerns**\n   - A metaphor involving “teddy bears” highlighted the trade-offs between public surveillance measures and individual privacy concerns, reflecting a societal debate on safety versus freedom.\n\n6. **Media and Journalism Economics**\n   - Discussions included the changing economics of news and journalism, particularly around models like Substack. Questions were raised about the sustainability of journalism and its role in maintaining human values amid economic shifts forced by AI and technology.\n\n7. **Human Element in Trade and Economy**\n   - The need for a human face in trade and economic models was reiterated, with a concern that increased automation could diminish meaningful human interactions.\n\n8. **The Future Landscape of Professions**\n   - Conversations included potential transformations in trades as influenced by AGI, suggesting that certain artisanal professions might experience both challenges and opportunities as technology evolves.\n\n## Conclusion\nThe meeting underscored significant themes around the integration of AI in the workforce, the necessity for a protective welfare framework, legal implications in healthcare, and the evolution of unions and journalistic practices. The need for a balance between technological advancement and maintaining human-centric values in trade and the labor market was a central focus.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3142,
+      "latencyMs": 27546,
+      "cost": 0.0039894,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

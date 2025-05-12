@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 214,
+  "timestamp": "2025-05-12T18:21:44.538Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic and Workforce Impacts of AI\n- AI will significantly transform the economy, with work increasingly performed by AI systems.\n- The shift may lead to greater wealth, allowing society to maintain familiar lifestyles, akin to a \"welfare state for service workers.\"\n- There is a desire among people for meaningful engagement and control over their work, which AI could influence but also threaten depending on implementation.\n\n## Legal and Regulatory Challenges\n- Strong legal pushback is anticipated in sectors like healthcare, driven by concerns over personal data standards and medical regulations.\n- AGI may face significant legal obstacles, especially in highly regulated areas such as law and medicine.\n- Governments may attempt to freeze certain jobs in bureaucratic \"amber\" as a political response to AI advancements.\n\n## Political and Social Movements\n- A high likelihood exists that political movements will emerge to protect jobs by legislating against the impacts of powerful AI.\n- There is concern about the potential for societal fragmentation if regulatory and protectionist measures are not adequate or timely.\n\n## Surveillance and Trade-offs\n- The development of AI, including concepts like \"AI teddy bears,\" raises questions about surveillance trade-offs versus benefits, especially in contexts like parenting.\n\n## Media, Information, and Cross Subsidies\n- The media landscape is evolving with models like Substack, highlighting debates around human-centric journalism and cross-subsidies.\n- The influx of AI-generated information may lead to laundering and distortion of data, affecting trust and knowledge integrity.\n\n## Future of Entertainment and Human Connection\n- AI-generated entertainment, such as \"AI teddy bears,\" may become widespread, raising questions about the nature of human interaction and meaning.\n- The transition to AI-driven services requires building trust through concrete examples of successful integration.\n\n## Societal Adaptation and Human Meaning\n- Society laboring under the assumption that life will become increasingly AI-driven and wealthier, emphasizing adaptation without loss of meaning.\n- The importance of creating smooth transitions and trustworthy examples to avoid societal angst and nihilism, especially in academia and high-achieving sectors.\n\n## Overall Outlook\n- Progress towards an AI-enabled economy hinges on political will, regulatory frameworks, and societal adaptation.\n- Ensuring a balanced approach that preserves jobs, safeguards privacy, and maintains societal values is critical as AI technology advances.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1609,
+      "latencyMs": 14699,
+      "cost": 0.00029890000000000006,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

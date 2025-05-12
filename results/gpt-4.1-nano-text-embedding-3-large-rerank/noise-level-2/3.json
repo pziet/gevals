@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 229,
+  "timestamp": "2025-05-12T18:22:10.065Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The durability of trades and professions often depends on maintaining a human face, especially as AI and automation advance.\n- There is ongoing legal pushback within healthcare sectors, likely related to regulation and worker protections in the face of automation.\n- The defense sector exhibits a rapid adoption of new technologies, highlighting fast uptake in critical industries.\n- Unions and collective bargaining remain relevant, especially as AI impacts job security and workplace conditions.\n- The trade-off between surveillance and worker safety or productivity is symbolized by the analogy of teddy bears, suggesting a balance between humane concerns and technological monitoring.\n- News organizations and journalists face challenges with cross-subsidization and questions of humanity, particularly in relation to emerging platforms like Substack.\n- Discussions suggest that strong social safety nets (welfare states) are essential to support free trade and mitigate economic disruptions caused by AI and automation.\n- The overall economy is expected to become richer due to AI, making society better able to afford safety nets and protections, potentially aiming for a scenario where work retains meaning and salience.\n- Evidence of economic change indicates a possible need for laws and protections, especially for skilled trades and artisanal professions such as electricians, plumbers, and gardeners, which may be more resilient to automation.\n- There is concern about the potential breakdown of current systems if laws are not adapted to protect significant portions of the workforce, possibly leading to political movements advocating job protections similar to those in law and medicine.\n- Main legal encounters for AGI are anticipated with organizations holding pools of capital, where automation might see the strongest formalized use, possibly facing opposition from traditional legal and professional structures.\n- The evolution of AI legal regulation is influenced by the lobbying efforts of lawyers and professional groups, who may try to protect high-margin services from automation.\n- Overall, the future involves balancing technological advancement with legal and social frameworks to ensure humane, inclusive progress, acknowledging the slow pace of transition evidence and the importance of positive examples for societal adaptation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3162,
+      "latencyMs": 23667,
+      "cost": 0.0027082,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

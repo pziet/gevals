@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 41,
+  "timestamp": "2025-05-12T18:14:28.761Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Key Topics Discussed\n\n- **Human-Centric Approach in Workforce**  \n  There is a recognition of the importance of maintaining a human face in certain professions, particularly in service sectors where personal interaction is necessary. The focus should be on protecting workers' rights and ensuring that younger populations are kept in mind as the economy evolves with AI advancements.\n\n- **Legal Challenges in Healthcare**  \n  Discussions highlighted potential legal pushbacks regarding healthcare, emphasizing the need for awareness about implications on workers and how the system is structured.\n\n- **Adoption of AI Technology in Defense**  \n  The meeting addressed the rapid uptake of AI technologies within the defense sector, noting both the potential benefits and the implications for workforce transitions.\n\n- **Union Bargaining Power**  \n  The role of unions in negotiating worker rights amidst changing economic landscapes was emphasized, suggesting a need for a robust bargaining framework.\n\n- **Ethical Considerations in Surveillance**  \n  The topic of \"teddy bears\" as a metaphor for comfort versus surveillance was introduced, prompting conversations around the trade-offs society faces between safety and privacy.\n\n- **Media Landscape Changes**  \n  Examination of the intersection between journalism and subscription models, particularly concerning platforms like Substack. The implications for humanity, cross-subsidization in media, and how journalism adapts to a changing economic environment were discussed.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1417,
+      "latencyMs": 8328,
+      "cost": 0.0013398,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

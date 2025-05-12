@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 355,
+  "timestamp": "2025-05-12T18:29:09.710Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Human Element:**  \n  The discussion emphasized acceptance of freer trade as an \"okay bargain,\" likening it to a form of welfare state for service workers. This system allows individuals the freedom to choose their work while preserving a human element or \"human face\" in trades and services.\n\n- **Legal Challenges in Healthcare:**  \n  Healthcare presents significant legal pushback against automation and AI integration. Regulatory and data privacy standards complicate implementing AI solutions, particularly as healthcare involves sensitive personal information and strict oversight.\n\n- **Fast Uptake in Defense Sector:**  \n  There is an expectation of rapid adoption of AI technologies in defense. This stands in contrast to slower uptake in other sectors due to political and legal constraints.\n\n- **Unions and Bargaining:**  \n  Unions are anticipated to play a key role in negotiating protections, potentially seeking legislative \"freeze\" measures to preserve human jobs in the face of strong AI capabilities. This raises questions about political will to protect a significant portion of jobs.\n\n- **Surveillance Trade-offs & \"Teddy Bears\":**  \n  The trade-off between surveillance and security or convenience was highlighted metaphorically as \"teddy bears.\" This indicates societal compromises on privacy in exchange for benefits from AI-driven monitoring systems.\n\n- **News Media and Journalism Economics:**  \n  The future of journalism may involve cross-subsidies and new revenue models such as platforms like Substack. Maintaining humanity and journalistic integrity in the AI era is a concern. New business models will be needed to sustain quality news content as AI transforms the fields of media and content creation.\n\nOverall, the conversation centered on balancing technological progress with human values, legal frameworks, and political realities to ensure inclusive and equitable outcomes.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3129,
+      "latencyMs": 26607,
+      "cost": 0.0034182,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

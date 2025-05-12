@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 285,
+  "timestamp": "2025-05-12T18:27:02.064Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Impact of AI on Employment and Economy\n- Concerns over rapid, large-scale economic and job market shifts due to advanced AI.\n- Likelihood of political movements aiming to freeze or protect human jobs, possibly through bureaucratic measures.\n- Debate on whether to implement a generous welfare state to buffer workers from automation, accepting the trade-offs.\n- Potential for new, high-status jobs involving marshalling, fueling, and managing AI systems, which could be creative and engaging.\n\n## Trade-offs and Societal Choices\n- Balancing the \"trade last, human face\" approach—prioritizing human interaction in services.\n- The difficulty in managing surveillance trade-offs versus the need for jobs that require human oversight and bargaining, such as union negotiations.\n- Possible social signals with metaphors like \"teddy bears\" representing comfort versus surveillance implications.\n\n## Legal and Political Landscape\n- Expectation of legal pushback against AI's expansion in healthcare and other sensitive sectors.\n- Anticipation of a political push to restrict or \"freeze\" human jobs as a reaction to AI's productivity gains.\n- Concerns regarding how quickly these changes could unfold and the likelihood of suboptimal policy responses.\n\n## Media, Journalism, and Information\n- Cross-subsidy models in journalism and media, possibly reflected in platforms like Substack, raising questions about humanity's representation and the dissemination of information.\n- The role of laundering and translating AI-generated data into human-understandable formats.\n- The importance of generating quality examples of good transitions in information management to avoid economic disruption.\n\n## Sector-specific Considerations\n- Artisanal trades such as electricians, plumbers, and gardeners likely to be affected, with high-skilled, high-status segments remaining critical.\n- National security relevance of AI developments, especially in secret or \"hidden\" areas of high-tech and defense.\n- Legacy software in industries may slow some sectors' adaptation but could also become opportunities for rapid change.\n\n## Future Workforce and Creativity\n- Emergence of entirely new jobs centered around creative exercises in motivating AI for tasks like design or entertainment.\n- Potential for humans to play higher-status, more meaningful \"games\" enabled by AI's productive capacity.\n- Emphasis on transforming rather than merely protecting existing jobs, leveraging AI to augment human roles.\n\n## Broader Reflections\n- The importance of understanding how AI influences \"human face\" interactions and societal trust.\n- The overarching concern about the pace of change surpassing policy and societal preparedness, risking chaotic or reactionary responses.\n- Recognition that AI’s integration into high-end trades and artisanal sectors may serve as early indicators of its broader economic impact.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1674,
+      "latencyMs": 8634,
+      "cost": 0.0003261,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

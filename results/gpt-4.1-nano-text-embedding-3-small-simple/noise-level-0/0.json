@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 96,
+  "timestamp": "2025-05-12T18:16:05.751Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centric Trades and Last-Impact Sectors\n- Trades, especially artisanal and craft-based roles like electricians, plumbers, gardening, and certain back-end or artisanal service jobs, are expected to be among the last affected by AGI and advanced AI systems.\n- These roles involve handcrafted, human-focused work, making them resistant to automation and AI disruption.\n\n## Legal and Regulatory Challenges\n- AGI will encounter significant legal obstacles, particularly in healthcare where handling personal data is critical.\n- Standards and regulations around data privacy and safety will need to evolve, potentially delaying AI integration in these sectors.\n- Governments may adapt regulations faster than anticipated, but large corporations might resist changes, especially in high-stakes fields.\n\n## Economic and Political Implications\n- A political movement aimed at protecting a substantial portion of existing jobs may emerge, akin to laws protecting health and medical sectors against strong AGI.\n- Evidence of large economic shifts due to AI might heighten desire for protective legislation, although such regulations could hinder AI progress.\n\n## Defense and Workforce Transition\n- The rapid adoption of AI technologies will likely be met with resistance in certain industries, requiring careful transition plans.\n- Companies and policymakers need to generate good examples of transitions to avoid economic breakdown.\n- Welfare states or similar safety nets might serve as a \"welfare system\" for service workers displaced by AI.\n\n## AI and Surveillance Trade-offs\n- Surveillance and privacy concerns are central, with some trade-offs (e.g., storing and laundering AI-generated data) necessary to integrate AI effectively into human systems.\n- The \"trade-off\" might involve surveillance or data laundering to facilitate AI's integration into everyday life and work.\n\n## Media, Humanity, and Cross-Subsidies\n- Journalistic and media industries could face subsidies to sustain human-centric content, ensuring the preservation of human voice and storytelling amid AI proliferation.\n- The relationship between human oversight (“trades last, human face”) and AI automation is crucial in maintaining trust and authenticity.\n\n## Market Dynamics and Human Preference\n- Despite automation, people will prefer dealing with humans in certain transactions, especially in commerce and negotiations involving large pools of capital.\n- Relationships mediated by humans will remain valued, emphasizing the importance of human proxies in AI-enabled dealings.\n\n## Additional Considerations\n- AGI impacts are expected to be uneven, with the most artisanal and relational sectors affected last.\n- Laundering AI-generated information into human systems is an important process, ensuring that AI outputs are integrated safely and effectively.\n- Overall, the progression of AI impact will be influenced by legal, economic, societal, and technological trade-offs, with human-centered jobs and sensitive sectors being last in line for full automation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1684,
+      "latencyMs": 9481,
+      "cost": 0.00033160000000000004,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

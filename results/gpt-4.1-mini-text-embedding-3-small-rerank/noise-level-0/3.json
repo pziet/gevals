@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 159,
+  "timestamp": "2025-05-12T18:18:04.594Z",
+  "result": {
+    "enhancedNotes": "\n# Enhanced Notes from Meeting\n\n- **Trades and Human Element**  \n  Discussion highlighted that trades such as electricians, plumbing, and gardening will likely be among the last sectors significantly impacted by advanced AI. These trades carry a strong human element and artisanal skills that are not easily replaced by automation.\n\n- **Legal Pushback in Healthcare**  \n  There is expected to be significant legal and regulatory resistance in healthcare regarding AI adoption. This is due to the stringent standards around personal data privacy and medical laws, which will need to evolve to accommodate AI technologies.\n\n- **Rapid Uptake in Defense Sector**  \n  The defense sector is anticipated to see fast adoption of AI technologies, reflecting the strategic importance and potential efficiency gains envisioned in this area.\n\n- **Role of Unions and Worker Bargaining**  \n  Unions may play a crucial role in bargaining and protecting workers' interests as AI adoption changes the labor landscape. Political movements might arise aimed at protecting jobs with laws analogous to those in law and medicine sectors.\n\n- **Surveillance Trade-off and Ethical Concerns**  \n  A metaphorical reference was made to \"teddy bears,\" symbolizing a trade-off between surveillance and privacy/security in the context of AI applications, possibly reflecting the tension between convenience and ethical considerations.\n\n- **Media and Journalism Economics**  \n  The news industry, especially journalism, faces challenges with AI's impact. Discussions included how platforms like Substack may represent a cross-subsidy model supporting journalistic endeavors, and how humanity and ethical standards in reporting are integral despite technological changes.\n\nThese points underscore the complex interplay between AI advancement, legal frameworks, labor dynamics, ethical considerations, and economic shifts across various sectors.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3045,
+      "latencyMs": 19999,
+      "cost": 0.0033052,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

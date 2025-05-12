@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 318,
+  "timestamp": "2025-05-12T18:27:55.125Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic and Trade Implications of AI\n- Trades are expected to last longer with human face-to-face interaction remaining important.\n- Advanced AI, including AGI, will impact the economy gradually, with artisanal and trade jobs being affected last.\n- There is an ongoing focus on how AI influences economic sectors, particularly trades like plumbing, gardening, and electrical work.\n\n## Legal, Regulatory, and Social Challenges\n- There is significant legal pushback in healthcare and other sensitive sectors, which may delay or complicate AI adoption.\n- Expect political movements aimed at protecting existing jobs through laws similar to those in law and medicine, especially as economic shifts become more apparent.\n- Legal obstacles for AI will vary by region, with some jurisdictions like the U.S. encountering AI integration more slowly.\n\n## Human-Centric Concerns and Social Trade-offs\n- The human face in trades and services remains crucial, with concerns about surveillance and trade-offs involved in deploying AI.\n- Human proxies and automated pools of capital will increasingly negotiate on behalf of larger entities, impacting deal-making processes.\n\n## Unions and Worker Bargaining\n- The rise of AI prompts unions to bargain to protect workers, potentially influencing how AI is integrated into various industries.\n- The concept of a welfare state or safety net akin to \"welfare for service workers\" emerges as a strategy to mitigate economic disruptions caused by AI.\n\n## Media, Humanity, and Information\n- Media outlets and journalists face challenges related to cross-subsidization, the dissemination of AI-driven information, and maintaining human-centric journalism.\n- Substack and alternative media play roles in preserving human perspective and integrity amidst AI proliferation.\n\n## Broader Themes\n- There is a need to balance fast AI adoption with thoughtful regulation, considering both economic benefits and societal risks.\n- Transparency, evidence of good transition practices, and proof of effective AI integration are vital to prevent societal breakdown.\n- Overall, the focus remains on ensuring that AI enhances human work and preserves social values without compromising privacy or autonomy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3038,
+      "latencyMs": 17806,
+      "cost": 0.0025516,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

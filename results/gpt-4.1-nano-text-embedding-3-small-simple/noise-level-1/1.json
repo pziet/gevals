@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 92,
+  "timestamp": "2025-05-12T18:16:00.722Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Human-Centered Trade & Economic Transition\n- Emphasized the importance of maintaining human presence in trades, suggesting that enduring human face-to-face interactions remain vital even as automation progresses.\n- Discussed the analogy of a welfare state supporting free trade, framing it as a \"welfare\" for service workers—providing meaning and salience to their work amid economic shifts.\n\n### Legal & Regulatory Challenges with AI & Healthcare\n- Highlighted potential for significant legal pushback in healthcare, especially relating to handling personal data and standards enforced by law and medicine.\n- Raised concerns about strong AGI facing formidable legal obstacles, especially where existing laws protect professional standards and economic interests (e.g., law firms, medical standards).\n\n### Political and Social Responses to AI Advancements\n- Warned of the possibility of political movements aiming to freeze jobs (\"bureaucratic amber\") to manage AI-induced disruptions, driven by chaotic political forces.\n- Noted the need for positive examples of smooth transitions to prevent undesirable outcomes driven by political winds.\n\n### Defense & Regulatory Measures\n- Considered the likelihood that laws may be enacted to protect a significant portion of current jobs, resembling laws in law and medicine to guard against the impacts of strong AGI.\n- Mentioned that a high percentage of current occupations might be safeguarded through legal mechanisms.\n\n### AI’s Integration into Society and Culture\n- Introduced concept of \"AI teddy bears,\" predicting a near future where AI-powered toys will significantly influence family life, with many parents expected to buy these AI companions.\n- Recognized entertainment and economic activities involving AI as key areas where human meaning and participation will persist.\n\n### Economic Impact and Future Outlook\n- Referenced the Anthropic Economic Index measuring AI’s effect on the US economy, indicating AI’s role in transforming work and wealth distribution.\n- Envisioned a future where AI-driven work leads to increased wealth, making current economic adjustments seem less disruptive.\n- Emphasized that achieving this future depends heavily on political will and societal acceptance.\n\n### Challenges and Risks\n- Highlighted the potential for societal angst and nihilism even among high-achieving academic and professional groups, reflecting anxieties about technological disruptions.\n- Stressed the importance of demonstrating positive examples of transitions to mitigate fears and prevent chaos.\n\n### Summary\n- The meeting covered the enduring human element in trade, significant legal and political challenges posed by AI and healthcare, societal adaptation using policies and innovations like AI teddy bears, and the critical role of political will in shaping the future impact of AGI on jobs and the economy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1663,
+      "latencyMs": 8297,
+      "cost": 0.00032050000000000004,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 333,
+  "timestamp": "2025-05-12T18:28:14.186Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trade-offs and Human Element in Trade**  \n  Discussed the idea of a \"welfare state for service workers\" as a necessary bargain to accept freer trade. Emphasis on preserving meaningful and salient human roles despite automation and AI advancements. The concept includes allowing people to have flexibility in their work and maintaining human involvement in economic interactions.\n\n- **Legal Challenges and Healthcare**  \n  Highlighted significant legal pushback in sectors like healthcare, particularly due to concerns with handling personal data and regulatory standards. There is a strong possibility of political movements emerging to protect human jobs in bureaucratic sectors, including healthcare, by limiting strong AGI deployment through laws analogous to protections found in law and medicine.\n\n- **Fast uptake and Transition in Defense and Economy**  \n  The pace at which AI technologies are adopted, especially in defense, is rapid. There is concern that without sufficient examples of good transitions and political will, chaotic or defensive political responses might freeze human jobs and slow down AI integration.\n\n- **Role of Unions and Collective Bargaining**  \n  The importance of unions in bargaining on behalf of workers, who may prefer human-mediated deals rather than fully automated ones. Workers might seek protections and collective actions in response to AI-driven economic changes.\n\n- **Surveillance Trade-offs and AI Teddy Bears**  \n  Introduced the metaphor of \"AI teddy bears\" to represent friendly, anthropomorphic AI forms used in entertainment and possibly surveillance contexts. This raises questions about the trade-offs between surveillance and emotional or economic utility.\n\n- **Journalism, News, and Economic Models**  \n  Explored the challenges for journalists and news organizations adapting to AI influences. Discussed the idea of cross-subsidies in media platforms and how services like Substack might provide new economic engines rooted in human participation and maintained humanity in content creation.\n\n- **General Reflection**  \n  Overall, the conversation pointed towards managing the balance between advances in AI, maintaining human roles and dignity in work, and navigating the regulatory and political implications of these technological shifts.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1561,
+      "latencyMs": 9274,
+      "cost": 0.0011188,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

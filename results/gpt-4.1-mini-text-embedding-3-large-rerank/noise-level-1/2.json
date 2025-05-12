@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 193,
+  "timestamp": "2025-05-12T18:19:06.013Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**: Discussion highlighted the importance of maintaining human roles and meaning in work despite increased automation. There was an emphasis on aiming for a societal balance akin to a \"welfare state for the service workers,\" where people still derive meaning and salience from their work even as AI handles more tasks.\n\n- **Legal Challenges in Healthcare**: The healthcare sector may face significant legal pushback against AI integration due to strict standards around personal data and privacy, potentially slowing AI adoption in this area.\n\n- **Fast Uptake in Defense**: Rapid adoption of AI technologies in defense was noted, driven by political forces and strategic considerations, which may lead to complex transitions requiring careful management.\n\n- **Unions and Bargaining**: The role of unions and collective bargaining was implied as a mechanism to manage the political and social challenges arising from AI-driven workforce changes and potential job freezes.\n\n- **AI Teddy Bears and Surveillance Trade-offs**: The metaphor of \"AI teddy bears\" was used to describe emerging AI-driven entertainment or companion technologies. This raises questions about trade-offs between privacy/surveillance and the benefits such AI companions provide.\n\n- **Journalism, News, and Cross-subsidies**: There was mention of journalists and news media grappling with economic challenges, including potential cross-subsidies from platforms like Substack. The human aspect of journalism remains crucial amidst AI transformations.\n\n- **Political Will and Job Protection**: A strong theme emerged around political efforts or movements to protect existing jobs, potentially freezing certain roles in bureaucratic amber, similar to protections in law and medicine, to mitigate the social impact of rapid AI adoption.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 2996,
+      "latencyMs": 20585,
+      "cost": 0.003229,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

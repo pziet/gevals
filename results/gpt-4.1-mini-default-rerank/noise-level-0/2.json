@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 358,
+  "timestamp": "2025-05-12T18:29:08.656Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on Economic and Social Impacts of Advanced AI\n\n- **Trades and Human Interaction**  \n  Certain skilled trades (e.g. electricians, plumbing, gardening) are expected to be among the last sectors significantly affected by advanced AI. These roles maintain a strong human element and relational aspect that AI cannot easily replace, often described as the \"human face\" in trades.\n\n- **Legal and Regulatory Challenges in Healthcare**  \n  Strong legal protections similar to those in law and medicine may emerge to safeguard jobs and practices against AI automation, especially in healthcare, reflecting significant legal pushback.\n\n- **Rapid Defense Sector Adoption**  \n  The defense industry is anticipated to experience fast uptake of advanced AI technologies, indicating a prioritization of AI integration for strategic and operational advantages.\n\n- **Role of Unions and Worker Bargaining**  \n  Political movements and labor unions may push for laws and protections to preserve existing jobs, advocating for bargaining power to maintain employment levels amid increasing automation.\n\n- **Surveillance and Privacy Trade-offs (Teddy Bears Metaphor)**  \n  AI-driven surveillance raises concerns about privacy trade-offs, metaphorically referenced as \"teddy bears\" in the discussion, highlighting the tension between technological benefits and personal freedoms.\n\n- **News Media and Journalism Economics**  \n  - Journalist roles face evolving economic models, with traditional news outlets grappling with financial sustainability.  \n  - Cross-subsidy models may emerge, where some platforms subsidize quality journalism.  \n  - Platforms like Substack represent new avenues for journalism, emphasizing human connection and individualized content delivery.  \n  - Maintaining the \"humanity\" of journalism is crucial amidst digital transformations.\n\n- **Welfare State as a Social Bargain**  \n  A generous welfare state can facilitate freer trade by providing a social safety net for displaced workers, particularly service and trade workers, forming a social bargain that supports economic transitions.\n\nThese points collectively address the complex interplay between advanced AI adoption, economic policy, worker protections, and societal values.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3117,
+      "latencyMs": 21702,
+      "cost": 0.0034187999999999996,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

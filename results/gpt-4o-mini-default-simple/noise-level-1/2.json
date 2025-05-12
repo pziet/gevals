@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 253,
+  "timestamp": "2025-05-12T18:25:59.118Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion centered around the implications of advanced AI on the economy, societal structures, and legal frameworks.\n\n## Key Topics Discussed\n\n### 1. Economic Transition and Welfare State\n- Importance of establishing a welfare state to facilitate acceptance of free trade, particularly for service workers.\n- Highlighted that an efficient welfare state can serve as a safety net amid economic transitions brought on by advanced technologies.\n\n### 2. Legal Challenges in Healthcare\n- The conversation identified potential legal pushbacks, especially within the healthcare sector, regarding how personal data is managed and the standards in medical protocols.\n\n### 3. Fast Adoption in Defense Sectors\n- There was an emphasis on the rapid uptake of AI technologies in defense, suggesting a need for regulatory frameworks to manage these changes.\n\n### 4. Unions and Bargaining Power\n- Discussion on how labor unions may need to adapt and negotiate new terms in response to technological changes in the workforce.\n\n### 5. Surveillance and Ethical Trade-offs\n- Introduced the concept of \"AI teddy bears,\" referring to the dual nature of AI technologies as both beneficial and potentially invasive, reminiscent of surveillance tactics.\n\n### 6. Journalism and Cross-Subsidy Models\n- Delved into the evolving landscape of journalism and how platforms like Substack are funded through cross-subsidization, reflecting a need for a more humane approach in reporting and media integrity.\n\n### 7. Political Will and Preserving Employment\n- Explored the possibility of a political movement aimed at protecting specific jobs through legal measures, akin to regulations in law and medicine.\n\n### 8. Future Societal Dynamics\n- Envisioned a future where advanced AI handles many jobs, leading to societal changes that could maintain familiar life structures, mitigating fears associated with technological advancement.\n\n## Conclusion\n- The discussions underscored the necessity for proactive dialogue regarding the integration of AI into various sectors, focusing on the intersection of technology, labor rights, and ethical considerations.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1551,
+      "latencyMs": 12378,
+      "cost": 0.0016541999999999998,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

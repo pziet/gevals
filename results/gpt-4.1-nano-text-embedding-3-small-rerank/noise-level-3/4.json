@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 105,
+  "timestamp": "2025-05-12T18:16:25.905Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Economic Impact of AI and Trade-offs**  \n  Discussion on how advanced AI is transforming the economy, particularly affecting artisanal trades such as electricians, plumbing, and gardening. These high-skilled, artisanal trades are expected to remain valuable due to their high status and specialized skills.\n\n- **Regulatory and Legal Challenges**  \n  Concerns about the legal pushback against AI in healthcare and other sectors, potentially leading to efforts to regulate or limit AI deployment, especially to preserve human jobs.\n\n- **Labor and Welfare State Dynamics**  \n  The possibility of political movements attempting to freeze or protect a significant portion of human jobs in response to AI-driven disruptions. This raises questions about the future role of the welfare state as a stabilizing mechanism, balancing social safety with economic efficiency.\n\n- **Work Redefinition and New Opportunities**  \n  The emergence of new high-status, creative, and fun jobs related to AI—such as marshalling, fueling, and designing AI systems—offering different higher-value roles beyond traditional labor.\n\n- **Trade-offs and Surveillance**  \n  Consideration of societal trade-offs, exemplified by symbolic items like teddy bears, representing consumer choices and surveillance trade-offs in the context of AI and automation.\n\n- **Media, Humanity, and Cross-Subsidization**  \n  Mention of the evolving news landscape, with journalists employing cross-subsidies and new models like Substack, amidst broader societal debates on humanity’s place in an AI-driven economy.\n\n- **Unionization and Bargaining Power**  \n  The importance of unions in negotiating the impact of AI on employment and ensuring fair treatment of workers as technological change accelerates.\n\n- **Speed of Transition and Evidence of Change**  \n  Concerns over rapid economic shifts due to AI, emphasizing the need for good transition strategies and sufficient evidence to guide policy, warning that lacking these could lead to larger economic disruptions.\n\n- **Philosophical and Societal Reflections**  \n  Questions about whether humanity should pursue higher-status activities enabled by AI, and how to best manage societal transformation in a way that leverages AI’s productive capacity while safeguarding human relevance.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3173,
+      "latencyMs": 21159,
+      "cost": 0.0026943999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

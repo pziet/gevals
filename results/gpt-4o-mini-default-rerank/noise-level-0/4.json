@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 280,
+  "timestamp": "2025-05-12T18:27:01.909Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Key Topics Discussed:\n\n### 1. **Impact of AGI on Trades**\n   - Discussion on which sectors will be affected last by Artificial General Intelligence (AGI), with a focus on trades and artisanal jobs (e.g., electricians, plumbing).\n   - The idea that trades might retain a human face as AGI integrates into the economy.\n\n### 2. **Legal and Healthcare Challenges**\n   - Potential legal pushback regarding healthcare and the integration of AGI.\n   - Concerns about how robust protections for existing jobs in healthcare might evolve as industries face technological changes.\n\n### 3. **Union Bargaining Influence**\n   - The role of unions in negotiating job protections as AGI becomes more prevalent.\n   - The concept of unions bargaining for better conditions and rights for workers in a changing economic landscape influenced by automation.\n\n### 4. **Trade-offs in Surveillance**\n   - Metaphoric reference to \"teddy bears\" symbolizing the balance between technology (like surveillance) and personal freedoms.\n   - Discussion about the trade-offs society faces in adopting advanced technology while maintaining privacy and human rights.\n\n### 5. **Journalism and Economic Sustainability**\n   - Examination of the role of journalists in the context of news reporting in an era dominated by AGI.\n   - Discussion on Substack and other platforms as a means of cross-subsidizing journalism to maintain humanity and integrity in reporting amidst economic pressures.\n\n### 6. **Defense and Agile Adaptation**\n   - Rapid adaptation of defense sectors to incorporate new technologies and AGI developments.\n   - The importance of a fast uptake in implementing advancements for security purposes.\n\n### 7. **Welfare State Considerations**\n   - Dialogue on the necessity of a generous welfare state to support service workers amidst freer trade and AGI impacts.\n   - Discussion of societal responses to ensure a safety net for those left vulnerable by evolving job landscapes due to AGI.\n\nThese notes capture the essential discussions and points of concern from the meeting regarding AGI's implications for various sectors and the broader economic context.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3150,
+      "latencyMs": 31615,
+      "cost": 0.0039959999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

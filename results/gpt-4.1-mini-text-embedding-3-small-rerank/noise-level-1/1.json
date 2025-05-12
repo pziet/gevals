@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 152,
+  "timestamp": "2025-05-12T18:17:58.018Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on AI and Societal Impact\n\n- **Human Element in Trades and Employment**  \n  There is a consideration of maintaining human involvement in certain trades and jobs to preserve the \"human face\" in various sectors, even as AI takes over more work. A political movement may emerge to \"freeze\" many human jobs in bureaucratic amber to address challenges posed by powerful AI.\n\n- **Legal and Regulatory Challenges in Healthcare**  \n  Healthcare is highlighted as an area resistant to rapid AI integration due to existing legal frameworks around personal data and standards. This creates pushback on AI's role, influencing the pace and nature of healthcare AI adoption.\n\n- **Rapid Adoption in Defense Sector**  \n  Defense is noted as a domain with fast AI uptake, reflecting different regulatory and operational dynamics compared to healthcare.\n\n- **Role of Unions and Bargaining Power**  \n  There is an implication that unions will play a crucial role in negotiating protections and conditions for workers affected by AI-driven changes in the labor market.\n\n- **\"Teddy Bears\" as a Metaphor for AI Surveillance Trade-offs**  \n  The concept of \"AI teddy bears\" is introduced to symbolize new forms of AI-powered entertainment or companionship products that come with surveillance trade-offs, highlighting societal acceptance of privacy compromises for perceived benefits.\n\n- **Journalism, Cross-subsidy, and Humanity**  \n  The news industry and journalism face challenges as AI changes economic models. Platforms like Substack illustrate the struggle and adaptation through cross-subsidy models. Maintaining humanity and meaningful engagement in journalism remains a central concern amidst AI-driven shifts.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3119,
+      "latencyMs": 23744,
+      "cost": 0.0033986,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

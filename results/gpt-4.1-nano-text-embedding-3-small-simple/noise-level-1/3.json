@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 94,
+  "timestamp": "2025-05-12T18:16:02.836Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview\n- The meeting discusses the broad societal, legal, and economic impacts of advanced AI and AGI, emphasizing the importance of regulation, human-centered tradeoffs, and the potential for transformative change.\n\n## Key Topics\n\n### Trade and Societal Transitions\n- Trades last, human face: Emphasizes maintaining human involvement in economic exchanges amidst AI advancements.\n- Aim for societal stability: Protecting jobs and ensuring meaningful work while embracing AI efficiencies.\n- Large-scale economic shifts: Moving towards an AI-driven economy where work is redefined, possibly through regulations to safeguard employment.\n\n### Legal and Regulatory Challenges\n- Human face of trades: Critical to keep human oversight in AI-related economic activities.\n- Legal push back in healthcare: Strong regulatory standards linked to personal data handling and medical standards may form the strongest legal obstacles for AGI.\n- Risk of bureaucratic freeze: Proposals to protect large pools of jobs may lead to stagnation, with political forces possibly resorting to embedding jobs in \"bureaucratic amber.\"\n- Legal obstacles for AGI: Initial resistance rooted in traditional legal interests, such as lawyers’ desire for high fees and the ability to influence high-stakes legislation.\n\n### Political and Social Dynamics\n- Political movement trends: Potential for political efforts to freeze certain jobs to address AGI power dynamics.\n- Political will and system breakdown: The success of regulation depends on political resolve; lack of will could lead to system failure or stagnation.\n- Media and subsidy dynamics: The role of journalism, cross-subsidies, and platforms like Substack in shaping discourse around AI and humanity.\n\n### Economic and Cultural Impacts\n- Fast AI uptake for defense and other sectors: The rapid adoption of AI for national security and economic purposes.\n- Surveillance and trade-offs: Balancing AI-enabled surveillance with privacy and human rights concerns.\n- Human-centric AI products: Development of entertainment forms like \"AI teddy bears,\" with projections on versatile parental acceptance.\n- AI in entertainment and meaningful human activities: Emphasis on AI's potential to enrich and redefine societal engagement.\n\n### Future Outlook\n- Technological ambitions: Building an \"AI teddy bear\" era where AI products deeply integrate into daily life.\n- Wealth and life stability: AI-driven productivity may lead to increased wealth, making societal adjustments less painful.\n- Achieving societal goals: Striving for a future where AI benefits are widespread, with safety nets akin to a welfare state for service workers.\n- The role of companies and examples: Need for tangible examples of good transitions to prevent chaos and societal breakdown.\n\n## Conclusion\nThe meeting highlights that while AI holds immense transformative potential, careful attention must be paid to legal, political, and societal frameworks. Balancing innovation with regulation, protecting human involvement, and fostering positive societal transitions will be crucial.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1713,
+      "latencyMs": 8717,
+      "cost": 0.00034050000000000004,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

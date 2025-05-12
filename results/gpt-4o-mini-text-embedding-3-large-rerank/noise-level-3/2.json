@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 63,
+  "timestamp": "2025-05-12T18:15:19.606Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Meeting Overview\nThe discussion centered on the intersection of technology, particularly AI, with various sectors including trades, healthcare, media, and labor relations.\n\n### Key Topics Discussed\n\n- **Trade Dynamics**: \n  - Emphasis on how the trades might be affected by the integration of AI technologies, highlighting the artisanal nature of certain jobs (e.g., electricians, plumbing).\n  - Potential for rapid changes and evolution in the trades due to advanced AI applications.\n\n- **Healthcare Legalities**:\n  - Acknowledgment of anticipated legal pushbacks regarding the implementation of AI in the healthcare sector.\n  - Concerns about regulatory frameworks and their impact on innovation and job security.\n\n- **Defense Sector**:\n  - Noted rapid uptake of AI technologies in defense, emphasizing the need for businesses to adapt quickly to changes while maintaining national security.\n\n- **Labor and Unions**:\n  - Discussion about unions and their role in bargaining for workers’ rights in the emerging AI-dominated landscape.\n  - Exploration of the need for protective measures for human jobs amidst technological advancements.\n\n- **Societal Trade-offs**:\n  - Analogy made with the idea of \"teddy bears\", addressing concerns over surveillance and privacy as trade-offs for enhancements in technology.\n  - Dialogue around finding a balance between technological advancement and maintaining human dignity and privacy.\n\n- **Media and Journalism**:\n  - Commentary on the evolving landscape of news and journalism, particularly the emergence of platforms like Substack.\n  - Discussion on issues of cross-subsidy in journalism that balance profitability with the need for humanitarian coverage and ethical responsibilities of media.\n\n### Conclusion\nThe meeting illustrated the complex interplay between technology, labor relations, and societal values, advocating for a thoughtful approach to the integration of AI in various sectors, particularly trades and healthcare. The conversation underscored the importance of addressing legal and ethical concerns while navigating the rapid changes brought about by technological advancements.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3113,
+      "latencyMs": 24698,
+      "cost": 0.0039126,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

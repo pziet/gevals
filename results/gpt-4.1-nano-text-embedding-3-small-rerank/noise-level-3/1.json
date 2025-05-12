@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 102,
+  "timestamp": "2025-05-12T18:16:22.024Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Element**: The lasting importance of trades that involve a human face, such as electricians, plumbers, and artisans, remains significant even as AI advances.\n- **Legal and Healthcare Challenges**: There is potential legal pushback against AI's expansion in healthcare and other sectors, indicating regulatory efforts to curb or guide AI deployment.\n- **Defense and Rapid Adoption**: AI technology is being adopted quickly in defense contexts, highlighting its strategic importance and the fast pace of technological change.\n- **Union Influence and Bargaining**: Unions are likely to play a role in bargaining over AI's impact on employment, possibly advocating for job protections.\n- **Trade-offs in Surveillance and Privacy**: The deployment of AI involves trade-offs, such as surveillance versus benefits, exemplified by examples like teddy bears or other familiar objects that might be used for monitoring.\n- **Media, Humanity, and Substack**: News and journalism face challenges from AI, with trends like cross-subsidization, emphasizing the role of Substack and independent media in maintaining human-centric reporting.\n- **Political Movements and Job Protections**: There's a high likelihood of political efforts to freeze or protect a significant portion of human jobs, especially in bureaucratic or service sectors, in response to rapid AI-driven changes.\n- **Economic Impact and Future Employment**: AI's influence is expected to concentrate on artisanal, high-skill trades, and creative activities—areas where human touch remains critical. There may also be the emergence of new jobs focused on managing and fueling AI systems.\n- **Welfare and Policy Considerations**: Recognizing the potential for AI to disrupt job markets, many advocate for a generous welfare state as a social safety net, though its efficiency and role in the evolving economy remain subjects for debate.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2958,
+      "latencyMs": 21289,
+      "cost": 0.0024825999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

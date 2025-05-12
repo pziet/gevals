@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 181,
+  "timestamp": "2025-05-12T18:18:45.424Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Human Element:**  \n  The discussion emphasized the enduring importance of trades and artisanal professions such as electricians, plumbers, and gardeners. These roles are expected to be among the last to be replaced or heavily altered by AI due to the human touch and specialized skills involved.\n\n- **Legal and Political Challenges in Healthcare and Employment:**  \n  There is notable legal pushback anticipated in sectors like healthcare, where AI adoption may face resistance. Additionally, political movements might attempt to protect human jobs by legislating to freeze or limit AI's encroachment, particularly in bureaucratic or \"people-facing\" roles, reflecting concerns around rapid technological change.\n\n- **Rapid Uptake in Defense Sector:**  \n  The defense industry is expected to adopt AI technologies quickly, driven by pressing strategic needs, contrasting with slower, more regulated sectors.\n\n- **Role of Unions and Collective Bargaining:**  \n  Discussion highlighted the potential role of unions in negotiating the impact of technological change on workers' rights, employment conditions, and job security as AI transforms various industries.\n\n- **Trade-offs Between Surveillance and Privacy (\"Teddy Bears\" Metaphor):**  \n  The metaphor of \"teddy bears\" was used to illustrate the surveillance trade-off — balancing safety and comfort with privacy concerns as AI systems become more embedded in everyday life.\n\n- **Media, Journalism, and Economic Models:**  \n  The meeting considered the evolving landscape for news and journalism, including the role of cross-subsidies in sustaining journalistic integrity and humanity. Substack and similar platforms were mentioned as new models providing direct support from readers to writers, which may help preserve quality journalism amidst changing economic pressures.\n\nThese points provide an overview of the societal, economic, and ethical dimensions discussed concerning AI's integration into work, law, and media.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3060,
+      "latencyMs": 23295,
+      "cost": 0.0033304,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

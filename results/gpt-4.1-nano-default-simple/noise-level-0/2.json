@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 298,
+  "timestamp": "2025-05-12T18:27:14.098Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Interaction and Trades\n- Emphasis on maintaining human faces in trades; personalization and trust remain important.\n- Artisanal trades (electricians, plumbers, gardening) are likely to be affected last by AI, impacting more specialized manual skills.\n- Certain relationships, especially in commerce, will prefer mediated interactions involving human proxies, particularly for large capital deals.\n\n## Legal and Regulatory Challenges\n- Significant legal pushback expected, especially in healthcare, where personal data standards and privacy regulations are complex.\n- AGI may face the strongest legal obstacles in existing regulated sectors like healthcare and possibly government.\n- Governments may adapt regulations quickly, potentially outpacing large established companies' resistance.\n\n## Workforce and Economic Impact\n- Potential for political movements to advocate protecting a substantial portion of current jobs through laws similar to those in law and medicine against strong AGI.\n- Economic changes may prompt a desire for protective measures, such as welfare states, to ensure familiar life standards during rapid AI adoption.\n- Surveillance trade-offs and monitoring are relevant in controlling AI deployment and its societal implications.\n\n## Surveillance and Trade-offs\n- Surveillance measures (e.g., Teddy bears as trade-offs) reflect the balancing act between security, privacy, and surveillance costs.\n- The trade-off between privacy (e.g., surveillance in healthcare or personal data) and AI benefits remains a critical consideration.\n\n## Media, Humanity, and Content Production\n- Discussions about news dissemination, journalists, cross-subsidies, and Substack highlight shifts in media's relationship with AI—potentially influencing humanity and journalistic integrity.\n- Modern art production might become more orchestrated, involving hundreds of contributors rather than individual creators.\n\n## Future of AI in Economy and Society\n- AGI's impact will likely be most delayed in fine trades and artisanal sectors but more immediate in back-end processes like information laundering and data handling.\n- The generation and transmission of AI-derived information will be key roles, especially in ways that integrate AI insights into human systems without direct exposure.\n- The intersection of AI and law, trade, and societal norms will shape the trajectory and resistance to AI's integration.\n\n## Overall\n- The last areas affected by AGI are expected to be manual, artisanal, and highly personalized trades.\n- Companies and governments need to generate examples of good transitions for AI adoption to prevent economic breakdowns.\n- Protecting human roles and maintaining societal norms amid rapid AI development remain central concerns.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1631,
+      "latencyMs": 8877,
+      "cost": 0.00031040000000000006,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

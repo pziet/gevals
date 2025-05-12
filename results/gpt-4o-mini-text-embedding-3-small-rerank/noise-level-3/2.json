@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 23,
+  "timestamp": "2025-05-12T18:14:11.608Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion focused on the implications of advanced AI on various sectors, particularly in trades and artisanal work.\n\n## Key Topics Discussed\n\n### 1. Trades and Artisan Jobs\n- Emphasis on how trades (e.g., electricians, plumbers) are among the last areas where human jobs might be affected by AI technologies.\n- High-status and skilled trades are valued, not just for technical ability but also for the human touch and expertise.\n\n### 2. Legal and Political Challenges\n- Anticipation of legal pushback regarding healthcare as AI technologies evolve.\n- Discussion on potential political movements aimed at protecting human jobs within the bureaucracy from the impact of advanced AI.\n\n### 3. Rapid AI Adoption in Defense\n- Fast uptake of AI technologies in defense sectors, suggesting a shift in operational methodologies.\n\n### 4. Union Negotiations\n- The role of unions in negotiating conditions and protections for workers as AI continues to impact job markets.\n\n### 5. Ethical Considerations\n- Deliberation on the ethical implications of AI, including the \"teddy bears\" analogy, highlighting the surveillance trade-off between safety and privacy.\n\n### 6. Media and Journalism\n- Exploration of how AI affects media, discussing journalist cross-subsidies, the role of humanity in news reporting, and the implications of platforms like Substack.\n\n## Conclusion\n- The conversation underscored the need for careful consideration of human roles in the age of AI, balancing efficiency with ethical obligations and societal impacts. The implications for healthcare, union negotiations, and journalism present complex challenges as technology advances.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3072,
+      "latencyMs": 25548,
+      "cost": 0.0037908,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

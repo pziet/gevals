@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 164,
+  "timestamp": "2025-05-12T18:18:10.174Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Mindscape Economics Discussion\n\n### Trades and Human Element\n- Advanced AI may impact various sectors differently, with trades possibly being the last area where human involvement remains critical.\n- Artisanal and high-skill trades such as electricians, plumbing, and gardening may sustain human jobs due to the specialized and interpersonal demand.\n- New jobs could emerge as \"marshalling\" or \"fueling\" AI systems, involving creative and managerial roles.\n\n### Legal and Political Responses\n- There is a strong possibility of political movements aimed at protecting and freezing a large number of human jobs via legislation or bureaucratic means to address rapid technological change.\n- Such legal pushback may resemble welfare-state measures designed to safeguard workers from adverse effects, even if these solutions are not the most efficient.\n\n### Healthcare and Union Dynamics\n- Healthcare sector may face particular challenges regarding legal and regulatory resistance as AI adoption accelerates.\n- Unions could play a vital role in bargaining to protect worker interests amid technological disruptions.\n\n### Surveillance and Privacy Trade-offs\n- Discussion touched upon the societal trade-offs involved with surveillance technologies.\n- The metaphor of \"teddy bears\" was used to symbolize the comforting yet intrusive nature of surveillance as a trade-off for security or convenience.\n\n### News, Journalism, and Economic Models\n- Traditional journalism faces challenges as AI and new platforms evolve.\n- Emerging models like Substack offer cross-subsidization pathways that could preserve humanity and quality in journalism.\n- The role of news media in maintaining societal trust and cross-subsidy mechanisms remains a critical area of focus.\n\n---\n\nThese themes collectively highlight the complex interplay between AI-driven economic change, human labor dynamics, legal and political frameworks, privacy considerations, and the evolving media landscape.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1491,
+      "latencyMs": 9939,
+      "cost": 0.0010116,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

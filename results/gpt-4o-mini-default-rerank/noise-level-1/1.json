@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 272,
+  "timestamp": "2025-05-12T18:26:50.189Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Discussion Points:\n\n1. **Human Factor in Economic Transactions**\n   - Emphasized the importance of maintaining a human face in trades, despite the rise of automation and advanced AI in economic transactions.\n\n2. **Healthcare Legislation Challenges**\n   - Discussed potential legal pushback surrounding healthcare, particularly in relation to AI and its implications for job security in bureaucratic roles.\n\n3. **Rapid Adoption in Defense Sector**\n   - Noted the fast uptake of AI technologies in the defense sector, raising questions about workforce transitions and the need for protective measures.\n\n4. **Union Influence and Bargaining Power**\n   - Highlighted the role of unions in bargaining for workers amidst the changing landscape driven by AI and technological advancements.\n\n5. **Surveillance Trade-offs**\n   - Mentioned the discussion around the societal trade-offs related to surveillance technologies, using metaphors like \"teddy bears\" to depict the comfort versus the reality of constant monitoring.\n\n6. **Media and Journalism Dynamics**\n   - Explored the evolving landscape for journalists, focusing on issues like cross-subsidization in news and the impact of platforms like Substack on maintaining humanity in storytelling.\n\n### Themes:\n\n- **Economic Implications of AI:** \n  - Importance of integrating welfare state considerations to support transitions and maintain social equity in the face of advancing technologies.\n\n- **Political Will and Job Protection:**\n  - Consideration of potential political movements aimed at protecting existing jobs from AI encroachment, paralleling traditional protections seen in law and medicine.\n\n- **Evidence-Based Transitions:**\n  - Discussion on the lack of extensive examples demonstrating successful transitions for workers displaced by technology, stressing the need for effective communication and examples to support changes.\n\n- **Future Outlook:**\n  - The sphere of AI is expected to bring about significant societal changes, necessitating a balance between embracing innovation and safeguarding the interests of workers and society at large.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3142,
+      "latencyMs": 27828,
+      "cost": 0.003948,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

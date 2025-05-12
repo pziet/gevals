@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 218,
+  "timestamp": "2025-05-12T18:21:46.185Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Main Topics Discussed\n\n### Human-centric AI and Trade\n- Emphasis on **trades lasting longest when maintained by human involvement** (\"trades last, human face\").\n- Certain artisanal and trades-related sectors (electricians, plumbing, gardening) are likely to be affected last by AGI implementation.\n- The importance of **relationship-based commerce** remains because people prefer to handle deals through personal interactions, especially when mediated by larger capital pools.\n\n### Regulatory and Legal Challenges\n- **Legal pushback in healthcare** is anticipated, especially regarding standards and handling of personal data.\n- **AGI will face significant legal obstacles**, especially in highly regulated sectors like healthcare and services involving personal information.\n- Governments may **move faster than expected** to regulate AGI, potentially imposing laws to protect jobs or prevent misuse.\n- Possible resistance from **large established companies** versus government entities in adapting to AGI regulation.\n\n### Economic and Societal Impact\n- Larger **economic changes may trigger protections for workers** (e.g., welfare state enhancements) to manage impacts of free trade and AI integration.\n- The concept of a **welfare state for service workers** exists as a bargain to accept freer trade and automation.\n- Discussions about **potential breakdowns in the current system** due to rapid economic shifts and AI deployment.\n\n### AI in Surveillance and Media\n- **Surveillance trade-offs** (e.g., Teddy bears) reflect the tension between monitoring and privacy.\n- Media, journalism, and **cross-subsidization models** like those seen with Substack highlight emerging models where humanity and information dissemination intersect.\n- The role of **news and journalism** as platforms adjusting to AI-driven content and subsidies.\n\n### AI in Art, Art Production, and Public Sector\n- AI may impact **modern art** production, especially where artists coordinate large teams, similar to orchestrating large ensembles.\n- The **public sector (e.g., government)** may be among the last to fully integrate AGI, with resistance potentially coming from large institutions rather than policymakers initially.\n- The **artisanal and desk-bound service sectors** are expected to be among the last affected.\n\n### Business and Relationship Mediation\n- Future commerce will prioritize **human-mediated relationships**, especially where large pools of capital make deals through proxies.\n- AI's role in **generating sales** and **business negotiations** will be mediated, maintaining human oversight and relationships.\n- **Best practices for AI integration** include creating evidence and transition models to facilitate smooth change.\n\n### Technological and Economic Index\n- Mention of **Anthropic's Economic Index** measuring AI's impact on the U.S. economy, with ongoing reports and research as of March 2025.\n\n---\n\n**Summary:**  \nThe meeting covers broad implications of AGI and advanced AI, emphasizing the enduring role of human interaction in trades, the likelihood of legal and regulatory challenges—especially in healthcare—and the economic strategies (like welfare state support) needed to manage upheavals. It also highlights resistance points in government and large corporations, the importance of media adaptation, and how certain sectors (art, public services) will be affected last. Overall, maintaining human oversight and carefully managing transitions are key themes.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1791,
+      "latencyMs": 15371,
+      "cost": 0.00037440000000000005,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

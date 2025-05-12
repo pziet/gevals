@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 162,
+  "timestamp": "2025-05-12T18:18:11.671Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as the Last Stronghold for Human Jobs**: \n  - AI and automation will likely impact many sectors rapidly, but certain artisanal and trade jobs—such as electricians, plumbers, and gardeners—may persist longer due to their high-skill, high-status nature and human touch.\n  - These trades offer unique human value beyond mechanical tasks, making them last in the transition.\n\n- **Legal and Political Pushback in Protecting Jobs**:\n  - There is a strong possibility of political movements pushing to legally protect or \"freeze\" a significant number of human jobs in bureaucratic ways as AI adoption accelerates.\n  - This could represent a societal attempt to manage rapid economic shifts and worker displacement, though it may not be a perfect solution.\n\n- **Fast Uptake in Defense Sector and Government AI Usage**: \n  - The defense sector and national security are expected to rapidly adopt advanced AI technologies.\n  - Government agencies, some still using outdated software, may emerge as prominent AI users due to their resources and need for secure systems.\n\n- **Unions and Collective Bargaining**:\n  - As AI changes the labor landscape, unions could play a critical role in negotiating protections, benefits, and transitions for workers affected by job automation.\n\n- **Human Element and Surveillance Trade-Offs (\"Teddy Bears\")**:\n  - Discussions around surveillance and technology highlight a trade-off between convenience, security, and loss of privacy.\n  - The metaphorical mention of \"teddy bears\" suggests concerns about the balance between comforting technology presence and intrusive monitoring.\n\n- **Journalism and Media Economics**:\n  - There is a shift in journalism funding models, with traditional news outlets being subsidized by new platforms and independent creators (e.g., Substack).\n  - This relates to concerns about maintaining humanity and quality in news production amidst economic pressures.\n\n- **Information Mediation Between AI and Humans**:\n  - New roles will arise focusing on translating and integrating AI-generated information into human systems that are not inherently designed to process such inputs.\n  - These roles may involve \"laundering\" AI outputs into actionable or understandable formats for various applications.\n\n- **Welfare State Considerations**:\n  - Economic changes induced by AI may prompt reevaluation or expansion of the welfare state to support workers through transitions, similar to historical bargains in social support systems.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1622,
+      "latencyMs": 13644,
+      "cost": 0.0012212000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

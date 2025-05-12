@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 185,
+  "timestamp": "2025-05-12T18:18:46.125Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on AI, Economy, and Human Jobs\n\n- **Trades and Human Presence Last**: Discussion focused on certain trades and artisanal professions (electricians, plumbers, gardeners), where human involvement is likely to persist the longest. These roles involve high-status, skilled work with a valued human face and artisanal quality difficult to fully replace by AI.\n\n- **Legal Pushback and Protection of Jobs**: There is a strong probability of political and legal movements aimed at freezing or protecting many human jobs in response to rapid technological change driven by AI, particularly in bureaucratic and service sectors.\n\n- **Fast Uptake in Defense and AI Capacity**: AI and robotic productivity advancements are proceeding quickly, enabling new, higher-status jobs that involve managing or working creatively with AI systems. This represents a shift towards new kinds of employment and economic activities.\n\n- **Unions and Bargaining Power**: The discussion highlighted potential roles for unions and collective bargaining to protect workers' rights and negotiate the terms of AI integration into workplaces.\n\n- **Trade-offs: Surveillance and Comfort (Teddy Bears)**: An analogy was made comparing human desire for comfort and companionship (like teddy bears) with increased surveillance, implying societal trade-offs in benefit and privacy/security as AI technologies proliferate.\n\n- **Media, Journalism, and Cross Subsidy**: The future of journalism was debated, with considerations about how news and media can remain human-centered. Innovative funding models such as cross subsidies (e.g., platforms like Substack) may be essential to preserving journalistic humanity in an AI-driven economy.\n\n- **Welfare State as a Bargain**: The welfare state, while not always the most efficient, is seen as a necessary social bargain to support workers affected by AI disruptions. There was recognition of its role in cushioning economic inequalities caused by automation.\n\nThese notes reflect a broad consensus that while AI will disrupt many sectors, human elements and protections will persist through legal, social, and creative adaptations in the economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3143,
+      "latencyMs": 19228,
+      "cost": 0.0034532,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

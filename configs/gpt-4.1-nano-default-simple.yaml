@@ -1,0 +1,5 @@
+embedding: default
+id: gpt-4.1-nano-default-simple
+model: gpt-4.1-nano
+prompt: system-prompt-1.txt
+rag: simple

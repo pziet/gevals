@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 241,
+  "timestamp": "2025-05-12T18:25:45.062Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion focused on the economic implications of Advanced AI, the workforce transition, and social safety nets.\n\n## Key Topics\n\n### Economic Changes and Workforce Protection\n- Increasing interest in protecting workers as AI technology advances.\n- Debate on whether creating a generous welfare state is the best model for supporting workers.\n\n### Technological Impact on Employment\n- Certain jobs, especially in trades, are anticipated to be the last affected by AI.\n- Likely emergence of new jobs centered around managing AI systems and creative applications of technology.\n\n### Legal and Social Challenges\n- Anticipation of potential legal pushback regarding healthcare resulting from rapid economic and technological changes.\n- Unions may play a significant role in negotiating workers' rights amidst these transitions.\n\n### Societal Considerations\n- The need for a balance between innovation and humanity, especially concerning journalism.\n- Discussion on the \"surveillance trade-off\" in the context of technology and privacy issues, likened to a teddy bear's dual nature of comfort and surveillance.\n\n### Future Outlook\n- Fast uptake of AI technologies in defense sectors noted.\n- Media models discussed, particularly around journalist cross-subsidization through platforms like Substack, and how this affects the landscape of news and humanity's representation in media.\n\n## Conclusion\n- The meeting highlighted the complex interplay between AI advancements, economic implications, legal frameworks, and the essential human element within society. Further discussions are needed to navigate these challenges effectively.\n",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1440,
+      "latencyMs": 16934,
+      "cost": 0.001395,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

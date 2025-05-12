@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 104,
+  "timestamp": "2025-05-12T18:16:24.978Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered Trade and Economic Resilience\n- Emphasis on maintaining human face and involvement in trades, especially artisanal and high-skilled jobs like electricians, plumbing, and gardening.\n- The persistent value of trades in a rapidly evolving AI landscape highlights the importance of craftsmanship and personalized service.\n\n## Legal and Political Challenges\n- Potential for political movements to freeze or heavily regulate jobs, especially bureaucratic or administrative roles, as a response to AI-driven economic shifts.\n- Possible attempts to protect half of the jobs within the system, leading to legal pushback and societal debates on AI's role in employment.\n\n## Impact of AI on Employment and Workforce\n- AI's fast uptake may lead to economic shifts, with a focus on protecting workers and aiding young people, although such measures might not be optimal over the long term.\n- The need for evidence-based transitions to manage large-scale economic changes effectively.\n- AI could create entirely new job categories focused on marshalling, fueling, and managing AI systems, some involving creative and fun exercises rather than traditional labor.\n\n## Defense and Strategic Use of AI\n- Defense sector may adopt AI rapidly, utilizing its capabilities for strategic advantage.\n- Companies with long-standing software infrastructure could see rapid changes due to AI relevance to national security.\n\n## Media, Surveillance, and Society\n- Trade-offs involved in surveillance, exemplified by the \"teddy bears\" analogy, balancing security and privacy.\n- The role of journalism and cross-subsidies (e.g., Substack) in maintaining humanity’s connection and societal transparency amidst technological changes.\n\n## News and Humanity\n- Media outlets and journalists play a crucial role in shaping public understanding and debate about AI's societal impact.\n- The ongoing conversation about how AI and automation influence human experiences and societal values.\n\n## Summary\n- The rapid integration of AI is likely to experiment with trade-offs between technological efficiency and human elements.\n- Legal, political, and societal frameworks will be challenged and must adapt quickly to manage economic transitions.\n- New opportunities will emerge for high-skilled, creative, and strategic roles involving AI, while traditional trades remain vital.\n",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3096,
+      "latencyMs": 22077,
+      "cost": 0.0026058,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

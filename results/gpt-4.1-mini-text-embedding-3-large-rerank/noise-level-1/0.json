@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 191,
+  "timestamp": "2025-05-12T18:19:05.960Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on Economic Transitions and AGI Impact\n\n- **Human Jobs and Political Will**  \n  Discussions emphasized the potential for political movements aimed at protecting existing human jobs through legislation, similar to protections found in law and medicine. There is a high chance of attempts to \"freeze\" many human jobs to manage the rapid technological advance of strong AGI. The concept of maintaining a \"human face\" in trades and negotiations underscores the desire for human mediation in important economic activities.\n\n- **Legal Pushback in Sensitive Sectors**  \n  Sectors such as healthcare may see strong legal resistance to AGI integration due to privacy regulations and standards concerning personal data. These create natural barriers to full automation and present opportunities for pushback against rapid AI takeover in sensitive jobs.\n\n- **Fast Uptake and Defense Mechanisms**  \n  The rapid adoption of AGI technologies brings political and social challenges. Good transition examples are critical to easing chaotic political winds and ensuring smoother societal adaptation to the disruptions caused by AI advancements.\n\n- **Role of Unions and Bargaining Power**  \n  Unions likely will play a crucial role in negotiating terms and protecting workers’ interests amidst the growing automation landscape. Bargaining power could be pivotal in determining job outcomes and labor conditions in an AI-transformed economy.\n\n- **Trade-offs: Surveillance vs. Privacy (\"Teddy Bears\" Analogy)**  \n  The concept of \"AI teddy bears\" was introduced as a metaphor for AI-driven forms of entertainment or interaction that offer meaning and economic participation but raise questions about surveillance trade-offs. This reflects broader societal debates around privacy and the acceptance of surveillance in exchange for technological benefits.\n\n- **Media, Journalism, and Economic Models**  \n  The journalism sector is undergoing transformation with new economic models such as cross-subsidies and platforms like Substack. These highlight challenges and opportunities for maintaining journalistic humanity and economic viability in an AI-driven media environment.\n\n- **Welfare State and Economic Bargains**  \n  The welfare state is seen as a crucial component to manage freer trade and service economy shifts, providing a necessary \"bargain\" that supports people displaced or affected by automation. A generous welfare framework can offer meaning and stability as society adapts to new economic realities driven by AGI.\n\nThese themes collectively address the complex interplay between technology, labor, law, and society in the face of advanced AI integration.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3213,
+      "latencyMs": 23264,
+      "cost": 0.0035614,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

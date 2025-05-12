@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 219,
+  "timestamp": "2025-05-12T18:21:46.184Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centric AI Trades\n- Trades last and maintain a human face, emphasizing the importance of personal and human interactions in AI-driven economies.\n\n## Legal and Regulatory Challenges in Healthcare\n- Strong legal pushback is expected, especially around personal data standards and privacy within the healthcare sector, potentially requiring significant legal reforms.\n\n## Defense and Rapid Adoption\n- Defense sectors are likely to be quick to adopt AI innovations, possibly due to national security concerns and high stakes.\n\n## Unions, Bargaining, and Workforce Protections\n- The emergence of political movements aiming to protect jobs—possibly half of current employment—through laws similar to those in medicine and law against advanced AI.\n- Potential for workers' unions and bargaining to influence AI regulation and job protections.\n\n## Surveillance Trade-offs and Data Laundering\n- Surveillance concerns, including the trade-offs involved with deploying AI that monitors and manages data.\n- A key issue is laundering AI-generated information into human systems, ensuring data integrity and trust.\n\n## Journalism, Cross-Subsidies, and Humanity\n- Media and journalism may face shifts with cross-subsidies and the influence of AI, impacting the human touch and integrity of information dissemination.\n- Substack and similar platforms represent shifts towards human-centered, perhaps less corporate-controlled media.\n\n## Economic Impact and Infrastructure\n- As AI impacts various sectors, there is an emphasis on generating examples of positive transitions to mitigate economic disruption.\n- Artisanal trades (electricians, plumbers, gardening) may be affected last, as they involve high manual skill but less automation.\n\n## AI’s Reach and Last Affected Sectors\n- Trades that are most artisanal or craft-oriented are likely to be impacted last.\n- Bureaucratic and governmental sectors may encounter AI resistance initially, but some components could adapt faster than anticipated.\n- Government may move slightly faster than expected; large established companies might resist AI adoption in certain areas.\n\n## AI in Art and Service Sector\n- AI-driven art production resembles large-scale orchestrated efforts, involving many workers backing a single artist.\n- In desk-bound service jobs, AI impact will come later, with some roles perhaps maintaining a human element initially.\n\n## Economic Index and Future Outlook\n- Anthropic has developed an Economic Index measuring AI’s effect on the U.S. economy, with upcoming reports (as of March 2025).\n- The future of AI impact involves balancing economic benefits with legal, ethical, and social considerations, especially around employment and regulation.\n\n## Summary\n- The evolution of AI will be characterized by gradual shifts in trades’ last impacts, legal challenges, and societal responses.\n- Human-centered interactions and protections, especially in healthcare and artisanal trades, are expected to be prioritized as some sectors face slower AI integration.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1695,
+      "latencyMs": 15368,
+      "cost": 0.00033600000000000004,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

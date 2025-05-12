@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 204,
+  "timestamp": "2025-05-12T18:21:30.797Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic and Workforce Impacts of AI\n- Anticipated rapid technological changes may lead to political pushes to protect human jobs, possibly through measures like freezing employment in certain sectors or bureaucratic job preservation.\n- These efforts might be driven by a desire to serve human interests, but may not be the most efficient or beneficial long-term strategy.\n- Historically, welfare states have served as a \"good enough\" bargain for worker protection, though their efficiency is debated.\n- The transition period could see a high-risk scenario where large-scale economic shifts challenge existing social and political structures.\n\n## AI's Effect on Trades and Artisanal Sectors\n- AGI is expected to significantly impact trades such as electricians, plumbing, gardening, and other artisanal sectors.\n- High-skilled, high-status trade roles that combine technical expertise with personal service or reputation may persist and even thrive.\n- Rapid changes are likely in sectors that remain closely linked to national security and high-stakes industries due to AI relevance.\n\n## New Job Creation and AI-Related Roles\n- Emergence of entirely new job types focused on managing, fueling, and marshalling AI systems—these are complex and require creative problem-solving.\n- Analogous roles might involve designing fun, creative exercises to get AIs to perform tasks or generate outputs.\n- The primary human role could involve translating AI outputs into human-understandable and usable formats, serving as information launders between AI systems and traditional human workflows.\n\n## Humanity’s Face and Human-Centered AI\n- Despite technological shifts, there remains a \"human face\" to trades, work, and services, emphasizing the importance of personalized human interaction, such as in bargaining, union negotiations, and maintaining human dignity.\n- There is a trade-off in surveillance and automation, exemplified by symbolic items like teddy bears, representing tension between security and privacy.\n\n## Media, Humanity, and Subsidization\n- News, journalism, and media outlets like Substack may operate under cross-subsidies, raising questions about the integrity and humanity of journalism in an AI-powered economy.\n- Concerns about how AI impacts the news industry, including potential shifts in funding models and the importance of human storytelling.\n\n## Broader Reflections\n- The pace of AI-driven change could open opportunities for humans to engage in higher-status, more creative pursuits, rather than purely economic ones.\n- The influence of major AI companies, particularly in national security and technological innovation, may reshape power dynamics globally, with examples like the U.S. government potentially becoming a leading AI entity despite reliance on legacy software.\n\n---\n\n**Overall, the meeting highlighted the complex interplay between economic change, AI-driven innovation, societal protection mechanisms, and the enduring importance of human elements in work and social relations.**",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1699,
+      "latencyMs": 15869,
+      "cost": 0.00033610000000000004,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

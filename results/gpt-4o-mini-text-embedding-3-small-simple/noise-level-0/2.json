@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 18,
+  "timestamp": "2025-05-12T18:13:47.122Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trades Last**: \n  - AGI is expected to impact trades such as plumbing, electrical work, and gardening last due to the human-centric nature of these professions.\n  \n- **Human Face of Work**:\n  - There's a suggestion that relationships in commerce will remain important, with a preference for deals mediated by human brokers even in the age of AGI.\n\n- **Legal Pushback in Healthcare**:\n  - Anticipated legal challenges in healthcare systems as AGI integration occurs, particularly around personal data regulation and standard changes.\n\n- **Fast Uptake in Defense**:\n  - The conversation suggests that the defense sector may rapidly adopt AGI technologies, potentially outpacing other industries.\n\n- **Union Bargaining**:\n  - The potential role of unions in bargaining for worker protections as AGI transforms job landscapes was discussed, indicating a protective impulse for workers.\n\n- **Surveillance Trade-offs**:\n  - Mention of \"teddy bears\" highlights the delicate balance between surveillance capabilities and personal privacy in the context of technological advancement.\n\n- **Role of News and Journalism**:\n  - The conversation also touched on the evolving media landscape, referencing cross-subsidization of journalism and platforms like Substack, emphasizing the need for humanity amidst technological change. \n\n## Summary\nThe meeting highlighted the complexity of integrating AGI into various sectors, particularly where human interaction is crucial, like trades and healthcare. There's an awareness of potential legal challenges that may arise as regulations evolve. Additionally, the role of unions and the impact on journalism were identified as significant themes to consider moving forward.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1468,
+      "latencyMs": 15647,
+      "cost": 0.0014711999999999998,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

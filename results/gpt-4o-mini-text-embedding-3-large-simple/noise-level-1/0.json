@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 51,
+  "timestamp": "2025-05-12T18:14:52.932Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion focused on the intersection of advanced AI technologies, labor markets, and societal implications, particularly in regard to trade, healthcare, and journalism.\n\n## Key Topics\n\n### 1. **Trade and Labor**\n- The conversation emphasized the need to find a balance between freer trade and worker welfare, likening it to a generous welfare state aimed at service workers.\n- Mechanisms for protecting workers amid economic transitions led by AI-driven advancements are necessary.\n\n### 2. **Healthcare Legalities**\n- There is significant legal pushback related to healthcare in the context of AI integration, particularly as it pertains to personal data management and administrative standards.\n\n### 3. **Speed of Technological Adoption**\n- Fast adoption of defensive measures is critical as AI technology evolves rapidly, posing societal challenges.\n\n### 4. **Unions and Bargaining Power**\n- Discussions highlighted the role of unions in bargaining for rights and protections as the workforce transitions in light of increasing automation.\n\n### 5. **Ethics of AI Surveillance**\n- The topic of \"teddy bears\" was introduced as a metaphor for AI systems that provide companionship or utility, raising questions about the surveillance trade-offs involved.\n\n### 6. **Journalism and Economic Models**\n- The conversation touched on challenges in journalism, particularly regarding cross-subsidies in news reporting and platforms like Substack that might affect the humanity of journalism.\n  \n## Conclusion\n- There is a collective acknowledgment of the complex landscape shaped by AI, healthcare, trade, and media, with urgent calls for ethical considerations and new frameworks to protect human interests in these evolving fields.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1478,
+      "latencyMs": 13778,
+      "cost": 0.0014789999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 331,
+  "timestamp": "2025-05-12T18:28:11.678Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Economic and Political Impact of AI and Trade\n- Discussion emphasized the parallels between free trade and welfare states, with the welfare state framed as a necessary social bargain to support service workers amid economic transitions.\n- Transitioning workers and sectors amid growing AI integration should ideally look like examples of \"good transitions\" to avoid political backlash.\n- Acknowledgment that the political forces might push to \"freeze\" many human jobs legally, especially to manage societal impact of powerful AI technologies.\n- Rapid AI adoption in defense and other sectors is expected, with political and legal frameworks struggling to keep pace.\n\n## Legal Challenges and Resistance\n- AI and automation face significant legal pushback, particularly in regulated fields like healthcare and law, where personal data and professional standards create obstacles.\n- Strong likelihood of political movements aimed at protecting human jobs in sensitive domains, drawing analogies to existing legal protections.\n- Lawyers and some professionals resist AI adoption as it threatens traditional high-cost, high-barrier services.\n\n## Surveillance and Consumer Products\n- Emergence of consumer AI products such as \"AI teddy bears\" raises new questions about the trade-off between surveillance and benefits, highlighting societal willingness to accept privacy compromises for advanced services.\n\n## Labor and Unions\n- Unions and collective bargaining will play a crucial role in managing worker transitions in an AI-driven economy.\n- Deals and trades involving labor and capital are expected to be mediated by human representatives, even as AI takes on more functional roles.\n- The human element (\"human face\") remains critical in trades, despite increasing automation.\n\n## Media, Journalism, and Economics\n- Economic models for journalism are changing, with cross-subsidies emerging (e.g., reporters supported by platforms like Substack).\n- A call to preserve the human aspect and \"humanity\" in news reporting as AI reshapes media landscapes.\n\n---\n\nThese points underscore the complex interplay between technology adoption, legal frameworks, workforce transitions, and societal values in shaping the future economy impacted by AI.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1549,
+      "latencyMs": 9928,
+      "cost": 0.0010996,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

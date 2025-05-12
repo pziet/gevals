@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 343,
+  "timestamp": "2025-05-12T18:28:36.814Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Presence**  \n  Advanced AI is expected to impact various sectors differently, with the most artisanal trades—such as electricians, plumbing, gardening, and other skilled crafts—likely retaining a significant human element due to the high-status, high-skill nature of these jobs where personal interaction is valued.\n\n- **Legal and Political Pushback in Healthcare and Job Protection**  \n  There is a probable political movement to legally protect or \"freeze\" certain human jobs, particularly in bureaucratic and healthcare sectors, as a response to the rapid pace of AI-driven change. This legal pushback aims to preserve jobs and protect workers amid AI adoption.\n\n- **Rapid Uptake in Defense and Other Sectors**  \n  The defense sector and others may experience a fast adoption of AI technologies, reflecting differing paces of change across industries.\n\n- **Unions and Bargaining Power**  \n  Labor unions are expected to play a critical role in negotiating and bargaining to protect workers’ interests and jobs in an economy increasingly influenced by AI and automation.\n\n- **Surveillance and Privacy Trade-offs**  \n  Discussions included analogies like \"teddy bears,\" representing societal trade-offs between surveillance and privacy/security in the deployment of AI technologies.\n\n- **Challenges for Journalism and News Media**  \n  The journalism industry is facing economic pressures with AI's rise, potentially requiring cross-subsidies to sustain human-centered reporting. Platforms like Substack were mentioned as examples where journalism combines technology and humanity to adapt to new economic realities.\n\n- **Humanity Amidst Technological Change**  \n  A prevailing theme is the need to maintain humanity and human-centric values in jobs and media, even as AI becomes more integrated, ensuring sectors like news continue serving the public interest with authenticity and care.\n\nThese points highlight the complexities and multifaceted impacts of advanced AI on jobs, legal frameworks, labor relations, and industries such as healthcare and journalism.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3131,
+      "latencyMs": 22598,
+      "cost": 0.003434,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

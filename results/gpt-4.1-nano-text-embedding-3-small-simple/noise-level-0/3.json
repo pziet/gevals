@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 99,
+  "timestamp": "2025-05-12T18:16:09.650Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Face of Trade and Commerce\n- Emphasis on maintaining human interaction in trade and negotiations, highlighting the importance of personal relationships and trust.\n\n## Legal and Regulatory Challenges in Healthcare\n- Anticipated strong legal pushback against AI applications in healthcare, particularly concerning personal data standards and privacy regulations.\n- Potential need for significant legal reforms to accommodate AI integration in health services.\n\n## Defense and Economic Uptake of AI\n- Rapid adoption and defense mechanisms are crucial to stay competitive.\n- Governments and large organizations are likely to implement protective measures to safeguard employment and economic stability.\n\n## Unions, Bargaining, and Worker Protections\n- Possible rise of political movements advocating for laws to protect jobs from automation, similar to protections in law and medicine against strong AGI.\n- Unions may play a key role in negotiating AI regulation and workforce transition policies.\n\n## Surveillance Trade-Offs and Data Laundering\n- Use of surveillance technologies and the importance of laundering AI-generated information into human systems.\n- Managing personal data and standards will be central to AI deployment, especially in sensitive sectors.\n\n## Media, Journalism, and Subsidies\n- Media outlets, like Substack, may face cross-subsidization pressures, balancing human-centered journalism with AI-generated content.\n- Humanity's role in news dissemination remains crucial amid automation.\n\n## Economic Impact and Sector-specific Effects\n- AGI's impact is expected to be strongest in artisanal trades (electricians, plumbing, gardening) and less in large-scale industrial manufacturing.\n- The last sectors affected will likely be more desk-bound service industries and government functions, such as policy and administration.\n\n## Market Relationships and Commerce\n- People will prefer mediated relationships, with deals made through proxies representing large pools of capital.\n- Maintaining trust and personal relationships in commerce will remain important despite AI capabilities.\n\n## Government and Market Resistance\n- Governments may act swiftly on AI regulation, potentially faster than anticipated.\n- Large established companies could resist AI integration to protect existing interests.\n\n## Artistic and Creative Fields\n- Modern art production may shift towards orchestrated collaborations involving many individuals rather than solitary artists.\n- AI's influence on creative industries highlights a shift towards more collaborative or delegated artistic processes.\n\n## Last Maneleffected Sectors\n- Sectoral deployment delays expected in the more artisanal trades and certain government functions.\n- AI's integration in healthcare, law, and personalized services faces significant legal and societal hurdles.\n\n## Summary\n- The trade-off between surveillance and privacy, legal adaptations, and human-centered relationships will shape AI's role.\n- Ensuring smooth transitions and evidence of positive change are critical for societal acceptance.\n- Active policy, union engagement, and thoughtful regulation are essential to mitigate risks and maximize benefits of AI evolution.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1691,
+      "latencyMs": 11759,
+      "cost": 0.0003344,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

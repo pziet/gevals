@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 144,
+  "timestamp": "2025-05-12T18:17:38.498Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Artisanal Jobs**: There is a high likelihood that trades and artisanal roles—such as electricians, plumbers, and gardeners—will remain critical, especially in their high-status, highly skilled segments. These jobs may retain a 'human face,' with clients valuing personal skill and craftsmanship even as AI advances.\n\n- **Legal and Political Pushback in Healthcare and Other Sectors**: A political movement may emerge aiming to \"freeze\" or protect certain human jobs, particularly bureaucratic or legal roles, as a response to rapid technological change. This resembles legal efforts to preserve employment despite AI encroachment, possibly seen first in sensitive areas like healthcare.\n\n- **Rapid Uptake in Defense Sector**: AI is expected to cause fast and significant changes in national security and defense, where adopting these technologies is a top priority.\n\n- **Labor Unions and Bargaining Power**: Unions may play a role in negotiating protections or bargains for workers impacted by AI-driven automation and job displacement, reinforcing social contracts and the role of the welfare state.\n\n- **Surveillance vs Privacy Trade-offs**: Analogous to the \"teddy bears\" metaphor, there is a growing discussion about balancing surveillance technology's benefits with privacy and personal freedoms, highlighting societal trade-offs.\n\n- **Media and Journalism Economics**: Journalists face funding challenges, often relying on cross-subsidy models. Platforms like Substack exemplify new ways to support journalism while preserving its humanity and integrity amidst technological disruption. This reflects ongoing concerns about sustaining quality news in changing economic landscapes.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3031,
+      "latencyMs": 23941,
+      "cost": 0.00328,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 70,
+  "timestamp": "2025-05-12T18:15:27.214Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Trade Dynamics**:\n  - Emphasis on the balance between trade benefits and ethical considerations, referring to the \"human face\" of trades and the implications for service workers.\n  - The discussion framed the welfare state as a form of support for workers affected by trade and technological advancements.\n\n- **Legal and Regulatory Challenges**:\n  - Notable pushback from legal sectors regarding healthcare policies in the context of technological impacts.\n  - Concerns were raised about potential future regulations to protect jobs from advancements in AI, suggesting a likelihood of political movements advocating for such laws.\n\n- **Labor and Union Engagement**:\n  - Exploration of unions and their role in bargaining for worker rights amidst evolving economic landscapes influenced by technology.\n\n- **Social Contracts and Trade-offs**:\n  - Introduced the concept of “teddy bears” representing care and comfort, discussing the trade-off between surveillance and privacy, especially in tech-facilitated environments.\n  \n- **Media and Journalism**:\n  - The conversation touched on the evolving landscape for journalists, mentioning the impact of platforms like Substack and the idea of cross-subsidization in news media.\n  - Discussion highlighted the need for humanity in journalism against a backdrop of technological change and economic challenges.\n\n### Implications of AI and Economic Changes\n\n- **Effects on Employment**:\n  - Speculation that trades and artisanal jobs may be significantly impacted by AI, affecting traditional labor markets, which raises questions about the future of work.\n\n- **Shift in Workforce Needs**:\n  - Exploration of how AI could shift the economic landscape, requiring adaptations in both skills and job security measures for employees in various sectors.\n\n### Conclusion\n\nDiscussions centered on the intersection of trade, labor dynamics, legal frameworks, and the media's role in society, considering the profound impacts of technology, particularly AI, on these areas. The balance between economic growth and the humane treatment of workers remains a critical issue moving forward.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3069,
+      "latencyMs": 21762,
+      "cost": 0.0038502,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

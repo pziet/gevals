@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 232,
+  "timestamp": "2025-05-12T18:22:31.576Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The longevity of trades and the importance of maintaining a human face in interactions remain central in evolving economic landscapes.\n\n- Legal pushback in healthcare points to challenges around data standards, privacy, and regulation, highlighting ongoing tensions between innovation and regulation.\n\n- The rapid adoption of defense technologies underscores the importance of swift uptake and adaptation in security sectors.\n\n- Unions and bargaining processes are critical, especially as workers face displacement or transformation due to AI and technological advances.\n\n- Discussions around surveillance trade-offs, exemplified by Teddy bears and other consumer goods, reflect societal negotiations between security, privacy, and human comfort.\n\n- Media and news outlets face issues of cross-subsidies, affecting journalism, the treatment of humanity, and the rise of platforms like Substack, emphasizing shifts in information dissemination and economic models.\n\n- The themes tie into broader societal and economic shifts influenced by advanced AI, including debates over protecting jobs through legislative measures and the potential for political movements to impose restrictions or protections.\n\n- There is recognition of the need to balance profitability with societal impact, including high prices in healthcare due to data standards and regulation.\n\n- The influence of political forces and the importance of generating positive examples of transitions are crucial in navigating societal change.\n\n- Overall, the discussion reflects a complex interplay between technological innovation, regulatory responses, societal values, and economic realities, emphasizing the importance of human-centric approaches amidst rapid AI advancements.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3104,
+      "latencyMs": 26558,
+      "cost": 0.0027328,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

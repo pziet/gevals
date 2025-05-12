@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 290,
+  "timestamp": "2025-05-12T18:27:07.302Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trade and Human Connection\n- The longevity of human-centric trades highlights the importance of maintaining human faces and roles in services and transactions.\n\n## Legal and Regulatory Challenges\n- There is significant political and legal pushback in sectors like healthcare, particularly regarding personal data standards and ethical standards surrounding AI use.\n- Governments may move rapidly to regulate or constrain AI deployment, especially in sensitive sectors, possibly resulting in laws protecting jobs similar to those in law and medicine.\n- Strong opposition from existing legal frameworks stems from professions like law, which prefer high fees and resist automation or AI bidding.\n\n## Defense Against Rapid AI Adoption\n- The rapid uptake of AI technologies necessitates a defense strategy, possibly including legislation that safeguards jobs and ensures ethical standards.\n- Considering the potential breakdown of current systems, proactive regulation and evidence-based approaches are vital to ensure smooth transitions.\n\n## Unions and Bargaining Power\n- Unions may play a key role in bargaining for workers’ rights and protections as AI transforms industries.\n- Certain sectors, especially artisanal trades and trades with manual or interpersonal components, will encounter stronger legalized use of AI, but face resistance in highly regulated or professional fields.\n\n## Societal and Economic Impacts\n- AI could act as a \"welfare state\" for service workers, providing economic benefits while preserving meaningful engagement, albeit with trade-offs like surveillance and data trade-offs.\n- The effect of AI on the economy is likely to impact trades such as electricians, plumbers, gardening, and other artisanal sectors first, while more desk-bound or interpersonal roles might be affected later or more resistant.\n- Enhanced productivity from AI might lead to wealth increases, making societal shifts feel less disruptive.\n\n## Cultural and Ethical Considerations\n- There is a tension between the desire for meaningful work and the economic benefits of AI; some may experience nihilism even within high-achieving academic and professional sectors.\n- The potential for AI to influence public discourse includes cross-subsidizing journalism platforms like Substack, raising questions about humanity and the role of human storytelling.\n\n## Future Outlook\n- The rise of AGI will likely necessitate new legal frameworks and societal adaptations, with a possibility of a high political movement aimed at protecting a significant portion of current jobs.\n- The strongest legalized uses of AI are anticipated in sectors with existing high fees and standards, whereas less regulated sectors may adopt AI more freely and rapidly.\n- Government responses may be more proactive and faster than expected, especially to prevent economic or social destabilization.\n\n*This synthesis integrates the core ideas from the rough notes and relevant chunks, emphasizing the intersection of AI, regulation, societal impact, and economic transformation.*",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1680,
+      "latencyMs": 10972,
+      "cost": 0.00032730000000000004,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

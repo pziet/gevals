@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 17,
+  "timestamp": "2025-05-12T18:13:49.199Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n- **Human Face of Trades**\n  - Discussions centered around how trades (e.g., electricians, plumbing, gardening) will be among the last areas to be significantly affected by AGI. The preference for human interaction in these artisanal fields remains strong.\n\n- **Legal Pushback in Healthcare**\n  - There is anticipated resistance in the healthcare sector regarding the integration of AGI, mainly due to changing standards around personal data and the legal complexities involved. \n\n- **Fast Uptake in Defense Roles**\n  - The uptake of AGI in defense roles is expected to occur swiftly, with discussions on how large established companies may face the most significant resistance to implementing AGI solutions.\n\n- **Union Bargaining and Worker Protection**\n  - The political landscape may lead to movements aimed at protecting existing jobs from AGI impacts, similar to existing legal protections in law and medicine. This could result in the necessity for unions to bargain over employment terms in an evolving job market. \n\n- **Surveillance Trade-off (Teddy Bears)**\n  - The concept of surveillance vs. privacy was noted in the context of societal acceptance of technologies. This metaphorical reference to \"teddy bears\" explores how society can embrace certain technologies while dealing with the trade-offs involved.\n\n- **News and Journalism Challenges**\n  - The discussion highlighted journalist concerns about cross-subsidization in the media industry. The role of platforms like Substack is reshaping how journalists operate. There is a need to balance the business side of journalism with the humanity of reporting. \n\n## Conclusion\nThese themes reflect the complexities surrounding the integration of AGI into various sectors and emphasize the intersection of technology, legality, and human values.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1488,
+      "latencyMs": 17887,
+      "cost": 0.0015191999999999998,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

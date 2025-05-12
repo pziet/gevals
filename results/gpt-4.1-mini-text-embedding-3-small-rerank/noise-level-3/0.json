@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 141,
+  "timestamp": "2025-05-12T18:17:31.023Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Presence:**  \n  The economy's artisanal and trade sectors, such as electricians, plumbers, and gardeners, are expected to be among the last to be fully automated. These trades maintain a distinct \"human face\" due to the high-skilled, status-driven nature of the work that requires personal trust and craftsmanship.\n\n- **Legal and Political Pushback in Healthcare and Beyond:**  \n  There is a significant likelihood of political and legal movements aimed at preserving human jobs by freezing certain roles, especially in bureaucratic and service sectors such as healthcare. This pushback is motivated by societal concerns about rapid technological changes and job displacement.\n\n- **Rapid Adoption in Defense Sector:**  \n  AI technologies are anticipated to be quickly adopted in the defense sector, driven by national security imperatives, marking one of the areas where change may occur fastest.\n\n- **Unions and Bargaining Power:**  \n  Unions may play a crucial role in bargaining to protect human employment and influence transitions during AI-driven economic shifts.\n\n- **Surveillance and Privacy Trade-offs:**  \n  The discussion touched on the trade-offs between surveillance and privacy, metaphorically described as \"teddy bears\" — highlighting concerns about maintaining humanity and warmth in a highly monitored, data-driven world.\n\n- **Journalism, Media, and Economic Models:**  \n  The journalism industry faces new economic realities, including cross-subsidies and the rise of platforms like Substack, which aim to preserve the humanity of news delivery and support independent journalists.\n\nThese themes reflect ongoing debates around AI's impact on labor markets, societal values, and the balance between technological progress and human-centered economic structures.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3071,
+      "latencyMs": 23570,
+      "cost": 0.0033391999999999996,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

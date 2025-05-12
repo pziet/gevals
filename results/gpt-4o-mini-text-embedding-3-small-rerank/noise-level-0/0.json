@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 36,
+  "timestamp": "2025-05-12T18:14:42.687Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n1. **Trade and Employment**\n   - Discussion about the future of trades and employment in the context of advancing AI technology.\n   - Concern that trades might not be as significantly impacted by AI compared to other sectors, emphasizing the human element in these jobs.\n\n2. **Legal Considerations in Healthcare**\n   - Noted potential legal pushback in the healthcare sector regarding the integration of AI and data handling, particularly concerning personal data and privacy issues. \n   - Emphasis on existing laws that may slow down AI adoption in healthcare services.\n\n3. **Union Bargaining**\n   - The role of unions in negotiating worker protections amidst the rise of AI and automation.\n   - Importance of collective bargaining to safeguard jobs and worker rights as the economic landscape changes.\n\n4. **Public Opinion and Social Welfare**\n   - Highlighted the relationship between free trade and the necessity of a strong welfare state to support displaced workers.\n   - Discussion on how a generous welfare state can help people adapt to economic changes brought about by AI.\n\n5. **Surveillance and Privacy**\n   - Mentioned the surveillance trade-offs linked to technological advancements, illustrated through the metaphor of \"teddy bears\" potentially representing comfort vs. privacy concerns.\n   - The necessity of a societal dialogue on balancing technological benefits with individual rights and liberties.\n\n6. **Media's Role in Economic Transition**\n   - The impact of news and journalism in shaping public perception of AI and its economic implications.\n   - Exploration of cross-subsidy models in journalism (e.g., Substack) and their role in promoting discourse around humanity and technological advancement.\n\n7. **Future Trends in AI Adoption**\n   - Fast uptake of AI technologies in defense sectors was noted, raising questions about the pace of change across different industries.\n   - Speculation about the need for structured transitions as economic changes unfold, particularly in sectors that may experience strong legal challenges from AI integration.\n\n## Conclusion\nThe meeting encapsulated critical discussions on the interconnections between advancing AI technology, legal ramifications, labor rights, and social welfare, underlining the importance of a balanced approach to economic and technological changes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3147,
+      "latencyMs": 31074,
+      "cost": 0.0040014,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

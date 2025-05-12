@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 150,
+  "timestamp": "2025-05-12T18:17:50.533Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element:** \n  - The artisanal and trade jobs (e.g., electricians, plumbing, gardening) are likely to be affected by AI later than many other sectors. These roles retain a strong human element which might provide some level of job protection.\n  - The human face and human proxies will play a crucial role, especially in sectors where deals and interactions are mediated by people rather than fully automated systems.\n\n- **Legal Pushback and Worker Protection:**\n  - There is a high chance of political movements aiming to protect a significant portion of current jobs through legislation, similar to protections in law and medicine.\n  - Protecting jobs legally might be part of broader efforts to manage the transition into an AI-impacted economy and to preserve meaningful work for people.\n\n- **Welfare State and Economic Bargain:**\n  - A generous welfare state may be necessary to support the acceptance of free trade and economic changes brought by AI.\n  - Welfare systems can serve as a kind of social insurance or “bargain” for service workers, ensuring stability even as their work evolves or diminishes in traditional forms.\n\n- **Unions and Bargaining Power:**\n  - Unions could play a vital role in negotiating protections, benefits, and transitions for workers affected by new technologies.\n  - Collective bargaining may become increasingly important to ensure fair deals and to manage the social impact of technological disruption.\n\n- **Surveillance and Trade-offs:**\n  - There is a symbolic reference to “teddy bears” which may imply a balance between comfort/security and surveillance/privacy trade-offs as society adapts to new technologies and monitoring practices.\n\n- **Media, Journalism, and Humanity:**\n  - News organizations and journalists face economic challenges, often relying on cross-subsidies to maintain quality and independence.\n  - Platforms like Substack represent new models that emphasize direct support from readers, aiming to preserve the human aspect in journalism despite economic pressures.\n  - The humanity reflected in journalism remains critical as AI changes information dissemination and media landscapes.\n\nThese notes address the intersection of AI-driven economic change, worker protections, welfare policy, and societal values, highlighting the complex trade-offs and human-centered concerns discussed in the meeting.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3190,
+      "latencyMs": 28543,
+      "cost": 0.0035240000000000002,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

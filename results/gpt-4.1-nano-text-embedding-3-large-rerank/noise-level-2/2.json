@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 228,
+  "timestamp": "2025-05-12T18:22:13.372Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Face of Trade\n- Discussions emphasize that trade activities often retain a human element, highlighting the importance of maintaining human interaction and oversight in trading processes.\n\n## Legal Pushback in Healthcare\n- There is significant legal resistance to certain AI applications in healthcare, particularly concerning data privacy, standards, and regulatory compliance.\n- Healthcare remains a prime area where regulatory frameworks heavily influence AI deployment and use.\n\n## Fast Uptake in Defense\n- Defense sectors are adopting AI technologies rapidly, possibly outpacing regulatory and ethical considerations.\n- This swift adoption could lead to substantial changes in security and military operations.\n\n## Unions and Bargaining\n- The role of unions is important in negotiations related to AI's impact on employment, with potential bargaining over job security and working conditions.\n- The possibility of legislative protection for certain job sectors due to AI advancements is discussed.\n\n## Surveillance Trade-offs\n- There is a trade-off between surveillance capabilities and privacy, exemplified by AI's use in monitoring and security.\n- Certain objects, like teddy bears, symbolize the tension between comforting human elements and surveillance functions.\n\n## News and Cross-Subsidy by Journalists\n- The media landscape involves cross-subsidies, potentially through platforms like Substack, balancing human journalism with economic sustainability.\n- Concerns about maintaining humanity and trustworthy reporting amid technological and economic pressures.\n\n## Broader Context\n- The overarching theme suggests a negotiation between technological advancement, regulation, human-centric values, and economic interests.\n- Consideration of economic resilience, with references to welfare states and service worker protections, aligns with discussions on AI's impact on employment and societal stability.\n- The discussion hints at future regulation aimed at protecting certain trades and artisanal jobs, especially in sectors like plumbing, gardening, and electricians, which are less susceptible to automation.\n- There is a recognition that AI and AGI will most strongly impact certain licit and regulated sectors, particularly healthcare and legal services, due to standardization and standards.\n- Legal and policy frameworks might evolve to protect employment—possibly through laws analogous to those in medicine and law—to prevent job displacement.\n- The importance of creating positive transition examples and reducing economic shocks is emphasized to avoid societal backlash.\n- The \"trade last\" concept could relate to ensuring tangible, human-connected trade relationships persist amid automation.\n\nThese points synthesize the rough notes with relevant insights from the detailed chunks, focusing on the intersections of technology, regulation, society, and economy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3111,
+      "latencyMs": 27175,
+      "cost": 0.0025616999999999997,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

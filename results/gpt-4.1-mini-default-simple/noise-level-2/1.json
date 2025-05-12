@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 327,
+  "timestamp": "2025-05-12T18:28:08.264Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting with Jack Clark at Anthropic\n\n### Trades and Human Element\n- Trades and artisanal professions such as electricians, plumbers, and gardening are likely to be the last areas impacted by advanced AI.\n- These roles often require significant human interaction, negotiation, and alignment, maintaining a \"human face\" to the work.\n- There is an inherent desire among people for meaning and salience in their daily activities, which ties into resistance or slower AI uptake in these sectors.\n\n### Legal Pushback in Healthcare\n- Healthcare is expected to face strong legal and regulatory pushback against AI integration due to privacy, personal data standards, and established protections.\n- Laws analogous to those in legal and medical fields are likely to protect a substantial fraction of current jobs in healthcare from full AI replacement.\n- This sector's complexity and sensitivity to data make it a natural area for careful transition and defense against rapid AI-driven changes.\n\n### Fast Uptake and Resistance in Defense and Big Companies\n- Certain sectors, like defense, could see faster AI adoption due to strategic advantages.\n- Large established companies may exhibit significant resistance to AI changes, potentially slowing the economic transformations driven by AI.\n- Political movements may emerge advocating for worker protections and restrictions on AI replacing human jobs.\n\n### Role of Unions and Bargaining Power\n- Unions and collective bargaining could play a role in negotiating the terms of AI-driven workplace changes.\n- Protection laws and worker rights discussions are expected to intensify, with unions likely involved in the pushback against wholesale AI replacement.\n- Bargaining may focus on workers' welfare in the transition to increased automation.\n\n### Surveillance Trade-offs (Teddy Bears Analogy)\n- There is a trade-off between surveillance and convenience, analogous to a \"teddy bears\" concept where increased monitoring accompanies automated services.\n- This raises questions about privacy and societal acceptance of AI technologies that monitor or track individuals for efficiency or security.\n\n### Journalism, News, and Cross-Subsidy Models \n- Journalists and news sectors face economic pressures, with some suggesting new models like cross-subsidies or platforms similar to Substack to maintain humanity in reporting.\n- AI distribution of news might threaten traditional journalism jobs but also provides new avenues for sustaining independent, human-centered journalism.\n- Maintaining a human element in news delivery is seen as vital for trust, accuracy, and societal impact.\n\n---\n\nThese enhanced notes integrate the rough notes and relevant discussion points, highlighting key themes about AI's impact on trades, healthcare, legal and ethical issues, unions, surveillance trade-offs, and journalism economics.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1663,
+      "latencyMs": 13117,
+      "cost": 0.0012820000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

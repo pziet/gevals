@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 222,
+  "timestamp": "2025-05-12T18:22:01.608Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs and Human-Centered Approach**: The importance of maintaining a human face in trades, emphasizing the value of artisanal, high-skilled trades such as electricians, plumbers, and gardeners. These roles are highly valued for their craftsmanship and personal touch.\n\n- **Legal and Political Challenges**: There is significant pushback, especially from legal and healthcare sectors, against rapid technological adoption. This may lead to political movements aimed at freezing or regulating jobs disrupted by AI and automation, as part of a broader effort to manage societal impacts.\n\n- **Defense of Existing Jobs and Fast Uptake**: The economy may see a quick adoption of AI and automation, prompting debates on how to defend traditional jobs. Potential strategies include proposing laws to protect a portion of human employment, though their effectiveness is uncertain over the long term.\n\n- **Union Bargaining and Worker Protection**: Unions might play a role in bargaining for workers' rights amid these technological changes, possibly advocating for protections or reforms to mitigate displacement.\n\n- **Surveillance Trade-offs in AI Deployment**: The deployment of AI and surveillance technologies involves trade-offs, such as balancing autonomy and privacy—symbolized metaphorically by \"teddy bears\" as a symbol of comfort versus surveillance concerns.\n\n- **Media and Humanity_ Cross-Subsidy and News**: Modern media, including platforms like Substack, illustrate how journalism and news dissemination are evolving—potentially subsidized or influenced by new economic models, raising questions about the future of human-centered reporting.\n\n- **Economic and Social Adaptation**: The rapid pace of technological change could lead to new forms of work, especially in creative and fun tasks involving AI, but also raises questions about welfare, social protection, and the role of government in managing these shifts.\n\n- **Long-term Outlook**: The overall trajectory suggests a future where AI replaces many traditional roles, prompting societal debates about protecting workers, maintaining human dignity, and embracing new, higher-status jobs that leverage AI's capabilities.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3086,
+      "latencyMs": 20216,
+      "cost": 0.0026119999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

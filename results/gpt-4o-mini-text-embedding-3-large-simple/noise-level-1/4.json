@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 55,
+  "timestamp": "2025-05-12T18:14:58.414Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe discussion focused on the impact of advanced AI on various sectors, particularly healthcare and the labor market, as well as the societal implications of these changes.\n\n## Key Topics Discussed\n\n### 1. **Trade-offs in AI Deployment**\n- Emphasis on the importance of a human-centric approach in technology adoption, especially regarding automated systems.\n- Conversations around the need for a balance between government intervention in markets and the acceptance of freer trade, likening this to a welfare state for service workers.\n\n### 2. **Legal Challenges in Healthcare**\n- Anticipation of legal pushback concerning AI integration in healthcare, particularly regarding personal data and stringent regulations.\n\n### 3. **Rapid Adoption in Defense Sector**\n- Discussion highlighted the fast uptake of AI technologies within defense-related applications.\n\n### 4. **Labor Dynamics and Unions**\n- The role of labor unions in negotiating better working conditions amidst the transition towards automated labor.\n- Concerns over political actions potentially freezing certain jobs to protect workers in the face of rapid technological advancement.\n\n### 5. **Surveillance and Ethical Concerns**\n- Exploration of societal implications and trade-offs, with a specific mention of \"teddy bears\" as a metaphor for emerging ethical dilemmas in surveillance and AI ubiquity.\n- Discussion on how the ethical frameworks governing new technologies can affect public perception and acceptance.\n\n### 6. **Media and Journalism Adaptations**\n- Conversations on the evolving landscape of journalism, particularly in relation to funding structures, with references to Substack and media's pursuit of humanity amidst economic challenges.\n- The notion of cross-subsidization in journalism to maintain quality and relevance in the digital age.\n\n### 7. **Future Implications for Employment**\n- Speculation on the types of jobs most vulnerable to AI disruption, alongside a suggestion that strong political will may be needed to protect specific sectors.\n- The potential emergence of new roles and industries as AI technologies evolve.\n\n### 8. **General Insights**\n- Discussions highlighted the importance of developing meaningful transitions for workers affected by AI, with calls for clearer examples of successful adaptation.\n- Recognized the chaotic political undercurrents that may influence technological acceptance and regulatory responses in the future. \n\nOverall, the meeting underscored the continuous interplay between technological advancement, ethical considerations, labor dynamics, and legal frameworks in shaping the future societal landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1628,
+      "latencyMs": 13432,
+      "cost": 0.001839,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

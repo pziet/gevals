@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 334,
+  "timestamp": "2025-05-12T18:28:18.838Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Economic Transitions and Free Trade**\n  - Discussion on the concept of aiming for a welfare state equivalent for service workers in the context of free trade.\n  - The idea that a generous welfare system can help societies accept freer trade by offering a social bargain.\n  - Emphasis on the importance of meaningful work and human involvement despite automation.\n\n- **Legal and Political Challenges**\n  - Anticipation of legal pushback, especially in healthcare, due to complexities surrounding personal data and regulatory standards.\n  - High likelihood of political movements aiming to \"freeze\" certain human jobs (especially bureaucratic roles) to address issues posed by advanced technologies like strong AGI.\n  - AGI expected to face the strongest legal obstacles where human jobs and capital management intersect.\n  - Discussion on political will as a critical factor in whether protections for jobs will sustain or breakdown.\n\n- **Defense Sector**\n  - Noted fast uptake of AI and automation technologies in defense, indicating rapid integration in this sector.\n\n- **Labor Unions and Bargaining Power**\n  - Role of unions in bargaining in the face of job automation and AI advancements.\n  - Workers’ preferences for human-mediated negotiations, even as automation expands.\n\n- **AI-Enabled Entertainment and \"Teddy Bears\" Analogy**\n  - Emerging trend toward AI-powered entertainment forms that maintain meaningful interaction and economic participation.\n  - \"AI teddy bears\" used as an analogy for AI companions or products that blend care, surveillance, and tradeoffs in privacy and human connection.\n  - Consideration of what percentage of parents might adopt such AI-enabled products.\n\n- **Media, Journalism, and Economic Models**\n  - The relationship between news media, journalists, and AI, noting the concept of cross-subsidy models such as those seen on Substack.\n  - Discussion on how AI may impact journalistic humanity and economic sustainability.\n  - Reflection on laundering AI-generated information through human systems to manage risks associated with direct AI input.\n\n- **Overall Societal Impact**\n  - The balance between richer societies affording AI-driven changes while maintaining familiar life structures.\n  - The necessity to create good examples of transitions to AI integration to avoid chaotic political outcomes.\n  - Recognition of both the promise and anxieties surrounding AI’s impact on various sectors.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1613,
+      "latencyMs": 11485,
+      "cost": 0.0012020000000000002,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

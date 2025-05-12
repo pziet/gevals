@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 72,
+  "timestamp": "2025-05-12T18:15:38.546Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Human Aspect in Trade**\n  - Importance of maintaining a human touch amidst increasing automation in trade and service sectors.\n\n- **Legal Challenges in Healthcare**\n  - Discussion on the pushback against legal frameworks in healthcare, particularly in relation to data privacy and personal information management.\n\n- **Defense Sector's Fast Uptake**\n  - Notable swift adoption of advanced technologies in the defense sector, highlighting the need for regulation and oversight.\n\n- **Union Bargaining Power**\n  - Unions play a critical role in protecting worker rights and negotiating benefits as workplace dynamics evolve with AI integration.\n\n- **Trade-offs in Surveillance Technology**\n  - Examined the pursuit of balancing privacy with surveillance, using examples such as teddy bears equipped with monitoring capabilities.\n\n- **Journalism and Economic Models**\n  - Explored the current state of journalism, discussing the role of cross-subsidization from platforms like Substack and the importance of sustaining humanity in reporting amidst economic pressures.\n\n### Conclusion\nThe meeting covered important interactions between technology, trade, labor rights, and the implications for healthcare and journalism, stressing the need for careful considerations as society adapts to rapid changes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3024,
+      "latencyMs": 20692,
+      "cost": 0.0036395999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

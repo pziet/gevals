@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 45,
+  "timestamp": "2025-05-12T18:14:45.840Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion centered on the implications of Advanced AI on the U.S. economy, focusing on worker dynamics, welfare state considerations, and the potential emergence of new job roles.\n\n## Key Topics\n\n### Labor Dynamics and Worker Protection\n- Concerns about a potential political movement pushing to protect human jobs due to rapid technological advancements.\n- Noted that although there may be a surge in providing support for workers, it might not be the most effective long-term strategy.\n- The potential need for a robust welfare state to assist workers affected by these changes was discussed, while recognizing that this model may have inefficiencies.\n\n### Industry Impact and Job Evolution\n- Traditional trades such as electricians and plumbers were highlighted as likely areas for significant change due to AI.\n- The emergence of high-skilled, high-status roles that could involve managing AI systems and other related tasks is expected.\n- New employment opportunities may arise, characterized by creative and engaging work that leverages AI.\n\n### Surveillance and Privacy Concerns\n- Mention of the trade-off between surveillance and personal privacy, illustrated with the metaphor of teddy bears—suggesting a duality of comfort and monitoring in emerging technologies.\n\n### Unionization and Bargaining\n- Discussion on the role of unions in bargaining for worker rights amidst rapid technological advancements, stressing the importance of ensuring fair labor practices in evolving job markets.\n\n### Journalistic Integrity and Funding Models\n- Acknowledgment of the evolving media landscape, including concerns over the viability of journalism, the impact of cross-subsidies, and platforms like Substack providing alternative funding models.\n- Emphasis on the need for maintaining humanity within journalism despite changing economic conditions.\n\n## Conclusion\n- The meeting conveyed a multifaceted view of how advanced AI could reshape both the economy and individual roles within it, highlighting critical areas for policy consideration and adaptation in the face of these transformations.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1521,
+      "latencyMs": 12660,
+      "cost": 0.0015894,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

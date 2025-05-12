@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 176,
+  "timestamp": "2025-05-12T18:18:28.372Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades will be affected last by AGI:** \n  Jobs involving trades, such as electricians, plumbing, and gardening, will be the last to be significantly impacted. These roles often involve direct human interaction and artisanal skills that are not easily replaced by AI.\n\n- **Human face and human mediation in commerce:**\n  People will likely prefer human intermediaries or proxies when conducting significant trades or representing larger pools of capital. Human involvement lends trust and familiarity in business dealings.\n\n- **Legal and regulatory pushback, especially in healthcare:**\n  There is expected to be strong legal resistance to AGI in certain sectors, particularly healthcare, due to concerns about personal data protection, privacy standards, and existing laws that regulate sensitive information. Healthcare laws and standards may need to be revised significantly to accommodate AI.\n\n- **Fast uptake in defense and government sectors uncertain:**\n  While some believe government might be slow to adopt AGI, there are arguments suggesting it might move faster than expected. However, government jobs and defense might see more gradual integration due to regulatory, security, and ethical concerns.\n\n- **Labor unions and bargaining power:**\n  There is a political possibility of movements emerging to protect a substantial portion of current jobs through legislation. Unions could play a crucial role in bargaining and protecting workers' rights against automation.\n\n- **Trade-offs with surveillance (Teddy bears analogy):**\n  Discussions touched on the balance between surveillance, privacy, and technological adoption, implying that society may need to accept certain trade-offs, similar to the nostalgic comfort provided by \"teddy bears,\" balancing humanity with surveillance.\n\n- **Impact on journalism and media:**\n  The journalism sector may see cross-subsidies and transformations with the rise of platforms like Substack, enabling journalists to create more human-centered content supported by diversified revenue streams.\n\n- **Welfare state and economic transitions:**\n  The conversation implied that a welfare state or social safety net may be necessary to support freer trade and economic transitions catalyzed by advanced AI. Transitional support and examples of successful adaptations will be essential to easing societal impacts.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1564,
+      "latencyMs": 11575,
+      "cost": 0.0011344,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

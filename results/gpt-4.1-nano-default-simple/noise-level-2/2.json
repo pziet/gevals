@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 288,
+  "timestamp": "2025-05-12T18:27:06.293Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of AI and Trade Dynamics\n- AI advancements are shaping economic and occupational landscapes, with a focus on trades, service workers, and artisanal sectors such as electricians, plumbers, and gardeners.\n- The trade-off between surveillance, innovation, and human roles is a recurring theme, exemplified by the metaphor of teddy bears representing comfort versus data collection.\n\n## Human and Legal Aspects\n- The lasting impact of AI on human faces and interactions, emphasizing the importance of maintaining human contact amid automation.\n- Legal pushback against AI in healthcare highlights regulatory challenges, especially around personal data standards and standards for human-AI interaction.\n- The strongest legalized uses of AI are likely to be in sectors with high legal and regulatory oversight, such as healthcare and personal data management.\n\n## Economic and Political Implications\n- The concept of a \"welfare state\" for service workers as an essential support structure within free trade and technological shifts.\n- Potential political movements aiming to protect jobs through laws similar to those in medicine, especially in critical sectors like healthcare.\n- Large organizations, including established corporations and government entities, may resist AI-driven changes, particularly in areas requiring complex human collaboration and negotiation.\n\n## AI’s Role in Society and Economy\n- In the future, AI might allow people to be \"more or less the same\" in terms of societal roles, as wealth increases and societal life remains familiar.\n- The idea that AI and automation could lead to a scenario where jobs are normalized or reduced without widespread hardship, assuming appropriate economic safeguards.\n- AI’s most impactful influence is anticipated in artisanal, trade, and hands-on sectors, with less impact initially on purely desk-bound, communicative work.\n\n## Challenges and Concerns\n- Angst and nihilism persist within high-achieving academic and professional spheres regarding AI's disruptive potential.\n- There is concern about the inability of current systems and standards to generate sufficient evidence for smooth transitions, risking economic and social instability.\n- The potential for a political and regulatory backlash, including high prices charged by existing service providers and resistance from established sectors.\n\n## Media, Humanity, and Trade-offs\n- Substituting news and journalistic functions through AI, raising questions about cross-subsidies and the human element in information dissemination.\n- Surveillance trade-offs involve balancing societal benefits with privacy, exemplified by symbolic items like teddy bears providing comfort amid technological changes.\n\n## Future Outlook\n- The evolution of AI regulation may accelerate, possibly outpacing some governmental responses.\n- As AI impacts broader sectors, societal adaptation hinges on evidence-based transitions and proactive policy.\n- The broad societal goal remains to align technological development with human values, ensuring benefits are widely distributed while managing risks.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1691,
+      "latencyMs": 10067,
+      "cost": 0.00033170000000000004,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

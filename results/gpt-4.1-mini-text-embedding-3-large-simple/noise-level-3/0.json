@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 161,
+  "timestamp": "2025-05-12T18:18:04.720Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centric Trades and Jobs\n- The artisanal and trade sectors, including electricians, plumbing, and gardening, are expected to experience significant impacts from AI advancements.\n- There will be a demand for skilled tradespeople valued not only for their technical expertise but also their human touch and reputation.\n- Certain jobs, especially in service sectors requiring interpersonal alignment and council-type functions, may persist longer as they rely on human interaction.\n- New roles will emerge involving managing and fueling AI systems, as well as creatively directing AI to perform tasks, representing higher-status and more engaging work.\n\n## Legal and Political Responses to AI Impact on Employment\n- There is a high likelihood of political movements aimed at protecting a significant number of human jobs from AI replacement, potentially freezing job roles through bureaucratic regulations.\n- Such moves may resemble a welfare state approach, providing a social safety net while acknowledging the inefficiencies and challenges of this model.\n- These protections reflect societal and legal pushback, with specific tension anticipated in sectors like healthcare.\n\n## Surveillance and Trade-Offs with Technology\n- Discussions hinted at a trade-off scenario akin to \"teddy bears,\" where surveillance might be accepted as part of interacting with advanced AI technologies.\n- The challenge involves balancing benefits from AI and automation with concerns around privacy and surveillance.\n\n## Unions and Bargaining Power\n- Unions will play a critical role in bargaining to protect workers’ rights and navigate the rapid changes driven by AI integration.\n- The collective action could influence how jobs are preserved or transformed in this evolving economic landscape.\n\n## Media, Journalism, and Financial Models\n- The news industry and journalists face new economic realities, including cross-subsidization challenges.\n- Platforms like Substack illustrate shifting models focused on maintaining the humanity and integrity of journalism in the AI age.\n- Supporting authentic journalism remains crucial as economic models evolve alongside technological changes.\n\n---\n\nThese enhanced notes reflect the key areas of discussion anchored on the rough notes and expanded with detailed context from the meeting transcript.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1547,
+      "latencyMs": 11096,
+      "cost": 0.0011012,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

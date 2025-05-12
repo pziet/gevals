@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 42,
+  "timestamp": "2025-05-12T18:14:31.389Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Highlights\n\n- **Human-Centric Roles**: Discussion focused on the importance of maintaining human jobs in various sectors, particularly trades and service-oriented positions. Despite advancements in AI, there is a consensus on the necessity of a human face in certain jobs.\n\n- **Legal Considerations in Healthcare**: Emphasis on legal pushbacks related to healthcare in the context of AI integration and the ethical implications of technological advancements.\n\n- **Defensive Strategies**: Noted a fast uptake in defensive measures concerning the impact of advanced AI technologies, particularly regarding job security and labor rights.\n\n- **Union Bargaining**: The role of unions in negotiating worker rights amid rapidly changing economic landscapes was discussed, highlighting the potential challenges they face.\n\n- **Trade-offs in Surveillance**: Introduced the metaphor of \"teddy bears\" to represent the trade-offs associated with surveillance—specifically, between safety and privacy.\n\n- **Impact on Journalism**: Explored the relationship between journalism, news reporting, and economic models like Substack. Discussions included the cross-subsidization of journalism and the importance of maintaining humanity in reporting.\n\n## Additional Insights\n\n- **Welfare State Dynamics**: The conversation examined whether a welfare state can effectively serve workers in an environment increasingly influenced by automation and AI.\n\n- **Political Movements**: Speculation on potential political movements aimed at preserving certain jobs amidst AI advancement, indicating a reactionary approach to technological change.\n\n- **New Job Creation**: It's anticipated that new jobs will emerge, particularly in higher-skilled, creative roles involving AI systems, suggesting a shift in workforce dynamics.\n\n- **Artisanal and Trade Jobs**: The discussions pointed to trades such as electricians and plumbers as likely areas for significant AI impact, emphasizing the blend of skill and human touch in these fields.\n\n- **Transitioning to AI**: Concerns were raised about the challenges of transitioning human systems to effectively integrate and leverage AI capabilities, noting the significance of creating robust examples of successful integration.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1548,
+      "latencyMs": 9487,
+      "cost": 0.0016542,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 163,
+  "timestamp": "2025-05-12T18:18:10.085Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Artisanal Work Come Last:**  \n  Discussions suggest that in the evolving economy influenced by AI, trades and artisanal work (like electricians, plumbing, gardening) may experience significant changes later than other sectors. These roles often require a human touch, potentially making them more resistant to full automation initially. High-skilled tradesmen might still be preferred for their craftsmanship and personal reputation.\n\n- **Human Face in Jobs and Transition:**  \n  Human involvement remains crucial in certain jobs, particularly those involving interpersonal communication, alignment, and nuanced judgment. Transitioning AI-generated information into human-understandable systems (\"laundering\" AI information) is a vital task to maintain effective human-centered workflows.\n\n- **Legal and Political Pushback (Healthcare and Job Protections):**  \n  There is a high chance of political movements aiming to protect human jobs through legislation, essentially freezing a subset of jobs amid rapid AI-driven change. This legal pushback reflects societal attempts to safeguard employment and welfare, akin to maintaining a generous welfare state, albeit this may not be the most economically efficient model.\n\n- **Fast Uptake in Defense Sector:**  \n  AI adoption in certain sectors, especially national security and defense, is expected to be rapid. Government entities, despite sometimes using outdated technology, may become strong adopters and drivers of AI due to strategic imperatives.\n\n- **Unions and Collective Bargaining:**  \n  The role of unions in bargaining for workers’ rights and protections remains important as economic and labor landscapes shift. Collective efforts may aim to influence how AI integration impacts job security and work conditions.\n\n- **Surveillance Trade-offs and Privacy (Teddy Bears Analogy):**  \n  The meeting touched on surveillance concerns, metaphorically linked to \"teddy bears,\" highlighting the trade-offs between surveillance for safety or utility versus privacy and human dignity.\n\n- **News, Journalism, and Cross-Subsidy Models:**  \n  Journalism faces challenges and opportunities in the AI era. Cross-subsidy models, such as those seen with platforms like Substack, may help maintain the humanity and sustainability of news production despite changing economic pressures.\n\nThese topics reflect the complex socio-economic landscape as AI technologies reshape work, law, and daily life, emphasizing the balance between technological progress and human-centered values.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1608,
+      "latencyMs": 11319,
+      "cost": 0.0011988,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

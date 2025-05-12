@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 54,
+  "timestamp": "2025-05-12T18:14:55.783Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n1. **Human-Centric Approaches**: \n   - Emphasis on maintaining a human face in transitions towards advanced technologies, particularly AI.\n\n2. **Legal Challenges in Healthcare**:\n   - Anticipation of significant legal pushbacks regarding AI integration within healthcare systems, especially concerning personal data management and standards.\n\n3. **Adaptive Defense Strategies**:\n   - Need for rapid adaptation strategies to counter defense mechanisms against the integration of AI technologies.\n\n4. **Union Negotiations**:\n   - Importance of unions in bargaining for workers’ rights as AI alters job landscapes.\n\n5. **Surveillance and Societal Impact**:\n   - Discussion on the societal trade-offs associated with technologies likened to \"AI teddy bears,\" focusing on surveillance and personal data privacy.\n\n6. **Media and Cross-Subsidization**:\n   - The role of journalists and news outlets in adapting to AI, addressing the concept of cross-subsidizing operations to maintain humanity in reporting, highlighted by platforms like Substack.\n\n## Additional Insights\n\n- The idea of a \"generous welfare state\" as a potential solution to facilitate freer trade and mitigate impacts of AI on employment.\n- Discussion on future political movements that may seek to protect existing jobs through regulatory measures.\n- Acknowledgment of the likely economic disparities stemming from AI integration, yet asserting optimism about maintaining familiar life structures.\n\n## Conclusion\nThe conversation highlighted the need for a thoughtful and humane approach to the integration of AI in various sectors, stressing the importance of legal frameworks and collective action via unions to navigate inevitable societal changes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1472,
+      "latencyMs": 11597,
+      "cost": 0.0014646,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

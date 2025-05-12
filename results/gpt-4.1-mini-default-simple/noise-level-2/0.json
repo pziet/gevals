@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 326,
+  "timestamp": "2025-05-12T18:28:07.342Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Conversation with Jack Clark at Anthropic\n\n### Trades and Human Element  \n- Trades and artisanal roles such as electricians, plumbers, and gardeners are likely to be the sectors where AGI has the slowest impact.  \n- The human face and mediation in deals remain important, especially in those requiring interpersonal interaction like certain sales and desk-bound roles.  \n- There is an inherent human preference and desire for meaningful, salient work that machines may struggle to replace fully, making some jobs last longer in the AI transition.\n\n### Legal and Healthcare Pushback  \n- There is expected to be strong legal resistance particularly in healthcare due to personal data handling, regulatory standards, and entrenched interests.  \n- Healthcare and some professional sectors might be protected by laws similar to those governing the legal and medical professions, delaying AGI dominance in these areas.  \n\n### Fast Uptake in Defense and Large Organizations  \n- Large companies with considerable capital might exert significant resistance and influence over AGI deployment, potentially slowing adoption in certain industries.  \n- Government may move more quickly than anticipated in response to these shifts, possibly pushing regulation or protection policies.\n\n### Role of Unions and Worker Bargaining  \n- Political movements and labor organizations are likely to push for protection of jobs and workers’ rights amid economic changes fueled by AGI.  \n- The concept of a \"welfare state\" for service and trade workers, where social safety nets enable free trade and transitions, is discussed as a societal goal.\n\n### Surveillance Trade-Off and Ethical Considerations  \n- There is a noted trade-off between surveillance and privacy, exemplified metaphorically by \"teddy bears,\" which could represent surveillance technologies.  \n- Balancing humanity, privacy, and usefulness in technology deployment remains a key challenge.\n\n### News, Journalism, and Economic Models  \n- Journalism faces challenges around economic sustainability, with notions like cross-subsidies and platforms such as Substack emerging to support independent news.  \n- Ensuring humanity and integrity in news while adapting to new economic realities is a vital theme discussed.\n\n---\n\nThese notes reflect discussions around the socioeconomic impacts of AGI, emphasizing the gradual, uneven nature of technological uptake, the roles of law and labor, and the ongoing ethical negotiations in surveillance and media.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1599,
+      "latencyMs": 12959,
+      "cost": 0.0011796,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

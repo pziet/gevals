@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 236,
+  "timestamp": "2025-05-12T18:22:34.771Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Interaction**  \n  Emphasis on the importance of maintaining human presence and face-to-face interactions in trades, highlighting their lasting value.\n\n- **Legal and Regulatory Challenges in Healthcare**  \n  Discussion on the legal pushback facing healthcare sectors, particularly as AI integration advances, and the potential for legal obstacles to AGI deployment in sensitive areas.\n\n- **Defense and Rapid Adoption**  \n  The fast uptake of AI technologies in defense-related contexts, possibly due to strategic imperatives and the desire to maintain a competitive edge.\n\n- **Labor Unions and Bargaining**  \n  The role of unions in negotiating AI's impact on jobs, emphasizing the need to bargain for worker protections amid technological changes.\n\n- **Surveillance Trade-Offs**  \n  Consideration of the surveillance trade-offs involved with AI deployment, comparing benefits like safety and efficiency against privacy concerns.\n\n- **Media, Humanity, and Economic Subventions**  \n  Insights into media dynamics, subsiding journalism through cross-subsidies, and the influence of platforms like Substack on human-centered narratives and information flow.\n\n- **Economic Resilience and Welfare State**  \n  The potential need for a generous welfare state to support service workers amidst economic shifts driven by AI, indicating a social safety net as part of the broader trade-off in open trade and technological change.\n\n- **Protection of Jobs and Policy Movements**  \n  Predictions of political movements aiming to protect jobs through legislation, especially in high-impact sectors affected by strong AGI and AI innovations.\n\n- **Legal Obstacles and AI Adoption**  \n  The likelihood of legal resistance encountering AI, with some regions (e.g., the United States) facing specific regulatory hurdles as AI becomes more embedded in economic activities.\n\n- **Impact on Artisans and Trades**  \n  The expectation that artisanal trades like electricians, plumbers, and gardeners will be among the last sectors significantly affected by AGI, preserving human roles in these specialized fields.\n\nThis set of enhanced notes captures the key themes discussed, integrating the rough notes with the relevant contextual information from the meeting chunks.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3104,
+      "latencyMs": 24701,
+      "cost": 0.0026204999999999996,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 25,
+  "timestamp": "2025-05-12T18:14:10.570Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe discussion covered various topics related to the interplay between technological advancements, economic changes, and the social implications on jobs and welfare.\n\n### Key Topics Discussed\n\n- **Trades and Human Labor**\n  - Emphasis on the enduring importance of trades as technological advancements continue to evolve. There's a notion that skilled trades will become even more valuable, with technology potentially enhancing these roles.\n\n- **Legal Pushback in Healthcare**\n  - Discussion around the complexities of integrating technology within the healthcare sector and the potential legal ramifications arising from such changes. The role of regulation and protection for human jobs in this context was examined.\n\n- **Fast Uptake of Defense Technologies**\n  - Exploration of the rapid implementation of advanced technologies in defense and the implications it may have on job structures and the economy at large.\n\n- **Labor Unions and Bargaining Power**\n  - The conversation highlighted the role of unions in negotiating fair terms for workers in light of shifting job landscapes due to technological progress.\n\n- **Surveillance vs. Privacy Trade-offs**\n  - Mention of the societal implications surrounding the trade-offs between increased surveillance (e.g. through technologies likened to 'teddy bears') and the quest for privacy and autonomy.\n\n- **Journalism and Economic Sustainability**\n  - Discussion touched on the evolving landscape of journalism, including the impact of cross-subsidization models (e.g., Substack) and how these models relate to preserving human elements in reporting. The importance of maintaining humanity in journalism amid technological change was underscored.\n\n### Concluding Thoughts\nThe meeting encapsulated a broad spectrum of challenges and opportunities arising from economic changes fuelled by technology, particularly regarding welfare, job security, and societal values. The dialogue emphasized the necessity for a thoughtful approach to balancing advancement with human-centric considerations.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3092,
+      "latencyMs": 23697,
+      "cost": 0.003855,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

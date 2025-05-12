@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 337,
+  "timestamp": "2025-05-12T18:28:20.767Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Trades Last, Human Face\n- AGI impact is expected to manifest last in artisanal and trade jobs such as electricians, plumbers, and gardeners.\n- These roles involve human interaction and craftsmanship, where people prefer personal relationships for commerce and negotiations.\n- Trades tend to resist automation due to the need for human judgment and physical presence.\n\n## Legal Push Back in Healthcare\n- Healthcare is likely to face strong legal and regulatory barriers against AGI integration, due to concerns around personal data privacy and standards.\n- Existing laws and regulations related to healthcare might need significant changes to accommodate AGI.\n- Protectionist legal measures may arise to safeguard jobs in sensitive sectors like healthcare.\n\n## Fast Uptake Defense\n- There is a possibility of political movements emerging to protect a significant portion of current jobs from being displaced by AGI through laws similar to those protecting professions like law and medicine.\n- Large established companies may resist AGI adoption in certain domains to protect their interests.\n- Governments could potentially be faster than expected in regulating or controlling AGI adoption.\n\n## Unions and Bargaining\n- Workers and unions may bargain for protections and welfare agreements as part of the social contract accompanying free trade and technology adoption.\n- A generous welfare state or social safety net might be necessary to support workers displaced or affected by AGI, analogous to existing social contracts in trade economies.\n\n## Teddy Bears - Surveillance Trade-off\n- Implicit reference to the trade-offs between technological benefits (like AGI) and surveillance or privacy concerns.\n- This trade-off is part of broader societal acceptance of technology, balancing convenience and control.\n\n## News, Journalist Cross Subsidy, Humanity, Substack\n- Journalism and media sectors may remain human-centered longer due to the inherent demand for human narrative, judgment, and trustworthiness.\n- Some form of cross-subsidy or alternative revenue models might emerge to support journalists and maintain the humanity in news production.\n- Platforms like Substack exemplify new financial models supporting individual content creators and preserving human voice against mass automation.\n\n---\n\nThese notes capture the key thematic points discussed regarding the differentiated impact timeline of AGI across sectors, societal and political responses, and the human elements persisting within certain professions and industries.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1586,
+      "latencyMs": 12499,
+      "cost": 0.0011696000000000002,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

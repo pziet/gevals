@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 339,
+  "timestamp": "2025-05-12T18:28:25.037Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n### Trades and Human Element\n- AGI will likely affect trades and artisanal jobs last (e.g., electricians, plumbing, gardening).\n- Certain commerce and transactions will continue to prefer human mediation, especially where personal trust or human judgment is involved.\n- These trades hold a \"human face\" that makes full automation less likely in the near term.\n\n### Legal and Regulatory Pushback, Especially in Healthcare\n- There is significant likelihood of legal and regulatory resistance to AGI in sensitive sectors like healthcare.\n- Healthcare involves strong privacy and personal data standards that will need updates to accommodate AI integration.\n- Political movements may arise to protect existing jobs with laws similar to those in medicine and law against the adoption of strong AI.\n\n### Fast Uptake in Defense and Other Sectors\n- Certain sectors, possibly defense-related, may see rapid uptake of AI technologies.\n- Resistance will vary by industry and the social or economic impact perceived.\n\n### Unions and Collective Bargaining Power\n- As economic changes accelerate, unions and collective bargaining could play a key role in protecting worker interests.\n- There may be demands for a more robust welfare state to balance free trade benefits with worker protections.\n\n### Surveillance, Privacy, and \"Teddy Bears\" Trade-offs\n- Discussions hinted at the trade-offs between surveillance (data collection) and privacy, likened metaphorically to \"teddy bears.\"\n- The challenge lies in balancing the benefits of AI-driven surveillance with societal expectations of privacy and humanity.\n\n### Journalism, News, and Media Economics\n- The impact of AGI on journalism and news media was discussed, including the issue of cross-subsidizing journalism.\n- New models like Substack represent evolving ways to sustain journalism with a renewed emphasis on human storytelling and maintaining \"humanity\" in content creation.\n\n---\n\nThese notes synthesize the discussion points anchored by the rough notes and expanded with contextual elaborations from the transcript.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1526,
+      "latencyMs": 13608,
+      "cost": 0.0010736,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

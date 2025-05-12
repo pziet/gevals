@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 221,
+  "timestamp": "2025-05-12T18:22:05.013Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered Trade Dynamics\n- Emphasis on maintaining human presence in key sectors, as evidenced by the phrase \"trades last, human face,\" indicating the importance of human touch and interaction in trade and service roles.\n\n## Legal and Political Challenges\n- Growing legal pushback against AI and automation in healthcare, highlighting regulatory hurdles.\n- Potential political movements aiming to \"freeze\" or slow down the deployment of AI to preserve existing jobs, reflecting societal resistance and concerns over rapid technological change.\n- The possibility of laws resembling traditional legal frameworks to protect employment or impose restrictions.\n\n## Defense and Workforce Adaptation\n- Rapid uptake of AI technologies has prompted discussions on \"fast uptake defense,\" suggesting strategies to mitigate disruptions.\n- The role of unions in bargaining is crucial as workers seek protections and negotiations around AI-induced changes.\n- Consideration of new job categories involving AI systems—marshalling, fueling, and other high-skill, creative tasks—could emerge as the economy adapts.\n\n## Surveillance Trade-Offs & Data\n- Use of \"teddy bears\" as a metaphor for surveillance trade-offs, balancing consumer comfort or innocence against privacy concerns.\n\n## Media, Humanity, and Economic Models\n- Media outlets and journalism are exploring cross-subsidization models and Substack-like independent journalism, reflecting shifts toward more human-centered and potentially more ethical content creation.\n- Use of news coverage and journalism as tools for shaping public opinion and addressing societal impacts of AI.\n\n## Broader Societal Considerations\n- The potential for AI to enable \"higher status games,\" transforming societal roles and opportunities for different classes.\n- The importance of a generous welfare state to support workers displaced by AI, emphasizing social safety nets amid economic upheaval.\n- Trade sectors such as artisans, electricians, plumbers, and gardening may retain high-skilled, high-status roles, highlighting the importance of specialized trades.\n\n## Strategic Industry Insights\n- Focus on strong AI companies and the rapid pace of technological change in historically slow-adapting sectors like utilities and artisanal trades.\n- Recognizing the relevance of AI to national security and high-stakes industries, suggesting strategic priorities in regulation and innovation.\n\n## Final Reflection\n- Overall, the discussion underscores the ongoing tension between technological advancement, societal regulation, and the preservation of human-centric trade and labor practices.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3096,
+      "latencyMs": 25437,
+      "cost": 0.0025718,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 157,
+  "timestamp": "2025-05-12T18:18:07.707Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades last, human face**: The sectors that advanced AI (AGI) will impact last are likely to be trades and artisanal jobs such as electricians, plumbers, and gardeners. These roles require a \"human face,\" actual human involvement, and interaction, making them less susceptible to automation in the near term.\n\n- **Legal pushback in healthcare and other sectors**: There is a high chance of political and legal resistance to protecting certain jobs, especially in law and medicine, from being automated by AGI. Established companies and government regulations may act as significant barriers to rapid automation in such sensitive domains.\n\n- **Fast uptake in defense**: Defense sectors could see a rapid adoption of advanced AI technologies, potentially faster than in other domains, due to strategic imperatives and investment in automation.\n\n- **Unions and bargaining power**: The potential for unions and collective bargaining might increase as workers seek to protect their roles and negotiate the terms of AI integration into workplaces.\n\n- **Teddy bears, surveillance trade-off**: This metaphor likely refers to a trade-off where convenience or comfort (\"teddy bears\") comes at the cost of increased surveillance or loss of privacy. This trade-off is relevant in discussions about technology adoption and societal impacts.\n\n- **News, journalists, cross-subsidy, humanity, Substack**: Journalistic roles and the news industry face disruption from AI, with platforms like Substack offering new models that may subsidize human journalism while maintaining the essential human element of reporting. The humanity of journalism remains a crucial aspect amidst AI transformations.\n\n- **Welfare state and economic transitions**: A generous welfare state may be necessary to support freer trade and rapid economic change caused by AI. It provides a social safety net to ease transitions for displaced workers.\n\n- **Evidence and economic changes**: The extent and clarity of economic changes caused by AI impact the political will to protect workers and adapt systems. Visible, significant change tends to prompt stronger social and political responses.\n\nThese points collectively highlight the multifaceted impact of advanced AI on employment sectors, legal frameworks, labor dynamics, privacy, and social welfare systems.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3121,
+      "latencyMs": 27235,
+      "cost": 0.0034304,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

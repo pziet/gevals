@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 80,
+  "timestamp": "2025-05-12T18:15:52.420Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n- **Trades and Human Impact**: Discussion surrounding the role of trades in the economy and the human elements involved in these professions, suggesting that trades like plumbing and electrical work may be less susceptible to automation in the immediate future.\n\n- **Legal Challenges in Healthcare**: The growing legal pushback concerning healthcare, indicating potential constraints and regulatory challenges associated with advancements in AI and automation within this sector.\n\n- **Rapid Adoption in Defense Technology**: Noted a fast uptake of AI technologies in defense, which may raise ethical and operational implications as these technologies integrate into national security frameworks.\n\n- **Unions and Collective Bargaining**: Emphasis on the significance of unions as they negotiate on behalf of workers in an evolving economic landscape shaped by AI and automation.\n\n- **Surveillance vs. Privacy**: Discussion of the trade-off between surveillance and personal privacy, illustrated using the metaphor of \"teddy bears\" — suggesting a need for more human-centered solutions amidst surveillance technologies.\n\n- **Impact on Journalism**: Highlighted the changing landscape of journalism, including the role of cross-subsidies and platforms like Substack in supporting journalists, emphasizing the need to maintain a human touch in reporting.\n\n## Economic Implications\n\n- Consideration of a generous welfare state as a counterbalance to the disruptions caused by free trade and automation, proposing that it may be necessary to protect workers' interests and maintain the social fabric.\n\n- Mention of evidence generation for successful transitions in economic shifts due to AI, implying that a lack of positive examples may prompt stronger demands for worker protections.\n\n- Predictions of political movements advocating for stronger protections for various job sectors, potentially drawing from legal frameworks seen in healthcare and law to safeguard against the impacts of advanced AI.\n\nThese enhanced notes encapsulate the key discussions and insights from the meeting regarding the interplay between economic changes, AI impacts, labor protections, and societal considerations.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3137,
+      "latencyMs": 25202,
+      "cost": 0.0039432,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

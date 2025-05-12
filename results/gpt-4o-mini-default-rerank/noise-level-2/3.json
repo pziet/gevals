@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 269,
+  "timestamp": "2025-05-12T18:26:28.805Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe meeting focused on the interplay between economic structures, the welfare state, and service work amidst evolving trade dynamics, technological advances, and societal implications.\n\n## Key Discussion Points\n\n- **Trades and Human Element**: Emphasis on the importance of maintaining a human face in trades, despite the increasing automation and reliance on AI in service roles.\n\n- **Healthcare Legislation Concerns**: Acknowledgment of potential legal pushback regarding healthcare, emphasizing the necessity to protect service workers and their well-being.\n\n- **Rapid Defense Uptake**: Noted a swift acceptance and integration of defensive measures, possibly in response to economic changes or technological threats.\n\n- **Labor Unions and Bargaining Power**: Discussion about the role of unions in negotiating better terms for workers, highlighting the critical need for collective action in adapting to the changing economic landscape.\n\n- **Surveillance and Trade-offs**: The metaphor of \"teddy bears\" represents the comforts and conveniences of modern life, contrasted with the surveillance trade-offs that accompany them. This reflects on balancing personal privacy with societal benefits.\n\n- **Media Dynamics**: Exploration of the evolving role of journalists, particularly in the context of cross-subsidy models (e.g., Substack), and how these developments impact humanity and the public's access to information.\n\n## Conclusion\nThe discussion underscored the necessity of creating a nurturing welfare state to support service workers, advocate for fair trade practices, and navigate the implications of technological advancement while preserving human dignity and societal values.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3070,
+      "latencyMs": 21873,
+      "cost": 0.0037679999999999996,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

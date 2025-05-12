@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 140,
+  "timestamp": "2025-05-12T18:17:21.979Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Touch**  \n  Advanced AI and AGI are expected to impact trades and artisanal professions last. Roles such as electricians, plumbers, gardening, and similar trades involve strong human relationships and physical presence, making it less likely for automation to fully replace them soon. Human facilitation is essential for certain trades, particularly in commerce and large capital transactions.\n\n- **Legal Resistance and Healthcare**  \n  There is significant legal pushback anticipated, particularly in healthcare, where strict personal data standards and regulations create substantial barriers to the adoption of strong AI systems. Healthcare and legal professions are likely to see laws similar to those currently protecting professionals, which may slow AI integration.\n\n- **Fast Uptake in Defense**  \n  Defense and certain government sectors may adopt AI technologies rapidly, contrasting with some predictions that government might resist. Large corporations may also present resistance depending on the sector, but some institutions could move faster than expected.\n\n- **Unions and Worker Bargaining Power**  \n  Political movements might arise to protect jobs from AI replacement, with unions or similar groups bargaining for worker protections. There could be laws designed to safeguard significant portions of existing jobs from being fully automated.\n\n- **Surveillance Trade-offs: \"Teddy Bears\" Analogy**  \n  The discussion touches on societal compromises or trade-offs involving surveillance and privacy. This metaphor hints at balancing AI benefits with ethical concerns, including monitoring, data privacy, and trust.\n\n- **News, Journalism, and Economic Models**  \n  Journalism faces challenges with AI, including the role of substack platforms and other subscription models that can subsidize journalism through cross-subsidies. There is an emphasis on maintaining the humanity and integrity of news production despite technological changes.\n\n- **Welfare State as a \"Bargain\" for Free Trade**  \n  A robust welfare state may be required to balance the impacts of AI technologies and free trade. While not always efficient, a welfare state might be seen as a necessary compromise to ensure social stability and support for displaced workers. This might particularly apply to service workers impacted by AI.\n\nOverall, the conversation highlights the nuanced and uneven impact of AI across sectors, with some areas resistant due to the nature of work or legal frameworks, and others adopting AI more quickly. Worker protections, privacy trade-offs, and economic adjustments (like welfare) play critical roles in shaping the AI economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1620,
+      "latencyMs": 16783,
+      "cost": 0.001224,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

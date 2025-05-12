@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 317,
+  "timestamp": "2025-05-12T18:27:53.475Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n## Economic Impact of AI and AGI\n- Potential for significant disruptions in the economy, especially in trades and artisanal jobs such as electricians, plumbers, and gardeners, with AGI affecting these last.\n- Possibility of large-scale economic changes prompting government and policy intervention to protect workers and preserve social stability.\n\n## Legal and Regulatory Challenges\n- AGI and advanced AI face increasing legal pushback, particularly in the healthcare sector, where laws may need to be adapted to regulate AI applications.\n- Legal obstacles are likely to be encountered more strongly by large automated organizations or pools of capital operating through human proxies, especially regarding deals and data laundering.\n- Governments may act swiftly to regulate AI, potentially moving faster than expected, with established companies showing resistance in certain sectors.\n\n## Workforce and Union Dynamics\n- Discussions around protecting existing jobs (e.g., trades) through legislation analogous to protections in law and medicine, possibly involving laws that prioritize human workers.\n- The importance of unions and bargaining power in negotiating AI's integration into workplaces and the economy.\n\n## Human-AI Trade-offs and Society\n- The \"trade last, human face\" approach emphasizes maintaining human involvement in critical trades and trades-related decision-making.\n- Surveillance trade-offs, exemplified metaphorically by \"teddy bears,\" highlight balancing human oversight with AI enhancements, raising privacy and humanity concerns.\n\n## Media, Humanity, and Information\n- The role of journalism and media in navigating AI's societal impacts, including cross-subsidization models like Substack, which emphasize direct, human-focused communication.\n- Consideration of the media's role as a \"cross subsidy,\" supporting independent journalism and maintaining human-centric narratives in an AI-driven landscape.\n\n## Broader Implications\n- The potential for public and political movements to push for laws protecting jobs and societal stability.\n- The future trajectory of AI regulation, societal adaptation, and the importance of preserving human involvement amidst technological advancements.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3058,
+      "latencyMs": 18671,
+      "cost": 0.0025901999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

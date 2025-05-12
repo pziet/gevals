@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 127,
+  "timestamp": "2025-05-12T18:17:01.461Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element:**  \n  Trades such as electricians, plumbing, and gardening are expected to be the last sectors affected by advanced AI automation. These roles are artisanal and involve a strong human face—direct interaction and physical presence—which are difficult for AI to replace. These jobs often require negotiation, alignment, and personal touch.\n\n- **Welfare State Analogy for Service Workers:**  \n  There is a notion of creating a new form of welfare state specifically supporting service workers impacted by automation. This welfare state would provide security and stability, allowing people to find meaning and salience in their daily work even as machines take over routine tasks. This tradeoff could be an acceptable bargain for society.\n\n- **Legal and Regulatory Pushback in Healthcare:**  \n  Healthcare is anticipated to face significant legal and regulatory resistance against automation due to concerns around personal data, standards, privacy, and the need for human oversight. Laws analogous to those currently protecting professions like medicine and law may emerge to shield many jobs from strong AGI impact.\n\n- **Fast Uptake and Resistance from Established Companies:**  \n  While government response might be quicker than expected, some large, established companies may resist automation in certain domains to protect existing business models. Legal frameworks and industry standards could slow the adoption of AI in sensitive sectors.\n\n- **Unions and Bargaining:**  \n  There is an implied expectation that labor unions and worker organizations will play a central role in negotiating workers' rights and protections as AI reshapes labor markets. Bargaining will be critical to manage this transition.\n\n- **Surveillance Trade-Offs (Teddy Bears Metaphor):**  \n  Discussion alludes to the societal trade-offs between convenience or security and privacy, metaphorically represented as \"teddy bears,\" possibly relating to surveillance issues. Acceptance of automation and data collection may come at a cost to personal privacy, requiring balanced negotiation.\n\n- **News Industry and Journalism:**  \n  Traditional journalism faces challenges with AI; however, new models like Substack involve cross-subsidies that emphasize humanity and quality in news delivery. Journalistic work may leverage AI for support but preserve a human element that ensures trust and integrity.\n\nThese points outline the multifaceted impact of advanced AI on labor, legal frameworks, privacy, and media, emphasizing the importance of human involvement, regulation, and social bargaining to create a balanced economic future.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1628,
+      "latencyMs": 11294,
+      "cost": 0.001226,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

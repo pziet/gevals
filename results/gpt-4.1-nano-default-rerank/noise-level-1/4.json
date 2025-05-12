@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 315,
+  "timestamp": "2025-05-12T18:27:54.257Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n- **Trade and Human Element**: Discussions emphasized the importance of maintaining a human face in trades, highlighting that commerce involves more than just transactions—it's about human connection and trust.\n\n- **Legal and Regulatory Challenges in Healthcare**: The healthcare sector is expected to face significant legal pushback due to issues related to handling personal data, standards regulation, and ethical considerations surrounding AI integration.\n\n- **Fast Defense Uptake**: There is concern about rapid adoption of defense systems, which could be driven by political forces and market incentives, requiring careful management of transitions to avoid chaos.\n\n- **Union Bargaining and Workforce Protection**: The potential for political movements aiming to preserve jobs by legislating against strong artificial general intelligence (AGI), perhaps by laws similar to those in medicine and law, risking bureaucratic entrapment (\"jobs in bureaucratic amber\").\n\n- **Surveillance Trade-offs and Humanitarian Concerns**: Trade-offs exist between surveillance capabilities (e.g., teddy bears, monitoring devices) and privacy/human rights, raising ethical questions about the extent of AI monitoring.\n\n- **Media, Cross-Subsidization, and Humanity**: News outlets and journalistic ventures—such as Substack—illustrate the dynamics of cross-subsidization and the importance of maintaining human-centered journalism, especially amidst AI-driven changes.\n\n- **AI's Impact on Economy and Society**: Advanced AI is expected to significantly influence the US economy, with reports measuring these effects. AI may lead to a future where work is redefined, but life remains familiar, possibly making societies richer and reducing perceived hardship.\n\n- **Human Values and Meaning**: As AI automates work, there is an underlying desire for individuals to find meaning and salience in their activities, emphasizing that technological progress should align with human needs.\n\n- **Possible Protective Legislation and Social Stability**: The likelihood of laws akin to those in medicine to protect jobs and regulate AI development is high, aiming to manage economic disruption and political instability.\n\n- **Transitioning to AI-Driven Systems**: The effectiveness of positive examples and evidence of smooth transitions is vital; without them, fears of economic upheaval and worker protectionism are likely to increase.\n\n---\n\n**Overall**, the discussion focused on balancing technological advancement with legal, ethical, and social considerations, emphasizing the importance of human-centric approaches amidst rapid AI integration.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3119,
+      "latencyMs": 21442,
+      "cost": 0.0025838,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

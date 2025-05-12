@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 33,
+  "timestamp": "2025-05-12T18:14:33.169Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion on the impacts of advanced AI on various sectors, particularly focusing on economic implications, societal structures, and political movements surrounding these changes.\n\n## Key Topics Discussed\n\n### 1. Trade and Employment\n- **Human Engagement in Trades**: Emphasized the importance of maintaining a human face in trades as AI and automation grow.\n  \n### 2. Legal Challenges in Healthcare\n- **Pushback on Healthcare Laws**: Anticipated legal challenges regarding how advanced AI interacts with the healthcare sector, particularly in employment and regulation.\n\n### 3. AI Adoption in Defense\n- **Rapid Implementation**: There is a fast uptake of AI technologies within the defense sector, indicating a shift in operational capabilities.\n\n### 4. Labor Relations and Unions\n- **Bargaining Dynamics**: Unions may need to adapt their strategies in response to the changing labor landscape shaped by AI and technology.\n\n### 5. Surveillance and Privacy\n- **Surveillance Trade-offs**: Discussion around the ethical considerations of surveillance in workplaces, likened to the trade-off of comfort symbolized by teddy bears.\n  \n### 6. Media and Journalism\n- **Economic Viability of News**: The conversation touched on the financial models in journalism, highlighting examples such as the Substack model and discussing the implications of cross-subsidies in news reporting.\n\n### 7. Societal Structures\n- **Impact on Humanity**: The evolving landscape necessitates a balance between AI's economic advantages and retaining a sense of humanity in societal structures.\n\n### 8. Political Movements and Job Protection\n- **Current Trends**: There is rising political discourse aimed at protecting jobs from automation, possibly instituting laws similar to those in law and medicine.\n\n### 9. Future Directions\n- **Economic Index**: Introduction of an Anthropic economic index designed to analyze the effect of AI on the US economy, with ongoing reports planned.\n\n### 10. General Consensus\n- **Need for Transitional Models**: Highlighted the importance of creating successful transitions to mitigate economic disruption and encourage adaptive strategies for workforce integration with AI. \n\n---\n\nThese notes summarize the critical discussions and themes that emerged during the meeting regarding the multifaceted impacts of AI on society and the economy.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3230,
+      "latencyMs": 23417,
+      "cost": 0.0041448,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

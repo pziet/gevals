@@ -1,6 +1,0 @@
-dataset: noise-level-3
-embedding: text-embedding-3-small
-id: gpt-4o-mini-text-embedding-3-small-rerank-noise-level-3
-model: gpt-4o-mini
-prompt: system-prompt-1.txt
-rag: rerank

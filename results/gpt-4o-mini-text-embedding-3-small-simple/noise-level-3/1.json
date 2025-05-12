@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 2,
+  "timestamp": "2025-05-12T18:13:29.761Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- **Host**: Mindscape Economics\n- **Location**: Prophets in Jack Park\n- **Key Topic**: Impact of Advanced AI on the U.S. economy\n\n## Key Discussion Points\n\n### 1. Economic Changes and Workforce Protection\n- Consideration of the desire to protect workers amidst economic shifts caused by AI.\n- The potential political movements aimed at preserving human jobs in various sectors.\n- Importance of evaluating the efficiency of welfare models to serve workers effectively.\n\n### 2. Job Sectors Affected\n- Discussion on which job sectors are likely to be the last influenced by AI, with a focus on trades and artisanal jobs (e.g., electricians, plumbing).\n- New employment opportunities will likely emerge that require specialized skills in managing and interfacing with AI systems.\n\n### 3. Labor and Employment Dynamics\n- Recognition of a generational shift where younger individuals may face unique employment challenges.\n- Exploration of how to handle the transition effectively, emphasizing the value of human input in AI-driven environments.\n\n### 4. Legal Challenges in Healthcare\n- Legal pushback regarding healthcare implications of AI technologies, raising concern about the balance between innovation and ethical responsibilities.\n\n### 5. Surveillance and Public Sentiment\n- Public sentiment towards surveillance technology, illustrated through the metaphor of \"teddy bears\" symbolizing security versus privacy trade-offs.\n\n### 6. Media and Journalism\n- Analyzing the relationship between journalism, consumer perception, and economic structures, including the role of news cross-subsidization and platforms like Substack in maintaining journalistic integrity.\n\n### Conclusion\n- The meeting highlighted crucial intersections between technology, workforce dynamics, legal frameworks, and societal impacts, calling for an ongoing dialogue as these elements evolve.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1502,
+      "latencyMs": 17678,
+      "cost": 0.0015438000000000001,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

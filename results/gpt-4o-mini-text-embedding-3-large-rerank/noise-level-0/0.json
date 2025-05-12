@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 76,
+  "timestamp": "2025-05-12T18:15:45.375Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Discussion Summary\n\n### Key Topics:\n\n- **Human Element in Trades**:\n  - Emphasized the importance of maintaining a human face in trades and jobs that are likely to be the last impacted by AGI, such as skilled trades (electricians, plumbers).\n\n- **Legal and Healthcare Concerns**:\n  - Addressed potential legal pushback regarding the integration of AGI in healthcare.\n  - Discussed implications for workers' rights and protections under evolving legal frameworks as automation becomes more prevalent.\n\n- **Adaptation in Defense**:\n  - Noted a fast uptake in defense mechanisms to counter challenges posed by rapid advancements in AI technology.\n\n- **Unions and Collective Bargaining**:\n  - Highlighted the role of unions in negotiating labor rights amidst these technological shifts, and the need for potential adaptations to bargaining strategies.\n\n- **Public Sentiment on Surveillance**:\n  - Considered the trade-offs associated with surveillance technologies, likening it to the comfort of teddy bears, suggesting a complex relationship between safety and privacy.\n\n- **Media and Economic Models**:\n  - Discussed the evolving landscape of journalism and media financing, specifically the concept of journalist cross-subsidies. Noted platforms like Substack as potential models that emphasize humanity amidst automation, providing varied funding approaches for journalists.\n\n### Future Considerations:\n- Continued dialogue is necessary regarding the impact of AGI on various sectors, with a focus on preserving job security and ensuring adequate legal and social protections for workers.\n- The intersection of technology with societal norms will require proactive management to balance benefits and ethical considerations.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 2992,
+      "latencyMs": 24708,
+      "cost": 0.0036707999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

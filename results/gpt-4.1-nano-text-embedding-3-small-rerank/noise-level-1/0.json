@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 111,
+  "timestamp": "2025-05-12T18:16:43.781Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Economic Transition**  \n  The rapid adoption of AI technologies will impact various sectors, potentially displacing human jobs but also creating new economic opportunities. There is discussion around accepting freer trade as a trade-off, similar to welfare state models that provide safety nets while allowing flexibility in the job market.\n\n- **Human and Human Face in Trades**  \n  Despite automation, the importance of maintaining human elements in trades and services remains vital, especially as AI takes on more functional roles.\n\n- **Legal and Political Pushback in Healthcare**  \n  Healthcare is a sector heavily affected by data standards and personal privacy concerns. There is a possibility of legal efforts to protect human jobs, such as freezing certain bureaucratic roles, similar to law and medicine, to manage the rapid technological change.\n\n- **Defense Against Rapid AI Uptake**  \n  The swift adoption of advanced AI poses challenges, potentially leading to political movements aimed at halting or regulating AI-driven automation, especially in sensitive sectors.\n\n- **Union Bargaining and Worker Protections**  \n  Unions may play a critical role in bargaining for workers' rights as industries undergo automation, emphasizing the need for policies that balance innovation with human employment security.\n\n- **Surveillance Trade-offs** and Human Privacy  \n  As AI technologies develop, surveillance becomes a trade-off—balancing security and innovation with privacy rights, which may influence industries like healthcare.\n\n- **Subsidies, Journalism, and Humanity**  \n  Current news and journalism may involve cross-subsidies, raising questions about the future of information, substack-style independent journalism, and the preservation of human-centered storytelling amidst AI's rise.\n\n- **Emerging Entertainment and Consumer Products**  \n  The concept of \"AI teddy bears\" and other interactive entertainment forms could become significant, providing meaningful human-AI interactions and economic activity.\n\n- **Media and Information Laundering**  \n  Managing AI-derived information involves legal and systemic efforts to prevent misinformation, ensuring reliable human-AI data integration.\n\n- **Long-term Societal Impact**  \n  Overall, society faces complex decisions about regulating AI, preserving human jobs, and ensuring that technological advances benefit humanity, with careful attention to legal, economic, and ethical considerations.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3159,
+      "latencyMs": 21749,
+      "cost": 0.0026596,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

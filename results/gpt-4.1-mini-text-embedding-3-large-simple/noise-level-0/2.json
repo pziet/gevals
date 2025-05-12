@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 178,
+  "timestamp": "2025-05-12T18:18:35.715Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Impacted Last by AGI**  \n  AGI is expected to affect trades and artisanal work last in a significant manner. Professions such as electricians, plumbers, and gardening involve human interactions and craftsmanship that are harder to automate. Human face-to-face presence remains valuable in these roles, especially when commerce involves complex human relationships and negotiations.\n\n- **Legal and Regulatory Pushback in Healthcare**  \n  Healthcare is anticipated to see strong legal resistance to automation by AGI, largely due to the sensitive nature of personal data and strict existing standards. Changes to these standards will be necessary but may face political and legal hurdles, especially in protecting jobs analogous to law and medicine.\n\n- **Fast Uptake in Defense Sector**  \n  While not detailed explicitly, the environment suggests that some sectors, particularly defense, may experience rapid adoption of AI technologies compared to healthcare or other regulated sectors.\n\n- **Role of Unions and Bargaining**  \n  There is an expectation of political movements and organized efforts (possibly unions) to protect significant portions of existing jobs from automation and AI replacement through bargaining and legislative protections.\n\n- **Tradeoffs Between Privacy and Surveillance (Teddy Bears Metaphor)**  \n  The metaphor highlights the tension between enhanced surveillance and the loss of privacy in the AI age. It underlines the societal negotiations about how much surveillance is acceptable in exchange for safety or convenience.\n\n- **Journalism, Cross-Subsidy Models, and Humanity in News**  \n  Journalism may face transformation, with platforms like Substack enabling new forms of content distribution that subsidize journalism differently. There is concern for maintaining humanity and ethical standards in news production amidst the AI-driven changes.\n\n- **Economic and Welfare State Context**  \n  The conversation acknowledges that a generous welfare state might be necessary to support free trade and transition in a world increasingly influenced by AI. Protecting workers and helping people adapt may be politically demanded, even if not always economically efficient.\n\n- **Human Mediation in Commerce**  \n  Despite AI advancement, human proxies will continue to mediate deals on behalf of large pools of capital, reflecting a preference for trusted human involvement in critical business transactions.\n\n- **Government and Large Companies' Role**  \n  There may be resistance from large, established companies as well as potential rapid government action in regulating AI impact, particularly in protecting jobs and ensuring smooth transitions.\n\n---\n\nThese enhanced notes integrate the rough notes' themes with contextual evidence from the discussion, highlighting the nuanced impacts of AGI across different sectors, legal challenges, societal tradeoffs, and economic policies.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1656,
+      "latencyMs": 15722,
+      "cost": 0.0012816000000000001,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

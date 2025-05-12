@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 173,
+  "timestamp": "2025-05-12T18:18:25.062Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trade and Workforce Transition:**\n  - Discussion emphasized the importance of managing the transition for workers impacted by advanced AI and automation.\n  - The idea of a \"welfare state for service workers\" was proposed to support those displaced while preserving meaningful human employment.\n  - Examples of successful transitions are crucial to reduce political backlash and prevent freezing of human jobs by law.\n  - There is political risk of preserving many jobs in bureaucratic amber to counter rapid changes caused by strong AI.\n\n- **Legal and Regulatory Challenges in Healthcare:**\n  - Healthcare presents significant legal obstacles for AI adoption due to strict rules around personal data and standards.\n  - These regulations contribute to a strong pushback against automation in sensitive sectors like law and medicine.\n  - Political will will be tested in deciding how much to legally protect existing jobs vs. allowing AI to advance.\n\n- **Fast Uptake in Certain Sectors:**\n  - Defense and some government sectors may experience rapid AI integration due to less resistance.\n  - Government agencies such as Education and Health and Human Services might be more open to AI, but results depend on political decisions.\n\n- **Role of Unions and Bargaining Power:**\n  - Unions are an important factor in negotiating how AI affects labor markets.\n  - There could be preference for human involvement as intermediaries or proxies in dealings with large automated organizations.\n  - People value human-mediated deals and may resist fully automated capital transactions.\n\n- **\"AI Teddy Bears\" and the Surveillance Trade-Off:**\n  - Emerging consumer AI products, dubbed \"AI teddy bears,\" represent a new form of meaningful entertainment integrated with economic models.\n  - These AI companions raise issues around surveillance trade-offs, balancing convenience and privacy.\n\n- **News Industry and Journalism Economics:**\n  - Journalism is facing disruption from AI, requiring business models such as cross-subsidies to maintain quality reporting.\n  - Platforms like Substack serve as an example where independent journalists find sustainable revenue.\n  - There is a strong desire to maintain the humanity and meaningfulness of journalism despite technological changes.\n\n- **General Themes:**\n  - The meeting highlighted the tension between fast technological change, political and legal resistance, and the societal value placed on human roles.\n  - Aim should be to create systems where people still find purpose and economic participation in an AI-influenced future.\n  - The importance of examples that demonstrate good human-AI transition models was stressed to guide policy and business choices.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1649,
+      "latencyMs": 13385,
+      "cost": 0.0012596,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

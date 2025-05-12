@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 223,
+  "timestamp": "2025-05-12T18:22:07.860Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Element:** Emphasis on the importance of tradespeople and artisanal work (electricians, plumbing, gardening) and how these high-skilled, manual trades might be less disruptively affected or could be crucial in transitioning to an AI-driven economy.\n\n- **Legal and Healthcare Challenges:** Discussion about potential legal pushback within the healthcare sector as AI integration raises regulatory and ethical questions.\n\n- **Defense and Rapid Adoption:** Highlighted the swift uptake of AI technologies in various sectors, with particular focus on defense-related applications that could accelerate economic and societal change.\n\n- **Union Bargaining and Worker Protection:** Concerns over political movements possibly pushing to \"freeze\" or protect a significant portion of jobs through legislation or union bargaining, aiming to shield workers from AI-driven displacement.\n\n- **Surveillance Trade-offs:** Trade-offs involving surveillance—such as monitoring or data collection—considered in context with societal impacts like privacy concerns versus economic benefits.\n\n- **Media, Journalism, and Subventions:** The role of media, including cross-subsidies in journalism (e.g., Substack), raising questions about humanity, the role of journalism in an AI economy, and potential shifts in information dissemination.\n\n- **Economic Transition and Evidence Gaps:** The importance of demonstrating good transition examples; a lack of evidence may indicate larger, possibly destabilizing economic changes.\n\n- **AI and Job Creation:** Anticipation of entirely new jobs involving managing and fueling AI systems, as well as creative tasks related to AI, suggesting a transformation rather than just displacement.\n\n- **Social and Welfare Implications:** Discussions on the role of the welfare state in supporting workers, especially younger populations, and whether society should aim for a more generous support system amidst economic upheaval.\n\n- **Long-term Perspectives:** Recognizing that AI's impact on trades, jobs, and welfare systems will unfold over decades, requiring careful planning and societal adaptation.\n\n---",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3127,
+      "latencyMs": 23313,
+      "cost": 0.0026777,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 183,
+  "timestamp": "2025-05-12T18:18:44.101Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Impact on Trades and Human Jobs**  \n  AI and automation are expected to rapidly transform many sectors. However, trades and artisanal jobs such as electricians, plumbers, and gardeners, especially the high-status and skill-demanding parts, are likely to retain a significant human element due to the importance of personal skill and the “human face” in these domains.\n\n- **Legal and Political Pushback in Healthcare and Other Sectors**  \n  There is a strong possibility of political movements aiming to freeze or protect a substantial number of human jobs through bureaucratic and legal means, particularly in sectors like healthcare. This reflects concerns about the fast pace of AI adoption and its socioeconomic disruptions.\n\n- **Fast Uptake in Defense Sector**  \n  Defense and national security sectors may experience rapid adoption of advanced AI technologies, driven by the strategic importance of these domains.\n\n- **Role of Unions and Bargaining**  \n  Unions may play a critical role in negotiating protections or transitions for workers affected by AI-driven changes, potentially influencing labor bargains and welfare policies.\n\n- **Trade-offs Between Privacy and Surveillance**  \n  The deployment of AI often involves a balance between surveillance capabilities and privacy concerns, reflecting a societal trade-off that needs careful consideration (illustrated metaphorically as “teddy bears” representing comforting human elements versus surveillance).\n\n- **Impact on Journalism and News Industry**  \n  AI impacts journalism, where new economic models (such as cross-subsidies enabled by platforms like Substack) influence how journalism maintains its humanity and value amid technological shifts. The challenge remains to sustain journalistic integrity and human-centric news delivery in the face of automation pressures.\n\nThese points summarize the political, economic, and social complexities introduced by AI, emphasizing the enduring importance of human roles in trades, healthcare, journalism, and the dynamics of labor and privacy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3118,
+      "latencyMs": 19035,
+      "cost": 0.0034124,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

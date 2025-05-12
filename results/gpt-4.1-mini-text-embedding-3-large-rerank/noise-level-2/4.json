@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 190,
+  "timestamp": "2025-05-12T18:19:01.481Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as the Last to Change**  \n  Discussions indicated that the most artisanal and trade-based jobs (e.g., electricians, plumbing, gardening) are expected to be affected by AI last. These trades often require a strong human presence and face-to-face interaction, making them more resistant to automation.\n\n- **Human Face in Deals and Work**  \n  There is a strong preference for human-mediated deals and interactions, especially for activities requiring alignment and agreement. This human element is seen as essential for certain service sectors and desk-bound tasks such as sales.\n\n- **Legal and Political Pushback in Healthcare and Worker Protection**  \n  Considerable pushback is anticipated against automation in sensitive fields like law and medicine, potentially leading to strong regulatory protections for at least half of existing jobs in these domains. This highlights the role of unions and political movements in bargaining and protecting workers from the rapid impacts of AI.\n\n- **Fast Uptake in Defense Sector**  \n  The defense sector may experience a rapid adoption of AI technologies, reflecting a contrasting dynamic compared to sectors with stronger human or legal protections.\n\n- **Trade-offs: Surveillance versus Privacy (\"Teddy Bears\")**  \n  The metaphor of \"teddy bears\" was used to discuss surveillance trade-offs, likely addressing the balance between technological monitoring/security and individual privacy or comfort in workplaces.\n\n- **Role of the Welfare State**  \n  A generous welfare state is viewed as a necessary \"bargain\" to support workers impacted by free trade and AI-driven economic changes. While not always efficient, it serves as a social safety net, particularly for service workers and those displaced by automation.\n\n- **Impact on Journalism and News Media**  \n  News and journalism face financial challenges, with cross-subsidies becoming important for sustaining humanity and quality of reporting. Platforms like Substack were referenced as examples where journalists seek sustainable business models while preserving editorial independence and the human element in news production.\n\n- **Unions and Bargaining Power**  \n  Unions remain important as a mechanism for workers to bargain for protections, better conditions, and fair treatment amid rapid technological shifts.\n\nOverall, the conversation emphasized balancing technological progress in AI and automation with human-centric values, legal protections, and social safety nets to ensure meaningful, equitable economic transitions.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3188,
+      "latencyMs": 24718,
+      "cost": 0.0035231999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

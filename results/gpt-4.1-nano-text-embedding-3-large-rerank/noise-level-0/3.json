@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 239,
+  "timestamp": "2025-05-12T18:22:34.747Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The session discussed the lasting importance of human presence in trade and economic activities, emphasizing the human face of trade negotiations and interactions.\n- There is ongoing opposition from legal and regulatory perspectives, especially concerning healthcare. Changes in personal data handling and standards will be required as AI becomes more integrated into healthcare practices.\n- The rapid adoption and defensive measures around AI are noted, with a focus on the legal and regulatory hurdles that AI and AGI face, including complex legal obstacles in automated financial deals and large-scale AI operations.\n- Labor unions and bargaining groups are likely to respond by advocating for worker protections, aiming to safeguard jobs in the face of AI-driven disruption.\n- Ethical trade-offs are highlighted, such as balancing surveillance and consumer safety—increasing use of AI and AI-generated content like teddy bears raises questions about privacy and human oversight.\n- The impact of AI on industries will be uneven, with trades and artisanal sectors (electricians, plumbers, gardening) expected to experience less disruption, with AI affecting these last.\n- Media and journalism face challenges related to cross-subsidies and the need for transparency, possibly influenced by the economic effects of AI, including in entities like Substack, which emphasize human storytelling.\n- There is a shift toward AI-mediated dealmaking and financial transactions, with a preference for deals managed by human proxies acting on behalf of large automated organizations or capital pools.\n- Overall, economic resilience and welfare states are seen as crucial in managing AI's impact, aiming for a balanced approach that combines economic growth, security, and societal stability—making life feel familiar and manageable despite technological upheavals.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 2961,
+      "latencyMs": 22808,
+      "cost": 0.0025225,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

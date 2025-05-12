@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 40,
+  "timestamp": "2025-05-12T18:14:38.728Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Topics Discussed\n\n- **Trades Lasting and Human Face**  \n  - Discussion centered on the importance of preserving human elements within trades, suggesting that trades may be among the last sectors influenced by advancements in technology.\n\n- **Legal Pushback in Healthcare**  \n  - Challenges related to healthcare legislation and its implications for technological integration and data handling were addressed. The complexities of navigating legal frameworks in healthcare were highlighted.\n\n- **Fast Uptake in Defense**  \n  - Noted the rapid adoption of technologies in defense sectors, raising questions about safety, privacy, and the implications for public oversight.\n\n- **Union Bargaining**  \n  - Explored the role of unions in advocating for worker rights in the face of advancing technologies and economic shifts. The necessity for negotiation between labor and advancements in AI was emphasized.\n\n- **Surveillance Trade-Offs and Teddy Bears**  \n  - Engaged in a metaphorical discussion regarding surveillance, drawing an analogy with teddy bears to illustrate the trade-offs between safety and privacy.\n\n- **Journalism, News, and Cross-Subsidy**  \n  - Addressed challenges within the journalism sector, especially regarding funding mechanisms (e.g., Substack) and the need for a human-centric approach. Discussed the impacts on humanity and the industry amidst economic changes.\n\nThese notes encapsulate the key points discussed in the meeting, focusing on the socio-economic implications of technology and policy.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2996,
+      "latencyMs": 22831,
+      "cost": 0.0036461999999999996,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

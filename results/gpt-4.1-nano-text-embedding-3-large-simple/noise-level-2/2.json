@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 208,
+  "timestamp": "2025-05-12T18:21:31.109Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Face of Economy**\n  - The ongoing trade represents an \"okay bargain,\" akin to a welfare state for service workers, providing a safety net while allowing personal agency.\n  - People desire meaning and salience in daily work; the relationship between automated systems and human employment is central.\n  - Economic shifts driven by AI and AGI may favor existing patchworks of regulation—like welfare or legal protections—to manage transitions.\n\n- **Legal and Regulatory Responses**\n  - Potential for strong legal pushback against healthcare applications of AI, especially around handling personal data and standards.\n  - Anticipated developments include the creation of laws similar to those in medicine to protect jobs and regulate AI use, with big resistance likely from established industries and lawyers.\n  - Governments might act swiftly, possibly more quickly than expected, to regulate or restrict AI deployment in key sectors, especially in artisanal trades and sectors with high personal or data sensitivity.\n\n- **AI's Impact on Specific Sectors**\n  - The most affected will be trades requiring manual skills and artisanal work, such as electricians, plumbers, gardening; less so for desk-bound roles requiring human interaction, like certain sales or collaboration tasks.\n  - Healthcare remains a critical sector for regulation, especially regarding data, standards, and safe implementation.\n\n- **Economic and Societal Consequences**\n  - There is concern over the potential for AI to replace a significant portion of current employment, possibly requiring policies to protect half or more of current jobs.\n  - A cultural or societal \"angst\" and nihilism exist even among high-achieving academic circles due to the existential implications.\n  - The future might see a world where humans continue to have meaningful roles, but only if clear evidence of good transitions and policies are developed.\n\n- **Media, Humanity, and Trade-offs**\n  - Public discourse includes trade-offs such as surveillance versus privacy, illustrated by the teddy bears analogy.\n  - News and journalism face challenges like cross-subsidies and the influence of platforms like Substack, raising questions about humanity and information fairness.\n\n- **Overall Outlook**\n  - The relationship between AI, regulation, and societal adaptation remains complex and multifaceted, with economic, legal, and cultural factors influencing the pace and nature of change.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1609,
+      "latencyMs": 16176,
+      "cost": 0.00029890000000000006,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

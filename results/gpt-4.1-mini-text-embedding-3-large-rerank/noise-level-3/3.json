@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 184,
+  "timestamp": "2025-05-12T18:18:52.603Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human-Centered Jobs**  \n  There is an expectation that trades and artisanal jobs such as electricians, plumbers, and gardeners will be among the last to be fully automated. These roles often involve a human face and personalized service that AI and robots cannot easily replicate. Certain high-status, skilled tradesmen are valued not just for their technical abilities but also for the human connection they provide.\n\n- **Legal and Political Pushback in Healthcare and Employment**  \n  A political movement is likely to emerge to freeze or protect many human jobs in bureaucratic and legal frameworks, especially in sectors like healthcare. This legal pushback aims to address the social and political challenges posed by the rapid advancement of AI technology, which could otherwise displace many workers.\n\n- **Fast Uptake in Defense and Economic Sectors**  \n  AI's integration in sectors like defense is expected to be rapid. This fast uptake in certain industries may create significant shifts in economic structures and workforce demands.\n\n- **Role of Unions and Labor Bargaining**  \n  Unions are expected to play a key role in negotiating protections and bargains for workers affected by technological displacement. There is a conversation about achieving a social bargain possibly through a generous welfare state to support workers transitioning in this new economy.\n\n- **Surveillance Trade-Offs (Teddy Bears Analogy)**  \n  There is an implied metaphor comparing surveillance trade-offs to the comforting but potentially intrusive nature of teddy bears, highlighting concerns about privacy and monitoring in a highly automated and AI-driven environment.\n\n- **Journalism, News, and Cross-Subsidies**  \n  The future of journalism and news media may involve models like cross-subsidies to support humanity and maintain the quality of independent reporting. Platforms such as Substack are examples where journalism adapts with new business models balancing economics and human values in media.\n\nOverall, the discussion captures the tension between rapid AI-driven change and the social, legal, and economic measures required to preserve human dignity, jobs, and societal values.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3031,
+      "latencyMs": 26524,
+      "cost": 0.0032979999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

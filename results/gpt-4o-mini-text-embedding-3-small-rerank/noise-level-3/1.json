@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 22,
+  "timestamp": "2025-05-12T18:14:04.233Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Main Topics Discussed\n\n- **Impact of Technology on Employment**\n  - There is a recognition that while technology, particularly AI, will enhance productivity and create wealth, it may also lead to significant job displacement, particularly in traditional trades like plumbing and electric work.\n  - Certain skilled trades may remain in demand due to their artisanal nature, which relies on a human touch that machines cannot easily replicate.\n\n- **Welfare and Social Safety Nets**\n  - Discussion on the need for a robust welfare state as a mechanism to support workers displaced by technological advancements.\n  - Concerns were raised about the efficiency and sustainability of welfare models as technology changes the labor landscape.\n\n- **Political Resistance to Change**\n  - Anticipation of pushback from various sectors including legal frameworks surrounding healthcare due to the rapid deployment of advanced technologies.\n  - The possibility of a political movement aiming to protect existing jobs through bureaucratic means to manage the societal consequences of these rapid changes.\n\n- **Unions and Collective Bargaining**\n  - The role of unions was highlighted, particularly how they might bargain for worker protections in the evolving economic environment shaped by AI.\n\n- **Ethics of Surveillance and Privacy**\n  - A discussion included the trade-offs between surveillance in consumer technology (like teddy bears) and personal privacy rights.\n\n- **Media Landscape Changes**\n  - Notable shifts in the media industry with the emergence of platforms like Substack, which may alter funding models for journalism. This shift raises ethical questions about cross-subsidization in news coverage and the impact on societal values and humanity.\n\n### Conclusion\nThe meeting addressed broad implications of AI on labor, societal support systems, and ethical considerations surrounding privacy and media integrity. There is a clear call to understand these dynamics as we move forward in a rapidly changing technological landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3102,
+      "latencyMs": 19702,
+      "cost": 0.0038754,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

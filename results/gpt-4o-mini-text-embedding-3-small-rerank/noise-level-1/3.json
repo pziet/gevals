@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 34,
+  "timestamp": "2025-05-12T18:14:34.563Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trade and Welfare**\n  - The concept of accepting freer trade as a reasonable bargain, potentially providing a welfare state for service workers. \n  - Discussion on the balance between free trade and the necessity of a generous welfare state to support those affected.\n\n- **Legal Challenges in Healthcare**\n  - Considerable legal pushback within the healthcare sector regarding the integration of advanced AI technologies.\n  - Examination of how legal frameworks are adapting to or resisting changes brought by AI.\n\n- **Rapid Adoption in Defense Sector**\n  - Notable fast uptake of AI technologies in defense, showcasing how certain industries are leading in AI implementation.\n\n- **Union Bargaining**\n  - The role of unions in negotiating terms related to AI integration and labor rights in evolving job markets.\n  \n- **Surveillance and Privacy**\n  - Concerns over the surveillance implications associated with technological trade-offs, highlighted through metaphors like \"teddy bears.\"\n\n- **Media and Journalism**\n  - Discussion around the changing landscape of news and journalism, including the role of cross-subsidization in traditional media versus platforms like Substack.\n  - The impact of advanced AI on journalistic integrity and human experience in media.\n\n## Related Trends\n- The impact of advanced AI on the economy, emphasizing the necessity for good transition examples to protect workers from AI advancements.\n- Rising legal obstacles for AGI, particularly concerning professional services like law and healthcare due to inherent economic structures.\n- Exploration of the political willingness to sustain current job roles amidst rapid technological advancements, with an emphasis on adapting legal protections for different sectors affected by AI.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3088,
+      "latencyMs": 23984,
+      "cost": 0.0038094,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

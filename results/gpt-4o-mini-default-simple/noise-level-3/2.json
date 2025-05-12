@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 243,
+  "timestamp": "2025-05-12T18:25:53.108Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion on the implications of Advanced AI on the U.S. economy and the labor market.\n\n## Key Topics\n\n### Workforce and Economic Changes\n- The impact of rapid economic changes may lead to a political movement aimed at protecting human jobs within various sectors, particularly in the service industry.\n- A potential crisis could prompt a shift towards a more generous welfare state, although efficiency and effectiveness remain in question.\n  \n### Trades and Human Element\n- The trades, particularly artisanal jobs, may be among the last areas to be affected by AI, with high-status positions requiring a human touch, such as electricians and plumbers, remaining essential.\n- Conversations on whether the future labor market will generate new roles, possibly involving the management of AI in high-skill tasks.\n\n### Legal and Political Considerations\n- Rising concerns about the legal implications of AI deployment in healthcare and a potential backlash against job losses.\n- The need for organized labor movements (unions) to engage in negotiations that may arise from changes in job dynamics due to AI.\n\n### Social Considerations\n- Discussion on the implications of surveillance in trades, explored through analogies like \"teddy bears\" representing the balance between security measures and privacy.\n- Challenges facing journalism, particularly in relation to economic models (e.g., cross-subsidy in media), and how platforms like Substack are reshaping the field.\n\n### Broader Implications\n- Acknowledgment of the complexities inherent in transitioning to an AI-driven economy, and the necessity of generating sufficient evidence to guide this transition effectively.\n- Recognition of the dual nature of advancements: while they can lead to increased productivity and wealth, they may also exacerbate disparities without careful management.\n\n### Conclusion\n- The meeting highlighted the crucial intersection of technology, labor, and economic policies, emphasizing the need for proactive measures to navigate the changes brought about by AI.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1525,
+      "latencyMs": 24986,
+      "cost": 0.001599,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

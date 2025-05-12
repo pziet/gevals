@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 328,
+  "timestamp": "2025-05-12T18:28:08.238Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from the Meeting\n\n## Trades and Human Element\n- Trades such as electricians, plumbing, and gardening will likely be among the last sectors impacted by AGI, due to their artisanal and hands-on nature.\n- Human interaction remains crucial in certain desk-bound roles, especially those requiring alignment, agreement, or nuanced communication.\n- There is a recognized value in the \"human face\" or human mediation in transactions and relationships, even in contexts increasingly influenced by AI.\n\n## Legal and Regulatory Challenges in Healthcare\n- Healthcare faces significant legal pushback regarding AGI integration due to strict privacy standards and data handling regulations.\n- Healthcare professions may be strongly protected under laws analogous to those in law and medicine, limiting the replacement of human roles by AGI.\n- The regulation reflects concerns around personal data management and maintaining standards that are not easily amendable for AI utilization.\n\n## Rapid Adoption in Defense Sector\n- The defense sector is anticipated to have a fast uptake of AI technologies, implying quicker integration compared to other sectors.\n\n## Role of Unions and Worker Protections\n- There is a high chance of political movements advocating for protecting a significant portion of jobs, possibly half, through laws safeguarding workers from full AI replacement.\n- Unions may play an important role in bargaining and maintaining fair conditions or employment protections amid AI-driven economic changes.\n- The welfare state analogy suggests a form of social safety net for service workers in an AI-altered economy.\n\n## Surveillance and Trade-offs (Teddy Bears Metaphor)\n- Discussed is a tradeoff involving surveillance linked to AI deployment, implying concerns about privacy and monitoring in exchange for benefits.\n- The metaphor of \"teddy bears\" may represent the comfort or acceptance of surveillance by the public for perceived security or convenience benefits.\n\n## News, Journalism, and Funding Models\n- Journalists and news media face challenges in the AI era, including issues of cross-subsidy between content creation and distribution.\n- Platforms like Substack exemplify new models aiming to retain humanity and individual voices in journalism through alternative funding and subscription models.\n- The human element remains critical in journalism to preserve integrity, trust, and meaningful storytelling.\n\n---\n\nThese notes summarize the core themes discussed, emphasizing the balance between technological advancement with AI, the legal and social frameworks protecting human roles, and the evolving landscape of work and media in the presence of AGI.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1623,
+      "latencyMs": 9995,
+      "cost": 0.0012180000000000001,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

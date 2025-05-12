@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 154,
+  "timestamp": "2025-05-12T18:17:58.761Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- Discussion on the future of trades and jobs with the rise of AI, emphasizing the importance of maintaining a \"human face\" and meaningful work for individuals even as AI takes over many tasks. There is a recognition that while technology may increase wealth, a welfare state might be necessary to support service workers during transitions.\n  \n- Legal and political challenges are anticipated, especially in sectors like healthcare and law, where there may be attempts to protect human jobs through regulations or \"bureaucratic amber\" freezes, reflecting a form of legal pushback against rapid AI integration.\n\n- The defense sector is expected to adopt AI technologies rapidly, highlighting the fast uptake in this domain compared to others.\n\n- The role of unions and collective bargaining is noted as crucial in negotiating the terms of labor changes due to AI, potentially influencing protections and transitions for workers.\n\n- The metaphor of \"teddy bears\" refers to the surveillance trade-offs society faces, where convenience and monitoring by AI-driven systems pose ethical and privacy questions.\n\n- Media and journalism face unique challenges with AI. There is an emerging model involving cross-subsidies for journalists to maintain humanity and quality in news production, with platforms like Substack playing a role in supporting independent journalism.\n\nOverall, the conversation reflects on balancing technological progress with social welfare, legal frameworks, and preserving human-centric values amid AI-driven economic transformations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2886,
+      "latencyMs": 20259,
+      "cost": 0.0030626,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

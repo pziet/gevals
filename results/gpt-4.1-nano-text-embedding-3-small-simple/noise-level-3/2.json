@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 83,
+  "timestamp": "2025-05-12T18:15:51.096Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## AI's Impact on the Economy and Jobs\n- Rapid adoption of AI and automation is likely to bring significant economic shifts, affecting various job sectors.\n- Trades and artisanal work (e.g., electricians, plumbers, gardening) may experience the most rapid and profound changes due to AI integration.\n- High-status, specialized trades might still be valued for their craftsmanship and trust, but overall, many manual and craft-based roles could be disrupted.\n- New types of jobs will emerge involving managing, fueling, and marshaling AI systems—these will be complex and require new skill sets.\n- Creative roles might evolve to involve \"fun exercises\" with AI, such as making things or getting AI to perform tasks.\n\n## Human Roles and Social Responses\n- There is concern about protecting human jobs through political movements, possibly freezing jobs through bureaucratic measures as a response to rapid technological change.\n- Such protectionist efforts may not lead to the most efficient or pleasing societal outcomes.\n- Workers involved in hard, manual, and artisanal work, especially young people, are expected to do more of the \"hard work\" in the future, contributing to overall increased wealth.\n\n## Legal and Political Challenges\n- The government and legal systems may push back against rapid AI adoption, especially in healthcare and sensitive sectors.\n- Proposals to \"freeze\" or preserve a large portion of human jobs reflect fears about technological unemployment.\n- Policymakers may focus on laundering information from AI into human systems that are resistant or unaccustomed to AI-derived data.\n\n## Surveillance and Trade-offs\n- A societal trade-off exists between perceived security (e.g., surveillance) and privacy, as exemplified by analogies like teddy bears symbolizing comfort versus surveillance trade-offs.\n\n## Media, Humanity, and Subventions\n- Discussions around news, journalism, and media reveal issues like cross-subsidization—where humanity and quality journalism may rely on subsidies, possibly in platforms like Substack.\n- The evolving media landscape ties into broader debates about societal adaptation to AI and the importance of maintaining human-centric values.\n\n## Broader Societal Future\n- There is potential to leverage AI and automation to play higher-status, more fulfilling \"games\" in society, shifting away from traditional labor.\n- National security considerations drive rapid AI development, with countries like the US possibly transforming into strong AI hubs.\n- Existing legacy software in governmental and critical sectors remains outdated, which could hinder or shape AI integration.\n\n## Summary\nThe meeting centered on the profound economic and social transformations driven by AI, highlighting the likelihood of sector-specific disruptions, the need for protective yet adaptable policies, and the ongoing negotiation between technological progress and societal values.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1683,
+      "latencyMs": 8874,
+      "cost": 0.00032970000000000005,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

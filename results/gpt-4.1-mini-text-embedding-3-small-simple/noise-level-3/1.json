@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 122,
+  "timestamp": "2025-05-12T18:16:54.928Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Trades and Human-Centric Jobs\n- Trades such as electricians, plumbing, gardening, and other artisanal jobs will likely see rapid changes due to AI, yet they remain highly valued for their human touch.\n- High-skilled tradespeople are chosen not only for skills but also for their unique human qualities, making these roles potentially last in an AI-driven economy.\n- New jobs might emerge around managing and fueling AI systems, offering creative and engaging work opportunities.\n- There is an ongoing need for humans to \"launder\" or translate AI-generated information into forms usable by human systems.\n\n## Legal and Political Landscape\n- There is a high likelihood of political movements aiming to freeze or protect a significant portion of human jobs through legislation, especially in bureaucratic contexts.\n- This legal push back may involve protecting workers in various domains, driven by public desire to help young people and preserve jobs.\n- The welfare state model may serve as a precedent for balancing efficiency with social protection despite not being the most efficient system.\n- Resistance and negotiation with unions will be important in bargain processes related to changes caused by AI.\n\n## Defense and National Security\n- The defense sector and national security considerations are driving fast uptake and integration of AI technologies.\n- Governments may act as strong AI adopters or developers, despite often still relying on legacy software systems.\n  \n## Surveillance, Privacy, and Trade-Offs\n- Discussion acknowledged trade-offs between surveillance and societal goods, using the metaphor of \"teddy bears\" to highlight the human cost or emotional aspects involved.\n- The balance between technological advancement and preserving human dignity and privacy remains a key consideration.\n\n## Media, Journalism, and Information Economy\n- Journalism faces challenges and opportunities through new economic models like cross-subsidies and platforms such as Substack.\n- Maintaining humanity and trust in news media amidst AI's rise is critical.\n- The role of human journalists remains important for conveying nuanced and trustworthy information in an AI-enhanced landscape.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1542,
+      "latencyMs": 11143,
+      "cost": 0.0010932000000000001,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 115,
+  "timestamp": "2025-05-12T18:16:52.046Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n## Human-Centered Trade and Innovation\n- Emphasized the importance of maintaining human touch in trades and services, highlighting the value of \"trades last, human face\" and the potential development of \"AI teddy bears\" as new entertainment or companionship forms.\n\n## Legal and Regulatory Challenges in Healthcare\n- Discussed possible legal pushback and regulatory standards within healthcare, particularly around personal data handling and standardization, and the likelihood of laws designed to protect jobs against the impacts of strong AGI.\n\n## Defense and Economic Uptake of AI\n- Noted the rapid adoption (\"fast uptake defense\") of AI technologies across sectors and the potential for political movements to attempt protective measures to preserve employment, especially in bureaucratic or essential sectors like health.\n\n## Unions, Bargaining, and Political Will\n- Highlighted the role of unions and bargaining power in shaping AI regulation and labor policies, along with the significant influence of political will on whether protective laws are enacted or whether society accepts increased automation.\n\n## Surveillance Trade-offs and Human Values\n- Touched on the surveillance trade-offs involved with AI deployment, such as balancing security or efficiency with individual privacy and humanistic values.\n\n## Journalism, Subsidies, and Humanity\n- Explored the cross-subsidy dynamics in media, including journalism and platforms like Substack, and their implications for the preservation of human-centered journalism and content amidst AI advancements.\n\n## Media, Information, and AI\n- Considered the impact of AI-enhanced information flow, the laundering of AI-sourced data into human systems, and how truthful or meaningful information can be maintained or compromised.\n\n## Economic and Social Transitions\n- Discussed the chaotic political forces challenging smooth AI integration, emphasizing the need for examples of successful transitions to mitigate societal upheaval.\n\n## Future of Entertainment and Meaning\n- Visioned a future where entertainment linked to AI (\"AI teddy bears\") becomes economically significant, fulfilling human desires for meaning and salience in daily life.\n\n---\n\n**Overall**, the discussion centered on balancing technological advancement with social stability, emphasizing human-centric trade, legal safeguards, the role of unions and political action, and the societal impacts of AI on work, privacy, and entertainment.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3098,
+      "latencyMs": 23732,
+      "cost": 0.0025873,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

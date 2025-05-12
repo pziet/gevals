@@ -1,0 +1,5 @@
+embedding: text-embedding-3-small
+id: gpt-4o-mini-text-embedding-3-small-simple
+model: gpt-4o-mini
+prompt: system-prompt-1.txt
+rag: simple

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 246,
+  "timestamp": "2025-05-12T18:25:45.924Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## 1. Trades and Workforce Dynamics\n- Discussion on the nature of trades and the concept of a welfare state for service workers. \n- Emphasized that free trade can be viewed as a fair exchange, particularly when mediated by human involvement.\n- The future of certain artisanal jobs, like electricians and plumbers, may witness significant changes due to advanced AI.\n\n## 2. Legal and Healthcare Concerns\n- Noted the potential for strong legal pushback surrounding the integration of AI in healthcare.\n- The industry's complex relationship with personal data and legal standards poses challenges for AI implementation.\n- There's speculation on the chance of legislation aimed at protecting jobs in sectors most affected by AI advancements.\n\n## 3. Rapid Adoption in Defense Sector\n- Highlighted the fast uptake and application of AI technologies within the defense sector.\n\n## 4. Unions and Collective Bargaining\n- Mentioned the role of unions in advocating for fair labor practices and potentially negotiating terms regarding the integration of AI into the workforce.\n\n## 5. Ethical Considerations: Surveillance and Trade-Offs\n- Discussed the ethical implications of surveillance in relation to technological advancements (e.g., \"teddy bears\" used as surveillance tools).\n- Considered the balance between technological convenience and personal privacy rights.\n\n## 6. Media and Journalism\n- Addressed the evolving landscape of journalism, including challenges such as cross-subsidization and the rise of platforms like Substack that promote independent journalism.\n- Stressed the importance of maintaining the human touch and humanity within the media amidst these changes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1467,
+      "latencyMs": 17801,
+      "cost": 0.0014526,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

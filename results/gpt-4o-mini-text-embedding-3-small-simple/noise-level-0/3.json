@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 19,
+  "timestamp": "2025-05-12T18:13:49.200Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Topics\n\n- **Trades and Human Interaction**: The conversation highlighted that certain trades, particularly artisanal work like plumbing and gardening, may be the last sectors profoundly affected by AGI. Human relationships in commerce remain essential, and people prefer deals negotiated by human proxies.\n\n- **Legal Challenges in Healthcare**: It was noted that the healthcare sector may face significant legal pushback due to AGI, especially concerning standards around personal data. The necessity for changes in these standards could affect how healthcare services are administered.\n\n- **Rapid Adoption and Defense Industries**: The uptake of advanced technologies in the defense sector appears to be accelerating. This swift adoption could present unique challenges and opportunities for stakeholders.\n\n- **Union Bargaining and Worker Protection**: There was a discussion about unions and their role in labor bargaining within the context of emerging technologies, emphasizing the need to protect worker interests as AGI impacts job markets.\n\n- **Surveillance and Trade-offs**: The mention of \"teddy bears\" refers to the ethical considerations and trade-offs surrounding surveillance technologies, highlighting the balance needed between safety and privacy.\n\n- **Economic Shift and Journalism**: The role of journalists in the evolving economic landscape, especially regarding cross-subsidization models (like Substack), was raised. This discussion touched on the integration of humanity in the news industry amidst economic changes driven by technological advancements.\n\n## Conclusion\nThe meeting encapsulated various viewpoints on the future of work, legal frameworks, and ethical implications of AGI, with a strong emphasis on human-centric roles in trades and the importance of protective measures for workers and communities.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1465,
+      "latencyMs": 17653,
+      "cost": 0.001464,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

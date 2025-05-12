@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 8,
+  "timestamp": "2025-05-12T18:13:31.469Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion focused on the implications of advanced AI on various sectors, specifically regarding trades, healthcare, and media.\n\n## Key Discussion Points\n\n### 1. **Trades & Labor**\n- The concept of trades being the last bastion for human involvement in the workforce was highlighted.\n- A dialogue about creating a balance between free trade and welfare systems, particularly how variations in welfare could support service workers.\n- Emphasis on the human desire for meaningful work in trades such as electricians, plumbers, and gardening.\n\n### 2. **Legal Concerns in Healthcare**\n- Noted significant legal pushback surrounding the integration of AI into the healthcare sector.\n- Specific regulations and standards governing personal data in healthcare could impact AI implementation.\n\n### 3. **Defense Against AI Integration**\n- The need for a rapid uptake in defenses against potential negative impacts of advanced AI was underscored.\n- The possibility of a political movement emerging to protect jobs from displacement by AGI (Artificial General Intelligence) was discussed.\n\n### 4. **Union Bargaining**\n- The role of unions in bargaining for workers' rights amid increasing automation and AIrelated job insecurity was a significant part of the discussion.\n  \n### 5. **Trade-offs with Privacy and Surveillance**\n- Mention of \"teddy bears\" metaphorically representing the trade-offs between surveillance and safety/security in the context of advancing technology.\n\n### 6. **Media Landscape and Economic Models**\n- Conversations on the evolving relationship between news journalism and economic viability, including discussions about cross-subsidizing journalistic efforts through platforms like Substack.\n- Concerns about maintaining humanity in journalism amid economic pressures and rapid technological change.\n\n### 7. **Future Outlook**\n- An anticipation of economic changes driven by AI, raising questions about job security across various sectors.\n- Discussion on how the interactions between established companies and evolving regulations could result in resistance to rapid AI integration.\n\n## Conclusion\nThe meeting concluded with a collective understanding of the multifaceted challenges and considerations presented by AI advancements, especially in labor-intensive sectors like trades and healthcare, as well as the implications for the media landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1578,
+      "latencyMs": 19381,
+      "cost": 0.0017189999999999998,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

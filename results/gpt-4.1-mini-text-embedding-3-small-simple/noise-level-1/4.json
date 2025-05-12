@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 135,
+  "timestamp": "2025-05-12T18:17:12.460Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Human Element**  \n  The discussion emphasized the importance of balancing free trade with a welfare state that supports affected workers, especially in service roles. The goal is to maintain jobs that offer meaning and salience to people, ensuring that human involvement remains central despite automation advancements.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare is anticipated to face strong legal and regulatory challenges to AI adoption due to personal data handling and existing strict standards. There is a likelihood of political movements aiming to freeze certain jobs to address ethical and societal concerns about rapid AI deployment.\n\n- **Fast Uptake and Defense Mechanisms**  \n  There is potential for rapid AI adoption but also unpredictable political forces pushing back to protect human jobs. Successful transitions require examples of effective integration that avoid abrupt disruptions and preserve social stability.\n\n- **Unions and Bargaining Power**  \n  The conversation hinted at the importance of collective bargaining and unions in representing workers' interests as automation progresses. Human proxies making deals on behalf of large pools of capital reflect a continuing need for negotiated labor terms within an AI-driven economy.\n\n- **\"Teddy Bears\" and Surveillance Trade-Off**  \n  AI-integrated consumer products (likened to \"AI teddy bears\") are expected to become widespread, particularly among children, raising questions about surveillance and data privacy trade-offs inherent in these technologies.\n\n- **News, Journalism, and Cross-Subsidy Models**  \n  Journalism's evolving economic models, including platforms like Substack, were discussed in relation to maintaining humanity and meaning in reporting amidst AI-generated content. There is an interest in sustaining journalistic integrity through alternative funding and cross-subsidizing strategies.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1486,
+      "latencyMs": 11935,
+      "cost": 0.0009988000000000002,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

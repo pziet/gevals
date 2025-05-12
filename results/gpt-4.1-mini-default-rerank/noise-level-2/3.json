@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 349,
+  "timestamp": "2025-05-12T18:28:51.657Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**: Trades such as electricians, plumbing, gardening, and other artisanal jobs may be among the last to be fully automated by AGI. These roles retain a strong human face and are valued for their artisanal, hands-on nature.\n\n- **Legal and Regulatory Pushback in Healthcare**: There is a significant likelihood of legal movements aimed at protecting jobs, analogous to protections found in law and medicine, especially against strong AGI disruption.\n\n- **Fast Uptake in Defense and Other Sectors**: Some sectors, such as defense, might experience rapid adoption of AGI, potentially leading to faster economic and political adjustments.\n\n- **Unions and Bargaining Power**: Political forces, including unions, may push to protect significant portions of existing jobs to safeguard workers' interests as automation advances.\n\n- **Surveillance and Trade-offs (Teddy Bears Metaphor)**: There may be inherent trade-offs between surveillance and privacy in new technologies, with symbolic references such as \"teddy bears\" representing comfort versus oversight.\n\n- **Journalistic Integrity and Cross-Subsidies**: The news industry, including journalism platforms like Substack, may rely on cross-subsidies to maintain humanity and credible reporting in the face of economic pressures from automation and AI.\n\n- **Welfare State as a Bargain for Service Workers**: A generous welfare state might be necessary to underpin free trade and serve as a social safety net for service workers displaced by technological change. This welfare state helps maintain societal acceptance of free trade by providing economic security.\n\n- **Economic Richness Offsets Job Displacement**: Despite job displacement by AI, increased overall economic wealth might cushion the impact on individuals, making transitions more palatable and life relatively familiar.\n\n- **Human Preference for Meaningful Work**: Humans desire meaningful and salient work, which might influence which jobs are preserved or transformed in the AI economy.\n\n- **Political Movements to Protect Jobs**: There is a probable emergence of political efforts aimed at preserving at least part of the existing workforce from automation to maintain social stability.\n\nThese points collectively highlight the interplay of trade, welfare policies, economic change, and political dynamics in the era of advancing AI technologies.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3149,
+      "latencyMs": 27700,
+      "cost": 0.0034668,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 180,
+  "timestamp": "2025-05-12T18:18:36.757Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from the Meeting\n\n- **Trades and Human Element**  \n  Trades such as electricians, plumbers, and gardening are likely to be among the last sectors significantly affected by AGI, due to the strong human preference for face-to-face commerce and artisanal work. Human proxies often mediate deals, especially for larger pools of capital.\n\n- **Legal and Regulatory Pushback in Healthcare**  \n  Healthcare is expected to encounter strong legal and regulatory resistance in adopting AGI, notably because of personal data handling standards and regulations. There may be significant political movements to protect a large fraction of current jobs in healthcare and other sensitive domains from automation.\n\n- **Rapid Uptake in Defense Sector**  \n  Although not detailed extensively, there is an indication that sectors like defense might see fast adoption of AGI technologies given strategic interests.\n\n- **Unions and Bargaining Power**  \n  Economic shifts driven by AGI might provoke political and social movements, including union-driven bargaining to protect workers' interests amid disruption.\n\n- **Surveillance Trade-Offs and “Teddy Bears” Metaphor**  \n  A possible reference to balancing surveillance and privacy concerns versus the benefits of technological advances, possibly indicating the trade-offs society must navigate in implementing AI systems.\n\n- **News Media and Journalism**  \n  Traditional journalism is facing cross-subsidy challenges with new media platforms like Substack emerging. The role of humanity and authentic human storytelling remains crucial in this sector, despite technological advancements.\n\n- **Welfare State as a Bargain for Free Trade**  \n  The discussion touched on the idea that a generous welfare state may be necessary to maintain acceptance of free trade and technological change, serving as a social safety net as economic structures shift.\n\n- **Transparency and Transition Examples**  \n  Companies and customers building AI technology need to generate positive examples of good transitions to mitigate resistance and political backlash related to economic changes.\n\nThese points capture the multifaceted discussion on how AGI and AI advancements will impact different sectors, the human roles that remain crucial, legal and societal resistance, and potential economic and social frameworks to support the transformations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1561,
+      "latencyMs": 14950,
+      "cost": 0.0011296000000000001,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

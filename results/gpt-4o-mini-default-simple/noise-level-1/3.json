@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 254,
+  "timestamp": "2025-05-12T18:25:59.151Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n1. **Trade Dynamics and Social Welfare**\n   - Discussion on the relationship between free trade and a robust welfare state, suggesting that a welfare state may help mitigate the potential negative impacts of free trade for service workers.\n   - Emphasis on the need for clear examples of successful transitions as economies evolve in response to technological changes.\n\n2. **Healthcare and Legal Challenges**\n   - Noted potential legal pushbacks in the healthcare sector, particularly regarding personal data management and standards.\n   - Concerns about political movements aiming to preserve existing jobs (e.g., in healthcare), which may conflict with advancements in AGI.\n\n3. **Labor and Union Dynamics**\n   - Examination of the role of unions and bargaining power in the face of rapid technological advancement, advocating for job protection strategies.\n\n4. **AI Surveillance and Ethical Trade-offs**\n   - Mentioned the concept of \"AI teddy bears\" as a metaphor for future benign AI interactions in daily life.\n   - Discussion on the balance between technological surveillance and ethical considerations, implying a trade-off that needs to be navigated carefully.\n\n5. **Journalism and Economic Models**\n   - Concerns about the sustainability of journalism, particularly regarding cross-subsidy models and the role of platforms like Substack in maintaining journalistic integrity and humanity.\n   - Acknowledgement of the economic pressures on journalism and the need for innovative business models.\n\n### Additional Notes\n- The conversation highlighted the imminent challenges posed by AGI and the necessity for societal frameworks to adapt to these changes.\n- Participants expressed a strong preference for human mediation in automatic transactions made by large organizations, underscoring the importance of keeping a human element in economic dealings. \n\n### Conclusion\nThe meeting underscored the intersection of technology, economics, labor rights, and ethics, indicating a need for ongoing dialogue as society navigates these complex dynamics.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1533,
+      "latencyMs": 11333,
+      "cost": 0.001611,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

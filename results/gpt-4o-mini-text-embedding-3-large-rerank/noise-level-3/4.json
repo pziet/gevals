@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 65,
+  "timestamp": "2025-05-12T18:15:20.842Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe meeting focused on the impact of AI on the economy, particularly within the context of various labor sectors and the ongoing legal and ethical discussions surrounding these changes.\n\n## Key Topics Discussed\n\n1. **Trades and Human Element**  \n   - There is an emphasis on the preservation of artisanal and skilled trades, such as electricians and plumbers. The human aspect in these jobs is considered crucial, suggesting a desire for a \"human face\" in professions that are often impacted by automation.\n\n2. **Legal Challenges in Healthcare**  \n   - The group discussed potential legal pushback regarding the integration of AI in healthcare, highlighting concerns about ethical implications and the protection of jobs within this sector.\n\n3. **Rapid Adoption in Defense**  \n   - Fast uptake of AI technologies in the defense sector was noted, prompting discussions about both the opportunities and risks involved.\n\n4. **Role of Unions**  \n   - The importance of unions in bargaining for workers' rights amidst technological advancements was emphasized. There may be an increased demand for unions to advocate for fair treatment as jobs evolve or become obsolete.\n\n5. **Surveillance and Trade-offs**  \n   - Interesting insights were shared regarding \"teddy bears\" as a metaphor for surveillance systems, reflecting on the trade-offs between privacy and the benefits that such technologies can provide in improving safety.\n\n6. **Media and Economic Reporting**  \n   - Discussions included the role of journalists in the changing economic landscape and the concept of \"cross-subsidy\" in journalism, particularly with the rise of platforms like Substack. The importance of retaining a sense of humanity in reporting amidst technological advancements was highlighted.\n\n## Conclusion\nOverall, the meeting captured a multifaceted view of how AI is reshaping various aspects of the economy and labor market, emphasizing the need to balance innovation with ethical considerations and human-centric approaches.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3056,
+      "latencyMs": 25053,
+      "cost": 0.0038117999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

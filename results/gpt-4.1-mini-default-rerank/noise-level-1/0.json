@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 351,
+  "timestamp": "2025-05-12T18:29:01.081Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Last, Human Face**  \n  The discussion touched on the concept of balancing free trade with the protection of workers, framing it as a kind of welfare state that still allows people autonomy and meaningful work. The idea is that despite economic changes and automation, people desire salience and purpose in their roles.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare was highlighted as a sector likely to experience legal resistance to automation and AI implementation. This is due to regulatory standards around personal data and established protections similar to those in law and medicine, which may slow technological adoption.\n\n- **Fast Uptake and Defense Mechanisms**  \n  There is potential for a political and social movement aiming to \"freeze\" certain job categories, especially human jobs, as a defense against rapid AI-driven economic changes. This may involve bureaucratic or legal barriers to protect jobs and manage the political challenges that arise from powerful AI technologies advancing quickly.\n\n- **Unions and Bargaining Power**  \n  The implications for labor unions and their role in negotiating and protecting workers in the evolving landscape were noted. As AI changes job markets, unions may become instrumental in advocating for workers and managing transitions.\n\n- **Teddy Bears and Surveillance Trade-offs**  \n  A metaphor introduced was the \"AI teddy bears,\" representing forms of entertainment or AI-driven products that bring comfort or companionship, possibly involving trade-offs related to surveillance or data privacy. This concept illustrates the nuanced societal acceptance of AI-enabled devices that combine utility with human connection.\n\n- **News, Journalists, and Cross-Subsidy Models**  \n  The conversation also covered the challenges facing journalism, emphasizing the need for financial models (such as those like Substack) that subsidize journalism while preserving humanity and quality. This reflects broader concerns about sustaining meaningful professions in an automated economy.\n\nThese enhanced notes integrate the session’s key topics around balancing automation with human-centric values, legal and political responses to AI impacts, and societal adaptations in culture and work.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3144,
+      "latencyMs": 24254,
+      "cost": 0.003449,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

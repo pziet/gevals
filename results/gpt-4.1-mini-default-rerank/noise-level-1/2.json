@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 353,
+  "timestamp": "2025-05-12T18:29:04.770Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs in AI and Economy**  \n  Discussion around the political will and legal frameworks to protect a substantial portion of existing jobs from displacement by advanced AI technology. There is a high chance of political movements aiming to freeze certain human jobs in \"bureaucratic amber\" to manage the rapid changes caused by AI advancements, especially in sensitive sectors like law and medicine.\n\n- **Legal and Healthcare Sector Resistance**  \n  Healthcare poses particular challenges due to legal pushbacks involving personal data handling and established standards, which may slow down AI integration in this field. The legal and bureaucratic complexity surrounding healthcare could act as a barrier against rapid AI adoption.\n\n- **Rapid Uptake in Defense and Other Sectors**  \n  Certain sectors, such as defense, may experience faster uptake of AI technologies, driven by political and economic pressures.\n\n- **Unions and Workers' Bargaining Power**  \n  There is an anticipation of unions playing a significant role in bargaining to protect workers' rights and jobs amid these technological changes, potentially influencing policy and legislation.\n\n- **Human Element and Surveillance Trade-offs**  \n  The metaphor of \"teddy bears\" symbolizes the human face or the comforting, relatable aspect of work and technology that may be at risk due to increased surveillance and AI oversight. This points to societal trade-offs between privacy, security, and human dignity.\n\n- **Media and Journalism Funding Models**  \n  Discussion on the role of journalists and the challenges of sustaining news media in the AI era, including the possibility of cross-subsidization models such as through platforms like Substack. Maintaining humanity in journalism—preserving the human perspective—is emphasized as essential.\n\n- **Economic and Social Welfare Considerations**  \n  The notion that a generous welfare state or social safety net could be necessary to balance the effects of freer trade and AI-driven economic changes. Such systems might offer a bargain that allows for freer trade and technological progress while maintaining social stability and meaning in work.\n\nThese themes highlight the complex political, legal, and social dynamics shaping the impact of advanced AI on the economy and society.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3140,
+      "latencyMs": 23213,
+      "cost": 0.0034474,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

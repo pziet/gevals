@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 62,
+  "timestamp": "2025-05-12T18:15:17.068Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe meeting discussed the intersection of technology, labor, and the implications for various sectors, particularly in healthcare, unions, and media.\n\n### Key Topics Discussed\n\n- **Trades and Human Face**\n  - Emphasis on the enduring importance of trades and skilled labor, highlighting how new technologies may reshape these sectors while still requiring a human touch.\n\n- **Legal Pushback in Healthcare**\n  - Discussion regarding potential legal challenges facing the healthcare sector, particularly as new technologies are integrated.\n\n- **Fast Uptake in Defense Sector**\n  - Notable rapid adoption of advanced technologies and AI in defense, potentially reshaping workforce requirements.\n\n- **Union Bargaining**\n  - Unions are expected to play a critical role in negotiating the protections and rights of workers in the face of technological advancement.\n\n- **Teddy Bears vs. Surveillance Trade-Off**\n  - A metaphorical discussion on the balance between comfort (represented by teddy bears) and the invasive nature of surveillance technology, raising ethical considerations.\n\n- **Media, Journalism, and Cross-Subsidy**\n  - Consideration of how journalism is adapting in the age of new platforms like Substack, focusing on the need for financial models that support quality journalism while maintaining humanity in reporting. \n\n### Additional Insights\n- The meeting touched on the broader economic implications of AI and technological advancements, particularly how they could create new forms of work and influence traditional employment structures.\n  \n- A recognition of the need for thoughtful transitions in labor as society adapts to these changes, with specific concern about political movements that may arise to protect existing jobs amidst rapid technological evolution.\n\n--- \n\nThese notes encapsulate the major points from the meeting while keeping the focus on implications for trades, legal frameworks, labor relations, and media ethics.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 2974,
+      "latencyMs": 23954,
+      "cost": 0.0036726,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

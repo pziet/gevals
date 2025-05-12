@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 3,
+  "timestamp": "2025-05-12T18:13:31.533Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n- **Trades and Human Element**:\n  - The importance of trades, particularly artisanal and skilled trades such as electricians and plumbing, in the context of the evolving economy due to AI technology.\n  - Discussion on how these trades may retain a human face, emphasizing the necessity of interpersonal skills and personal touch in certain sectors.\n\n- **Healthcare and Legal Aspects**:\n  - Anticipated legal pushback regarding healthcare, likely arising from changes driven by AI and economic shifts.\n  - Consideration of the moral and operational implications as healthcare becomes increasingly automated.\n\n- **Rapid Uptake of Defense Technologies**:\n  - Observation of a fast uptake in defense-related technologies as AI capabilities expand, potentially reshaping industries and job markets.\n\n- **Labor Unions and Bargaining Power**:\n  - Discussion about the evolving role of unions in bargaining for workers' rights in the face of technological change and job displacement.\n  - Consideration of whether a robust welfare state may become necessary to support displaced workers.\n\n- **Surveillance vs. Personal Privacy**:\n  - The metaphorical use of \"teddy bears\" to illustrate concerns over surveillance and the trade-offs between safety and personal privacy in an AI-driven society.\n\n- **Journalism and Human Element**:\n  - Insights into the evolving landscape of journalism, including the role of cross-subsidization in maintaining quality and humane reporting amidst a shift towards digital platforms like Substack.\n  - Reflections on how journalism can remain connected with humanity while utilizing advanced technologies.\n\n## Additional Insights\n\n- **Potential for Political Movements**:\n  - Predictions about the emergence of political movements aimed at preserving certain jobs amidst rapid technological changes, potentially leading to a freeze on certain human jobs.\n\n- **Future of Employment**:\n  - Speculation on new job opportunities that may arise from AI, including positions that involve managing AI systems, which may blend technical proficiency with creative problem-solving skills.\n  \n- **Economic Index and Predictions**:\n  - Mention of the Prophets Economic Index, aimed at measuring the effects of advanced AI on the U.S. economy and informing future labor market dynamics.\n\nOverall, the discussions highlighted the significant transformations in the workforce and industries due to AI, emphasizing the need for careful consideration of the societal implications, especially concerning labor rights and personal privacy.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1617,
+      "latencyMs": 19444,
+      "cost": 0.0018197999999999999,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 277,
+  "timestamp": "2025-05-12T18:26:54.297Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe meeting discussed various implications of advanced AI on different sectors, including the economy, labor negotiations, and ethical considerations.\n\n## Key Topics Discussed\n\n- **Human Impact on Trades**: \n  - The last areas where AGI will impact significantly include artisanal jobs and trades, such as electricians, plumbing, and gardening. \n\n- **Legal Concerns in Healthcare**: \n  - Advanced AI may face substantial legal challenges, particularly within the healthcare sector due to existing regulations and personal data handling standards.\n\n- **Rapid Adoption in Defense**: \n  - There is a noted fast uptake of AI technologies within the defense sector, which may prompt discussions regarding ethics and legality.\n\n- **Union Negotiations**: \n  - The potential for unions to bargain over AI's impacts on job security and labor conditions was highlighted.\n\n- **Ethical Dilemmas in Surveillance**: \n  - A discussion around \"teddy bears\" symbolizing comforting aspects versus the reality of surveillance and the trade-off between utility and privacy.\n\n- **Media and Humanity**: \n  - The role of news, journalism, and platforms like Substack in supporting humanity was explored, especially in the face of cross-subsidies within the industry.\n\n### Additional Notes\n- The meeting underscored the need for balance between technological advancements and ethical considerations, particularly in sectors that significantly affect human roles and privacy.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 2956,
+      "latencyMs": 25364,
+      "cost": 0.0035843999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

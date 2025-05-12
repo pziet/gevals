@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 110,
+  "timestamp": "2025-05-12T18:16:37.966Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade Dynamics and Human Element**  \n  The discussion emphasizes that trade last, meaning its effects and negotiations have lasting impacts. Despite automation and AI, there is still a value in the human face of trade—genuine human interactions remain important in economic exchanges.\n\n- **Legal and Ethical Challenges in Healthcare**  \n  Healthcare is identified as a sector where legal pushback and standards around personal data significantly influence AI adoption and deployment. Standardization and regulations could act as barriers or guiding frameworks for AI integration.\n\n- **Defense of Fast AI Adoption**  \n  There is an argument in favor of the rapid uptake of AI technologies, possibly as a strategic defense mechanism. The goal is to balance swift implementation with minimizing potential societal disruptions.\n\n- **Union Influence and Bargaining**  \n  Unions play a role in negotiating the impact of AI and automation on workers, indicating that collective bargaining could shape how AI integration unfolds within industries.\n\n- **Surveillance Trade-offs and Consumer Comfort (Teddy Bears)**  \n  The analogy of teddy bears symbolizes the trade-off between surveillance and comfort/security. AI and surveillance technologies may be accepted if they provide meaningful benefits, akin to comforting or familiar objects.\n\n- **Media, Subscriptions, and Humanity**  \n  Current news and journalism operate within a cross-subsidy model, raising issues of human-centric value and ethics. Substack and similar platforms illustrate how media innovation affects the dissemination of human stories and information.\n\n- **Long-lasting Trade and Human-Centric Focus**  \n  Despite technological advances, many trades retain their artisan quality, such as electricians or gardeners. These trades are likely to be affected differently by AI, predominantly in highly manual or artisanal tasks.\n\n- **Legal Protections for Jobs and AI's Impact**  \n  There is concern about potential political movements advocating laws similar to those in healthcare and law, aimed at protecting certain jobs from automation. This reflects societal efforts to balance AI advancement with employment security.\n\n- **The Role of Human Proxies and Deal-Making**  \n  AI systems will likely operate through human-mediated deals, with significant use of proxies for large organizations. Legal and regulatory frameworks will be central in defining where AI encounters the strongest legal and ethical boundaries.\n\n- **Economic Impacts and the Future of Work**  \n  Advanced AI, especially AGI, is expected to influence the economy strongly, particularly in trades and artisanal sectors. The contribution of AI may lead to higher prices in some sectors due to proprietary standards and data privacy concerns, notably within healthcare.\n\n- **Transition and Evidence of Economic Change**  \n  Achieving smooth transitions requires demonstrating effective examples of adaptation. Lack of evidence of successful change could lead to societal or political breakdowns, underscoring the importance of showcasing positive examples.\n\n- **Public Perception and Preparedness**  \n  The overall readiness to protect jobs and manage economic shifts depends on generating sufficient evidence of successful transitions. Without such evidence, societal resistance and political movements aiming to safeguard existing employment could intensify.\n\n---\n\n**Summary:**  \nThe discussion covers the enduring nature of trade, the importance of human elements in economic exchanges, legal and ethical issues especially in healthcare, and the societal responses to AI's rapid adoption. It highlights the significance of artisanship, legal protections, and the need for positive transition models to build trust and manage the societal impacts of AI advancements.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3356,
+      "latencyMs": 27073,
+      "cost": 0.0027160999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

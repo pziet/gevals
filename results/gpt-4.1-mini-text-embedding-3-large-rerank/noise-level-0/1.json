@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 197,
+  "timestamp": "2025-05-12T18:19:22.863Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Impact of AGI on Trades and Economy\n- Trades and artisanal jobs (e.g., electricians, plumbing, gardening) are expected to be the last sectors significantly affected by AGI.\n- These \"trades\" have a strong human element or \"human face,\" which may delay automation or AGI replacement.\n- The transition to AGI-driven economy needs good examples of how to manage change without harming workers.\n\n## Legal and Regulatory Challenges\n- There is notable legal pushback surrounding healthcare sectors due to privacy and data standards, making healthcare a difficult area for AGI penetration.\n- The handling of personal data and existing legal frameworks in healthcare require significant adaptations to integrate AGI technologies.\n- Strong legal obstacles may arise where human proxies negotiate on behalf of large automated capital pools.\n\n## Role of Unions and Bargaining Power\n- Unions will continue to play a key role in bargaining and protecting workers during the transition to AGI-driven economic changes.\n- There is potential for political movements aiming to protect a significant portion of existing jobs via laws similar to those governing law and medicine against strong AGI.\n\n## Welfare State and Economic Bargains\n- A robust welfare state may be necessary to support free trade and AGI-driven economic shifts.\n- The welfare state is envisioned as part of a \"bargain\" to help workers transition amidst broader economic changes, providing social safety nets.\n- The goal is to maintain a sense of familiarity and economic security for people despite technological disruptions.\n\n## Surveillance Trade-offs and Humanism in News Media\n- Surveillance and privacy trade-offs are being discussed in the context of technological adoption and human impacts.\n- News and journalism are facing financial challenges; journalists may rely on cross subsidies or platforms like Substack to sustain their work.\n- Maintaining humanity and human values in media and economic systems is an ongoing concern.\n\n---\n\nThese notes summarize key themes around economic, legal, social, and technological changes driven by AGI, focusing on human-centered trade impacts, regulatory barriers, union roles, welfare state functions, and the balance between surveillance and humanity in media.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3137,
+      "latencyMs": 25304,
+      "cost": 0.0034507999999999995,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 4,
+  "timestamp": "2025-05-12T18:13:29.479Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Topics\n\n- **Economic Changes and Worker Protection**\n  - There may be a political movement aimed at protecting jobs as AI technologies rapidly evolve.\n  - Concerns were raised about whether the welfare state serves workers efficiently in this context.\n\n- **Job Market and AI Integration**\n  - Certain trades and artisanal jobs (like electricians and plumbers) are expected to fare better in the AI-driven economy.\n  - New job opportunities may arise from the need for creative roles that manage and utilize AI systems.\n\n- **Healthcare and Legal Challenges**\n  - Discussion on potential legal pushback related to healthcare and labor due to advancements in AI.\n\n- **Union Bargaining**\n  - The role of unions in negotiating worker rights and protections amidst these changes was emphasized.\n\n- **Surveillance and Privacy Trade-offs**\n  - The conversation highlighted the ethical implications regarding surveillance, using \"teddy bears\" as a metaphor for trade-offs between safety and privacy.\n\n- **Media and Journalism**\n  - The concept of cross-subsidization in journalism was discussed, focusing on maintaining humanity in reporting amidst economic challenges faced by news organizations.\n  - Platforms like Substack were mentioned as part of the evolving media landscape. \n\n## Conclusion\n\nThe meeting covered a spectrum of topics relating to the impacts of AI on the economy, labor markets, ethical considerations in surveillance, and the evolving landscape of journalism. The discussions indicated a deep concern for worker protection and the potential socio-economic shifts that may occur as AI technologies continue to develop.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1451,
+      "latencyMs": 17370,
+      "cost": 0.0014214,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

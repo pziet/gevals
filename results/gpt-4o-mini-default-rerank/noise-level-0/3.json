@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 279,
+  "timestamp": "2025-05-12T18:26:56.300Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n- **Work and Job Preservation**\n  - The concept that specific trades and artisanal jobs (like electricians and plumbers) may be the last sectors affected by advancements in AGI.\n  - The potential for political movements advocating for job protections to emerge as AGI develops, possibly leading to legislation that safeguards specific professions, similar to laws in medicine.\n\n- **Healthcare Sector**\n  - Legal challenges related to the integration of AGI in healthcare, particularly concerning personal data and established standards.\n  - A discussion on the economic implications of AGI in healthcare, potentially leading to unions and bargaining for worker protections in the face of technological advancements.\n\n- **Economic Changes and Worker Protections**\n  - A strong likelihood that significant economic changes driven by AGI will prompt a movement to protect workers across various domains.\n  - The idea that a generous welfare state might be necessary to facilitate free trade and support transitioning workforce, especially in the service sector.\n\n- **Surveillance and Personal Data Trade-offs**\n  - Deliberations on ethical considerations, including surveillance measures (e.g., “teddy bears”) as a trade-off against privacy concerns.\n  \n- **Media and Journalism**\n  - The evolution of journalism amid tech advancements and the potential for cross-subsidization in the news industry through platforms like Substack.\n  - Discussions about the importance of maintaining a human face in journalism and how recent changes might impact traditional media outlets.\n\n## Conclusion\nOverall, the meeting highlighted critical intersections between AGI, economic transformation, social welfare frameworks, and evolving occupational landscapes. The discussions underscored the significance of proactive strategies to mitigate adverse impacts on workers while embracing technological change.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3076,
+      "latencyMs": 26086,
+      "cost": 0.0038129999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

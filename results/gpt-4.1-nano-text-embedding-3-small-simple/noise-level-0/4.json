@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 100,
+  "timestamp": "2025-05-12T18:16:10.888Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Like Exchange and AI Impact\n- Emphasis on maintaining personal, human faces in trades, fostering trust and relationships.\n- Certain artisanal and trade sectors (electricians, plumbers, gardening) are expected to be affected last by AGI, particularly in more manual, craft-based work.\n- The most affected sectors are likely to be back-end and desk-bound parts of the service industry, where AI can automate processes with minimal human visibility.\n\n## Legal and Regulatory Challenges\n- Significant legal pushback expected in healthcare, notably around personal data handling and standards that will need to evolve with AI advancements.\n- Governments may face obstacles in regulating AGI, with resistance likely from large established companies, even more than from government actors themselves.\n- Legal hurdles may intensify for sectors involving healthcare, personal data, and areas requiring strict standards.\n\n## Defense and Trade-offs\n- Rapid adoption of AI could lead to new defense strategies, possibly involving safeguards around trade and labor.\n- Potential trade-offs, such as surveillance versus privacy (e.g., \"teddy bears\" as surveillance trade-offs), highlight tensions between security and personal freedom.\n\n## Workforce and Economic Protection\n- Possible political movements aiming to protect a significant portion of the current jobs through laws similar to those in law and medicine, especially against entities like strong AGI.\n- The importance of evidence and demonstrating successful transitions to avoid systemic breakdowns is critical. \n- Larger economic changes may trigger protective policies, especially for service workers and sectors that manage human data and personal information.\n\n## Media, Journalism, and Commerce\n- Cross-subsidization in news and journalism (via platforms like Substack) reflects changing human-machine dynamics in content creation.\n- Humans will continue to prefer relationships mediated by people, particularly in commerce, favoring deals made on behalf of larger pools of capital through proxies.\n\n## Future of AI in Economy\n- AGI is expected to impact the economy last in areas requiring artisanal judgment and complex trades.\n- The intersection of AI with art and creative industries involves orchestration by artists working with large teams.\n- The transmission and laundering of AI-generated information into human systems will be a key challenge, balancing transparency and privacy.\n\n## Summary\n- The interplay of AI, legal frameworks, economic sectors, and personal data will shape how trust, regulation, and commerce evolve in an AI-driven future.\n- Protecting traditional human roles while integrating AI is a central concern, with attention to sectors most resistant or vulnerable to automation and legal resistance.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1644,
+      "latencyMs": 12717,
+      "cost": 0.00031560000000000003,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 153,
+  "timestamp": "2025-05-12T18:18:00.231Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Human Element in Trades**: Discussions highlighted that trades and work will still retain a human face despite increasing AI involvement, maintaining familiar social and economic structures.\n\n- **Legal Pushback in Healthcare**: There is notable resistance in sectors like healthcare and law, where legal frameworks strongly protect human jobs, creating significant obstacles to AI integration.\n\n- **Fast Uptake in Defense Sector**: The defense sector is anticipated to adopt AI technology rapidly, contrasting with slower uptake in highly regulated fields.\n\n- **Role of Unions and Bargaining**: Unions are expected to play a crucial role in negotiating the impact of AI on jobs, potentially bargain to preserve certain job protections as part of the political response.\n\n- **Surveillance Trade-Off and Privacy Concerns**: A metaphor involving \"teddy bears\" referred to the trade-off between surveillance and privacy, reflecting societal concerns about data standards and personal privacy in AI deployment.\n\n- **Journalism and Media Economics**: The sustainability of journalism might rely on new economic models, including cross-subsidies and platforms like Substack. Maintaining the humanity and salience of news content is essential as AI transforms media.\n\n- **Policy Implications**: The need for generous welfare provisions was discussed to balance the benefits of freer trade along with AI advancements, ensuring social stability and meaningful work for service workers.\n\nThese points outline the multifaceted challenges and opportunities as AI technologies advance, emphasizing legal, social, and economic considerations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 2948,
+      "latencyMs": 22448,
+      "cost": 0.0031538,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

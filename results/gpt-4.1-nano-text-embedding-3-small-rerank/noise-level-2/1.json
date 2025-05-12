@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 107,
+  "timestamp": "2025-05-12T18:16:30.967Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- Trade and human-centric approaches: Emphasis on maintaining human interaction (\"trades last, human face\") to ensure continued relevance and value in the labor market.\n\n- Legal and regulatory response: Expectations of legal pushback in healthcare and other sectors as AI and automation progress, with particular attention to the regulation of AGI and its applications.\n\n- Defense of existing systems: Fast uptake of new technologies may encounter resistance from established legal and societal frameworks; the importance of protecting workers and maintaining fair bargaining, especially through unions.\n\n- Trade-offs and surveillance: Consideration of societal trade-offs, such as using surveillance (\"teddy bears\") to balance security, privacy, and economic interests.\n\n- Media, journalism, and subsidization: Challenges faced by journalism and independent media (\"news, journalist cross subsidy\") in adapting to technological changes; discussions around funding models like Substack and the human element in media.\n\n- Welfare state implications: Discussions suggest a need for a generous welfare system (\"welfare state\") to support workers amid economic transformations driven by AI and automation, akin to an expanded safety net for service workers.\n\n- Artisanal trades and economic impact: AGI is likely to significantly affect artisanal and trades-based sectors (e.g., electricians, plumbing, gardening), shaping the future of skilled manual labor.\n\n- Worker protection and economic stability: Larger economic shifts may prompt increased desire for protective measures, though some outcomes might be beneficial (\"the very best outcome\") if properly managed.\n\n- Legal and policy environment for AGI: Legal frameworks are initially resistant (\"opposition from the law\") but may adapt over time, particularly for automated organizations handling pools of capital, with large legal firms possibly facing obsolescence.\n\n- Cross-sector impact: Certain work requiring human interaction (e.g., negotiations, sales) may be less affected by automation, but desk-bound and agreement-heavy jobs are more vulnerable.\n\n- Overall theme: The meeting discussed balancing technological progress with societal safeguards, emphasizing trade, legal regulation, worker protections, and the societal impacts of AGI on economic and media landscapes.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3216,
+      "latencyMs": 22736,
+      "cost": 0.0027604,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

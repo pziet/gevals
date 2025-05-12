@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 264,
+  "timestamp": "2025-05-12T18:26:25.624Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Focus on the impact of Advanced AI on various industries and sectors, particularly trades, healthcare, and media.\n\n## Key Topics Discussed\n\n### Economic Impacts\n- **Trades & Artisanal Jobs**: There is an increasing relevance of trades (e.g., electricians, plumbers) in the context of AI's impact on the economy. The discussion noted that certain trades hold high status and skill levels that may be favored even in an AI-dominated landscape.\n\n### Legal and Social Considerations\n- **Legal Pushback in Healthcare**: Participants discussed potential legal challenges surrounding healthcare and AI integration, emphasizing the need for careful regulation.\n- **Unions and Bargaining**: The role of unions in negotiating terms that protect jobs in the wake of AI adoption was highlighted. \n\n### Quick Adoption in Defensive Sectors\n- **Fast Uptake in Defense**: The meeting underscored the rapid adoption of AI technologies in defense-related industries, raising questions about long-term impacts on workforce dynamics.\n\n### Ethical Considerations\n- **Surveillance and Trade-offs**: There was a noteworthy mention of the ethical implications involving surveillance practices, likened to the “teddy bears” metaphor, which suggests comfort and security are sometimes traded off against privacy.\n\n### Media and Humanity\n- **Journalism and Cross-Subsidy**: The discussion included implications for journalism, emphasizing how platforms like Substack could foster a cross-subsidy, allowing for more humane and personal journalism amidst the rise of AI.\n\n## Conclusion\nThe meeting wrapped up with an acknowledgment of the multifaceted challenges and opportunities posed by AI across different sectors, emphasizing the need for a balanced approach that considers both economic and ethical dimensions.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3045,
+      "latencyMs": 26501,
+      "cost": 0.0037709999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

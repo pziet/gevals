@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 320,
+  "timestamp": "2025-05-12T18:27:59.891Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- Economic impact of AGI will likely affect last in artisanal and trades sectors such as electricians, plumbing, gardening, and professions requiring manual or human-centric skills, emphasizing the \"trades last\" thesis.\n- Legal and regulatory frameworks face significant challenges, especially in sensitive areas like healthcare, where data standards and privacy laws will need substantial updates to accommodate AI advancements.\n- There is a political push for protecting jobs through legislation similar to healthcare laws, aiming to safeguard a portion of the current workforce from displacement by AGI.\n- The defense of existing jobs and human-centric industries involves balancing economic efficiency with societal needs, which triggers debates on welfare states and social safety nets.\n- Unions and collective bargaining remain relevant in negotiating the trade-offs involved with surveillance, automation, and AI deployment in workplaces.\n- Media and news organizations may experience cross-subsidization and shifts—such as in Substack and journalism—highlighting the human versus AI trade-off in information dissemination and the importance of maintaining humane and journalistic integrity.\n- Concerns about surveillance trade-offs, privacy, and data handling are central as AI systems integrate deeper into daily life and industry.\n- Fast uptake of AI technologies is countered by defense mechanisms, regulations, and societal resistance to rapid change.\n- Overall, the discussions emphasize the importance of maintaining human face and presence in trades and services, the necessity of legal safeguards, and the balancing act between technological progress and societal welfare.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3033,
+      "latencyMs": 20202,
+      "cost": 0.0026414,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

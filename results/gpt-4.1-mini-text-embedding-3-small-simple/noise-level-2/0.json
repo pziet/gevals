@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 126,
+  "timestamp": "2025-05-12T18:17:03.585Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Conversation with Jack Clark at Anthropic\n\n### Trades Last, Human Face\n- Certain trades and artisanal roles (e.g., electricians, plumbers, gardeners) are likely to be the last to be fully automated or replaced by AI.\n- These roles require hands-on skills and human interaction that AI may not easily replicate.\n- Desk-bound work involving negotiation and alignment will also likely retain human involvement.\n- A human touch remains essential in many trades, preserving a \"human face\" in work.\n\n### Legal Pushback in Healthcare\n- Healthcare is expected to experience strong legal resistance to AI automation due to complex privacy and personal data standards.\n- Regulatory frameworks in healthcare may slow down AI adoption compared to other sectors.\n- There is a high chance of political movements to protect healthcare jobs via existing stringent laws, much like those regulating law and medicine professions.\n\n### Fast Uptake and Defense Mechanisms\n- AI adoption will be rapid in many sectors, but defense mechanisms such as legal protections and union bargaining are likely to emerge.\n- The pace and extent of AI integration depend on political and social responses to economic disruptions.\n- Large companies may resist automation in certain areas to protect existing interests.\n\n### Unions and Bargaining Power \n- Worker organizations and unions may negotiate protections and bargains as AI changes the labor landscape.\n- Collective bargaining might be instrumental in shaping the conditions of AI integration.\n- The welfare state may evolve to support displaced workers and establish an equitable \"bargain\" for service workers.\n\n### Surveillance Trade-Offs and Privacy Concerns (\"Teddy Bears\")\n- A metaphorical \"surveillance trade-off\" relates to balance between AI surveillance capabilities and privacy rights.\n- Society faces choices between convenience helped by AI and increased monitoring or data use.\n- This balance will be a critical ethical and political question going forward.\n\n### News, Journalism, and Cross-Subsidy Models\n- Journalism faces financial pressures but can leverage AI to sustain quality and humanity in reporting.\n- The Substack model offers an alternative for journalists by allowing direct subscription support, potentially subsidizing human-centered journalism.\n- Cross-subsidies involving AI efficiencies could help preserve the human elements of reporting in an automated future.\n\n### Broader Reflections\n- Society may need a generous welfare state or equivalent systems to support workers displaced by AI.\n- People desire meaningful and salient work, which must be factored into AI-driven economic transitions.\n- The goal should be to create a future where AI enhances wealth and quality of life, preserving human dignity and meaningful employment.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1658,
+      "latencyMs": 13476,
+      "cost": 0.0012740000000000002,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

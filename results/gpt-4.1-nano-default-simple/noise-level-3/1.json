@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 282,
+  "timestamp": "2025-05-12T18:26:58.652Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic and Workforce Changes\n- Significant impact of AI on the economy, particularly in sectors relying on artisanal and trades work (electricians, plumbers, gardening).\n- Potential for rapid technological shifts to create entirely new job categories focused on managing, fueling, and marshalling AI systems, which will involve complex, high-skill tasks.\n- Concerns about the speed of change leading to economic upheaval and the need for adaptive policies.\n\n## Policy and Societal Responses\n- High likelihood of political movements advocating for job preservation, possibly attempting to freeze a large number of human jobs through bureaucratic measures.\n- Discussions around implementing a generous welfare state as a bargain to mitigate inequality and economic disruption, though recognizing its inefficiencies.\n- Possible long-term strategies might focus on \"playing higher status games\" enabled by AI, emphasizing creative or fun engagement rather than traditional labor.\n\n## Human-AI Interface and Surveillance\n- The importance of managing the human side of AI integration, such as laundering AI-generated information into human systems not inherently designed for it.\n- Increased surveillance trade-offs symbolized by toys like teddy bears—highlighting privacy versus safety concerns.\n\n## Legal and Ethical Challenges\n- Pushback from the legal sector against healthcare and other industries adapting rapidly to AI-driven changes.\n- Potential legal and regulatory battles as industries defend their traditional models and adapt to new AI capabilities.\n\n## Media, Journalism, and Cross-Subsidies\n- The role of journalism and media in mediating AI’s impact, including issues related to cross-subsidization and the importance of humanity in storytelling.\n- Substack and similar platforms as examples of media models emphasizing individual voices and direct engagement, allowing new forms of human expression amidst AI proliferation.\n\n## Miscellaneous\n- The ongoing tradeoff between surveillance, human privacy, and societal safety as AI technologies become more pervasive.\n- The enduring value of trades and artisan work as areas less susceptible to automation but impacted by high-skilled AI augmentation.\n- The future of work may include entirely new roles that involve creative prompts, testing AI capabilities, and ethical marshalling of AI outputs.\n\n---\n\n*These enhanced notes synthesize the key themes discussed, anchored in the initial rough notes, covering economic, policy, technological, and societal dimensions of AI’s future impact.*",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1603,
+      "latencyMs": 9315,
+      "cost": 0.0002977,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

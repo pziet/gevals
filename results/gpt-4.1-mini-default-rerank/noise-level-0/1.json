@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 357,
+  "timestamp": "2025-05-12T18:29:11.554Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Artisanal Jobs as Last to Change:** Trades such as electricians, plumbing, gardening, and other artisanal professions are expected to be among the last sectors significantly affected by artificial general intelligence (AGI). These roles retain a strong human element, maintaining a \"human face\" important for certain types of commerce and client relationships.\n\n- **Legal and Regulatory Pushback in Sensitive Areas:** There is likely to be strong legal resistance to AGI impacting certain sectors, especially health care and law, where professional licensing and regulation could act as barriers to AGI integration. Protectionist laws may attempt to shield up to half of existing jobs in these sensitive domains.\n\n- **Fast Uptake in Defense and Economic Shifts:** AGI adoption in defense and certain fast-moving sectors might be rapid. However, the visible large-scale economic changes caused by AGI could prompt political and social desires to protect workers through laws and social bargaining.\n\n- **Role of Unions and Worker Bargaining:** As jobs evolve with AI, unions and collective bargaining may become critical in negotiating protections and transitions for workers impacted by automation and AI technologies.\n\n- **Trade-offs Between Surveillance and Privacy:** There are important considerations around surveillance, with trade-offs between monitoring technologies (sometimes symbolized by \"teddy bears\" as a metaphor for trust and safety) and personal privacy and freedoms in the AI era.\n\n- **News, Journalism, and Economic Models:** The journalism industry faces disruptions, leading to new economic models such as cross-subsidies. For example, independent journalists are experimenting with platforms like Substack to maintain a humanistic approach to news, emphasizing the importance of humanity in media despite AI-driven changes.\n\n- **Welfare State and Social Safety Nets:** A generous welfare state might be necessary to support free trade and mitigate the impact of AI-driven automation on service workers. This social safety net can enable people to accept freer trade and labor market changes, ensuring life remains familiar and stable during transitions.\n\nThese notes synthesize the meeting’s discussion on the societal, legal, and economic implications of AI on jobs, trade, welfare states, and media, highlighting key challenges and potential pathways forward.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3126,
+      "latencyMs": 26363,
+      "cost": 0.0034387999999999997,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

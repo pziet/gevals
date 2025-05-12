@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 212,
+  "timestamp": "2025-05-12T18:21:41.384Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Economic and Social Transitions\n- The shift to AI-driven work suggests that **jobs will be heavily automated** (\"trades last, human face\") and that **life will remain familiar and potentially more prosperous** (\"we'll be richer, so we can afford this all of a sudden\").  \n- There is a desire for **meaning and salience** in work, which AI transformation could threaten, prompting discussions on **protection of jobs and industries**.\n- Concepts like **\"welfare state for service workers\"** are used to describe safety nets needed as AI impacts employment.\n- Implementing **good transition strategies** is essential to avoid chaos and political resistance; these can serve as examples of positive change amidst large economic shifts.\n\n## Legal and Political Challenges\n- Strong **legal pushback** exists, notably in healthcare, where **standards around personal data and law** are tightly regulated.\n- **AGI may face significant legal obstacles**, especially in sectors like healthcare and law, where professionals traditionally resist downward price pressure and maintain high standards.\n- There is a high **chance of political movements to freeze jobs** in bureaucratic \"amber\" to manage AI’s disruptive effects.\n- The **political will** is a critical factor; without it, society risks breakdown or inefficient regulation.\n\n## AI Applications and Cultural Shifts\n- The emergence of **\"AI teddy bears\"** and other **entertainment forms with meaning and economic engines** signifies new avenues for human-AI interaction.\n- The **“Cross-subsidization” of journalism** and media by AI-generated content or subsidized outlets like Substack may reshape **media and humanity’s connection to information**.\n- AI could enable **new forms of engagement and participation** in everyday life, blurring lines between entertainment, human connection, and AI-human symbiosis.\n\n## Broader Implications\n- The **adoption pace** of AI tools influences societal stability; **fewer evidence-based transitions** could lead to political entrenchment or resistance.\n- The **role of human proxies** in AI-related deals reflects a trend toward automated pools of capital and mechanized negotiations.\n- The **question of relevance** for humans in an AI-dominant economy remains central, with ongoing debates about **what constitutes meaningful work** and societal purpose.\n\n## Future Outlook\n- The **Anthropic economic index** tracks AI’s impact on the US economy, highlighting ongoing measurements of AI-driven productivity.\n- The **aim should be a society where AI leads to increased prosperity** without significant social upheaval, similar to welfare state principles but adapted for AI-driven service economies.\n- The potential **age of \"AI teddy bears\"** illustrates a future where personalized, emotionally resonant AI companions become common, influencing parental choices and cultural norms.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1716,
+      "latencyMs": 12348,
+      "cost": 0.0003417,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

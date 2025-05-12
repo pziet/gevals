@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 6,
+  "timestamp": "2025-05-12T18:13:31.245Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Trades and Human Face**  \n  - Discussion around the significance of trades in the context of the welfare state for service workers. Acknowledgement that while free trade may not always be efficient, it can create a meaningful framework for individuals seeking purpose in their work.\n\n- **Legal Pushback in Healthcare**  \n  - Noted potential resistance within the healthcare sector regarding changes brought by advanced AI, particularly relating to personal data and legal standards.\n\n- **Rapid Uptake in Defense**  \n  - Fast acceptance and integration of AI technologies in defense sectors discussed, with an emphasis on how this could change established practices and norms.\n\n- **Unions and Bargaining**  \n  - The role of unions in bargaining for workers' rights in the face of automation and AI integration highlighted, suggesting a political movement may emerge to protect jobs similarly to existing protections in law and medicine.\n\n- **Surveillance and Trade-offs**  \n  - Mention of teddy bears as a metaphor for surveillance, prompting discussions about the trade-offs of privacy versus societal benefits from AI integration.\n\n- **News, Journalism, and Cross-Subsidy**  \n  - Exploration of the evolving landscape in journalism, including the implications of platforms like Substack. Discussion about how cross-subsidies in news can affect the quality of information and the human aspect of reporting, asserting that the community's need for quality journalism may continue despite technological advances.\n\n### Additional Remarks\n\n- There’s an anticipated shift in governmental and organizational responses to the rapid changes brought by AI, particularly in sectors with high human interaction.\n- Concerns raised about the impact of AI on mental health and societal well-being, emphasizing a generational angst among academics and high achievers regarding the future job market.\n- A call for examples of successful transitions to be created by companies and stakeholders to guide future developments in AI sectors.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1533,
+      "latencyMs": 19110,
+      "cost": 0.001611,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

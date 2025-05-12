@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 148,
+  "timestamp": "2025-05-12T18:17:42.048Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n### Trade and Welfare State\n- Discussion on the relationship between free trade and the welfare state, particularly as it applies to service workers.\n- The welfare state may not always be the most efficient but acts as an acceptable bargain to support free trade.\n- The welfare state functions as a safety net, giving workers freedom while providing economic security.\n- There is an inherent human desire for meaning and salience in daily work.\n\n### Impact of Automation and AGI (Artificial General Intelligence)\n- AGI and automation will significantly impact blue-collar trades and artisanal professions, such as electricians, plumbers, and gardeners.\n- Anticipation of political movements and legal protections for many existing jobs, similar to law and medicine sectors, to guard against AGI displacement.\n- Companies and society must demonstrate good examples of transitions to ensure smoother adaptation to technological changes.\n\n### Legal and Union Responses\n- Potential legal pushback, especially in healthcare and law professions, against fast adoption of AGI tools.\n- Legalized use of AGI is encountering resistance from traditional professions that benefit from high fees and exclusivity.\n- Unions might engage in bargaining to protect workers’ rights in the face of rapid technological disruption.\n\n### Trade-offs: Surveillance and Privacy\n- Consideration of trade-offs between adoption of AI technologies and privacy/surveillance concerns.\n- The metaphor of “teddy bears” used to illustrate comfort versus surveillance trade-offs, indicating tension between convenience and data privacy.\n\n### Journalism, News, and Human Element\n- Challenges facing news organizations and journalists as AI disrupts traditional models.\n- The role of journalists and news media involves humanity and direct engagement, which may not be fully replicable by AI.\n- Cross-subsidization models, including platforms like Substack, are part of the evolving landscape supporting journalistic endeavors.\n\n---\n\nThese points encapsulate the major themes discussed around economic shifts, legal and social responses to AI and trade changes, and human factors in work and media.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3146,
+      "latencyMs": 22269,
+      "cost": 0.0034523999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

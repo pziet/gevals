@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 252,
+  "timestamp": "2025-05-12T18:25:57.653Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Main Topics Discussed\n\n- **Trades and Economic Bargains**: Emphasis on balancing free trade with a supportive welfare state, particularly for service workers. The discussion included how people's desires for meaningful work intersect with economic transitions.\n\n- **Healthcare and Legal Challenges**: Considerable pushback on how advanced AI impacts sectors like healthcare, particularly concerning personal data standards and compliance with existing laws.\n\n- **Rapid Adoption of Defense Mechanisms**: The need for quick adaptation in response to fast-evolving technologies was highlighted, along with the potential for political movements to push for job protections akin to those in law and medicine.\n\n- **Union and Bargaining Power**: Reference to the potential role of unions in negotiating on behalf of workers affected by automation and AI technologies.\n\n- **Surveillance vs. Humanity**: Mentioned the concept of \"AI teddy bears,\" suggesting a compromise between technological progress and maintaining a human touch in interactions, especially in entertainment and parental roles.\n\n- **Journalism and Cross-Subsidization**: The conversation covered the evolving landscape of journalism, including the financial models like Substack that can help maintain a human-centric approach amidst AI disruption.\n\n## Key Quotes and Insights\n\n- \"**Life will look familiar**\" – A reflection on how a richer economy due to AI might lessen discomfort from changes in job structures.\n  \n- There is a potential political shift towards **protecting certain jobs**, echoing sentiments from the audience around nostalgia for human roles in traditionally bureaucratic sectors.\n\n- Discussion around the **difficulty of integrating AI** into government processes due to existing legal frameworks and the potential need for new standards to accommodate technology.\n\n- The idea of moving from **anxiety to action**, particularly in academia and beyond, emphasizing the need for clear examples of successful transitions to gain acceptance for AI in various sectors.\n\n### Final Thoughts\n\nThe meeting underscored the necessity for a thoughtful approach to integrating AI into society, focusing on the balance between technological advancement and the human elements of various trades, while also being aware of legal and ethical boundaries. The discussions pointed to an evolving narrative in how society might adapt to these changes, with implications for health, labor, and media sectors.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1594,
+      "latencyMs": 11722,
+      "cost": 0.0017573999999999999,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

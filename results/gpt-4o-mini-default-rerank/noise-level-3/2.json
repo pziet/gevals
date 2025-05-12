@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 263,
+  "timestamp": "2025-05-12T18:26:24.909Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Focus on the implications of AI on trades, welfare, and the economy.\n\n## Key Discussion Points\n- **Trades and Human Element**: \n  - Trades remain essential in a technology-driven economy. Emphasis on preserving a human face in skilled labor.\n\n- **Legal Pushback in Healthcare**:\n  - Concerns regarding potential legal challenges in the healthcare sector as AI becomes more integrated.\n\n- **Rapid Uptake of Defense Technologies**:\n  - Discussion on the swift adoption of AI technologies within defense industries.\n\n- **Unions and Bargaining Power**: \n  - Importance of unions in negotiating rights and protections for workers amid changing job landscapes due to AI.\n\n- **Balancing Privacy with Surveillance**:\n  - Debate over surveillance technologies, likened to a trade-off with social benefits (referred to metaphorically as \"teddy bears\").\n\n- **Media and Journalism**:\n  - Examination of the evolving role of journalists, the concept of cross-subsidy in news, and platforms like Substack that promote humanity in reporting.\n\n## Conclusion\n- The need for proactive measures to ensure that the integration of AI benefits workers and maintains essential trades and human engagement in the job market.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 2895,
+      "latencyMs": 25931,
+      "cost": 0.0034559999999999994,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

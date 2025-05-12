@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 160,
+  "timestamp": "2025-05-12T18:18:12.700Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as the Last to Be Affected**  \n  The trades and artisanal jobs (e.g., electricians, plumbing, gardening) are expected to be the last areas significantly impacted by AGI. These roles often require a \"human face\" and hands-on work, which may preserve them longer against automation.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare may pose strong legal obstacles for AGI implementation due to personal data handling and strict regulatory standards. Many existing laws and healthcare practices could resist AGI integration until standards are adapted.\n\n- **Fast Uptake in Defense**  \n  Defense sectors might adopt AGI technology rapidly, representing a domain with quick integration due to strategic interests.\n\n- **Unions and Bargaining Power**  \n  Worker protections and unions could play a significant role in bargaining for job security as economic changes occur. There may be political movements to protect existing jobs with legal measures, akin to protections found in law and medicine sectors.\n\n- **Surveillance and Tradeoffs: 'Teddy Bears' as Metaphor**  \n  Discussion included the concept of surveillance trade-offs, metaphorically illustrated as \"teddy bears,\" reflecting the balance between privacy, security, and technological surveillance in new AI-driven systems.\n\n- **News, Journalism, and Cross-Subsidy Models**  \n  The media industry, including journalism, could face transformation with AGI, with models such as Substack emerging for direct funding of journalists. The humanity aspect—retaining authentic human connection and trust in news—remains crucial.\n\n- **Economic and Social Implications**  \n  A welfare state or social safety net may be necessary to support free trade and economic transitions driven by automation and AGI, ensuring workers displaced by technology are supported. Generous welfare could be seen as a bargain society accepts to reap benefits from freer trade and technological advances.\n\n- **Importance of Good Transition Examples**  \n  The companies developing AGI and their customers need to generate strong examples of positive economic transitions to foster acceptance and avoid backlash from larger economic disruptions.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3118,
+      "latencyMs": 22157,
+      "cost": 0.0034228,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

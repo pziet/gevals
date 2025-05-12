@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 165,
+  "timestamp": "2025-05-12T18:18:16.791Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as Last Stronghold of Human Work**  \n  The artisanal and highly skilled trades (e.g., electricians, plumbers, gardeners) are expected to be among the last domains where human work remains crucial. These roles combine both technical skill and a \"human face,\" which cannot easily be replaced by AI.\n\n- **Legal and Political Pushback in Protecting Jobs**  \n  There is a significant chance of political movements aiming to legally protect a portion of human jobs, potentially freezing them bureaucratically in response to rapid technological change. This is analogous to existing laws but complicated by the fast, powerful impact of AI.\n\n- **Rapid Uptake and National Security Implications**  \n  AI adoption, especially in defense and national security sectors, is expected to be fast and significant. Governments might act as major AI adopters, despite legacy systems, to maintain security advantages.\n\n- **Role of Unions and Bargaining Power**  \n  With economic shifts and AI's impact on jobs, unions might play a critical role in bargaining for workers’ rights and protections as the labor market evolves.\n\n- **Surveillance Trade-offs and Privacy Concerns**  \n  The metaphor of “teddy bears” was used to highlight trade-offs between surveillance and personal freedoms. Increased monitoring may arise as part of economic transitions and AI integration.\n\n- **News and Journalism Economics**  \n  Journalism faces challenges as funding models shift; cross-subsidization (e.g., via platforms like Substack) could be important to preserve the humanity and integrity of news dissemination amid evolving media landscapes.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1463,
+      "latencyMs": 12936,
+      "cost": 0.0009668000000000001,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

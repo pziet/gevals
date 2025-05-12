@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 275,
+  "timestamp": "2025-05-12T18:26:53.402Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Takeaways from the Meeting\n\n- **Human-Centric Approaches**: Emphasis on maintaining a human face in technological advancements and trades, highlighting the importance of human involvement alongside automation.\n\n- **Healthcare Concerns**: Discussion on potential legal pushbacks in the healthcare sector, particularly concerning data handling and privacy issues.\n\n- **Fast Uptake in Defense**: Recognition of rapid adoption rates in defense technologies, suggesting a shift in strategic considerations.\n\n- **Union Involvement**: The need for unions to actively engage in bargaining to protect workers' rights amidst technological disruption.\n\n- **Surveillance and Ethical Trade-offs**: A metaphor involving \"teddy bears\" to illustrate the trade-off between surveillance and privacy, raising questions about the balance in the digital age.\n\n- **Media and Journalism**: Insights on the cross-subsidy of journalism and the role of platforms like Substack, stressing the need for humane alternatives in the media landscape amidst financial challenges.\n\n- **Political Will and Job Preservation**: Speculation on the political movements that may arise to preserve human jobs in light of advances in AGI, paralleling laws in healthcare and law to protect existing jobs.\n\n- **Welfare State Considerations**: The potential for a welfare state model to support service workers in a climate of increased automation and free trade.\n\n## Additional Observations\n\n- **Vision of the Future**: The meeting concluded with considerations of a future where technology increases wealth but also shifts the nature of work, demanding a balance between innovation and human values. \n\nThese notes highlight the critical intersections between technology, law, labor, and ethics as discussed during the meeting.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3100,
+      "latencyMs": 27774,
+      "cost": 0.0038345999999999996,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

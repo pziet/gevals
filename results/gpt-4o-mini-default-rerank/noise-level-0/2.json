@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 278,
+  "timestamp": "2025-05-12T18:26:56.244Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Discussion Points\n\n- **Impact on Trades and Workforce**  \n  - There's a recognition that trades may be the last domain affected significantly by AGI, particularly in artisanal jobs like electricians and plumbing. The nature of these jobs could provide some resilience against automation.\n\n- **Legal Challenges in Healthcare**  \n  - The healthcare industry may face significant legal pushback as AGI systems intersect with standards and personal data handling. This indicates a need for changes in regulations to manage AGI's influence on healthcare.\n\n- **Welfare State Considerations**  \n  - A supportive welfare state might be necessary to cushion the impacts of free trade and automation, particularly for service workers. The relationship between welfare provisions and acceptance of economic changes was highlighted.\n\n- **Union Bargaining Power**  \n  - The role of unions in bargaining for workers' rights amidst rapid changes due to AGI and economic shifts was emphasized, indicating a need for strong advocacy for worker protections.\n\n- **Privacy vs. Surveillance Trade-offs**  \n  - The metaphor of \"teddy bears\" was used to discuss the trade-offs between privacy and surveillance, implying a need for a humane approach in the implementation of AGI technologies.\n\n### Related External Considerations\n\n- **Journalistic Integrity and Economic Models**  \n  - The discussion touched on the concept of cross-subsidization in journalism and the role of platforms like Substack in maintaining journalistic integrity, hinting at the economic pressures facing media in the AGI era.\n\n- **Potential Political Movements**  \n  - A prediction was made regarding the emergence of political movements aimed at protecting existing jobs through legislation similar to that used in healthcare and law. This could shape the future landscape of work in light of AGI advancements.\n\n### Overall Implications\n\n- The conversation underscored the intertwined nature of AGI, economic changes, employment, and the welfare state. Stakeholders must consider not only the immediate impacts of automation but also the broader socio-economic structures that will be affected.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3110,
+      "latencyMs": 26033,
+      "cost": 0.0039252,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

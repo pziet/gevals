@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 84,
+  "timestamp": "2025-05-12T18:15:53.944Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## AI and Economic Impact\n- The rapid adoption of AI is leading to significant economic shifts, especially in the service sector and artisanal trades such as electricians, plumbing, and gardening.\n- AI's relevance to national security highlights its importance in high-stakes areas.\n- New job categories are likely to emerge, particularly around marshaling, fueling, and managing AI systems, which will involve complex and high-skill tasks.\n\n## Workforce and Job Preservation\n- There is a high likelihood of political movements advocating to freeze or protect a significant portion of human jobs, especially in bureaucratic and clerical sectors, as a response to the fast pace of technological change.\n- Concerns around the trade-offs between surveillance and benefits, exemplified by the teddy bear metaphor, reflect societal debates on privacy vs. security.\n\n## Human Face and Ethical Considerations\n- Jobs that last tend to have a human face, emphasizing the importance of human interaction and trust, especially in trades and artisanal work.\n- The \"trade-off\" between surveillance and societal benefits, akin to Teddy bears' comfort versus monitoring, illustrates larger debates on human privacy and safety.\n\n## Media, Humanity, and Subscriptions\n- The journalism landscape is evolving with cross-subsidization models, such as Substack, which impact the perception of humanity in media.\n- News organizations may face challenges balancing profit motives with providing truthful, humane reporting.\n\n## Legal and Political Forces\n- There is potential for legal pushback against AI in healthcare and other sensitive sectors, balancing innovation with regulation.\n- Governments, especially the U.S., may transform into key AI actors, possibly becoming significant AI developers themselves, even using legacy software from earlier decades.\n\n## Future Scenarios and Strategies\n- The faster-than-expected AI-driven changes could lead to new, higher-status \"games\" or activities that leverage AI’s productive capacity.\n- The possibility of playing different, more cognitively demanding roles related to AI as a way to adapt and thrive.\n\n## Overall Reflection\n- The overarching question is whether society should adopt a generous welfare state or other protective measures to buffer the impacts of AI, or if more efficient, targeted solutions are preferable.\n- The pace and scale of change challenge traditional economic and social models, necessitating innovative strategies to ensure societal stability and fairness.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1608,
+      "latencyMs": 9403,
+      "cost": 0.0002997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

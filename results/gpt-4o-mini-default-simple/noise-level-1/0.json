@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 251,
+  "timestamp": "2025-05-12T18:25:56.807Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trends in Trade and Welfare**:\n  - Emphasis on the need for a generous welfare state to support free trade. \n  - The welfare state may not always be the most efficient but can create a social bargain for service workers.\n\n- **Healthcare Concerns**:\n  - Potential legal challenges in healthcare due to the handling of personal data and AGI implications.\n  - Discussions on the political movement that may arise to protect certain jobs from AGI.\n\n- **Agility in Response to Changes**:\n  - Importance of generating examples of good transitions in response to economic changes brought by AI.\n  - Need for political action to protect workers as AGI impacts traditional employment.\n\n- **Union Negotiations**:\n  - The role of unions in bargaining as the workforce evolves with AI integration.\n\n- **Public Perception and Surveillance**:\n  - The concept of \"AI teddy bears\" as a modern form of entertainment that blends economic value with meaningful human interaction.\n  - Surveillance trade-offs discussed in connection with the implications of AI on society.\n\n- **Role of Journalism**:\n  - Concerns about cross-subsidization in journalism and its impact on humanity.\n  - Reference to platforms like Substack that can facilitate a new wave of journalism.\n\n## Conclusions\n\n- As AI technology advances, it will reshape labor markets and societal structures.\n- A proactive approach involving welfare and legal frameworks may mitigate adverse effects on labor and improve societal adaptation to these changes.\n- Encouraging a meaningful dialogue around the intersection of technology, law, and personal data is essential for navigating the future landscape.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1478,
+      "latencyMs": 11737,
+      "cost": 0.0014789999999999998,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

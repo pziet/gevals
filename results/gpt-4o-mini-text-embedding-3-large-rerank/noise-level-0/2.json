@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 78,
+  "timestamp": "2025-05-12T18:15:44.533Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Discussion Points\n\n- **Trades and Workforce**: \n  - The discussion highlighted that trades such as plumbing, electrical work, and other artisanal services may be among the last sectors affected significantly by AGI, emphasizing the human aspect still required in these fields.\n\n- **Healthcare and Legal Considerations**:\n  - A notable legal pushback regarding the integration of technology in healthcare was discussed. The potential need to revise personal data standards and legal protections was emphasized to avoid compromising patient privacy and care quality.\n\n- **Fast Uptake of Defense Mechanisms**:\n  - There is an expectation for a rapid adoption of defensive strategies to safeguard jobs and sectors from economic disruptions caused by AGI and automation.\n\n- **Union Bargaining**:\n  - The role of unions in negotiating terms for workers in the face of technological advancements was considered crucial. This includes advocating for better protections and benefits as the workforce adapts to new economic realities.\n\n- **Surveillance and Trade-offs**:\n  - The use of technology, illustrated by the example of surveillance methods, raises ethical considerations and trade-offs. This was likened to the idea of \"teddy bears\" representing comfort yet containing elements of oversight.\n\n- **Media and Journalism**:\n  - The conversation touched on the transformation of journalism, including the concept of cross-subsidizing news models through platforms like Substack. The impact of these changes on human storytelling and the integrity of reporting was debated, emphasizing a need for a balance between profitability and preserving humanity in journalism.\n\nThese notes summarize the key themes and considerations from the meeting, addressing the intersection of technology, labor, ethical concerns, and media transformation.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3021,
+      "latencyMs": 21225,
+      "cost": 0.0037259999999999997,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

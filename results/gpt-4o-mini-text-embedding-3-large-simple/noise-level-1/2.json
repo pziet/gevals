@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 53,
+  "timestamp": "2025-05-12T18:14:55.732Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### 1. Trades and Human Impact\n- The conversation highlighted the importance of maintaining a human face in decision-making processes, especially in light of trades that may affect jobs and their economic value.\n\n### 2. Legal Challenges in Healthcare\n- There was significant discussion about potential legal pushback regarding healthcare issues tied to advanced AI technologies and the handling of personal data. It was suggested that as AI capabilities grow, many bureaucratic jobs may be legally protected as a response to the challenges posed by AI.\n\n### 3. Rapid Adoption in Defense Sector\n- Fast uptake of AI technologies was noted, particularly in the defense sector, which raises questions about regulations and ethical considerations of such advancements.\n\n### 4. Role of Unions and Bargaining\n- The importance of unions and their role in bargaining was emphasized, particularly as the labor market evolves with increasing automation and AI-integrated systems.\n\n### 5. The Concept of 'AI Teddy Bears'\n- The idea of 'AI teddy bears' was introduced, metaphorically referring to incorporating AI into forms of entertainment and meaningful engagement for users, suggesting a potential shift in consumer behavior towards AI-driven products.\n\n### 6. Media and Journalism\n- The conversation addressed the cross-subsidization in journalism and how platforms like Substack are redefining the relationship between media, humanity, and economic sustainability in reporting. It considered the role of news and journalists in an AI-enhanced landscape.\n\n### 7. Future of Work and Society\n- Discussion on the necessity of creating examples of successful transitions as AI integration progresses, while considering the societal implications and the need for meaningful human activity and connection even as many jobs become automated.\n\n### 8. Political Will and Job Preservation\n- Concerns were raised regarding political will to protect existing jobs analogous to protections in law and medicine against strong AI technologies, hinting at the complexity of these discussions in terms of societal and economic structures.\n\nThese enhanced notes summarize the themes and key insights derived from the meeting while also showcasing the challenges and opportunities presented by advancements in AI and their implications for various sectors.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1575,
+      "latencyMs": 13038,
+      "cost": 0.0017117999999999999,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

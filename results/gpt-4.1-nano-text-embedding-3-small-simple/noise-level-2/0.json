@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 86,
+  "timestamp": "2025-05-12T18:15:56.266Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of AI and Economy\n- Discussion on how advanced AI (AGI) impacts various sectors and the broader economy.\n- The idea that AI, much like a welfare state for service workers, offers a 'bargain'—enabling people to find meaning and salience in daily work without necessarily being tied to traditional employment.\n- AI's influence is perceived as allowing wealth generation without significant personal disruption, maintaining a familiar life for people.\n\n## Legal and Regulatory Challenges\n- Potential for strong legal pushback, especially in healthcare where personal data and standards are tightly regulated.\n- Evidence suggests that established industries, such as law, may resist AI adoption due to economic incentives—e.g., high fees for legal services.\n- Governments might act faster than expected to regulate or protect jobs, potentially by enacting laws similar to those in medicine or law.\n\n## AI's Impact on Jobs and Sectors\n- Greatest AI impact expected in artisanal and trade sectors (e.g., electricians, plumbers, gardening) that require hands-on skill and physical work.\n- Desk-bound, communicative jobs (e.g., sales, negotiation, certain admin roles) may be affected later, depending on how AI interfaces with human interaction.\n- Some sectors, especially those involving complex interpersonal coordination or negotiation, may resist AI integration longer.\n\n## Workforce Protections and Societal Responses\n- Possible political movements aiming to protect significant portions of the workforce using legal frameworks, similar to healthcare laws.\n- Concerns about societal angst and nihilism within high-achieving academic environments, reflecting uncertainty about AI's long-term effects.\n\n## Ethical Trade-offs and Surveillance\n- The trade-off between surveillance (e.g., teddy bears, monitoring) and personal privacy, balancing safety and human dignity.\n- The potential for AI to be used in ways that Launder or filter information into human systems, possibly complicating transparency and accountability.\n\n## Media, Humanity, and the Role of News\n- Notion of cross-subsidies in journalism and media (e.g., Substack), emphasizing the importance of human oversight in preserving humanity amid AI-driven change.\n- Recognition that AI's influence extends into human-centric fields like journalism, where maintaining trust and ethics remains vital.\n\n## Final Reflections\n- The evolving landscape suggests that AI will penetrate the most artisanal and trade-oriented sectors first, with the impact on traditional white-collar jobs unfolding more gradually.\n- Acknowledgment that some within academia and other high-intelligence fields feel a sense of angst and nihilism about AI's trajectory and societal implications.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1666,
+      "latencyMs": 10819,
+      "cost": 0.0003217,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

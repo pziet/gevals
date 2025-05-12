@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 114,
+  "timestamp": "2025-05-12T18:16:48.113Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n## Overview\nThis meeting discussed the ongoing impact of AI and AGI on society, focusing on economic change, legal challenges, welfare structures, and societal trade-offs.\n\n## Key Topics\n\n### 1. Human Perspective and Trade\n- The importance of maintaining the human face in trades that may be automated last, ensuring human involvement remains visible and meaningful.\n\n### 2. Legal and Policy Challenges\n- Significant legal pushback in healthcare, especially around data handling, standards, and regulations.\n- Potential for legal obstacles faced by strong AGI, particularly in regulated sectors like medicine.\n- Risk of political movements attempting to freeze jobs legally, creating bureaucratic barriers as a response to AI-driven job displacement.\n\n### 3. Defense and Protection of Jobs\n- Fast adaptation and defense mechanisms are crucial to manage societal impacts.\n- Possibility of laws to protect existing jobs, similar to legal protections in law and medicine.\n- The idea of freezing certain jobs as a political strategy to cope with rapid AI advances.\n\n### 4. Societal and Economic Trade-offs\n- Trade-offs between surveillance, trade, and societal benefits, exemplified by analogies like teddy bears representing protective trade-offs.\n- The role of unions and bargaining in navigating AI-driven changes.\n\n### 5. The Role of Media and Information\n- Cross-subsidies in journalism and news, with platforms like Substack emphasizing the human element and the importance of maintaining humanity in content creation.\n- Concerns about misinformation from AI and the importance of laundering AI-generated information into human-centric systems to preserve trust.\n\n### 6. Future Outlook and Society\n- AI's impact on welfare and the idea that increased wealth from automation may make societal adjustments more feasible.\n- The importance of good transitions and evidence-based examples for managing societal change.\n- Risks of chaotic political winds influencing AI regulation and societal structure.\n- The ongoing development of economic indices measuring AI's impact, such as the Anthropic AI economic index, to understand societal effects.\n\n## Conclusion\nThe discussion underscored the complexities of balancing technological advancement with societal stability, legal frameworks, and welfare considerations, emphasizing the need for thoughtful policies and societal resilience measures.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3181,
+      "latencyMs": 22202,
+      "cost": 0.0026956,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

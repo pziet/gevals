@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 300,
+  "timestamp": "2025-05-12T18:27:15.970Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Lasting Impact of Trades and Human Interaction\n- Trades, especially artisanal and craft trades like electricians, plumbing, gardening, and possibly even more personalized service sectors, are expected to be affected last by AI and automation.  \n- Human face-to-face interactions and personal relationships remain crucial in certain commerce and service areas, as people prefer deals mediated by humans, particularly for large transactions or pools of capital.\n\n## Legal and Regulatory Challenges in Healthcare and Data\n- Significant legal pushback is anticipated in healthcare, driven by issues related to personal data handling, standards, and regulations around AI-generated information.\n- Existing standards around personal data are likely to require substantial changes to accommodate AI advancements.\n\n## Economic and Political Responses to AI\n- A desire to protect jobs through legislation may increase, including laws similar to those in law and medicine, aiming to safeguard a portion of current employment against AI disruption.\n- The likelihood of political movements emerging to protect approximately half of existing jobs is high, driven by economic and social pressures.\n\n## Defense and Regulation of AI Uptake\n- AI's rapid adoption faces resistance from sectors with high standards and regulation, but government actions may move faster than expected.\n- Established large companies might show significant resistance to AI integration, especially in heavily regulated or sensitive industries.\n\n## Surveillance, Trade-Offs, and Humanitarian Concerns\n- AI's development involves trade-offs, such as surveillance versus personal privacy—similar to debates around devices like teddy bears with surveillance capabilities.\n- The balance between human needs, human rights, and technological advancement remains a critical consideration.\n\n## Journalism, Media, and Cross-Subsidies\n- The media landscape, including outlets like Substack, involves cross-subsidies that may reflect broader debates about humanity and the role of journalism amid AI proliferation.\n- AI could influence the economics of journalism, potentially impacting the diversity and independence of news sources.\n\n## Impact on Art, Culture, and Creative Sectors\n- Art production processes that involve orchestration and large-scale collaboration (similar to modern art involving many contributors) may be affected or reshaped by AI.\n- In more desk-bound service sectors, the impact of AI might come later but remains inevitable.\n\n## AI and Society: Summary\n- AI will impact various sectors unevenly, with trades and artisanal crafts affected last, and heavily regulated or highly formalized sectors (like government and healthcare) facing earlier challenges.\n- AI's integration involves Laundering information into human systems and managing the ethical, legal, and social implications of its proliferation.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1651,
+      "latencyMs": 8662,
+      "cost": 0.00031840000000000004,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

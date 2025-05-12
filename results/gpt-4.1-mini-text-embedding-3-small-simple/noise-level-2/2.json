@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 128,
+  "timestamp": "2025-05-12T18:17:05.191Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n**Trades and Human Involvement**  \n- The trades, encompassing roles like electricians, plumbing, gardening, and other artisanal jobs, are likely to be the last sector heavily impacted by advanced AI/AGI. These trades require direct human interaction and craftsmanship that AI cannot easily replicate.  \n- There remains a strong human preference for having a \"human face\" in interactions and negotiations, especially in work or trades involving people-to-people engagement.  \n\n**Legal and Regulatory Challenges in Healthcare**  \n- Healthcare is anticipated to face strong legal pushback against rapid AI integration. Much of healthcare is tied to personal data handling standards and laws that will restrict or slow AI adoption.  \n- Legislative movements may arise aiming to protect half of existing jobs via laws similar to those in legal or medical professions, presenting a barrier for broad AGI deployment in sensitive domains like healthcare.  \n\n**Rapid Adoption and Defense Mechanisms**  \n- Despite anticipated resistance, some sectors will see fast uptake of AI-driven technology, especially where it brings economic efficiencies.  \n- There is room for a political and social debate over protection of workers' rights, unions bargaining to maintain jobs amidst automation pressures.  \n- Large corporations might lead in resisting certain AI uses to protect established business models.  \n\n**Tradeoffs Between Surveillance and Humanity (Teddy Bears Metaphor)**  \n- Discussions highlighted surveillance tradeoffs, symbolized by \"teddy bears,\" possibly referencing how comfort or human elements may be compromised by surveillance and automated oversight in workplaces or consumer spaces.  \n- There is a tension between maintaining human dignity and the efficiency or monitoring enabled by AI technologies.  \n\n**News, Journalism, and Cross-Subsidies**  \n- The role of journalism is changing with AI; traditional news industries face challenges but also opportunities through cross-subsidies and new platforms like Substack.  \n- There is an inherent value in maintaining the humanity and social role of journalists, even as their business models evolve due to automation and technology.  \n\n**Broader Philosophical and Economic Context**  \n- Analogies were drawn comparing a welfare state providing security during free trade to social protections preserving workers’ dignity amid AI-driven economic shifts.  \n- Although automation by AI will increase overall wealth, there is an acknowledged need to ensure meaningful work and human purpose persist.  \n- Properly managed transitions can ensure life remains familiar and acceptable to affected populations, avoiding nihilism and angst common among high-achieving workers fearing obsolescence.  \n\nThese points together provide a nuanced view of the societal, legal, and economic changes driven by advanced AI systems and the importance of balancing technological progress with human-centered values.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1683,
+      "latencyMs": 13140,
+      "cost": 0.001314,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

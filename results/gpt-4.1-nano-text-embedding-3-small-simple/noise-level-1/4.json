@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 95,
+  "timestamp": "2025-05-12T18:16:04.741Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-centric Traits and Economic Impact\n- Discussions around the longevity of trades emphasizing the \"human face,\" suggesting value in human elements within industries.\n- AI's integration aims for a future where work is handled by AI, leading to increased wealth and a familiar life, akin to an ideal \"welfare state\" for service workers who can still pursue daily routines.\n- The potential for AI to significantly transform the economy, with AI-driven productivity enabling society to afford higher standards of living.\n\n## Legal and Regulatory Challenges\n- Strong legal pushback, especially in healthcare, due to concerns over handling personal data, standards, and professional standards in law and medicine.\n- AGI may face the most significant legal obstacles in sectors where high prices are currently charged, such as legal and medical fields.\n- The risk of legal barriers being either naturally resistant or being reinforced through political movements aiming to preserve existing jobs by creating \"bureaucratic amber\" to shield workers from automation.\n\n## Political and Social Dynamics\n- The formation of political movements to freeze human jobs in response to AGI's rapid capabilities.\n- The chaotic influence of political forces may result in societal decisions to protect employment, mediated through human proxies in large automated organizations.\n- The importance of generating positive examples of smooth transitions to prevent regressive political actions.\n\n## Surveillance, Trade-offs, and Human Values\n- Surveillance trade-offs discussed in the context of consumer products like teddy bears, hinting at monitoring versus human comfort or attachment.\n- Engagement with media, news, and journalism involves subsidies and considerations of humanity, possibly referencing platforms like Substack and their role in informational ecosystems.\n\n## Future Technologies and Society\n- The emergence of \"AI teddy bears,\" with estimates on how prevalent such products could become among parents, indicating a future where AI-driven companionship and entertainment are widespread.\n- The term \"AI teddy bears\" symbolizes a rising trend of AI-integrated personal and entertainment devices.\n\n## Broader Cultural and Economic Shifts\n- The importance of good transitions and evidence of economic change to guide policy and societal adaptation.\n- Harnessing the chaotic winds of political forces with proactive, positive examples to influence direction.\n- The ongoing and future influence of advanced AI on US economy, measured by the Anthropic economic index, predicting a society where AI handles a large portion of work.\n\n## Overall Outlook\n- A future where technological progress makes life richer and more familiar, with economic gains offsetting disruptions.\n- The challenge lies in political will and societal consensus to regulate AI development and deployment thoughtfully and responsibly.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1658,
+      "latencyMs": 9284,
+      "cost": 0.00031850000000000004,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

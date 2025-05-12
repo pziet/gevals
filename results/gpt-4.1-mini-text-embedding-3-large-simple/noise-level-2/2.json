@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 168,
+  "timestamp": "2025-05-12T18:18:15.939Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as the Last Sector to be Automated**\n  - Trades such as electricians, plumbing, and gardening might be affected last by AGI.\n  - These sectors require hands-on, artisanal skills and human interaction, which are harder to fully automate.\n  - There is a strong preference among people for human-mediated deals, especially in areas requiring alignment or agreement.\n\n- **Human Face in Work and Bargains**\n  - People desire meaning and salience in what they do daily.\n  - AGI-driven economic changes should aim for an acceptable social bargain similar to the welfare state for service workers.\n  - While automation may increase wealth, maintaining familiar social structures and opportunities for human engagement is vital.\n  - Consideration for \"human proxies\" in negotiations with large automated organizations.\n\n- **Legal Pushback Especially in Healthcare**\n  - Certain sectors such as healthcare may resist rapid AGI uptake due to legal frameworks protecting personal data and strict standards.\n  - There is a high chance of political and legal movements to protect jobs analogous to current legal protections in law and medicine.\n  - The legal system originally resisted AI because it threatened lawyers’ high fees and business models, but large economic changes may prompt new responses.\n\n- **Fast Uptake in Defense**\n  - Although not deeply covered here, defense is implied to be an area with fast adoption of AI technologies, likely due to its strategic importance.\n\n- **Role of Unions and Bargaining Power**\n  - Unions and collective bargaining mechanisms could play a significant role in protecting workers and negotiating the terms of AGI integration within workplaces.\n  - Worker protection laws may evolve in response to automation pressures.\n\n- **Surveillance Trade-Offs Illustrated by \"Teddy Bears\" Concept**\n  - Technology such as AI-powered surveillance involves trade-offs between privacy and utility.\n  - These trade-offs may reflect broader societal dilemmas in balancing surveillance with benefits.\n\n- **News Media and Journalism Funding Models**\n  - Journalism faces challenges with AI and economic changes, potentially relying on cross-subsidy models.\n  - Platforms like Substack represent new models supporting journalism that maintain its \"humanity\" and value amid technological disruption.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1587,
+      "latencyMs": 11205,
+      "cost": 0.0011604,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

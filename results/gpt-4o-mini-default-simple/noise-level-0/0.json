@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 256,
+  "timestamp": "2025-05-12T18:26:01.363Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe discussion centered around the impact of Advanced General Intelligence (AGI) on the economy, legal challenges, and the implications for various sectors, including healthcare and trade. \n\n## Key Topics Discussed\n\n- **Human Element in Trades**: \n  - Jobs in trades (e.g., electricians, plumbers) are expected to be significantly affected last by AGI due to their artisanal nature and strong human demand.\n  \n- **Legal Resistance in Healthcare**: \n  - Anticipated legal pushback in healthcare regarding data management and personal privacy standards as AGI technology evolves.\n  \n- **Rapid Adoption in Defense**: \n  - Noted a fast uptake of AGI technologies within the defense sector, creating implications for regulatory frameworks.\n\n- **Union Bargaining**:\n  - There is a recognition of unions in the context of bargaining rights for workers affected by advancements in technology and automation.\n\n- **Balancing Surveillance and Privacy**: \n  - Discussion about the trade-off between surveillance measures and personal privacy, highlighted metaphorically through \"teddy bears\" symbolizing the need for human oversight amidst digital trade-offs.\n\n- **Journalism and Economic Models**:\n  - The role of journalists is evolving with economic models reflecting a cross-subsidy approach (e.g., Substack). Emphasis on need for journalism to maintain humanity amidst changing economic landscapes.\n\n- **Welfare State Considerations**:\n  - Consideration of a generous welfare state as a potential framework to mitigate adverse effects of free trade and automation on workers.\n\n- **Political Movement Likelihood**:\n  - There is speculation around emerging political movements aiming to protect jobs against the advancements of AGI, reflecting societal desires to assist workers. \n\n## Conclusion\nThe meeting underscored the complexities of integrating AGI into various sectors while addressing legal, social, and economic ramifications, emphasizing the need for careful management of transitions and protections for the workforce.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1532,
+      "latencyMs": 10897,
+      "cost": 0.0016248,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

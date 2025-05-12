@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 123,
+  "timestamp": "2025-05-12T18:16:59.658Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting on AI Economic Impact and Societal Changes\n\n## Trades and Human-Centric Jobs\n- The impact of advanced AI is likely to be significant in the trades and artisanal sectors, such as electricians, plumbers, and gardeners.\n- Within these trades, there will still be a strong demand for high-status, skilled individuals valued not only for skill but also personal trust and human interaction.\n- Trades may be among the last sectors where human involvement remains essential, especially in roles that require interpersonal alignment and nuanced communication.\n\n## Legal and Political Responses\n- There is a strong possibility of legal pushback aimed at protecting human jobs, potentially resulting in regulations or freezes on job automation.\n- Governments and political movements may attempt to \"freeze\" certain human jobs through bureaucratic means, reflecting fears about rapid technological changes.\n- The push to protect workers could mirror the welfare state model, designed as a social bargain rather than a purely efficient system.\n\n## Fast Adoption in Defense\n- The defense sector is expected to be an early fast adopter of advanced AI technologies, given national security interests.\n- This quick uptake might accelerate economic and social changes, increasing the urgency of policy responses.\n\n## Labor Movements and Unions\n- Unions and labor organizations will likely play a vital role in bargaining for workers' rights and protections in an AI-driven economy.\n- The role of unions could evolve as new forms of work and employment emerge related to managing or partnering with AI technologies.\n\n## Surveillance and Privacy Trade-offs (\"Teddy Bears\")\n- Discussions touched on surveillance concerns related to new technologies, metaphorically referred to as \"teddy bears,\" indicating a trade-off between comfort/security and privacy.\n- These trade-offs present societal challenges needing careful balancing to maintain humanity within technological systems.\n\n## News, Journalism, and Economic Models\n- The news and journalism sectors face challenges under AI influence, including cross-subsidization models where platforms like Substack help support independent, human-centered journalism.\n- The importance of preserving human elements such as empathy and ethics in journalism was emphasized amidst technological upheaval.\n\n## Information Management and Human-AI Interaction\n- A new job role may emerge involving the \"laundering\" or translation of AI-generated information into forms that can be integrated by existing human systems.\n- Managing AI outputs and ensuring quality human judgment will be critical to leveraging AI effectively without losing essential human oversight.\n\n## Broader Economic and Social Considerations\n- The transition may produce new job categories linked to marshalling, fueling, and creatively working with AI systems.\n- There is uncertainty about whether the current welfare models will adapt well to these shifts, indicating the need for thoughtful social policies.\n- Overall, the meeting highlights the intertwined nature of technology adoption, worker protection, legal frameworks, and societal values in shaping the future economy.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1707,
+      "latencyMs": 13198,
+      "cost": 0.0013572,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

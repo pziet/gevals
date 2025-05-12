@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 308,
+  "timestamp": "2025-05-12T18:27:38.878Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The longevity and human face of trades: discussions around the importance of maintaining human involvement in trades and service industries, emphasizing the social and emotional aspects such as the example of teddy bears and surveillance trade-offs.\n\n- Economic and legal pushback in healthcare and other sectors: concerns about regulatory resistance, including legal challenges faced by healthcare innovations and the potential for law to oppose or slow down AI integration, especially in legal professions.\n\n- Defense mechanisms and fast uptake of AI: debate on how quickly AI is adopted in various fields, and the importance of having defenses or protective measures in place to manage economic disruptions.\n\n- Unions and bargaining power: considerations around workers’ rights, union negotiations, and how they might influence or respond to AI-driven changes in employment.\n\n- Trade-offs with surveillance and human dignity: balancing the economic benefits of surveillance (trade-offs for efficiency and safety) against privacy concerns and the preservation of human dignity.\n\n- Media, journalism, and cross-subsidies: the role of journalism and independent media (e.g., Substack) in providing humane, unbiased coverage, and the potential challenges or subsidies faced in maintaining quality journalism in an AI-influenced media landscape.\n\n- Impact of AI on trades and artisanal work: AI will most significantly affect trades requiring skilled manual work such as electricians, plumbers, and gardeners, especially in the most artisanal aspects.\n\n- Legalization and use of AI in services: strong legal frameworks may develop to regulate AI usage, especially in high-value sectors like law and medicine to protect existing interests.\n\n- Economic benefits and welfare state analogy: the idea that increased wealth from AI could support a \"welfare state\" for service workers, providing a social safety net and maintaining meaningful employment or roles.\n\n- Political movements and job protection laws: potential for political activism aiming to protect core jobs through legislation similar to existing laws in law and medicine, particularly against strong AGI.\n\n- Transition strategies and economic evidence: the importance of demonstrating good transition examples to prevent economic breakdowns; the scarcity of such evidence could lead to resistance or adverse outcomes.\n\n- AI's impact on the economy: predictions suggest AI will most drastically change trades and highly artisanal work, reshaping these sectors while possibly leaving larger, automated organizational deals to human proxies.\n\n- Challenges faced by legal and regulatory systems: historically, legal opposition to AI was strong when it threatened professional licensing income, but this may evolve as AI becomes integrated into legal and healthcare sectors.\n\n- Measurement and ongoing analysis: initiatives like the Anthropic Economic Index aim to measure AI's effect on the U.S. economy, providing data to guide policy and societal responses.\n\n**Summary:**  \nThe meeting covered the societal, legal, and economic implications of advanced AI, emphasizing the importance of human-centric trades, legal regulation, union influence, and the potential need for welfare-style support for service workers. Careful management of AI adoption, legal frameworks, and transition evidence are crucial to ensuring stability and equitable benefits in the evolving economy.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3375,
+      "latencyMs": 23995,
+      "cost": 0.0028018999999999995,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

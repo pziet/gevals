@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 234,
+  "timestamp": "2025-05-12T18:22:30.909Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs in human labor and AI integration:** Discussion around how AI and automation may impact jobs that traditionally involve a human face, emphasizing the importance of preserving human elements in trades that last and require personal interaction.\n\n- **Legal and regulatory pushback in healthcare:** Concerns about potential legal challenges and regulatory hurdles, especially related to handling personal data, standards, and ethics in healthcare, which is tightly bound up with privacy and quality standards.\n\n- **Defense and fast uptake of AI technology:** Highlighting the rapid adoption of AI in various sectors, including defense. The pace of technological change may outstrip regulatory and societal adaptation.\n\n- **Union roles and bargaining power:** Considerations on how unions may respond and bargain in this evolving landscape, potentially aiming to protect workers and negotiate terms amidst AI-driven changes.\n\n- **Surveillance trade-offs and societal implications:** The discussion of surveillance—such as the \"teddy bears\" analogy—highlighting the balance between security and privacy, and how surveillance might be a trade-off in implementing AI solutions.\n\n- **Media, journalism, and cross-subsidy issues:** Insights into the news industry, including journalism’s economic challenges, cross-subsidization, and the role of alternative media platforms like Substack in providing more humane, independent coverage.\n\n- **Economic transition and social safety nets:** Analogies to the welfare state, emphasizing the need for generous social safety measures, such as a generous welfare state analogy for service workers, to manage economic shifts driven by AI.\n\n- **Human desire for meaning amidst automation:** Recognition that humans seek purpose and salience in work, which becomes complex as AI reduces certain roles but also opens opportunities for new forms of meaningful engagement.\n\n- **Potential for nihilism and societal angst:** Acknowledgment of feelings of angst even among high-achieving sectors like academia, reflecting broader societal uncertainty about AI's transformative impact.\n\n- **Legal and economic protections for workers:** The importance of developing evidence-based policies and good transition strategies to protect jobs and manage economic changes, avoiding abrupt disruptions.\n\n- **Long-term trade-offs and societal priorities:** Emphasizing that decisions about AI deployment will involve complex trade-offs, particularly around protecting jobs, privacy, and societal well-being, with some trade-offs involving surveillance and data use.\n\n**Overall Focus:** Balancing rapid technological progress with thoughtful regulation, societal protections, and ethical considerations to ensure AI benefits align with human values and social stability.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3189,
+      "latencyMs": 23044,
+      "cost": 0.0026631,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

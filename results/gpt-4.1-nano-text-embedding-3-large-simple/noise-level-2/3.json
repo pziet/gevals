@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 209,
+  "timestamp": "2025-05-12T18:21:29.766Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trade and Human Face of AI\n- AI and automation are seen as lasting shifts that impact human workers and the nature of trade.\n- The concept of a \"welfare state\" for service workers is discussed, balancing economic efficiency with social stability.\n- Humans prefer meaningful and salient daily work, influencing the design of AI policies and labor protections.\n\n## Legal and Regulatory Challenges\n- Strong legal pushback anticipated in healthcare and other sensitive sectors due to issues around personal data and standards.\n- Encountering resistance from established legal frameworks, especially where high fees are involved (e.g., legal and medical fields).\n- Governments may act swiftly to regulate or protect jobs, especially for trades like electricians, plumbers, and gardening—areas involving artisanal skills.\n- Resistance also from large corporations with pools of capital aiming to maintain control and high pricing.\n\n## Defense and Political Movements\n- Potential political movements may emerge aiming to protect a significant portion of current jobs through laws similar to those in healthcare and law.\n- Concerns about big tech and AI companies charging high prices and resisting downward price pressures.\n- Governments and organizations might intervene to curb automation where significant economic or social disruption is foreseen.\n\n## Human-AI Trade-offs and Surveillance\n- Trade-offs involved in surveillance and the use of AI, e.g., \"teddy bears\" metaphor for balancing security vs. privacy.\n- Ethical considerations around AI surveillance and trade-offs are part of ongoing debates.\n\n## Impact on the Economy and Future Outlook\n- AI's significant impact expected primarily in artisanal and trade sectors like electricians, plumbers, gardening.\n- The economy could potentially be restructured so that AI handles up to half of current workforces, aiming for a smoother transition.\n- There is a mixture of optimism (\"we’ll be richer and life will look familiar\") and anxiety (nihilism, angst even among high-achieving academic circles).\n\n## Media and Humanity\n- Noted issues regarding cross-subsidies in news/media industries, the human element in journalism, and the influence of platforms like Substack.\n- Concerns about the laundering of AI-generated information into human systems and the erosion of trust in information sources.\n\n## Overall Reflection\n- The discussion underscores the complexity of integrating AI within societal, legal, and economic frameworks.\n- Emphasizes the importance of generating positive examples and evidence-based transitions to ensure smoother adaptation to AI-driven changes.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1632,
+      "latencyMs": 14881,
+      "cost": 0.0003081,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

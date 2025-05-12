@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 10,
+  "timestamp": "2025-05-12T18:13:31.304Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Key Discussion Topics\n\n1. **Trade and Welfare Implications**\n   - Free trade may resemble a welfare state for service workers, allowing them to engage in meaningful work while balancing job flexibility.\n   - Generous welfare support could counterbalance the impacts of free trade, aiding acceptance among workers.\n\n2. **Legal Concerns with Healthcare**\n   - Anticipated legal pushback against AGI integration in healthcare due to data management and privacy standards.\n   - Some resistance likely from established sectors that benefit from current pricing models in healthcare services.\n\n3. **Economic Shifts and Worker Protections**\n   - There is a potential for a political movement aimed at protecting existing jobs through legislation, especially in the face of advancing AGI technologies.\n   - Evidence of larger economic changes could foster a greater call for worker protections across various domains.\n\n4. **Adoption of AGI in Different Sectors**\n   - Predicted that trades will be last to adopt AGI; sectors like plumbing and gardening remain more insulated from automation due to the hands-on and interpersonal nature of the work.\n   - Conversely, more institutionalized sectors may react more swiftly to AGI adoption, potentially leading to resistance from larger corporations.\n\n5. **Media and Journalism Dynamics**\n   - The conversation touched on media's role in bridging the gap between technological advancements and societal impact, with a mention of models like Substack providing new revenue avenues for journalism.\n   - Importance of maintaining a human element in news reporting to ensure relevance and connection with audiences.\n\n6. **Society’s Reception of AGI Integration**\n   - AGI may operate best in environments where it augments rather than replaces human effort, suggesting that human presence in jobs that require empathy and nuanced interaction will be crucial.\n   - Concerns voiced about potential nihilism among highly educated professionals regarding their work's meaning in light of advancing technologies.\n\n### Additional Insights\n- The balance between economic efficiency and human welfare is a critical point of discussion, emphasizing the need for meaningful job roles in an evolving labor landscape.\n- There is an ongoing analysis of AGI's long-term effects, with the importance of stakeholder collaboration highlighted as essential for positive transitions.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1587,
+      "latencyMs": 19174,
+      "cost": 0.0017406,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

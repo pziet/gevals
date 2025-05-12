@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 20,
+  "timestamp": "2025-05-12T18:13:46.894Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Key Topics Discussed\n\n- **Trades Last, Human Face**\n  - Discussion on the resilience of certain trades (e.g., electricians, plumbers) in relation to AGI impact.\n  - Emphasis on the importance of human relationships in commerce and trades.\n\n- **Legal Pushback in Healthcare**\n  - Anticipation of significant legal obstacles in the integration of AGI within the healthcare sector, especially related to personal data handling and standards.\n\n- **Fast Uptake Defense**\n  - Examination of how quickly sectors might adopt AGI, with a focus on protecting traditional jobs and roles from automation.\n\n- **Unions and Bargaining**\n  - Conversations highlighted the role of unions in negotiating terms to adapt to changes brought by technological advances, particularly for service workers.\n\n- **Teddy Bears, Surveillance Trade-Off**\n  - The notion of balancing surveillance with personal freedoms was brought up, using \"teddy bears\" as a metaphor for the familiar and comforting aspects in the face of technological change.\n\n- **News and Journalist Cross-Subsidy**\n  - A dialogue on the evolving role of journalism with the rise of platforms like Substack, emphasizing the need for humanity and ethical considerations in news reporting amidst economic shifts due to advanced AI.\n\n## Closing Remarks\n- The conversation underscored the need for proactive engagement with the challenges and changes posed by advanced AI, advocating for thoughtful integration in welfare, legal frameworks, and workforce dynamics.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1435,
+      "latencyMs": 14644,
+      "cost": 0.001392,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

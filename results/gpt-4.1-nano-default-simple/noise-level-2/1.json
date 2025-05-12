@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 287,
+  "timestamp": "2025-05-12T18:27:03.383Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of Trade and Economic Impact\n- Trade is viewed as an acceptable bargain, similar to a welfare state for service workers, providing stability and human agency in daily work life.\n- The relationship between free trade, welfare infrastructure, and human labor is emphasized, highlighting that people desire meaningful, salient work.\n- Large economic shifts may lead to increased efforts to protect jobs, especially in regulated areas like healthcare.\n\n## AI's Role in the Economy and Workforce\n- AI (including AGI) is expected to impact certain manual and artisanal trades most significantly, such as electricians, plumbers, and gardening.\n- The broader economy may feel familiar and manageable if AI makes life richer and automates key sectors.\n- Legal restrictions and standards around personal data (notably in healthcare) could slow AI deployment but also motivate the development of good transition practices.\n\n## Potential Regulatory and Political Responses\n- There is a high likelihood of political movements attempting to legislate protections for large portions of the current workforce against advanced AI, especially in critical sectors.\n- Companies and policy makers may resist AI-driven price bidding, favoring regulation to control AI's economic influence.\n- Government entities might adapt faster than expected, possibly offering resistance to AI integration in certain areas, particularly when large established companies are involved.\n\n## Ethical, Social, and Media Considerations\n- Surveillance trade-offs pose challenges, exemplified metaphorically through teddy bears, indicating the human costs of trade-offs involving privacy.\n- Cross-subsidization in journalism and media (e.g., Substack) illustrates tensions between human-centered content creation and AI’s influence, raising concerns about humanity and information laundering.\n- The societal angst and nihilism persist even among high-achieving academic circles regarding AI’s transformative power and the future of work.\n\n## Summary of Challenges and Outlook\n- Effective management of AI evolution requires generating positive examples of transition strategies and standards.\n- The strongest legalized AI uses are currently in law, medicine, and data-sensitive sectors, with resistance from established legal and professional standards.\n- The future trajectory involves balancing economic benefits, regulatory protections, and societal well-being amid rapid technological change.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1577,
+      "latencyMs": 8198,
+      "cost": 0.0002861,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

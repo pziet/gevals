@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 261,
+  "timestamp": "2025-05-12T18:26:20.157Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Discussion Overview\n\n1. **Human-Centric Job Protection**\n   - Emphasis on the importance of preserving human jobs amidst advancements in AI.\n   - Potential political movements to advocate for job protection, particularly in trades and artisanal sectors.\n\n2. **Legal and Healthcare Challenges**\n   - Discussion of legal pushback regarding healthcare and implications for workers in industries affected by AI.\n\n3. **Defense of Fast Uptake**\n   - Considerable support for rapid implementation of AI technologies in defense sectors despite concerns.\n\n4. **Union Negotiations**\n   - Focus on the role of unions in bargaining for worker rights and protections in the face of job displacement due to AI.\n\n5. **Public Sentiment and Trade-offs**\n   - Concern regarding societal implications of surveillance and privacy amidst technological advancements, including discussions about how this affects trust in trades.\n\n6. **Media Influence and Economics**\n   - Analysis of the cross-subsidy model in journalism, particularly in relation to platforms like Substack.\n   - The need for a balance between economic interests and retaining the human element in reporting and storytelling.\n\n7. **Trade-offs in AI Adoption**\n   - Discussion on various industries’ adaptability to AI and the potential consequences of rapid technological change on job markets.\n\n## Conclusions\n- Addressing the economic impact of AI requires a comprehensive approach that considers legal, union, and societal implications. \n- The balance between technological advancement and maintaining a human face in the workforce remains a critical dialogue point.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3063,
+      "latencyMs": 23338,
+      "cost": 0.0037548,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

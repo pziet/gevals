@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 137,
+  "timestamp": "2025-05-12T18:17:20.782Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades Affected Last by AGI**  \n  AGI is expected to impact trades such as electricians, plumbing, gardening, and other artisanal jobs last. These roles often require a human element, such as personal interaction and physical presence, which AI is less likely to replace quickly. There is a strong preference in commerce for human-mediated deals, especially those involving large pools of capital with human proxies.\n\n- **Legal and Regulatory Challenges in Healthcare**  \n  Healthcare is anticipated to face significant legal pushback against AGI integration. This is due to stringent standards related to personal data handling and the sensitive nature of the industry. Laws protecting jobs in healthcare may resemble those currently in place for law and medicine, potentially limiting the extent to which AGI can automate roles.\n\n- **Fast Uptake in Defense and Government**  \n  While some expect government sectors to be slow in adopting AGI, there is a possibility they may move faster than anticipated, particularly in defense. Established large companies and government bodies may resist AGI deployment in certain domains, resulting in complex political and legal dynamics.\n\n- **Role of Unions and Bargaining Power**  \n  There is a likelihood of political movements and union actions aimed at protecting existing jobs through legislation and bargaining, especially to shield workers from rapid job displacement caused by AGI.\n\n- **Surveillance and Privacy Trade-Offs**  \n  The discussion touched on the trade-offs in surveillance, metaphorically referenced by 'teddy bears,' implying a negotiation between privacy and the benefits or risks of monitoring technologies, possibly related to AGI's integration.\n\n- **News Media and Journalism Dynamics**  \n  Journalists face challenges with AI’s effect on their industry, including economic pressures leading to cross-subsidies to maintain humanity and integrity in reporting. Platforms like Substack are part of this evolving landscape, helping maintain journalistic quality amid AI-driven changes.\n\n- **Welfare State as a Trade-Off for Free Trade and AI**  \n  A generous welfare state may be necessary to justify and sustain free trade and the integration of AI technologies, serving as a social safety net to support workers displaced by economic transformations. This concept extends to service workers impacted by AI.\n\n- **Human Element and Economic Transitions**  \n  Much of the demand will remain for human involvement in business and commerce transactions. Good examples of transitions to AI integration are critical to prevent backlash and ensure smoother economic shifts.\n\nThese points highlight the nuanced effects of AGI across different sectors, emphasizing the interplay between technology, law, economy, and human factors.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1654,
+      "latencyMs": 17192,
+      "cost": 0.0012784,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

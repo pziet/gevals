@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 319,
+  "timestamp": "2025-05-12T18:28:01.745Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### Economic Impact and Trade\n- Emphasis on the longevity (\"trades last\") and human-centric aspects of economic engagement.\n- The importance of trade-offs, such as trade-offs between surveillance and privacy, exemplified metaphorically through teddy bears.\n- Discussions around how AI and automation influence traditional trades and artisanal work, with predictions that trades like electricians, plumbing, or gardening may be affected last by AI.\n\n### Legal and Political Challenges\n- A significant \"push back\" from legal systems against healthcare applications of AI.\n- The potential for strong AI (AGI) to encounter legal obstacles, especially within government agencies, which may lag in adopting AI due to regulatory and legal hurdles.\n- The possibility of political movements aimed at legislating protections for jobs, similar to laws in law and medicine, to safeguard against AI disruptions.\n\n### Human and Social Considerations\n- The importance of maintaining a human face in trades and commerce, especially as automation advances.\n- The role of unions and bargaining in adapting to economic shifts driven by AI.\n\n### Surveillance and Trade-offs\n- Surveillance represents a trade-off in AI deployment—balancing security, privacy, and human freedoms.\n\n### Media, Humanity, and Information\n- The influence of news, journalism, and cross-subsidies in media, with references to Substack, highlighting shifts towards more human-centered content creation.\n- Mention of the \"trade-off\" involved in surveillance and data collection.\n\n### AI's Role in Society\n- AI will affect the economy in stages, with certain sectors impacted later, notably artisanal trades.\n- The laundering and filtering of AI-generated information into human systems, possibly making AI effects feel more natural and less disruptive.\n- AI's integration with large pools of capital, with deals mediated by human proxies to navigate legal complexities.\n\n### Future Outlook\n- The potential for economic changes to be so profound that only a robust welfare state can manage free trade and social stability.\n- The necessity for generating positive examples of smooth economic transitions as AI advances; a lack of such examples may lead to societal and economic breakdowns.\n\n*Overall, the discussion emphasizes the interplay between AI development, legal frameworks, societal adaptation, and the importance of balancing technological progress with human-centric values.*",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3158,
+      "latencyMs": 22860,
+      "cost": 0.0026574,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

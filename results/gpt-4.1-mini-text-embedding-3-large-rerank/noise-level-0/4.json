@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 200,
+  "timestamp": "2025-05-12T18:19:24.045Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes on Advanced AI Economic and Social Implications\n\n- **Trades and Human-Centric Jobs Last to be Automated**  \n  Advanced AI is expected to impact jobs unevenly, with trades and artisanal professions (e.g., electricians, plumbers, gardeners) likely to experience automation last. These roles maintain a strong human face and require hands-on skills that are less easily replaced by AI.\n\n- **Legal and Regulatory Pushback in Healthcare**  \n  Healthcare represents a sector where AI adoption will face significant legal and regulatory challenges. Existing stringent standards concerning personal data protection and medical laws may slow down AI integration, protecting many healthcare jobs from rapid automation.\n\n- **Fast Uptake in Defense and Related Sectors**  \n  Some sectors, such as defense, may see rapid AI adoption and transformation early, likely due to strategic imperatives and fewer regulatory barriers.\n\n- **Unions and Collective Bargaining Role**  \n  There is potential for increased union activity and collective bargaining efforts to protect jobs threatened by AI. Workers and political movements may push for laws analogous to those protecting professions like law and medicine, aiming to preserve a significant portion of existing jobs.\n\n- **Welfare State as a Social Bargain for Freedom and Protection**  \n  The discussion highlighted the need for a generous welfare state to accompany freer trade and AI-driven economic changes. Such a welfare system acts as a social bargain, protecting service-sector workers and others impacted by automation, helping society adjust to technological disruptions.\n\n- **Surveillance and Privacy Trade-offs**  \n  The metaphor of \"teddy bears\" was used to indicate the trade-off between pervasive surveillance enabled by AI and individual privacy. This highlights ethical considerations and public acceptance issues related to AI deployment.\n\n- **Media, Journalism, and Cross-Subsidy Models**  \n  The media industry, especially journalism, faces economic challenges in the AI era. Models such as journalist cross-subsidy supported by platforms like Substack may become more prominent, preserving the \"humanity\" and quality of news amidst technological shifts.\n\nOverall, these points underscore a nuanced landscape where AI's impact varies across sectors, with legal, social, and economic factors shaping the transition. A proactive approach involving welfare policies, worker protections, and ethical considerations is key to managing these changes.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3206,
+      "latencyMs": 22559,
+      "cost": 0.003554,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

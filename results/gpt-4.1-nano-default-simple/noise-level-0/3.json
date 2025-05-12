@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 299,
+  "timestamp": "2025-05-12T18:27:15.889Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human Interaction and Trade\n- Emphasis on maintaining personal, human faces in transactions, highlighting the importance of trust and human touch in commerce.\n- Trades tend to last longer when human interaction remains central, ensuring enduring relationships and authenticity.\n\n## Legal and Regulatory Challenges\n- Significant legal pushback anticipated in healthcare due to issues around personal data and standards regulation.\n- AGI's impact will face substantial legal obstacles, especially in regulated sectors like healthcare and legal frameworks governing data privacy.\n- Governments may move faster than expected to regulate or restrict AI implementation, with established companies sometimes resisting change.\n\n## Economic and Social Safeguards\n- The potential need for a welfare-oriented approach, akin to a \"welfare state for service workers,\" to buffer against economic disruptions caused by AI.\n- Discussions around protecting jobs—possibly half of current jobs—through laws similar to those in medicine or law, especially in artisanal trades such as electricians, plumbing, gardening.\n- Larger economic changes will trigger desire for policies to help workers, mediated by evidence of AI impact, but these may not always be most efficient solutions.\n\n## AI’s Effect on Different Sectors\n- AGI is likely to influence less in trades requiring artisanal skills and more in sectors involving data laundering and information integration.\n- The impact will be felt last in complex, arts-driven, and desk-bound service sectors, which rely heavily on human orchestration and nuanced interactions.\n- Relationships mediated by people, especially for large pools of capital, will favor human proxies or intermediaries over fully automated processes.\n\n## Media and Information\n- Media outlets like Substack and journalism will face cross-subsidization issues, emphasizing the human aspect of storytelling and reporting.\n- The challenge of transmitting AI-generated information into human-centered systems without loss of nuance or trust.\n\n## Broader Cultural Impact\n- Potential shifts in modern art production, with artists orchestrating work through large networks of collaborators, reflecting AI's influence on creative processes.\n- Society’s adaptation depends on accumulating sufficient positive examples of transitioning to AI-enabled workflows.\n\n## Summary\n- \"Trades last, human face\" underscores the enduring importance of personal relationships.\n- \"Legal push back healthcare\" signals regulatory hurdles primarily in sensitive sectors.\n- \"Fast uptake defense\" and \"unions, bargain\" refer to societal efforts to protect jobs through legislation and collective bargaining.\n- \"Teddy bears, surveillance trade off\" hints at balancing human-centric products with privacy considerations.\n- \"News, journalist cross subsidy, humanity, substack\" highlights the role of media and its reliance on human storytelling amidst AI shifts.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1661,
+      "latencyMs": 9589,
+      "cost": 0.00032240000000000003,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

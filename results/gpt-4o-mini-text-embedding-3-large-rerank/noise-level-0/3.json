@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 79,
+  "timestamp": "2025-05-12T18:15:50.073Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe discussion primarily revolved around the implications of advanced AI on various sectors, especially emphasizing the human aspects and legal challenges involved.\n\n## Key Topics Discussed\n\n### 1. Human Face in Trades\n- The Human element in traditional trades is expected to be one of the last areas significantly affected by advanced AI. Professions such as electricians and plumbers may retain their human workforce due to the artisanal nature of their work.\n\n### 2. Legal Challenges in Healthcare\n- There is anticipated legal pushback concerning the adoption of AI technologies in healthcare settings. This resistance may arise from concerns over accountability, ethics, and job security for healthcare workers.\n\n### 3. Fast Uptake in Defense Sector\n- The defense sector appears to be rapidly integrating AI technologies, indicating a contrasting pace of AI adoption compared to other industries, like trades and healthcare.\n\n### 4. Unions and Bargaining\n- Unions are expected to play a critical role in negotiating terms and protections for workers in light of increasing AI deployment, particularly in sectors where jobs may be at risk.\n\n### 5. Surveillance and Privacy Concerns\n- The discussion included analogies involving teddy bears to illustrate the trade-off between surveillance for safety and maintaining individual privacy. It underscores the need for careful consideration of surveillance measures when integrating AI.\n\n### 6. News Media and Journalistic Integrity\n- The evolving role of journalists was highlighted, with references to cross-subsidization models in media, like Substack. The conversation pointed toward an ongoing search for maintaining humanity and integrity in journalism amid technological changes.\n\n## Conclusion\nThe meeting underscored the complex interplay of advanced AI with human jobs, legal frameworks, union negotiations, and media practices, emphasizing the need for balanced approaches to integrate technology while preserving human dignity and rights.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3043,
+      "latencyMs": 22943,
+      "cost": 0.003786,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

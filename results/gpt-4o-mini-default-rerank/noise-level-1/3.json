@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 274,
+  "timestamp": "2025-05-12T18:26:50.891Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed:\n\n- **Trades and Human Element**: The conversation highlighted the importance of maintaining a human face in trades, underscoring how personal interactions are valued in the increasingly automated environments.\n\n- **Legal Challenges in Healthcare**: There was a discussion of potential legal pushbacks in the healthcare sector as it navigates new technologies and policies, emphasizing the complexities involved.\n\n- **Rapid Adoption in Defense**: The defense sector is seeing a fast uptake of technology, indicating a trend of quick implementation amidst ongoing discussions about security and regulation.\n\n- **Unions and Bargaining Power**: The role of unions in negotiating terms and conditions for workers was addressed, reflecting concerns about job security in an evolving job landscape.\n\n- **Surveillance Trade-offs**: The complexities of trade-offs in surveillance practices were discussed, metaphorically referring to \"teddy bears\" to illustrate comfort versus privacy concerns.\n\n- **Journalism and Cross-subsidization**: The challenges faced by journalists in the current economy were highlighted, particularly concerning the cross-subsidization models, and the need for retaining humanity in news delivery, referencing platforms like Substack and its implications for media sustainability.\n\n### Additional Remarks:\n\n- The discussions brought up broader societal questions around the implications of AI on work, the political will to protect jobs, and the need for a structured approach towards transitioning workforces in light of rapid technological changes. \n\n- The emphasis on a welfare-like state for service workers hints at the potential for better support systems as society adapts to decreasing human involvement in certain job sectors. \n\n- Overall, the meeting underscored the pivotal interplay between technology and human-centric values, especially in sectors that are fundamental to societal structure and individual livelihoods.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3058,
+      "latencyMs": 25975,
+      "cost": 0.0037895999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

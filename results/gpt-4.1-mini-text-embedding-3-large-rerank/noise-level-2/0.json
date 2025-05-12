@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 186,
+  "timestamp": "2025-05-12T18:18:58.265Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**  \n  Discussion emphasized the potential impact of automation and AI on traditional trades (e.g., electricians, plumbers, gardening). These trades represent artisanal, hands-on work where a human face and personal involvement remain important. Protecting these jobs might be a priority due to their distinct nature.\n\n- **Legal Pushback in Healthcare and Other Professions**  \n  There is notable resistance from legal frameworks, especially in professional domains like law and medicine, to rapid AI adoption. These professions may employ legal mechanisms to protect existing job roles, meaning strong regulatory opposition could slow AI integration.\n\n- **Fast Uptake in Defense and Other Sectors**  \n  In contrast, sectors such as defense may adopt AI technology more quickly. The varying speeds of adoption across industries will influence the economic and social adaptation processes.\n\n- **Unions and Bargaining Power**  \n  Labor unions could play a critical role in negotiating protections and terms for workers in the face of technological change. Bargaining might focus on preserving meaningful work, fair transition arrangements, and adapting welfare support.\n\n- **Trade-offs Between Surveillance and Privacy (\"Teddy Bears\")**  \n  Emerging technologies raise concerns about increased surveillance, with potential trade-offs between security and privacy. The metaphor of \"teddy bears\" suggests balancing human comfort or trust against monitoring and control mechanisms.\n\n- **News, Journalism, and the Economics of Media**  \n  Journalistic integrity and financing face challenges in the new media landscape. Discussions included the human element in journalism, the role of cross-subsidies to support quality reporting, and platforms like Substack, which empower writers but also reshape how news is funded and consumed.\n\n- **Welfare State as a Bargain for Service Workers**  \n  The conversation recognized the welfare state as a social bargain supporting service workers, enabling free trade but with trade-offs on efficiency. It's posited as a necessary framework to maintain social stability amid economic and technological shifts.\n\n- **Desire for Meaningful Work and Salience**  \n  A common theme was people's inherent desire for meaningful and salient daily work. Policies and technological transitions should aim to preserve or provide this meaningfulness to avoid social discontent.\n\n- **Political Movements to Protect Jobs**  \n  There is a high chance of political initiatives aimed at protecting significant portions of existing jobs through legislation, similar to protections in specialized fields like law and medicine to defend against disruptive AI.\n\n- **Role of Companies and Examples of Good Transitions**  \n  Companies developing AI must lead by example in demonstrating good worker transitions to mitigate social and economic disruption.\n\n---\n\nThese enhanced notes summarize key topics raised in the meeting concerning economic, legal, social, and technological changes driven by AI and automation.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3264,
+      "latencyMs": 29886,
+      "cost": 0.0036476,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

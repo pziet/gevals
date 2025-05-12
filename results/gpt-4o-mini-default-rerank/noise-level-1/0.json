@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 271,
+  "timestamp": "2025-05-12T18:26:47.360Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Summary\n\n### Key Topics Discussed\n\n- **Trade and Economy**\n  - Discussion around how the dynamics of trade are evolving, with emphasis on the human element (\"human face\") in the context of economic changes.\n  - The implications of free trade on the welfare state, highlighting the need for a generous welfare system to balance the shifts caused by technological advances and automation.\n\n- **Legal Challenges in Healthcare**\n  - There is significant legal pushback in the healthcare sector related to technological integration and data handling.\n  - Concerns about how fast the transition to advanced technologies is occurring, particularly in sensitive industries.\n\n- **Labor and Unions**\n  - Conversations centered on the role of unions and collective bargaining to protect workers amidst rapid economic and technological changes.\n  - Potential political movements may arise to safeguard jobs as a reaction to AI advancements.\n\n- **Defense and Rapid Adoption**\n  - Notable fast uptake of defense technologies and their implications on labor, industry, and human roles.\n\n- **Societal Considerations**\n  - The balance between surveillance and personal freedoms discussed through metaphorical \"teddy bears,\" representing the trade-offs society faces with monitoring and security.\n  \n- **Media and Journalism**\n  - Examination of how traditional journalism is adapting, with mentions of cross-subsidy models and platforms like Substack contributing to this evolution.\n  - The underlying importance of humanity and ethical considerations in media amidst changing landscapes in information dissemination.\n\n### Additional Insights\n\n- **Political Will & Protection Measures**\n  - Speculation on whether there will be a political movement advocating for job protection similar to regulations in law and medicine, particularly as AI technology becomes more prevalent.\n  \n- **Transitions and Evidence**\n  - The necessity for clear examples of successful transitions during economic shifts to persuade policymakers and the public about viable approaches to handling new technologies.\n\nThese notes encapsulate the crucial elements of the discussion, providing a clearer picture of the meeting's focus on trade, labor dynamics, technology impacts, and societal implications.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3046,
+      "latencyMs": 27195,
+      "cost": 0.0038166,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

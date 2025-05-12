@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 179,
+  "timestamp": "2025-05-12T18:18:32.722Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Trades to Feel AI Impact Last  \n- AI and AGI will impact trades and artisanal jobs last (e.g., electricians, plumbing, gardening).\n- These roles involve human interaction and craftsmanship that is harder for AI to fully replicate.\n- There will likely remain a human preference for trading and sales involving personal relationships and human proxies, especially in commercial deals.\n\n## Legal Pushback in Healthcare  \n- Healthcare is expected to see strong legal resistance to AI integration.\n- Personal data handling and standards around healthcare may require significant changes due to AI.\n- There is a possibility of protective laws emerging similar to those already regulating law and medicine, limiting AI's role in certain jobs.\n- Large established companies might also resist AI adoption in sensitive sectors before governments act.\n\n## Fast Uptake and Defense Mechanisms  \n- Companies and customers need to create good examples of smooth AI transitions in the workforce.\n- Without sufficient evidence of successful integration, political movements may force protections for workers.\n- The welfare state may serve as a social bargain to help protect workers affected by technological change.\n\n## Unions and Bargaining Power  \n- Workers and unions might bargain to protect jobs or improve conditions amidst AI adoption.\n- There is an impulse to safeguard livelihoods, especially in service sectors, even if it is not the most efficient economic outcome.\n\n## Surveillance Trade-Off and Privacy Concerns  \n- The trade-off between surveillance and privacy, analogous to the \"teddy bears\" metaphor, arises in AI adoption.\n- Handling personal information responsibly remains a pressing issue and source of pushback.\n\n## News Industry, Journalists, and Economic Shifts  \n- Journalism faces challenges with AI’s economic impact; there is a notion of cross-subsidy where one sector might subsidize journalistic work.\n- Human elements such as storytelling and nuanced reporting remain valuable.\n- Platforms like Substack may exemplify new models supporting journalists amid technological disruptions.\n\n---\n\nThese enhanced notes integrate key discussion points anchored by the rough notes, emphasizing the nuanced sectors AI impacts differently and highlighting legal, social, and economic considerations.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1555,
+      "latencyMs": 11856,
+      "cost": 0.0011200000000000001,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

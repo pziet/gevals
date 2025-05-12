@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 303,
+  "timestamp": "2025-05-12T18:27:30.698Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centric Trades and Artisanal Skills\n- The last remaining trades are characterized by human face-to-face interactions, such as electricians, plumbers, and gardeners, especially those involving high-skilled, artisanal work where expertise and reputation matter.\n\n## Legal and Political Pushback in Healthcare\n- There is ongoing legal resistance and regulatory pushback specifically targeting healthcare sector AI applications, reflecting concerns about safety, ethics, and human oversight.\n\n## Defense Against Rapid AI Technological Adoption\n- The defense of existing systems and jobs is happening in response to the fast pace of AI uptake, highlighting the need for strategies to manage economic transitions.\n\n## Union Bargaining and Workforce Negotiations\n- Unions are actively involved in bargaining processes, attempting to safeguard jobs and ensure fair treatment amid automation and AI-driven changes.\n\n## Surveillance Trade-offs and Ethical Considerations\n- The use of surveillance technologies involves trade-offs, balancing societal security and privacy concerns, akin to a trade-off similar to the teddy bears analogy, possibly representing soft toys or child-related protections.\n\n## Media, Humanity, and Cross-Subsidization\n- News organizations and journalists are navigating cross-subsidization models, such as Substack, emphasizing the importance of maintaining human-centered journalism in an AI-enabled media landscape.\n\n## Economic Impact and Policy Responses\n- There’s a potential for political movements to attempt to freeze or protect a significant portion of human jobs to counteract rapid economic shifts caused by AI, with worries about how effectively this can be managed.\n- The idea of protecting half of the jobs within the system is discussed, suggesting high chances of political efforts to stabilize employment security.\n- Rapid AI advancements may lead to economic instability if insufficient evidence or successful transition models are developed.\n\n## Future of Jobs and AI Integration\n- The effect of AGI will likely impact the most artisanal and skilled trades, emphasizing the importance of human expertise where AI may augment or replace routine tasks.\n- New types of jobs are expected to emerge, involving roles like marshalling, fueling, and managing AI systems, which may require creative, fun exercises in AI engagement.\n- Routine desk-bound roles involving interpersonal communication and alignment—such as council or sales-related activities—are predicted to come last in the phase of AI integration.\n\n## Broader Societal and Security Implications\n- AI relevance extends to national security sectors, with rapid technological changes occurring potentially within software environments still rooted in decades-old code, indicating areas prone to fast evolution.\n- There is an emphasis on the importance of strong AI companies, with concerns that newer, more agile firms could drive rapid change and innovation.\n- The future of workforce participation may see harder, more complex jobs taken on by younger generations, potentially leading to greater wealth but also raising questions about social safety nets and welfare systems.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3268,
+      "latencyMs": 21520,
+      "cost": 0.0027051999999999996,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

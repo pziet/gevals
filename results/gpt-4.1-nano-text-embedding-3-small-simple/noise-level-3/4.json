@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 85,
+  "timestamp": "2025-05-12T18:15:55.449Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of Economic and Technological Changes\n- Rapid AI advancements are transforming the economy, especially in trades and artisanal sectors such as electricians, plumbing, and gardening.\n- AI's relevance to national security is a key factor accelerating changes.\n- Potential for rapid shifts in employment, leading to significant societal impacts.\n\n## Impact on Employment and Jobs\n- AI's integration may disproportionately affect certain jobs, particularly manual trades and artisanal work, which could become high-status or high-skilled roles.\n- There is a high likelihood of political movements advocating for job protection, possibly attempting to freeze or preserve human employment through bureaucratic measures.\n- The debate around \"trade-offs\" — like surveillance (symbolized by teddy bears) versus economic benefits — central to discussions on AI regulation.\n- New job categories are expected to involve managing, fueling, and marshaling AI systems, which will be complex and high-skilled.\n\n## Legal and Policy Responses\n- Governments, especially the US, might respond by implementing legal protections to shield jobs, though such measures may not be implemented smoothly or effectively.\n- The concept of a \"welfare state\" as a buffer for workers is discussed as an always-acceptable, though not always optimal, bargain.\n- Potential \"human face\" efforts to maintain jobs may prioritize youth employment for economic growth and societal stability.\n\n## Media, Humanity, and Subversive Elements\n- Media coverage includes cross-subsidies for journalism and attention to human-centric narratives amid AI's growth.\n- Discussions about societal narratives such as Substack exemplify shifts toward new media models and the importance of human storytelling.\n- Surveillance and trade-offs are intertwined, reflecting societal tensions between security and privacy (e.g., teddy bears as metaphors or symbols).\n\n## Broader Speculations\n- The possibility of \"higher status\" games and new societal roles enabled by AI, like creative or playful endeavours.\n- Governments and tech companies may need to develop new evidence and models to manage transitions effectively, with less reliance on traditional data.\n- National security concerns will likely drive AI development, influencing how and where AI impacts society most profoundly.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1572,
+      "latencyMs": 10064,
+      "cost": 0.0002853,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

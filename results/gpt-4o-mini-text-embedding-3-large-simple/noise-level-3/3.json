@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 44,
+  "timestamp": "2025-05-12T18:14:44.978Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion focused on the economic impact of advanced AI and its implications for human employment, welfare, and the balance of societal structures.\n\n## Key Topics Discussed\n\n### Human Employment and Labor Markets\n- **Trades and Human Employment**: There's a concern regarding which sectors will experience the last effects of AI integration. The discussion highlighted that traditional trades (e.g., electricians, plumbers) may preserve jobs better due to their artisanal nature, yet will still undergo transformation.\n  \n- **Political Movements**: Anticipation of political movements aimed at protecting certain human jobs due to the rapid advancements in AI. There's a sense that efforts may emerge to \"freeze\" specific positions in response to societal pressures.\n\n### Welfare State Considerations\n- **Generous Welfare State**: The conversation touched on whether a robust welfare state is necessary to support workers in an evolving economic landscape. There are doubts about the efficacy of such models, suggesting they may not always align with the best outcomes for the workforce.\n\n### Legal and Regulatory Pushback\n- **Healthcare Legal Pushback**: Anticipated legal challenges in the healthcare sector as AI technologies evolve may impact how services are delivered.\n\n### Union and Bargaining Dynamics\n- **Unions' Role**: Unions may need to adapt their bargaining approaches as work dynamics shift due to AI automation, especially in service sectors.\n\n### Surveillance vs. Privacy Trade-offs\n- **Surveillance Concerns**: The discussion involved potential trade-offs related to surveillance technology (mentioned metaphorically as \"teddy bears\") and the implications for privacy versus security.\n\n### Media and Journalism\n- **News and Cross-Subsidy**: The role of journalism in the contemporary economic model was noted, with discussions around concepts of cross-subsidization in media, the humanity of reporting, and references to platforms like Substack. \n\n### Fast Uptake in Defense Sector\n- **Defense Sector Dynamics**: A notable increase in the integration of AI within the defense sector was discussed, indicating rapid advancements and the implications for national security.\n\n### Future Job Creation\n- **New Job Opportunities**: Conversations indicated that despite fears of job loss due to AI, there will be new roles created that involve integrating and managing AI systems in various capacities. \n\n## Conclusion\nThe meeting provided diverse perspectives on the future of work in an AI-driven economy, emphasizing the need for adaptive governance, welfare considerations, and the balancing of technological advancements with human-focused outcomes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1646,
+      "latencyMs": 13584,
+      "cost": 0.0018893999999999998,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 350,
+  "timestamp": "2025-05-12T18:28:48.462Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as the Last to Change & Human Element:** The impact of advanced AI and AGI is expected to affect various economic sectors differently, with trades—such as electricians, plumbing, gardening, and other artisanal jobs—likely to be among the last affected. These trades retain a strong human element, highlighting a need to maintain meaningful work and human engagement in daily activities.\n\n- **Legal Pushback in Healthcare and Worker Protection:** There is a high chance of political and legal resistance, particularly in professional sectors like law and medicine, to strongly regulated AGI that might replace human jobs. This signals a push to protect a significant portion of existing jobs through legislation and bargaining.\n\n- **Fast Uptake in Defense Sector:** The defense sector is anticipated to adopt advanced AI technologies rapidly, driving further discussions about economic and societal implications in industries reliant on human decision-making and oversight.\n\n- **Role of Unions and Bargaining Power:** As economic changes emerge from AI adoption, unions and organized labor are likely to play a crucial role in negotiating protections and bargaining for workers, especially in sectors vulnerable to automation.\n\n- **Trade-offs with Surveillance and Privacy (\"Teddy Bears\" Metaphor):** The conversation touches on a trade-off between surveillance and privacy, sometimes symbolized metaphorically (e.g., \"teddy bears\"), illustrating societal negotiations about security, oversight, and personal freedoms amid technological growth.\n\n- **Media and Journalism Economics:** News and journalism face economic challenges, where traditional revenue models are disrupted. Cross-subsidy models and platforms like Substack emerge, enabling journalists to maintain their humanity and connection to the audience while navigating financial sustainability in the AI era.\n\n- **Welfare State as a Social Bargain:** There's recognition that a generous welfare state or social safety net may be necessary as part of the bargain for accepting free trade and technological disruption. Such a system aims to support service workers and tradespeople whose jobs and roles evolve in the changing economy.\n\nThese notes summarize the intersection of technological impact, social contracts, legal frameworks, labor dynamics, and media economics as discussed.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3158,
+      "latencyMs": 23420,
+      "cost": 0.0034732,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

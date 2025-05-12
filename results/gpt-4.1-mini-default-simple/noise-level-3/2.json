@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 323,
+  "timestamp": "2025-05-12T18:28:04.901Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n## Trades and Human Element\n- Trades, especially artisanal and high-skilled parts (e.g., electricians, plumbers, gardening), are likely to see rapid changes with AI integration.\n- Certain trades require a human face and skill that AI cannot replace, preserving job opportunities in these domains.\n- New jobs may emerge focused on managing, fueling, and creatively employing AI systems.\n\n## Legal and Political Responses\n- There is a high likelihood of political movements aiming to protect or “freeze” a significant portion of human jobs through bureaucratic and legal means.\n- Such legal pushbacks might be an attempt to slow AI-driven disruption and serve as a protection for workers.\n- Welfare states may evolve or adapt as a form of societal bargain to buffer economic transitions caused by AI.\n\n## Fast Uptake in Defense and Technology\n- AI's relevance to national security and defense sectors is notable, potentially leading to fast adoption in these areas.\n\n## Labor Relations and Unions\n- The emergence of unions and collective bargaining may intensify as workers push for protections and fair treatment amidst rapid technological change.\n\n## Surveillance and Privacy Trade-offs\n- Concerns over surveillance and privacy will likely grow as AI systems become more integrated, posing a trade-off between technological benefits and personal freedoms.\n\n## News Industry and Journalistic Challenges\n- Journalism faces financial sustainability challenges, with some models relying on cross-subsidies.\n- There are considerations around retaining the \"humanity\" in news, possibly leveraging platforms like Substack for independent journalistic endeavors.\n\n---\n\nThese notes summarize key themes regarding AI's economic and social impact, focusing on trades, legal protections, defense uptake, labor dynamics, surveillance issues, and challenges in journalism.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1488,
+      "latencyMs": 11413,
+      "cost": 0.0010068,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

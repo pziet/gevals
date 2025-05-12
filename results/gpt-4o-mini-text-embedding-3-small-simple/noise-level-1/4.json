@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 15,
+  "timestamp": "2025-05-12T18:13:46.868Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussion centered on the implications of advanced AI on various societal sectors, including healthcare, labor, and general well-being.\n\n## Key Topics\n\n### 1. Labor and Economic Structure\n- **Human Face of Trade:** Emphasized the necessity for a humane approach to trade, balancing economic efficiency with worker protection.\n- **Union Bargaining**: Highlighted the role of unions in negotiating on behalf of workers, especially in the context of emerging technologies disrupting traditional job markets.\n\n### 2. Healthcare and Legal Challenges\n- **Legal Pushback in Healthcare**: Addressed concerns regarding healthcare standards and personal data management in relation to AI developments. Possibility for political movements to advocate for job protection within bureaucratic structures.\n\n### 3. Economic Transformations and Political Will\n- **Fast Uptake of Defense**: The rapid adoption of AI technologies may necessitate protective measures for existing jobs, with potential political resistance.\n- **Welfare States and Free Trade**: Suggested that a generous welfare state may be required to facilitate acceptance of freer trade in services, similarly to historical economic transitions.\n\n### 4. Cultural and Societal Considerations\n- **Surveillance Trade-Off**: Discussed the implications of surveillance in society as a trade-off for innovation and AI integration (referred to as \"teddy bears\").\n\n### 5. Media and Information Dynamics \n- **Journalistic Models**: Explored the evolution of journalism in an AI-driven economy, including platforms like Substack and the potential for cross-subsidization of quality journalism vs. sensationalism.\n\n## Conclusion\n- The conversation highlighted the need for careful consideration of both the economic benefits and ethical implications of deploying advanced AI technologies while striving to protect human dignity and labor rights in the process.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1511,
+      "latencyMs": 15666,
+      "cost": 0.0015582,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

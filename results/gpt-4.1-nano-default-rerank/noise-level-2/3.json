@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 309,
+  "timestamp": "2025-05-12T18:27:39.684Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n- **Trade and Human Element**: The longevity of trades often relies on maintaining a human face, emphasizing the importance of human-centered interactions amidst automation.\n\n- **Legal and Regulatory Challenges in Healthcare**: There is notable legal pushback concerning healthcare, especially related to data standards, privacy, and regulation complexities, which may slow down AI integration.\n\n- **Defense Against Rapid AI Adoption**: Discussions on the need for a fast uptake defense, possibly involving policies to protect jobs and industries from automation disruption.\n\n- **Union Involvement and Bargaining**: The role of unions in bargaining for workers' protections and fair transitions amid technological change.\n\n- **Trade-offs and Surveillance**: The analogy of teddy bears possibly representing the trade-offs involved in surveillance and AI oversight—balancing human comfort and privacy concerns.\n\n- **Media and Cross-Subsidies**: Talk of news organizations and journalists, with references to cross-subsidy models, Substack, and sparking debates about the humanity in information dissemination and potential economic trade-offs.\n\n- **Welfare State Analogies**: Some remarks liken certain economic arrangements (like trade and social safety nets) to a \"welfare state\" for service workers, emphasizing the need for generous social protections to facilitate free trade and technological transition.\n\n- **Economic Impact of AGI**: Anticipation of increased wealth due to AI, potentially making societal transitions smoother (\"people's lives will look familiar\"), and the possibility that large-scale protections (against job losses) may be necessary.\n\n- **Protection of Jobs and Legislation**: High likelihood of political movements advocating for protecting existing jobs through laws similar to those in sectors like law and medicine, especially against strong AGI.\n\n- **Sector-Specific AI Impact**: Heavy trades and artisanal sectors (electricians, plumbers, gardening) are expected to be affected last by AI, owing to their reliance on hands-on, human-centric skills.\n\n- **Desk-bound Work and AI**: Certain desk-bound jobs requiring communication and consensus (like some sales roles) are likely to be among the last to be fully automated.\n\n- **Healthcare Data and Standards**: Critical challenges involve handling personal data and standards governing healthcare, which could impede or slow toward broader AI deployment in this sector.\n\n- **Opportunity for Positive Transitions**: A deficit in models of good transition strategies could hinder progress, emphasizing the need for evidence and examples of smooth economic and social adaptation to AI-driven changes.\n\nThis summary synthesizes key themes of trades, legal considerations, economic impacts, societal protections, and sector-specific effects discussed in the meeting.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3298,
+      "latencyMs": 23789,
+      "cost": 0.0027694,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

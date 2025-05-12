@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 240,
+  "timestamp": "2025-05-12T18:22:39.151Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Meeting Notes\n\n- **Trade lasts, human face**  \n  Emphasis on the importance of maintaining human interactions in trades and negotiations, even as automation and AI become more prevalent. This highlights the enduring value of the human touch in commerce and professional exchanges.\n\n- **Legal push back in healthcare**  \n  Significant concerns around the regulation of AI in healthcare. Existing standards relating to personal data and treatment protocols may need to be revised to accommodate AI integration, potentially creating legal obstacles for AI deployment in this sector.\n\n- **Fast uptake defense**  \n  The rapid adoption of AI technologies across various industries necessitates strategies to defend and manage transition impacts, particularly in sectors critical to employment and social stability.\n\n- **Unions and bargaining**  \n  Labor unions may play a role in negotiating protections for workers as AI continues to disrupt traditional job roles. Collective bargaining could be a key mechanism to ensure worker rights and benefits in an AI-augmented economy.\n\n- **Teddy bears, surveillance trade-off**  \n  Discussions around balancing comfort, human connection, and privacy—possibly referencing AI or toy-based surveillance trade-offs—highlight issues of surveillance versus emotional and social benefits in AI applications.\n\n- **News, journalist cross-subsidy, humanity, Substack**  \n  The evolving landscape of news production and dissemination involves cross-subsidization models like Substack. This impacts the human element in journalism, raising questions about the preservation of humanity and authenticity in the media industry amid AI integration.\n\nOverall, the meeting underscored the ongoing political, legal, and social challenges associated with AI deployment—particularly its economic impact, regulatory hurdles in sensitive sectors like healthcare, and the importance of maintaining human-centric approaches in trade and media.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3034,
+      "latencyMs": 25768,
+      "cost": 0.0025976,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

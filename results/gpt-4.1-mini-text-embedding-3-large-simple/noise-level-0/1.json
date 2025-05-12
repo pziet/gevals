@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 177,
+  "timestamp": "2025-05-12T18:18:29.520Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trades as the Last to be Affected by AGI\n- AGI will likely affect artisanal trades (electricians, plumbing, gardening) last in the economy.\n- These trades involve human interaction and personal trust, making them resistant to full automation.\n- People tend to prefer commerce mediated by humans in contexts involving personal relationships and larger pools of capital.\n\n## Legal and Regulatory Challenges in Healthcare and Other Sectors\n- Healthcare faces significant legal pushback around AGI adoption due to concerns about handling personal data and standards compliance.\n- There is a high chance of political movements pushing to protect large portions of existing jobs (e.g., half) through laws similar to those protecting law and medicine sectors from strong AGI integration.\n- Large established companies may resist AGI adoption in certain areas.\n\n## Rapid Uptake in Defense and Possible Fast Adoption in Some Sectors\n- Some sectors, like defense, may see faster uptake of AGI technologies compared to others.\n- The potential for economic disruption may drive faster adoption, but also political and social reactions.\n\n## Unions and Bargaining Power as a Factor\n- Worker organizations and unions might play a role in negotiating the transition and protecting jobs amidst economic changes brought by AGI.\n- The welfare state may be required to balance free trade and worker protections as job markets evolve.\n\n## The Trade-off Between Surveillance and Privacy (Symbolized by \"Teddy Bears\")\n- There is an implied trade-off where increased surveillance or data tracking may be needed to manage economic shifts due to AI surveillance technologies.\n- Balancing humanity, privacy, and economic benefit will be a key concern.\n\n## Journalism and Media Dynamics: Cross-subsidy and Humanity\n- Journalists and news organizations face disruption from AGI and AI-produced content.\n- New platforms like Substack may enable more human-centric journalism supported by cross-subsidy models.\n- Maintaining humanity and quality in media remains a priority amid technological shifts.\n\n---\n\nThese enhanced notes capture key themes of how AGI is expected to influence jobs, legal frameworks, social institutions, and media, anchored by the rough note topics and discussion points from the conversation.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1570,
+      "latencyMs": 10732,
+      "cost": 0.001144,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

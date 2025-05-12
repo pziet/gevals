@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 9,
+  "timestamp": "2025-05-12T18:13:31.193Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe meeting covered various topics related to the impact of advanced AI on economic sectors, worker protections, and the role of unions amidst these changes.\n\n## Key Topics Discussed\n\n### 1. Trades and the Human Element\n- Traditional trades may offer a sense of dignity and meaning for service workers, akin to a welfare state framework. Participants discussed how free trade could benefit from such social safety nets, allowing workers to maintain a presence in the labor market while enjoying flexibility.\n\n### 2. Legal Considerations in Healthcare\n- Legal challenges may hinder the adoption of AI in healthcare due to concerns regarding personal data management and standards of care. As AI evolves, there is potential for increased regulation aimed at protecting workers in this sensitive industry.\n\n### 3. Rapid Adoption in Defense\n- There has been a notable quick uptake of AI technologies in the defense sector, with discussions on how regulations might adapt as this field progresses.\n\n### 4. Union Bargaining Power\n- The dynamics between unions and management were highlighted, particularly regarding the bargaining process and how AI might influence these negotiations in various industries.\n\n### 5. Surveillance vs. Privacy Trade-offs\n- The discussion touched on the ethical implications of surveillance technologies—using the metaphor of \"teddy bears\" to signify how personal data might serve as a trade-off in exchange for convenience or efficiency.\n\n### 6. Media and Journalistic Integrity\n- There was a conversation regarding the concept of cross-subsidization in journalism, particularly in relation to platforms like Substack that prioritize human-centric narratives against the backdrop of AI-generated content. Concerns about maintaining humanity in journalism amid economic pressures were expressed.\n\n### Conclusion\nParticipants acknowledged the complex interplay of advanced AI, economic structures, and worker rights, emphasizing the need for thoughtful regulation and a consideration of the human experience in these transitions. The discussions called for innovative perspectives as society grapples with these rapid technological advancements.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1538,
+      "latencyMs": 19104,
+      "cost": 0.0016229999999999999,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

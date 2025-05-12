@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-rerank",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 26,
+  "timestamp": "2025-05-12T18:14:13.295Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nIn this meeting, key topics related to trade, the welfare state, AGI implications, and socio-economic conditions were discussed. The following points summarize the main themes and insights shared:\n\n### 1. **Trade Implications**\n   - **Welfare State Connection**: Discussion on how a generous welfare state might be needed to facilitate free trade. It suggests a possible link between welfare provisions and support for service workers within trade frameworks.\n   - **Human Presence in Trade**: Emphasized the importance of a \"human face\" in trade, highlighting the need for meaningful engagement in economic activities.\n\n### 2. **Healthcare and Legal Challenges**\n   - **Pushback on Legal Fronts**: There is notable resistance, particularly within healthcare sectors, which raises questions about regulatory adaptations in a changing economic landscape.\n\n### 3. **Defense and Technology Uptake**\n   - **Rapid Adoption of Technologies**: Acknowledgment of the swift integration of defense technologies into the broader economy, suggesting both opportunities and potential socio-economic challenges.\n\n### 4. **Workers and Unions**\n   - **Bargaining Power**: The role of unions in negotiating for workers' rights amid changing economic conditions was underscored, reflecting the ongoing significance of collective bargaining.\n\n### 5. **Societal Trade-offs**\n   - **Surveillance vs. Safety**: Discussion on the implications of using innovative technologies (e.g., surveillance tools represented metaphorically as \"teddy bears\") and the trade-offs involved in ensuring security while respecting personal freedoms.\n\n### 6. **Media and Journalism**\n   - **Support for Journalism**: The conversation turned to the economic models supporting journalism, particularly cross-subsidization and its effects on maintaining humanity in storytelling, with references to platforms like Substack as modern alternatives.\n\n### 7. **Future Economic Directions**\n   - **Impact of AGI on Employment**: Speculation about how AGI could reshape not only job markets but also impact roles traditionally viewed as essential, like trades.\n   - **Legislative Responses to AGI**: Potential for political movements advocating for protection of employment sectors influenced by AGI technologies.\n\nThese notes encapsulate the critical points discussed and indicate a forward-looking stance on the interplay between technology, trade, and protections required for a fair and humane economic future.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 3247,
+      "latencyMs": 26362,
+      "cost": 0.0041838,
+      "metrics": {
+        "llmCritic": 5
+      }
+    }
+  }
+}

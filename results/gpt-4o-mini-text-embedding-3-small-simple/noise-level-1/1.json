@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4o-mini-text-embedding-3-small-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 12,
+  "timestamp": "2025-05-12T18:13:46.056Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\n- Discussed the implications of advanced AI on the economy and society, focusing on potential trade-offs and areas of pushback.\n\n## Key Topics Discussed\n\n### Economic Perspectives\n- **Freer Trade and Welfare State**: Emphasized the notion that a robust welfare state may be necessary to accept freer trade, presenting it as a social bargain for service workers. The discussion reflected on the need to ensure meaningful and salient jobs despite significant economic changes.\n\n### Legal Challenges in Healthcare\n- **Legal Pushback**: Identified that sectors like healthcare could face considerable legal obstacles due to ties with personal data handling and standards compliance. Concerns raised about how bureaucratic resilience might stall job transitions affected by AI advancements.\n\n### Transitioning Workforce\n- **Political Movement and Worker Protection**: The likelihood of a political push to safeguard existing jobs was acknowledged, with discussions around potential analogies to laws in law and medicine as mechanisms to protect employment amid advancements in AI.\n\n### Union Bargaining\n- **Role of Unions**: Potential involvement of trade unions and their role in bargaining for worker rights and protections in the face of automation and AI integration into various industries.\n\n### Technology and Entertainment\n- **AI Teddy Bears**: An exploration of the concept of \"AI teddy bears\" was made, signifying future forms of entertainment infused with meaning, offering parents economic engagement. \n\n### Media and Journalism\n- **Substack and Cross-Subsidy**: Discussed the evolving landscape of journalism, particularly the need for models like Substack to sustain quality journalism through cross-subsidization while maintaining human elements.\n\n### Surveillance and Human Decision-Making\n- **Trade-offs in Surveillance**: The meeting noted the balance between surveillance and personal freedoms, raising concerns about how automated systems and decision-making could impact human oversight and ethical standards.\n\n## Conclusion\nThe meeting highlighted the interplay between technological advancement, legal frameworks, and societal dynamics, urging the need for responsible experiences while integrating advanced AI into economic structures. The call for creating models that demonstrate effective transitions was pivotal to the discussions.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1571,
+      "latencyMs": 16502,
+      "cost": 0.0017021999999999999,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

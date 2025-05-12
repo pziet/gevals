@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 248,
+  "timestamp": "2025-05-12T18:25:46.735Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### 1. Trades and Human Labor\n- Discussion around trades acting as a welfare state for service workers. \n- The idea that free trade can coexist with a robust welfare state.\n- Importance of human involvement in trades, with a strong preference for deals mediated by people.\n\n### 2. Legal Challenges in Healthcare\n- Anticipated legal pushback regarding the integration of AI in healthcare roles.\n- Ongoing concerns about personal data handling and standards in the healthcare sector.\n\n### 3. Adaptation and Economic Impacts of AI\n- Fast uptake of defense mechanisms against potential job losses from AI.\n- Strong potential for political movements aiming to protect existing job roles, similar to protections seen in law and medicine.\n\n### 4. Societal Trends and Public Perception\n- The push for narratives in the news around journalism, with an emphasis on cross-subsidization and maintaining humanity in reporting.\n- Potential reliance on platforms like Substack for independent journalism as traditional models face disruptions.\n\n### 5. Trade-offs in Technological Adoption\n- Discussion about the implications of surveillance technology versus privacy (\"teddy bears, surveillance trade off\").\n- Balancing the benefits of technological advancement with ethical considerations.\n\n### 6. Resistance in Established Industries\n- Expectation that established companies may resist the adoption of AI due to existing business models.\n- Insight into sectors where AGI might face the highest opposition based on economic interests.\n\n### Conclusion\nThe discussions reflect a complex interplay between advancing technology, labor market dynamics, and the ethical implications of integrating AI within both service and healthcare sectors. The need for meaningful human involvement and legal frameworks was emphasized as societies navigate these changes.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1493,
+      "latencyMs": 18600,
+      "cost": 0.0015149999999999999,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

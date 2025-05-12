@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-nano-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 230,
+  "timestamp": "2025-05-12T18:22:09.968Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- The longevity of trades and the human face in work emphasize the importance of preserving human roles amid rapid technological change.\n\n- There is significant legal pushback in healthcare, especially regarding data standards and personal data management, which affects AI applications in this sector.\n\n- The fast adoption of AI technologies serves as a form of defense for industries, but it also raises concerns about job security and economic stability.\n\n- Unions and collective bargaining continue to be critical in advocating for workers' rights and negotiating protections against automation and AI-driven changes.\n\n- Surveillance, exemplified by symbolic items like teddy bears, involves trade-offs between benefits and privacy, highlighting ethical considerations in AI deployment.\n\n- The news industry, exemplified by cross-subsidies and journalism, faces challenges from AI and digital shifts, affecting humanity’s access to information and the sustainability of quality journalism, as seen in Substack models.\n\n- Discussions suggest that a generous welfare state is necessary to cushion workers from economic disruptions caused by AI and to maintain social stability, effectively functioning as a modern \"welfare state\" for service and artisanal workers.\n\n- There is concern about the potential breakdown of existing systems unless policies are enacted to protect jobs—debates on laws similar to those in medicine to safeguard employment are ongoing.\n\n- Rapid economic changes, driven by AI, may necessitate new protections for workers, with political movements likely to emerge advocating for job preservation.\n\n- AI's impact on the economy is significant, particularly in trades like electricians, plumbing, gardening, and other artisanal sectors, with potential for high-value pricing and automation challenges.\n\n- Companies and policymakers need more concrete examples of positive transitions to mitigate fears and guide ethical, effective AI integration.\n\n- Overall, the incorporation of AI in sectors like healthcare raises standardization and data governance issues, which complicate regulatory frameworks and ethical standards.\n\n- The discussion highlights the importance of balancing technological advancement with human welfare through legal, social, and economic measures.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3155,
+      "latencyMs": 23389,
+      "cost": 0.0027037000000000003,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

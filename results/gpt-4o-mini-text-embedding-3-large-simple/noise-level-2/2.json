@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 48,
+  "timestamp": "2025-05-12T18:14:48.501Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Key Discussion Points\n\n- **Trades and Human Employment:**\n  - The conversation centered on the concept of trades as an essential part of the economy, particularly artisanal trades such as electricians, plumbing, and gardening. There’s an acknowledgment that trades may be one of the last sectors affected by advanced AI, emphasizing the human element involved in these jobs.\n\n- **Human Face of Work:**\n  - There was a strong sentiment regarding the desire for meaning in daily work. It was suggested that having a welfare system could support service workers, allowing them choice in their working patterns—either to engage in work or not.\n\n- **Legal Considerations in Healthcare:**\n  - There was a legal pushback concerning healthcare, particularly regarding how personal data is managed and the standards surrounding it. This may pose challenges in integrating AI into healthcare services.\n\n- **Fast Uptake in Defense:**\n  - The discussion highlighted a rapid adoption of AI technologies in the defense sector, suggesting that this area may confront legal and ethical challenges sooner than others.\n\n- **Unions and Bargaining:**\n  - Unions were mentioned as pivotal in negotiating worker protections, especially in response to the economic shifts resulting from automation and AI.\n\n- **Surveillance and Trade-offs:**\n  - The concept of trade-offs emerged, particularly around surveillance and the implications of technological advancement. The metaphor of \"teddy bears\" was used to frame this discussion, suggesting a contrast between safety and privacy.\n\n- **News, Journalism, and Economic Models:**\n  - The role of news and journalism, including models like Substack, was discussed in the context of human stories and the need for cross-subsidies in journalism to maintain humanity amidst technological changes. There is a concern about the impact of AI on journalism and the importance of retaining a human touch in media. \n\n### Conclusion\nThe meeting highlighted various topics around human labor, trade, legal considerations in AI adoption, and the implications for industries such as healthcare and journalism, emphasizing a need for balance between technological advancement and human oversight.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1565,
+      "latencyMs": 11363,
+      "cost": 0.0016878,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

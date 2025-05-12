@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-nano-default-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 283,
+  "timestamp": "2025-05-12T18:26:58.940Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Human-Centered Trade Dynamics\n- Emphasis on trade last and maintaining the human face in interactions, particularly in service and artisanal sectors like electricians, plumbers, and gardening.\n- Trades and artisanal work may be most affected by AI, especially high-skilled, high-status roles that preserve craftsmanship and personal reputation.\n\n## AI's Impact on Economy and Workforce\n- Rapid AI developments could lead to major economic shifts, prompting discussions on protecting jobs and potential political movements aimed at freezing human employment in certain sectors.\n- There is a high likelihood of legal and political pushback, especially with regard to safeguarding human jobs, possibly leading to bureaucratic measures or a \"freeze\" on job displacement.\n- The effect of advanced AI could particularly impact trades, with potential for quick, disruptive changes, especially in national security-related sectors.\n- New types of jobs may emerge, focusing on managing, fueling, and marshalling AI systems, involving creative and engaging tasks requiring complex human-AI interaction.\n\n## Welfare State as a Bargain\n- Consideration of whether the current welfare state is an effective and equitable solution for supporting displaced workers.\n- The idea that some form of generous welfare might be necessary, though it may not always be the most efficient, serving as a pragmatic \"bargain\" in economic transitions.\n\n## Legal, Ethical, and Surveillance Trade-offs\n- Discussions around surveillance, privacy, and trade-offs exemplified by symbolic items like teddy bears, highlighting societal tensions over monitoring versus personal freedom.\n- The \"trade last\" approach suggests a cautious, human-focused strategy over rapid automation.\n\n## Media, Humanity, and Cross-Subsidies\n- The media landscape, including journalist roles and funding models like cross-subsidization, especially in platforms like Substack, reflect evolving economies of information.\n- Concerns over how new media models may serve humanity and influence public discourse amidst rapid technological change.\n\n## Broader Economic Changes and Policy Responses\n- The \"Prophets in Jack Park\" and the \"Prophets Economic Index\" hint at ongoing assessments of AI’s impact on the U.S. economy, emphasizing the importance of monitoring and adaptive policies.\n- Governments, including the U.S., may act as strong AI entities, utilizing legacy software while navigating national security concerns.\n\n## Summary\n- The overall tone advocates for a cautious, human-centric approach to AI integration, emphasizing the importance of trade, artisanal work, and adaptive policy measures addressing rapid economic shifts and societal trade-offs.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1644,
+      "latencyMs": 8720,
+      "cost": 0.00031410000000000005,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

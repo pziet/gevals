@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 130,
+  "timestamp": "2025-05-12T18:17:04.527Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Trades and Human Element\n- Trades and artisanal roles (e.g., electricians, plumbers, gardening) are expected to be among the last sectors heavily influenced or replaced by AGI.\n- These roles often involve face-to-face interactions and require a human touch, which may resist full automation.\n\n## Legal and Regulatory Push Back in Healthcare\n- Healthcare is highlighted as a sector with strong legal protections, partly due to handling of personal data and regulatory standards.\n- There is a high chance political and legal efforts will arise to protect a significant portion of jobs (possibly half), especially in healthcare and law, from automation by strong AGI.\n- Lawyers and healthcare professionals currently benefit from regulatory frameworks that resist AI disruption, maintaining existing roles.\n\n## Fast Uptake in Defense\n- Although not detailed extensively in the chunks, fast uptake of AI technologies in defense is implied as a domain of quick adoption due to strategic interests.\n\n## Role of Unions and Bargaining\n- The suggestion that unions and worker bargaining powers may play a role in shaping the future labor market with AI.\n- Protecting workers in various sectors through political movements and legal frameworks is likely.\n\n## Trade-offs with Surveillance and Privacy (Teddy Bears)\n- Implicit in discussions about healthcare and personal data is the trade-off between benefits of AI use and concerns about surveillance and privacy.\n- These trade-offs will be central in negotiating societal acceptance of AI systems.\n\n## Journalism and News Media Economics\n- There is mention of journalists and the concept of cross-subsidies in news media (e.g., platforms like Substack).\n- The role of humanity in journalism remains crucial despite technological disruptions.\n- AI impacts on journalism may require economic adjustments, balancing automation with preserving human elements.\n\n## Welfare State Concept Applied to Service Workers\n- The discussion draws a parallel between free trade supported by a welfare state and the potential need for a welfare framework supporting service workers displaced or altered by AI.\n- Emphasis on people’s desire for meaningful work and the need to maintain familiar life structures while integrating AI advancements.\n\n---\n\nThese notes synthesize the core topics from the discussion, anchored in the rough notes provided.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1582,
+      "latencyMs": 10766,
+      "cost": 0.0011524,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

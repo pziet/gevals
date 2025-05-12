@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-mini-text-embedding-3-small-simple",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 121,
+  "timestamp": "2025-05-12T18:16:53.755Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from the Meeting\n\n- **Trades and Human Element**  \n  Discussion centered on the role of artisanal and trade professions (e.g., electricians, plumbers, gardeners) in the evolving AI-enhanced economy. These trades may persist as areas where human skill and reputation remain important despite technological advances, suggesting that these jobs could be among the last to be fully automated.\n\n- **Legal and Political Pushback in Healthcare and Labor**  \n  There is anticipation of significant legal and political movements aimed at protecting existing human jobs by regulatory means, potentially freezing employment structures to safeguard workers amid rapid AI-driven change. Such efforts may manifest as a form of bureaucratic inertia or resistance to allow smoother transitions for workers.\n\n- **Fast Uptake in Defense Sector**  \n  The defense industry may see a particularly rapid adoption of AI technologies due to national security imperatives, in contrast to slower adoption elsewhere. This reflects different sectoral responses to AI integration.\n\n- **Union Bargaining and Worker Protections**  \n  With the disruption AI brings to the labor market, unions and collective bargaining entities are expected to play important roles advocating for workers, potentially pushing for policies and agreements that shield jobs or offer new forms of social safety nets akin to welfare states.\n\n- **Surveillance and Privacy Trade-offs (Teddy Bears Analogy)**  \n  The meeting touched on the societal compromises involved in increased surveillance, symbolized by \"teddy bears,\" which perhaps metaphorically represent comforting domestic tools that simultaneously gather data, raising concerns about privacy in exchange for perceived safety or convenience.\n\n- **Challenges in News, Journalism, and Media Economics**  \n  The evolving media landscape was addressed, particularly how journalists may be affected by AI, and the economic pressures that might require cross-subsidization of human journalism efforts, possibly on platforms like Substack, to maintain the humanity and quality of news production despite technological disruption.\n\n- **Humanity and Welfare State as a Bargain**  \n  A broader theme emerged about the human and societal impact of AI-driven economic shifts; the welfare state is described as an imperfect but necessary social contract to support workers in a changing world, highlighting the tension between efficiency and humane treatment.\n\nThese notes capture the meeting's emphasis on the socioeconomic implications of AI, the balance between technological progress and human work, and societal responses to these changes.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1612,
+      "latencyMs": 11500,
+      "cost": 0.0012052,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

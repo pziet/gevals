@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 199,
+  "timestamp": "2025-05-12T18:19:18.871Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades affected last by AGI:**  \n  Advanced AI (AGI) is expected to impact the economy unevenly, with trades and artisanal jobs such as electricians, plumbers, and gardeners being among the last to be significantly affected. These roles are deeply human-centered and hands-on, making them less susceptible to immediate automation.\n\n- **Legal pushback in healthcare:**  \n  Certain sectors like healthcare could see strong legal resistance to AI integration due to stringent regulations surrounding personal data and standards. These legal frameworks will likely need to evolve to accommodate AI while protecting privacy and ethical norms.\n\n- **Fast uptake in defense sector:**  \n  Though not explicit in the chunks, the notion of quick adoption in defense can be inferred from discussions about economic and political dynamics in AGI deployment, reflecting a sector that may rapidly incorporate AI technologies.\n\n- **Unions and bargaining power:**  \n  There is potential for political movements advocating to protect jobs analogous to protections in law and medicine. Unions might leverage bargaining power to secure workers' interests in the face of AI-driven economic changes, potentially preserving a significant share of existing jobs.\n\n- **Surveillance and trade-offs - \"teddy bears\":**  \n  The phrase suggests a metaphor for the trade-off between surveillance and privacy/security. The introduction of AI could entail compromises between human-centric comforts or protections (\"teddy bears\") and surveillance measures that come with new technologies.\n\n- **Media, journalism, and economic models:**  \n  Journalists and media professionals are facing shifts due to AI. There is a mention of cross-subsidization in the news sector, where platforms like Substack exemplify new ways to maintain humanity and personal connection in journalism despite AI disruption. This highlights evolving business models supporting journalistic integrity and sustainability.\n\nThese points collectively highlight the nuanced intersection of AI advancement with economic sectors, legal frameworks, labor rights, privacy concerns, and media evolution.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3072,
+      "latencyMs": 19393,
+      "cost": 0.0033523999999999997,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

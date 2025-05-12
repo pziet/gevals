@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4.1-mini-default-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 348,
+  "timestamp": "2025-05-12T18:28:43.098Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Involvement:**  \n  The artisanal trades such as electricians, plumbing, and gardening are likely to be among the last sectors impacted by AGI, as they require a human face and direct involvement. Generally, trades involving human mediation and alignment tend to persist longer despite automation trends.\n\n- **Welfare State and Free Trade:**  \n  A generous welfare state acts as a balancing mechanism for the effects of free trade and automation on service workers. It provides a safety net so workers maintain autonomy over their daily activities while adapting to economic shifts brought about by AGI and trade changes.\n\n- **Legal and Political Pushback in Healthcare and Other Sectors:**  \n  There is a significant chance of political movements aimed at protecting a large portion of current jobs through legislative means, similar to existing laws in health and legal professions. This would include pushback against strong AGI replacing human roles in sensitive fields.\n\n- **Unions and Bargaining Power:**  \n  With the economic transformations driven by AGI, unions could play a critical role in bargaining to protect workers’ rights and job security amidst rapid changes and automation.\n\n- **Surveillance and Privacy Trade-offs (\"Teddy Bears\"):**  \n  The metaphor of \"teddy bears\" suggests a wartiness about surveillance technologies and the trade-offs society must consider regarding privacy in the age of AI and automation.\n\n- **News, Journalism, and Financial Models:**  \n  Journalism faces challenges as traditional business models are disrupted. Cross-subsidization, such as leveraging subscription platforms like Substack, is emerging as a potential way to sustain journalistic endeavors while preserving the humanity and quality of news content.\n\nThese themes reflect the intertwined nature of economic, social, and technological factors as societies adapt to advances in AGI and international trade dynamics.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "default",
+      "tokensUsed": 3137,
+      "latencyMs": 20178,
+      "cost": 0.0034328,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

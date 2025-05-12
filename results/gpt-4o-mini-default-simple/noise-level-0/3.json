@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "default",
+    "id": "gpt-4o-mini-default-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 259,
+  "timestamp": "2025-05-12T18:26:06.922Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Key Topics Discussed\n\n### 1. **Effect of Advanced AI on Trades and Services**\n   - Advanced AI (AGI) expected to affect traditional trades such as electricians and plumbers last.\n   - Human interaction and negotiations in commerce will likely persist, with a preference for personal connections even amidst automation.\n\n### 2. **Legal and Regulatory Challenges**\n   - Significant legal pushback expected in the healthcare sector due to the integration of AI technologies.\n   - There is a need to reform standards governing personal data management as AI continues to evolve.\n\n### 3. **Economic Considerations**\n   - A generous welfare state may be needed to support free trade and service workers in an AI-driven economy.\n   - Importance of creating strong examples and evidence of positive transitions to generate acceptance of AGI changes.\n\n### 4. **Labor and Union Dynamics**\n   - Unions may play a critical role in negotiating worker protections as the landscape changes due to AI advancements.\n   - A political movement advocating for job protection against AGI influence could emerge.\n\n### 5. **Surveillance and Ethical Trade-offs**\n   - Discussion about \"teddy bears\" as a metaphor for surveillance, exploring the balance between privacy and technological oversight in trade-offs.\n\n### 6. **Media and Journalism**\n   - The role of journalists and potential models like Substack for cross-subsidizing news, emphasizing humanity and ethical considerations in media.\n\n### 7. **Fast Uptake in Defense**\n   - The acceleration of defense mechanisms and regulatory frameworks in response to rapid technological advancements.\n\n## Conclusion\nThe meeting highlighted the multifaceted impact of AGI on various sectors, particularly trades, and emphasized the importance of legal frameworks, welfare systems, and ethical considerations in navigating this transition.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1497,
+      "latencyMs": 13690,
+      "cost": 0.0015408,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

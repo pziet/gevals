@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-small",
+    "id": "gpt-4.1-nano-text-embedding-3-small-simple",
+    "model": "gpt-4.1-nano",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 87,
+  "timestamp": "2025-05-12T18:15:56.332Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Overview of AI and Economic Impact\n- The progression of AI, especially AGI, is likely to influence key sectors such as trades (electricians, plumbers, gardening), which involve artisanal and manual skills.\n- There is potential for AI to significantly affect the mass market, possibly leading to automation of a large portion of the current economy.\n\n## Societal and Policy Considerations\n- The concept of a \"welfare state for service workers\" suggests a model where economic safety nets are maintained as AI and automation change employment landscapes.\n- There is a possibility of political movements advocating for laws to protect jobs, particularly in healthcare and other sensitive sectors, from the impacts of AGI.\n- Governments may act proactively, sometimes even faster than expected, to regulate and manage AI-induced economic shifts.\n\n## Legal and Ethical Challenges\n- The strongest legalized uses of AGI are currently in areas like healthcare, where personal data standards and regulations play a crucial role.\n- The legal industry, accustomed to high charges, initially faced opposition from AI due to the potential for bidding down prices and disrupting traditional practices.\n- A key trade-off highlighted is between surveillance and privacy (\"teddy bears\"), reflecting concerns over personal data and AI monitoring.\n\n## Industry and Market Dynamics\n- Large pools of capital and automated organizations are central to the economics of AI deployment.\n- There may be resistance from established corporations to AI adoption in certain sectors, though government action could push in the opposite direction.\n\n## Ethical Reflection and Workforce Impact\n- The last sectors to see widespread automation may involve desk-bound, interpersonal roles such as sales, negotiation, or areas requiring direct human interaction and agreement.\n- As AI advances, there is trepidation and nihilism even among high-achieving academic and professional circles about the future roles and meaning of human work.\n\n## Media, Humanity, and Information\n- The media landscape is shifting, with discussions around cross-subsidies in journalism, the role of Substack, and how AI influences information dissemination.\n- The \"trade-off\" in surveillance, exemplified by teddy bears and data collection, raises questions about privacy versus human and societal benefits.\n- Overall, societal adaptation involves balancing AI's benefits with human-centered values and protections.",
+    "metadata": {
+      "model": "gpt-4.1-nano",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-small",
+      "tokensUsed": 1599,
+      "latencyMs": 9303,
+      "cost": 0.0002949,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

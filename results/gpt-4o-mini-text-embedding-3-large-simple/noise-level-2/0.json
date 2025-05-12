@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4o-mini-text-embedding-3-large-simple",
+    "model": "gpt-4o-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "simple"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 46,
+  "timestamp": "2025-05-12T18:14:44.181Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n## Meeting Overview\nThe meeting addressed significant themes around trade, labor, artificial intelligence (AI), and their societal implications. The discussion also touched upon the interplay between technology, regulation, and human labor forces.\n\n## Key Discussion Points\n\n### Trades and Human Labor\n- **Perception of Trade**: The conversation highlighted that free trade could be seen as a form of a welfare state for service workers, where individuals can choose work without feeling compelled to do so daily.\n- **Human Element**: Emphasis was placed on the necessity for human mediators in transactions as automated organizations navigate economic negotiations.\n\n### Legal Challenges and Healthcare\n- **Healthcare Sector**: There was a mention of significant legal pushback expected around healthcare, particularly concerning the handling of personal data and standards that govern it.\n- **Potential Political Movements**: Speculation emerged around the likelihood of political movements advocating for the protection of jobs at risk from AI impacts, particularly within regulated sectors like law and healthcare.\n\n### Fast Uptake and Union Bargaining\n- **Unions' Role**: The importance of unions in bargaining for workers' rights amidst the rapid changes brought by AI and automation was discussed, particularly in preserving job security in an evolving economic landscape.\n\n### Ethical Concerns: Surveillance and Trade-offs\n- **Privacy vs. Utility**: The discussion touched on the ethical implications of surveillance as a trade-off for efficiency and security in the age of AI, symbolized by metaphors like \"teddy bears\" to represent comfort versus oversight.\n\n### Journalism and Economic Models\n- **Media Landscape**: The evolving dynamics of journalism were considered, especially the trend of cross-subsidies in news media and how platforms like Substack may contribute to a more sustainable economic model for journalism while maintaining a human-centric approach.\n\n## Conclusion\nThe meeting encapsulated a blend of optimistic outlooks for technology with cautious considerations regarding legislation, labor, and the integrity of human experiences amid rapid technological advancements.",
+    "metadata": {
+      "model": "gpt-4o-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 1546,
+      "latencyMs": 9610,
+      "cost": 0.0016422,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

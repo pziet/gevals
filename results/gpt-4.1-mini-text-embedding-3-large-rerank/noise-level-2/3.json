@@ -1,0 +1,26 @@
+{
+  "config": {
+    "embedding": "text-embedding-3-large",
+    "id": "gpt-4.1-mini-text-embedding-3-large-rerank",
+    "model": "gpt-4.1-mini",
+    "prompt": "system-prompt-1.txt",
+    "rag": "rerank"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 189,
+  "timestamp": "2025-05-12T18:18:57.551Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n- **Trades and Human Element**  \n  Discussion emphasized the importance of trades—such as electricians, plumbing, gardening—as domains likely to be less affected by automation and strong AI. These trades involve artisanal, human-mediated work that maintains a human face despite technological advances.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare was highlighted as a sector likely to face significant legal resistance against extensive AI integration. This is due to personal data protections, regulatory standards, and concerns about how AI interacts with sensitive human-centered services.\n\n- **Fast Uptake of AI in Defense**  \n  The conversation touched on possible rapid AI uptake in defense sectors, reflecting concern about how quickly AI technologies could be adopted and the implications for labor and regulation.\n\n- **Role of Unions and Bargaining**  \n  Unions were noted as potentially important actors in negotiating protections for workers, potentially driving political movements to safeguard jobs against AI disruption through legal and collective bargaining efforts.\n\n- **Surveillance and Trade-Offs (Teddy Bears Metaphor)**  \n  The idea surfaced that there might be trade-offs between surveillance (monitoring AI and its outcomes) and human comfort or acceptance, metaphorically described as \"teddy bears.\" This suggests a balance must be struck between oversight and preserving human values.\n\n- **Journalism, News, and Cross-Subsidy Models**  \n  Discussion covered the challenges and opportunities for news and journalism in the AI age, including the potential for cross-subsidization models like Substack to support human-centric journalism and maintain humanity within a changing media landscape.\n\n- **Free Trade and Welfare State as a Bargain**  \n  A thematic thread was the analogy of a welfare state for service workers, where free trade is accepted because of social safety nets. This implies that supporting workers through generous welfare may be essential to ensuring broad acceptance of AI-driven economic changes.\n\nThese notes highlight key social, legal, and economic challenges as AI integrates into various domains, emphasizing the need for human-centered policies and oversight.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "rerank",
+      "embeddingModel": "text-embedding-3-large",
+      "tokensUsed": 3104,
+      "latencyMs": 21823,
+      "cost": 0.0033956,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}
