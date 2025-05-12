@@ -12,9 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@gevals/core": ["../../packages/core/dist/index.js"],
-      // "@gevals/core": ["../../packages/core/src/index.ts"],
-      // "@gevals/core/*": ["../../packages/core/src/*"]
+      "@gevals/core": ["../../packages/core/dist"]
     }
   },
   "references": [
