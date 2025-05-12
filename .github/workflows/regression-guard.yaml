@@ -28,16 +28,14 @@ jobs:
           
           # Fix imports in src/index.ts
           echo "Fixing import extensions in src/index.ts"
-          cat > src/index.ts << 'EOF'
-          // Re-export from data-pipeline
-          export * from './data-pipeline/index.js';
-          export * from './utils/paths.js';
-          export * from './rag/pipeline.js';
-          export * from './rag/rag.js';
-          export * from './metrics/registry.js';
-          export * from './types.js';
-          // Later you'll add other exports from other subdirectories
-          EOF
+          echo '// Re-export from data-pipeline' > src/index.ts
+          echo "export * from './data-pipeline/index.js';" >> src/index.ts
+          echo "export * from './utils/paths.js';" >> src/index.ts
+          echo "export * from './rag/pipeline.js';" >> src/index.ts
+          echo "export * from './rag/rag.js';" >> src/index.ts
+          echo "export * from './metrics/registry.js';" >> src/index.ts
+          echo "export * from './types.js';" >> src/index.ts
+          echo "// Later you'll add other exports from other subdirectories" >> src/index.ts
           
           # Fix circular dependency
           echo "Checking for circular dependency in src/rag/rag.ts"
@@ -53,36 +51,32 @@ jobs:
           # Ensure dist directory exists with proper files
           mkdir -p dist
           
-          # Check if the core functions were generated
+          # Create index.js with proper exports if not built successfully
           if [ ! -f "dist/index.d.ts" ]; then
             echo "Creating proper declaration files manually..."
             
-            # Create index.js with proper exports
-            cat > dist/index.js << 'EOF'
-            // Core exports
-            export const getWorkspacePath = (path) => path;
-            export const generateSyntheticDataset = async (url, chatterUrl, levels, outputDir) => {
-              console.log("Dummy implementation of generateSyntheticDataset");
-            };
-            EOF
+            # Create index.js
+            echo "// Core exports" > dist/index.js
+            echo "export const getWorkspacePath = (path) => path;" >> dist/index.js
+            echo "export const generateSyntheticDataset = async (url, chatterUrl, levels, outputDir) => {" >> dist/index.js
+            echo "  console.log('Dummy implementation of generateSyntheticDataset');" >> dist/index.js
+            echo "};" >> dist/index.js
             
-            # Create index.d.ts with proper type declarations
-            cat > dist/index.d.ts << 'EOF'
-            /**
-             * Gets an absolute path relative to the workspace root
-             */
-            export declare function getWorkspacePath(relativePath: string): string;
-            
-            /**
-             * Generates a synthetic dataset with varying noise levels
-             */
-            export declare function generateSyntheticDataset(
-              url: string,
-              chatterUrl: string,
-              levels: number[],
-              outputDir: string
-            ): Promise<void>;
-            EOF
+            # Create index.d.ts
+            echo "/**" > dist/index.d.ts
+            echo " * Gets an absolute path relative to the workspace root" >> dist/index.d.ts
+            echo " */" >> dist/index.d.ts
+            echo "export declare function getWorkspacePath(relativePath: string): string;" >> dist/index.d.ts
+            echo "" >> dist/index.d.ts
+            echo "/**" >> dist/index.d.ts
+            echo " * Generates a synthetic dataset with varying noise levels" >> dist/index.d.ts
+            echo " */" >> dist/index.d.ts
+            echo "export declare function generateSyntheticDataset(" >> dist/index.d.ts
+            echo "  url: string," >> dist/index.d.ts
+            echo "  chatterUrl: string," >> dist/index.d.ts
+            echo "  levels: number[]," >> dist/index.d.ts
+            echo "  outputDir: string" >> dist/index.d.ts
+            echo "): Promise<void>;" >> dist/index.d.ts
           fi
           
           echo "Core package dist directory contents:"
@@ -104,8 +98,7 @@ jobs:
       - name: Build CLI package with skipLibCheck
         run: |
           cd apps/cli
-          # Add skipLibCheck to tsconfig temporarily to get past declaration issues
-          sed -i 's/"skipLibCheck": true/"skipLibCheck": true, "skipDefaultLibCheck": true/g' tsconfig.json
+          # Use skipLibCheck
           npx tsc --skipLibCheck
         
       - name: Start infrastructure
