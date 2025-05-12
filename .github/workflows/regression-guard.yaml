@@ -22,8 +22,11 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
         
-      - name: Build all packages
-        run: pnpm build
+      - name: Build core package
+        run: pnpm --filter @gevals/core run build
+
+      - name: Build CLI
+        run: pnpm --filter @gevals/cli run build
         
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
