@@ -7,7 +7,7 @@ import path from "path";
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const NSIM = 2; // Number of simulations per config
+const NSIM = 5; // Number of simulations per config
 
 // Create queue and queue events instances
 const evalQueue = new Queue('eval', {
