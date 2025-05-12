@@ -5,7 +5,7 @@ import { glob } from "glob";
 import { parse } from "yaml";
 import path from "path";
 
-const NSIM = 2; // Number of simulations per config
+const NSIM = 5; // Number of simulations per config
 
 // usage: gevals run configs/<config-name>.yaml or gevals run . 
 
@@ -27,8 +27,8 @@ const runCmd = new Command("run")
     let transcriptFiles = glob.sync("data/cwt/noise-level-*.json");
     console.log("Transcript files:", transcriptFiles);
     // only run on first transcript file for now
-    transcriptFiles = transcriptFiles.slice(0, 1);
-    console.log("Transcript files:", transcriptFiles);
+    // transcriptFiles = transcriptFiles.slice(0, 1);
+    // console.log("Transcript files:", transcriptFiles);
 
     for (const configFile of configFiles) {
       console.log(`Processing config: ${configFile}`);
@@ -47,7 +47,7 @@ const runCmd = new Command("run")
       }
 
       for (const transcriptFile of transcriptFiles) {
-        // console.log(`Processing transcript: ${transcriptFile}`);
+        console.log(`Processing transcript: ${transcriptFile}`);
         const transcriptJson = JSON.parse(readFileSync(transcriptFile, "utf-8"));
         const transcriptContent = transcriptJson.text;
         // console.log("Transcript content:", transcriptContent);
@@ -60,6 +60,7 @@ const runCmd = new Command("run")
         
         // Run NSIM times
         for (let i = 0; i < NSIM; i++) {
+          console.log(`Running simulation ${i + 1}/${NSIM} for ${config.id}`);
           const resultFile = path.join(resultsDir, `${i}.json`);
           
           // Skip if result already exists
@@ -69,7 +70,6 @@ const runCmd = new Command("run")
           }
 
           try {
-            console.log(`Running simulation ${i + 1}/${NSIM} for ${config.id}`);
             const result = await runPipeline(
               config, 
               transcriptName, 
@@ -77,8 +77,8 @@ const runCmd = new Command("run")
               promptFileContent,
               roughNotes
             );
-            console.log("Enhanced Notes:", result.enhancedNotes);
-            console.log("Metadata:", result.metadata);
+            // console.log("Enhanced Notes:", result.enhancedNotes);
+            // console.log("Metadata:", result.metadata);
             
             // Save result to file
             const resultData = {

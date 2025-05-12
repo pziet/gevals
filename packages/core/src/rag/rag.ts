@@ -82,9 +82,9 @@ async function addToCollection(
   docs: string[],
   metas: Metadata[],
 ) {
-  console.log("Getting collection");
+  // console.log("Getting collection");
   const collection = await chroma.getCollection({ name: collectionId });
-  console.log("Collection got");
+  // console.log("Collection got");
 
   // Add debug logging
   // console.log("Adding to collection with:", {
@@ -97,7 +97,7 @@ async function addToCollection(
     ids: ids, 
     documents: docs, 
     metadatas: metas});
-  console.log("Added to collection");
+  // console.log("Added to collection");
 }
 
 export async function processTranscript(
@@ -108,7 +108,7 @@ export async function processTranscript(
 ) {
   // Make collection
   const collectionName = make_collection_name(collectionId, fileName);
-  console.log("Collection name:", collectionName);
+  // console.log("Collection name:", collectionName);
   await makeCollection(collectionName, efName);
   // console.log("Collection made");
 
@@ -144,7 +144,7 @@ export async function processTranscript(
     chunkIds, 
     chunkTexts, 
     chunkMetas);
-  console.log("Chunks added to collection");
+  // console.log("Chunks added to collection");
 }
 
 
@@ -161,6 +161,8 @@ export async function getRAGprompt(
     15
   );
   let textAugmentation = "";
+  let prompt_tokens = 0;
+  let completion_tokens = 0;
   if (method === "simple") {
     textAugmentation = textResults.documents[0].join("\n\n");
   } else if (method === "rerank") {
@@ -168,7 +170,7 @@ export async function getRAGprompt(
     const textResultsString = textResults.documents[0].map((chunk, index) => 
       `[${index + 1}] ${chunk}`
     ).join("\n\n");
-    console.log("Text results string:", textResultsString);
+    // console.log("Text results string:", textResultsString);
     const openai = new OpenAI({
       apiKey: process.env.OPENAI_API_KEY,
     });
@@ -180,9 +182,11 @@ export async function getRAGprompt(
       ],
     });
     textAugmentation = response.choices[0].message.content || "";
-    console.log("Reranked text results:", textAugmentation);
+    // console.log("Reranked text results:", textAugmentation);
+    prompt_tokens = response.usage?.prompt_tokens || 0;
+    completion_tokens = response.usage?.completion_tokens || 0;
   }
-  return `
+  const prompt = `
   Here are the rough notes:
   <rough_notes>
   ${roughNotes}
@@ -194,4 +198,10 @@ export async function getRAGprompt(
 
   Now take the rough notes and the relevant chunks and generate the "Enhanced Notes".
   `
+  return {
+    prompt: prompt, 
+    prompt_tokens: prompt_tokens, 
+    completion_tokens: completion_tokens,
+    total_tokens: prompt_tokens + completion_tokens
+  };	
 }

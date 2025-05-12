@@ -1,6 +1,6 @@
-export type ModelId = "o4-mini" | "gpt-4.1-mini" | "gpt-4.1-nano";
-export type EmbeddingId = "text-embedding-ada-002" | "text-embedding-3-small" | "text-embedding-3-large" | "all-MiniLM-L6-v2";
-export type RagId = "bm25" | "rerank";
+export type ModelId = "gpt-4o-mini" | "gpt-4.1-mini" | "gpt-4.1-nano";
+export type EmbeddingId = "text-embedding-3-small" | "text-embedding-3-large"
+export type RagId = "simple" | "rerank";
 
 // Adopt .yaml config file naming convention: {model}-{embedding}-{rag}.yaml and make this the the EvalConfig.id
 

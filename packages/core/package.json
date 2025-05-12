@@ -1,31 +1,36 @@
 {
-    "name": "@gevals/core",
-    "version": "0.0.1",
-    "type": "module",
-    "main": "./dist/index.js",
-    "types": "./dist/index.d.ts",
-    "scripts": {
-      "build": "tsc",
-      "test": "jest",
-      "lint": "eslint src --ext .ts"
-    },
-    "dependencies": {
-      "execa": "^8.0.1",
-      "fluent-ffmpeg": "^2.1.2",
-      "tmp": "^0.2.1"
-    },
-    "devDependencies": {
-      "@types/fluent-ffmpeg": "^2.1.24",
-      "@types/jest": "^29.5.12",
-      "@types/node": "^20.11.19",
-      "jest": "^29.7.0",
-      "ts-jest": "^29.1.2",
-      "typescript": "^5.3.3"
-    },
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "import": "./dist/index.js"
-        }
+  "name": "@gevals/core",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.55",
+    "@langchain/openai": "^0.5.10",
+    "chromadb": "^2.4.3",
+    "chromadb-default-embed": "^2.14.0",
+    "execa": "^8.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "langchain": "^0.3.24",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.24",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   }
+}

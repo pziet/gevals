@@ -1,5 +1,9 @@
 import { EvalConfig } from "../types.js";
-import { deleteCollection, processTranscript, queryCollection, getRAGprompt } from "./rag.js";
+import { 
+  deleteCollection, 
+  processTranscript, 
+  getRAGprompt 
+} from "./rag.js";
 import { OpenAI } from "openai";
 import { computeAll } from "../metrics/registry.js";
 import { readFileSync } from "fs";
@@ -26,25 +30,15 @@ export async function runPipeline(
     config.embedding
   );
 
-  // 2. Query collection and retrieve relevant chunks
-  // const textResults = await queryCollection(
-  //   config.id, 
-  //   transcriptName, 
-  //   roughNotes
-  // );
-  // console.log("Text results:", textResults);
-
-  // 3. RAG processing: Compose system prompt + relevant chunks + rough notes
+  // 2. RAG processing: Compose system prompt + relevant chunks + rough notes
   const prompt = await getRAGprompt(
     config.id, 
     transcriptName, 
     roughNotes, 
     config.rag,
   );
-  console.log("Prompt:", prompt);
-  // console.log("End of prompt content");
 
-  // 4. Call model (OpenAI, etc.) to generate enhanced notes
+  // 3. Call model (OpenAI, etc.) to generate enhanced notes
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
   });
@@ -52,22 +46,22 @@ export async function runPipeline(
     model: config.model,
     messages: [
       { role: "system", content: promptFileContent },
-      { role: "user", content: prompt }
+      { role: "user", content: prompt.prompt }
     ],
   });
-  // console.log("Response:", response);
+  // 
   // console.log("Input tokens:", response.usage?.prompt_tokens);
   // console.log("Output tokens:", response.usage?.completion_tokens);
   const enhancedNotes = response.choices[0].message.content;
   // console.log("Enhanced notes:", enhancedNotes);
   // console.log("End of enhanced notes");
 
-  // 5. Compute metrics
+  // 4. Compute metrics
   // Read gold standard and compute metrics
   const goldStandard = readFileSync(path.join("data", "cwt", "gold_standard.txt"), "utf-8");
   const metrics = await computeAll(goldStandard, enhancedNotes || "");
 
-  // 6. Clean up
+  // 5. Clean up
   await deleteCollection(config.id, transcriptName);
 
   // Calculate total pipeline latency
@@ -80,12 +74,17 @@ export async function runPipeline(
       model: config.model,
       ragMethod: config.rag,
       embeddingModel: config.embedding,
-      tokensUsed: response.usage?.total_tokens || 0,
+      tokensUsed: prompt.total_tokens + (response.usage?.total_tokens || 0),
       latencyMs: totalLatencyMs,
       cost: calculateCost(
         response.usage?.prompt_tokens || 0, 
         response.usage?.completion_tokens || 0, 
         config.model
+      ) + 
+      calculateCost(
+        prompt.prompt_tokens,
+        prompt.completion_tokens,
+        "gpt-4o-mini"
       ),
       metrics
     }
@@ -98,6 +97,7 @@ function calculateCost(inputTokens: number, outputTokens: number, model: string)
   const million = 1000000;
   const rates: Record<string, { input: number, output: number }> = {
     'gpt-4o-mini': { input: 0.6 / million , output: 2.4 / million }, // $0.60/1M input, $2.40/1M output
+    'gpt-4.1': { input: 2 / million, output: 8 / million }, // $2/1M input, $8/1M output
     'gpt-4.1-mini': { input: 0.4 / million, output: 1.6 / million }, // $0.40/1M input, $1.60/1M output
     'gpt-4.1-nano': { input: 0.1 / million, output: 0.4 / million }, // $0.10/1M input, $0.40/1M output
   };
