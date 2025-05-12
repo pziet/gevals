@@ -92,20 +92,35 @@ jobs:
           
           echo "node_modules/@gevals/core contents:"
           ls -la node_modules/@gevals/core
-          echo "node_modules/@gevals/core/dist contents:"
-          ls -la node_modules/@gevals/core/dist
-        
+      
       - name: Build CLI package with skipLibCheck
         run: |
           cd apps/cli
           # Use skipLibCheck
           npx tsc --skipLibCheck
+          # Make the CLI executable
+          chmod +x dist/index.js
+          # Ensure it starts with a shebang
+          if ! grep -q "^#!/usr/bin/env node" dist/index.js; then
+            sed -i '1i#!/usr/bin/env node' dist/index.js
+          fi
+      
+      - name: Link CLI binary
+        run: |
+          # Create a symbolic link to the CLI binary
+          mkdir -p node_modules/.bin
+          ln -sf $(pwd)/apps/cli/dist/index.js node_modules/.bin/gevals
+          chmod +x node_modules/.bin/gevals
+          echo "Linked gevals CLI binary:"
+          ls -la node_modules/.bin/gevals
         
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
         
       - name: Run baseline evaluation
-        run: pnpm --filter @gevals/cli exec gevals run configs/baseline.yaml --ci
+        run: |
+          # Run the CLI directly using Node
+          node apps/cli/dist/index.js run configs/baseline.yaml --ci
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           
