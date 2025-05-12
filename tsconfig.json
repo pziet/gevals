@@ -14,5 +14,10 @@
     "paths": {
       "@gevals/*": ["packages/*/src/index.ts"]
     }
-  }
+  },
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "apps/cli" }
+  ]
 }
