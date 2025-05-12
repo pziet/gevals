@@ -22,11 +22,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
         
-      - name: Build core package
-        run: pnpm --filter @gevals/core run build
-
-      - name: Build CLI
-        run: pnpm --filter @gevals/cli run build
+      - name: Build all TypeScript projects
+        run: pnpm tsc -b
         
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
@@ -38,3 +35,5 @@ jobs:
           
       - name: Check for regressions
         run: pnpm tsx scripts/check-regressions.ts
+
+
