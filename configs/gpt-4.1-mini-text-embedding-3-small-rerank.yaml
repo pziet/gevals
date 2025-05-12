@@ -1,5 +1,0 @@
-embedding: text-embedding-3-small
-id: gpt-4.1-mini-text-embedding-3-small-rerank
-model: gpt-4.1-mini
-prompt: system-prompt-1.txt
-rag: rerank

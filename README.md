@@ -1,3 +1,24 @@
+# gevals:
+
+
+
+### Pipeline (?better name)
+
+- Models: `gpt-4o-mini`, `gpt-4.1`, `gpt-4.1-mini`, `gpt-4.1-nano`
+- Embeddings: `text-embedding-3-large`, `text-embedding-3-small`, 
+- RAG:
+    - `simple`:
+    - `rerank`: 
+- Metrics:
+    - Latency
+    - Cost:
+    - LLM critic:
+
+
+
+
+Build
+
 <details>
 
 <summary>Turborepo starter info</summary>
