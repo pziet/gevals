@@ -54,6 +54,11 @@ export async function GET() {
           latency: calculateStats(latencies),
           cost: calculateStats(costs),
           llmCritic: calculateStats(llmCritics),
+          uniqueId: [
+            firstRun.config.id,
+            firstRun.transcriptName,
+            firstRun.config['noise-level']
+          ].filter(Boolean).join('-'),
         });
       }
     }

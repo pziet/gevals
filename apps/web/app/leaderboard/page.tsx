@@ -110,7 +110,7 @@ export default function LeaderboardPage() {
         </TableHeader>
         <TableBody>
           {sortedResults.map((result) => (
-            <TableRow key={result.id}>
+            <TableRow key={result.uniqueId}>
               <TableCell>{result.id}</TableCell>
               <TableCell>{result.model}</TableCell>
               <TableCell>{result.prompt}</TableCell>

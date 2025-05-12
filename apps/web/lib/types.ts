@@ -20,23 +20,15 @@ export interface RunResult {
   };
 }
 
-export interface AggregatedResult {
+export type AggregatedResult = {
   id: string;
   model: string;
   prompt: string;
   embedding: string;
   rag: string;
   transcriptName: string;
-  latency: {
-    mean: number;
-    std: number;
-  };
-  cost: {
-    mean: number;
-    std: number;
-  };
-  llmCritic: {
-    mean: number;
-    std: number;
-  };
-}
+  latency: { mean: number; std: number };
+  cost: { mean: number; std: number };
+  llmCritic: { mean: number; std: number };
+  uniqueId: string;
+};
