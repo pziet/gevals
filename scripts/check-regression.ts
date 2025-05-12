@@ -22,7 +22,7 @@ async function main() {
   
   try {
     // Read baseline metrics
-    const baselinePath = path.join(process.cwd(), 'data', 'baseline-metrics.json');
+    const baselinePath = path.join(process.cwd(), 'data/cwt', 'baseline-metrics.json');
     const baseline: BaselineMetrics = JSON.parse(fs.readFileSync(baselinePath, 'utf-8'));
     
     // Get latest run metrics
