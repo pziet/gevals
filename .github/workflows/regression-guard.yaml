@@ -25,6 +25,12 @@ jobs:
       - name: Build core package
         run: pnpm --filter @gevals/core build
         
+      - name: Copy core output to node_modules for CLI build
+        run: |
+          mkdir -p node_modules/@gevals
+          cp -r packages/core/dist node_modules/@gevals/core
+          cp packages/core/package.json node_modules/@gevals/core/
+        
       - name: Build CLI package
         run: pnpm --filter @gevals/cli build
         
@@ -37,6 +43,6 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           
       - name: Check for regressions
-        run: pnpm tsx scripts/check-regressions.ts
+        run: pnpm tsx scripts/check-regression.ts
 
 
