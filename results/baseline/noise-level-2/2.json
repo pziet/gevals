@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 368,
+  "timestamp": "2025-05-12T21:34:42.290Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades as Last to Be Automated, Importance of Human Element**  \n  The artisanal and trade professions such as electricians, plumbers, and gardening are expected to be less affected by advanced AI automation. These roles require human interaction, alignment, and agreement, which makes them last in line for AI replacement. This retains a \"human face\" within the economy and society.\n\n- **Legal Pushback Particularly in Healthcare**  \n  Healthcare poses a significant obstacle for AI integration due to existing legal constraints and privacy standards regarding personal data. This sector may see strong legal resistance against automation or AGI use, as it requires strict regulatory protections.\n\n- **Rapid Uptake in Defense and Other Sectors**  \n  The discussion hints at fast adoption of AI technologies in defense and possibly other large companies, although resistance may arise depending on the interests of established corporations.\n\n- **Unions and Worker Bargaining Power**  \n  There is an anticipated political movement or push to protect workers’ jobs through legal means, analogous to protections in law and medicine. This suggests the continued importance of unions and collective bargaining to secure job security in the AI era.\n\n- **Trade-off Between Surveillance and Privacy (Teddy Bears Metaphor)**  \n  References to \"teddy bears\" imply a trade-off where surveillance technologies may be accepted in exchange for certain conveniences or protections. This reflects broader privacy concerns in AI deployment.\n\n- **News, Journalism, and Financial Models**  \n  News and journalism sectors face disruption with AI, requiring new revenue models such as journalist cross-subsidization. Platforms like Substack show attempts at retaining humanity and individualized voices in journalistic work despite automation pressures.\n\n- **Welfare State Analogy for Service Workers**  \n  The economy may evolve to treat automation impacts like a welfare state for service workers—ensuring workers have meaningful and safe opportunities, even if jobs change or disappear. This framework acknowledges human desires for meaning and a familiar societal structure amidst technological shifts.\n\n- **Human Mediation in Capital and Agreements**  \n  Despite stronger AI and automated organizations, humans will likely continue to mediate significant economic deals on behalf of capital pools. Human proxies remain important in legal and economic systems adapting to AGI.\n\n- **Political and Economic Dynamics**  \n  The chance of significant political intervention to protect jobs is high, especially as evidence of economic disruption becomes clearer. Governments may act faster than expected, and large established companies may resist or adapt selectively.\n\n- **General Outlook**  \n  While advanced AI will enrich society and transform many sectors, preserving human agency, meaningful work, and legal protections seem to be the target for balancing technological progress with social stability.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1684,
+      "latencyMs": 22722,
+      "cost": 0.0013156,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

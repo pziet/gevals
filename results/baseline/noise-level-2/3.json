@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 369,
+  "timestamp": "2025-05-12T21:34:42.035Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from the Meeting\n\n## Trades and Human Element\n- Trades such as electricians, plumbing, and gardening are predicted to be among the last sectors significantly impacted by AGI.\n- These trades are seen as artisanal parts of the economy where the human face and interaction are crucial.\n- Certain desk-bound roles requiring negotiation and alignment may also resist full automation for longer.\n\n## Legal Pushback in Healthcare\n- Healthcare is expected to experience strong legal protections against AGI integration.\n- Legal standards around personal data and medical professions may slow or regulate AI adoption in healthcare.\n- There is likely to be a political movement aiming to protect many existing jobs in healthcare with laws similar to those in law and medicine.\n\n## Defense and Fast Uptake\n- Not explicitly detailed in the chunks but implied that some sectors, potentially defense, might adopt advanced AI quickly due to strategic interests.\n\n## Unions and Bargaining Power\n- Resistance to AI automation may also come from large established companies and unions trying to protect workers.\n- Bargaining power may be focused on protecting jobs in fields where the human touch is valued, including trades and healthcare.\n\n## Surveillance Trade-Off and Teddy Bears Metaphor\n- The discussion included a metaphor comparing surveillance and trade-offs related to trust and privacy, though detailed specifics weren't fully covered in the provided chunks.\n- There may be concerns about surveillance and privacy issues in adopting AI technologies.\n\n## News, Journalists, and Cross-Subsidy Models\n- Journalistic work faces challenges with AI automation but retains a need for human involvement to preserve humanity and credibility.\n- Platforms like Substack represent models where journalists cross-subsidize their work, maintaining content quality and human engagement despite AI encroachment.\n- The human element in news remains essential for meaningful and salient communication.\n\n## Overall Economic and Social Context\n- The welfare state analogy: just as free trade benefits from a generous welfare state, AI-driven tradeoffs require social safety nets to support workers displaced by AI.\n- People seek meaning and salience in their work; preserving jobs with human interaction remains a social priority.\n- Companies and governments may need to demonstrate good transition examples to minimize backlash and economic disruption.\n\n---\n\nThese notes reflect the main themes anchored by the rough notes and the discussions in the transcript chunks.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1606,
+      "latencyMs": 22473,
+      "cost": 0.0011908,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

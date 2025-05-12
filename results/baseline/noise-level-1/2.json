@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 373,
+  "timestamp": "2025-05-12T21:34:55.529Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade-offs with Free Trade and Welfare State**  \n  The discussion included the analogy of free trade supported by a generous welfare state. This welfare state, while not always the most efficient, acts as a necessary bargain for acceptance of freer trade. This concept was extended to service workers and transitions caused by advanced AI, suggesting policies that support workers through economic changes.\n\n- **Legal and Regulatory Pushback in Healthcare and Other Sectors**  \n  Healthcare was highlighted as a domain likely to face strong legal obstacles regarding AI due to concerns around personal data and stringent standards (similar to the legal protections in medicine and law). There is a strong possibility of political movements aiming to freeze many human jobs in bureaucratic amber to manage challenges arising from rapid AI advancement.\n\n- **Rapid Adoption in Defense and Other Key Areas**  \n  Fast uptake of AI in defense and critical sectors was implied, with political dynamics heavily influencing how AI is integrated and regulated.\n\n- **Unions and Collective Bargaining**  \n  There was acknowledgment that unions and bargaining agents will play an important role in negotiating the impact of AI on labor, serving as human proxies on behalf of large, automated organizations or pools of capital.\n\n- **Human Element and Meaning in Work (\"Human Face\")**  \n  A crucial theme was the human desire for meaningful work and the importance of human mediation in economic and social systems. Despite automation, people prefer deals and interactions that have a human face.\n\n- **AI \"Teddy Bears\": Surveillance Trade-offs**  \n  The concept of \"AI teddy bears\" was introduced as a metaphor for AI-powered forms of entertainment or companionship that balance surveillance and privacy trade-offs. This reflects evolving societal relationships with AI and technology in everyday life.\n\n- **News, Journalism, and Economic Models**  \n  Conversations touched on the role of journalists and the news industry adapting with AI, including ideas about cross-subsidies and new platforms like Substack that engage with the humanity of journalism. The adaptation of media to AI will affect economic engines that allow participation and meaningful content creation.\n\nOverall, the discussion emphasized navigating the social, legal, and economic transitions caused by AI with a focus on preserving human values, meaningful work, and social bargains to manage technological change.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1600,
+      "latencyMs": 15330,
+      "cost": 0.0011812,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

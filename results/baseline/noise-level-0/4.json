@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 380,
+  "timestamp": "2025-05-12T21:35:00.122Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Trades Last, Human Face\n- AGI will impact the economy in many ways, but it is expected to affect skilled trades and artisan roles last, such as electricians, plumbers, and gardeners.\n- These jobs often involve human interaction and a personal touch, which will likely preserve human involvement for longer.\n- There remains a preference for human-mediated deals and commerce, especially those representing large pools of capital.\n\n### Legal Pushback in Healthcare\n- Strong AI faces significant legal barriers in industries such as healthcare.\n- Healthcare is deeply entwined with personal data privacy and regulatory standards, thus legal frameworks will likely delay AGI's full integration.\n- There may be movements that attempt to protect half of existing jobs, especially in critical fields like healthcare, through new laws analogous to current protections in law and medicine.\n\n### Fast Uptake in Defense\n- Though not explicitly detailed in the chunks, there is an implication that certain sectors like defense and government might adopt AI more slowly or rapidly depending on regulatory and organizational resistance.\n- Large, established companies could present significant resistance to AI integration depending on interests and regulatory outcomes.\n\n### Unions and Bargaining Power\n- Political and social pressures may arise to protect workers impacted by AI through stronger labor protections and unions.\n- A welfare state or social safety nets might be necessary to support free trade amid rapid economic change driven by AI.\n\n### Teddy Bears and Surveillance Trade-offs\n- Though metaphorical, “teddy bears” can be interpreted as the trade-offs between surveillance (data-driven AI advancements) and personal privacy or human comfort.\n- How society balances these trade-offs will influence AI adoption and legal standards.\n\n### News, Journalism, and Cross-Subsidies\n- In journalism and the humanities, there is a complex relationship with AI and economic models.\n- Journalists often rely on cross-subsidies from other parts of the economy or platforms like Substack.\n- Maintaining humanity in journalism remains important even as AI tools become ubiquitous.\n  \nThese themes illustrate a nuanced view of AI's economic and social impacts, with a significant emphasis on the human element, legal challenges, and socio-economic bargaining.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1570,
+      "latencyMs": 17731,
+      "cost": 0.001144,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

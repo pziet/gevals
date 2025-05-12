@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 363,
+  "timestamp": "2025-05-12T21:34:37.921Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**  \n  The artisan trades such as electricians, plumbing, and gardening may experience rapid changes due to AI integration. These skilled trades will retain a human face due to the high-status and trust factors involved. New jobs may emerge focused on marshalling and managing AI systems, blending human creativity with automation.\n\n- **Legal and Political Pushback in Labor**  \n  There is a strong possibility of political movements attempting to \"freeze\" or protect a significant portion of human jobs through bureaucratic and legal means in response to rapid AI-driven changes. This resembles a welfare-state approach aimed at safeguarding workers, although it may not be the most efficient long-term solution.\n\n- **Healthcare and Legal Challenges**  \n  Legal resistance is expected in domains such as healthcare where AI could disrupt existing norms, requiring careful negotiation and possibly slowing adoption.\n\n- **Fast Uptake in Defense Sector**  \n  AI adoption is expected to be particularly rapid in national security and defense sectors, as these areas are more open to leveraging advanced technologies quickly.\n\n- **Unions and Bargaining Power**  \n  As economic shifts occur, unions may play a more prominent role in bargaining for workers’ rights and protections within the new AI-augmented job landscape.\n\n- **Teddy Bears and Surveillance Trade-off**  \n  There is a metaphorical or literal trade-off between surveillance and comfort or companionship (\"teddy bears\"), reflecting societal tensions around privacy in an increasingly monitored world.\n\n- **News Media, Journalistic Funding, and Humanity**  \n  Discussions highlight changes in journalism funding models, including cross-subsidies and platforms like Substack. Maintaining humanity and qualitative journalistic values in AI-driven news production remains a challenge.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1491,
+      "latencyMs": 18338,
+      "cost": 0.0010116,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

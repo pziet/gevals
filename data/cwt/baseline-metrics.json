@@ -1,0 +1,14 @@
+{
+  "llmCritic": {
+    "mean": 0.85,
+    "std": 0.05
+  },
+  "latency": {
+    "mean": 2500,
+    "std": 200
+  },
+  "cost": {
+    "mean": 0.002,
+    "std": 0.0005
+  }
+}

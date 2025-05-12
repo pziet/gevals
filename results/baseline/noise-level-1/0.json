@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 371,
+  "timestamp": "2025-05-12T21:34:50.673Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n### Trade-offs and Human Element in AI and Economy\n- The conversation highlighted the importance of human involvement (\"human face\") in economic processes, despite increasing automation.\n- There is an analogy made to welfare states supporting free trade, suggesting a societal bargain where automation and free trade are acceptable if adequate social supports are in place.\n\n### Legal and Regulatory Challenges in Healthcare and AI\n- Healthcare is identified as a sector with strong legal pushback against AI adoption, largely due to concerns about personal data handling and the stringent standards involved.\n- A political movement might emerge aiming to \"freeze\" many human jobs (like in law and medicine) in bureaucratic amber to manage the challenges posed by advanced AI systems (e.g., strong AGI).\n- The legal obstacles for AI tend to be strongest in professions and industries where high-priced services exist and stakeholders resist AI encroachment.\n\n### Rapid Adoption and Integration in Defense\n- Fast uptake of AI technology is expected in defense-related areas, though specific details were less discussed in the provided chunks.\n\n### Labor and Unions\n- Political and social dynamics around labor, including unions bargaining for workers, are a key theme. The transition to AI-driven automation needs careful handling to support displaced workers.\n- There is a recognition that political forces will heavily influence how AI integrates into labor markets.\n\n### AI \"Teddy Bears\" and Surveillance Trade-offs\n- The discussion introduced the idea of \"AI teddy bears\" — consumer devices imbued with AI that have significant emotional and surveillance trade-offs.\n- This exemplifies how AI technologies can be both embraced for their companionship or entertainment value, while also raising concerns about privacy and surveillance.\n\n### Journalism, Media, and Economic Models\n- Journalistic enterprise faces challenges from AI, but solutions include cross-subsidies similar to platforms like Substack, aiming to preserve humanity and meaningful work in news creation.\n- The economic engine of media and entertainment might be rewired to incorporate AI while preserving human salience and meaning.\n\n### Summary\nThe meeting covered the multifaceted impact of AI on society, especially the legal, economic, and human dimensions of integrating AI in healthcare, defense, labor markets, and media. Crucially, the need for good transition strategies, political will, and preserving meaningful human involvement were underscored as key factors for successful adaptation.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1617,
+      "latencyMs": 12738,
+      "cost": 0.0012084,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

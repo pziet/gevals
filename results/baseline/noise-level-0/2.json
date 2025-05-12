@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 378,
+  "timestamp": "2025-05-12T21:34:58.325Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**  \n  AGI will affect trades and artisanal jobs (e.g., electricians, plumbers, gardeners) last. These roles often require a human face and personal interaction, which people strongly prefer, especially in commerce and relationship-based dealings.\n\n- **Legal Pushback in Healthcare**  \n  Healthcare is expected to face significant legal challenges due to existing regulations around personal data and stringent standards. The integration of strong AI will require major changes in these laws and policies.\n\n- **Fast Uptake in Defense Sector**  \n  Although not detailed in the chunks, fast adoption of AI technologies in defense is implied in the broader context of sectors adapting differently to AI.\n\n- **Role of Unions and Bargaining Power**  \n  There is a possibility of political movements aiming to protect a substantial number of current jobs through legal means similar to regulations in law and medicine, reflecting workers' efforts, possibly led by unions, to bargain for protections in the face of AI disruptions.\n\n- **Surveillance Trade-Off & Privacy Concerns**  \n  The analogy of \"teddy bears\" likely references the ongoing trade-offs between technological benefits and surveillance/privacy concerns, especially in sectors like healthcare.\n\n- **Impact on Journalism and Media**  \n  Traditional journalism faces challenges, and new models like Substack represent cross-subsidies supporting human creativity and maintaining the \"humanity\" in news production despite AI advancements.\n\n- **Economic and Welfare State Considerations**  \n  A strong welfare state might be necessary to support freer trade and manage the economic transition caused by AI. This social safety net could serve as a \"welfare state for service workers,\" helping them adapt to changes and maintain societal acceptance of technological shifts.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1487,
+      "latencyMs": 16152,
+      "cost": 0.0010112,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}

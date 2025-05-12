@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-0",
+  "runNumber": 377,
+  "timestamp": "2025-05-12T21:35:01.384Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trades and Human Element**: AGI is expected to affect artisanal and trade jobs (such as electricians, plumbing, gardening) last. These jobs often require human mediation and personal interaction which people prefer, especially in commerce and negotiating deals involving large pools of capital.\n\n- **Legal Pushback in Healthcare**: Healthcare may face significant legal resistance regarding the integration of strong AGI due to existing standards around personal data and regulations. These standards will likely need substantial reform to accommodate AI technologies.\n\n- **Rapid Uptake in Defense Sector**: There is an implication that certain sectors, perhaps including defense, might adopt AI quickly, though this is more inferred from context than explicitly stated.\n\n- **Unions and Bargaining for Worker Protection**: A political movement may arise to protect a significant portion of current jobs using laws similar to those in healthcare and law, demonstrating a societal impulse to protect workers amid economic changes brought by AGI.\n\n- **Surveillance and Privacy Trade-Offs (\"Teddy Bears\")**: There is a notion of trade-offs involving surveillance and privacy concerns in adopting new technologies, symbolically referenced as \"teddy bears,\" hinting at the tension between convenience and personal data protection.\n\n- **Journalism, News, and Cross-Subsidy Models**: Journalistic work, especially that which values humanity and qualitative insight, may rely on new models such as cross-subsidy and platforms like Substack. This suggests a shift in how journalistic content is funded and consumed amidst AI transformations.\n\n- **Impact on Government and Large Corporations**: Contrary to expectations, governments may adapt faster than anticipated. However, large established companies might exhibit strong resistance to AI adoption in specific areas.\n\n- **Welfare State as a Bargain for Free Trade**: The adoption of freer trade and AI might require maintaining or evolving welfare state provisions to protect workers and gain societal acceptance, seen as a necessary compromise to ease transitions.\n\n- **Information Laundering into Human Systems**: AI-generated information will often need to be “laundered” or mediated through human systems due to resistance in direct incorporation, especially in regulated sectors like healthcare.\n\nThese themes reflect a complex interplay between technology adoption, legal and societal resistance, economic impacts, and the preservation of human roles and dignity in the evolving AI landscape.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1608,
+      "latencyMs": 19269,
+      "cost": 0.0012048000000000002,
+      "metrics": {
+        "llmCritic": 6
+      }
+    }
+  }
+}

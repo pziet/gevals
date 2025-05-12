@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-3",
+  "runNumber": 364,
+  "timestamp": "2025-05-12T21:34:38.884Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Human-Centered Trades and Jobs**  \n  There is a belief that the most artisanal and human-centric trades such as electricians, plumbing, gardening, and other skilled crafts will see lasting value despite AI advancements. These jobs often carry a \"human face\" and status that AI cannot easily replace. New jobs will likely emerge involving marshalling and fueling AI systems, blending creativity with technical skills.\n\n- **Legal and Political Responses**  \n  It is highly possible that political movements and legal frameworks will push to protect a significant portion of human jobs through bureaucratic measures, creating a form of \"job freeze\" to address the rapid technological changes and their social impact. This could be analogous to welfare state policies aiming to safeguard workers, though the effectiveness and efficiency of such protections may vary over time.\n\n- **Healthcare and Legal Pushback**  \n  There are anticipated legal pushbacks in sectors such as healthcare, where AI uptake might be slowed or contested due to regulatory challenges and the value placed on human involvement and oversight.\n\n- **Rapid AI Adoption in Defense**  \n  The defense sector is expected to see a fast uptake of AI technologies due to both operational needs and national security considerations, making it a leading domain for AI integration.\n\n- **Unions and Bargaining Power**  \n  Worker unions may play a crucial role in bargaining to preserve jobs and shape the transition toward AI-driven economies, potentially advocating for protections or benefits for displaced workers.\n\n- **Surveillance and Privacy Trade-offs**  \n  Discussions involve the trade-offs between convenience and surveillance, likened to \"teddy bears\" that can be both comforting and intrusive — highlighting concerns over how AI technologies might impact privacy and personal freedom.\n\n- **News, Journalism, and Economic Models**  \n  The economic dynamics of journalism are changing, with cross-subsidies and new platforms like Substack evolving to maintain humanity and journalistic integrity despite technological shifts. The sustainability of news industries and their human elements remains a topic of focus.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1546,
+      "latencyMs": 19328,
+      "cost": 0.0010996,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

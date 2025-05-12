@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-1",
+  "runNumber": 372,
+  "timestamp": "2025-05-12T21:34:54.091Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes\n\n- **Trade and Economic Transitions**\n  - Discussion on aiming for a balance similar to a generous welfare state to support freer trade, especially for service workers. This system serves as a welfare-like safety net that allows people to choose their work while providing meaning and economic participation.\n  - Importance of demonstrating \"good transitions\" from traditional work to AI-driven economies to avoid strong political backlash or protectionist movements.\n  - Acknowledgment of economic anxieties within sectors like academia and the impact of AI on employment stability.\n\n- **Legal and Regulatory Challenges**\n  - Strong likelihood of political movements aimed at freezing certain human jobs through legislation, similar to protections in law and medicine, as a reaction to rapid AI advancements.\n  - Anticipation of significant legal obstacles for AGI in regulated sectors like healthcare, driven by concerns about personal data handling and existing legal standards.\n  - Historical resistance seen among professions such as lawyers who resist automation due to high fees and reluctance to lose business to AI.\n  - Government bodies like Health and Human Services (HHS) and Education may serve as critical points for integrating AI with varying degrees of political will influencing progress.\n\n- **Labor and Unions**\n  - The potential role of unions and collective bargaining in negotiating the workforce shifts caused by AI integration.\n  - The idea that humans will mediate many transactions, retaining a “human face” in dealings despite automation, with human proxies representing large automated entities in capital and labor negotiations.\n\n- **AI and Surveillance Trade-offs**\n  - Emerging forms of AI-enabled entertainment and companion devices (referred to metaphorically as \"AI teddy bears\") hint at new consumer markets but also raise concerns about surveillance and privacy trade-offs inherent in these technologies.\n\n- **Media, Journalism, and Funding Models**\n  - Challenges for journalism in the AI era, including cross-subsidization models like those seen in platforms such as Substack.\n  - Emphasis on preserving the \"humanity\" in news reporting and journalism despite technological disruptions.\n\nThese notes synthesize the key thematic elements discussed, grounded in the rough notes and supported by the detailed context of the relevant transcript excerpts.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1582,
+      "latencyMs": 15200,
+      "cost": 0.0011524,
+      "metrics": {
+        "llmCritic": 7
+      }
+    }
+  }
+}

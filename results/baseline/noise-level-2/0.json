@@ -1,0 +1,26 @@
+{
+  "config": {
+    "id": "baseline",
+    "model": "gpt-4.1-mini",
+    "embedding": "default",
+    "rag": "simple",
+    "prompt": "system-prompt-1.txt"
+  },
+  "transcriptName": "noise-level-2",
+  "runNumber": 366,
+  "timestamp": "2025-05-12T21:34:42.369Z",
+  "result": {
+    "enhancedNotes": "# Enhanced Notes from Meeting\n\n### Trades and Human Element\n- Trades and artisanal work (e.g., electricians, plumbing, gardening) are predicted to be last affected by AGI.\n- The human element remains crucial, especially in desk-bound roles requiring communication and agreement.\n- The idea of a \"human face\" in trades signifies the importance of human proxies in representing larger automated organizations.\n\n### Legal Pushback and Healthcare\n- There is a high likelihood of legal resistance to AGI's encroachment on jobs, especially in sectors like healthcare.\n- Healthcare's regulatory landscape, particularly around personal data standards, creates strong legal protections that may slow AGI integration.\n- Efforts to legally protect approximately half of existing jobs might emerge, inspired by laws analogous to those in medicine and law professions.\n\n### Fast Uptake and Defense Mechanisms\n- The economic impact of AGI is significant, provoking political movements to protect workers.\n- Large established companies may resist AGI adoption in certain domains, creating defense mechanisms within the market.\n- The speed of government and corporations' reactions to AGI implementation may vary but could be faster than commonly expected.\n\n### Unions and Bargaining Power\n- As AI adoption advances, unions may play a critical role in bargaining for workers' rights and protections.\n- The evolving economic landscape might foster stronger labor organization to negotiate the balance between automation and employment.\n\n### Trade-offs: Surveillance and Privacy (Teddy Bears Analogy)\n- There is a trade-off between surveillance and privacy, metaphorically referenced as \"teddy bears.\"\n- This highlights societal concerns with increased data surveillance as a cost for AGI and automation benefits.\n\n### Journalism, News, and Cross-Subsidy Models\n- The journalism industry is undergoing changes influenced by AI and new economic models.\n- Some news outlets and journalists experiment with cross-subsidies (e.g., via platforms like Substack) to sustain humanity and integrity in reporting.\n- The role of AI in media output raises questions about maintaining human values and economic viability.\n\n### Societal Implications and Welfare State Analogies\n- The analogy of a generous welfare state is used to conceptualize society's potential response to widespread AI automation.\n- Providing meaningful work and welfare to service workers could mitigate angst and nihilism associated with job displacement.\n- The aim is to maintain life’s familiarity and meaning even as AGI undertakes more tasks.\n\n---\n\nThese enhanced notes capture the key themes discussed regarding the intersection of AGI, labor markets, legal frameworks, societal trade-offs, and economic adaptation strategies.",
+    "metadata": {
+      "model": "gpt-4.1-mini",
+      "ragMethod": "simple",
+      "embeddingModel": "default",
+      "tokensUsed": 1661,
+      "latencyMs": 22764,
+      "cost": 0.0012788,
+      "metrics": {
+        "llmCritic": 8
+      }
+    }
+  }
+}
