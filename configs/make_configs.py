@@ -9,6 +9,9 @@ datasets = ["noise-level-0", "noise-level-1", "noise-level-2", "noise-level-3"]
 
 # Generate all combinations
 configurations = list(product(models, embeddings, rag_methods, datasets))
+# TODO: remove this debugging
+configurations = configurations[:10]
+print(configurations)
 
 # Create a config file for each combination
 for model, embedding, rag, dataset in configurations:

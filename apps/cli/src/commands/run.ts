@@ -1,11 +1,28 @@
 import { Command } from "commander";
-import { runPipeline } from "@gevals/core";
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
+import { Queue, QueueEvents } from "bullmq";
+import { readFileSync, existsSync, mkdirSync } from "fs";
 import { glob } from "glob";
 import { parse } from "yaml";
 import path from "path";
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const NSIM = 5; // Number of simulations per config
+
+// Create queue and queue events instances
+const evalQueue = new Queue('eval', {
+  connection: {
+    host: process.env.REDIS_HOST || 'localhost',
+    port: parseInt(process.env.REDIS_PORT || '6379')
+  }
+});
+
+const queueEvents = new QueueEvents('eval', {
+  connection: {
+    host: process.env.REDIS_HOST || 'localhost',
+    port: parseInt(process.env.REDIS_PORT || '6379')
+  }
+});
 
 // usage: gevals run configs/<config-name>.yaml or gevals run . 
 
@@ -27,8 +44,10 @@ const runCmd = new Command("run")
     let transcriptFiles = glob.sync("data/cwt/noise-level-*.json");
     console.log("Transcript files:", transcriptFiles);
     // only run on first transcript file for now
-    // transcriptFiles = transcriptFiles.slice(0, 1);
     // console.log("Transcript files:", transcriptFiles);
+
+    // Create jobs array to track all jobs
+    const jobs = [];
 
     for (const configFile of configFiles) {
       console.log(`Processing config: ${configFile}`);
@@ -58,9 +77,9 @@ const runCmd = new Command("run")
         const roughNotes = readFileSync("data/cwt/rough_notes.txt", "utf-8");
         // console.log("Rough notes:", roughNotes);
         
-        // Run NSIM times
+        // Create NSIM jobs for each config/transcript combination
         for (let i = 0; i < NSIM; i++) {
-          console.log(`Running simulation ${i + 1}/${NSIM} for ${config.id}`);
+          const jobId = `${config.id}-${transcriptName}-${i}`;
           const resultFile = path.join(resultsDir, `${i}.json`);
           
           // Skip if result already exists
@@ -69,34 +88,29 @@ const runCmd = new Command("run")
             continue;
           }
 
-          try {
-            const result = await runPipeline(
-              config, 
-              transcriptName, 
-              transcriptContent,
-              promptFileContent,
-              roughNotes
-            );
-            // console.log("Enhanced Notes:", result.enhancedNotes);
-            // console.log("Metadata:", result.metadata);
-            
-            // Save result to file
-            const resultData = {
-              config,
-              transcriptName,
-              runNumber: i,
-              timestamp: new Date().toISOString(),
-              result
-            };
-            
-            writeFileSync(resultFile, JSON.stringify(resultData, null, 2));
-            console.log(`Saved result to ${resultFile}`);
-          } catch (error) {
-            console.error(`Error processing ${transcriptFile} (run ${i}):`, error);
-          }
+          // Add job to queue
+          const job = await evalQueue.add(jobId, {
+            config,
+            transcriptName,
+            transcriptContent,
+            promptFileContent,
+            roughNotes
+          });
+          
+          jobs.push(job);
+          console.log(`Added job ${jobId} to queue`);
         }
       }
     }
+
+    // Wait for all jobs to complete
+    console.log(`Waiting for ${jobs.length} jobs to complete...`);
+    await Promise.all(jobs.map(job => job.waitUntilFinished(queueEvents)));
+    console.log('All jobs completed!');
+
+    // Clean up
+    await evalQueue.close();
+    await queueEvents.close();
   });
 
 export default runCmd;

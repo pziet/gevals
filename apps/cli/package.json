@@ -13,6 +13,7 @@
     },
     "dependencies": {
         "@gevals/core": "workspace:*",
+        "bullmq": "^5.52.2",
         "commander": "^11.0.0",
         "dotenv": "^16.0.0",
         "fast-glob": "^3.3.0",

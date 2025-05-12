@@ -8,9 +8,10 @@ import {
 import { OpenAI } from "openai";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Document } from "@langchain/core/documents";
-import dotenv from "dotenv";
+import * as dotenv from 'dotenv';
 import { getWorkspacePath } from "@gevals/core";
 dotenv.config();
+console.log("DATA_PATH!!!", process.env.DATA_PATH);
 
 type Metadata = { [key: string]: string | number | boolean };
 

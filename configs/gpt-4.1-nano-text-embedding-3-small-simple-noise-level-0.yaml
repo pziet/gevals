@@ -1,6 +1,0 @@
-dataset: noise-level-0
-embedding: text-embedding-3-small
-id: gpt-4.1-nano-text-embedding-3-small-simple-noise-level-0
-model: gpt-4.1-nano
-prompt: system-prompt-1.txt
-rag: simple
