@@ -16,9 +16,12 @@
         "commander": "^11.0.0",
         "dotenv": "^16.0.0",
         "fast-glob": "^3.3.0",
-        "open": "^9.0.0",
+        "glob": "^11.0.2",
+        "node-fetch": "^3.3.2",
+        "open": "^9.1.0",
         "openai": "^4.0.0",
-        "tsx": "^4.0.0"
+        "tsx": "^4.0.0",
+        "yaml": "^2.7.1"
     },
     "devDependencies": {
         "@types/node": "^22.15.3",
