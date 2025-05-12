@@ -22,11 +22,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
         
+      - name: Build CLI
+        run: pnpm --filter @gevals/cli run build
+        
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
         
       - name: Run baseline evaluation
-        run: gevals run configs/baseline.yaml --ci
+        run: pnpm --filter @gevals/cli exec gevals run configs/baseline.yaml --ci
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           
