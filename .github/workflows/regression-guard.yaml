@@ -25,10 +25,20 @@ jobs:
       - name: Build core package
         run: pnpm --filter @gevals/core build
         
+      - name: Debug core build output
+        run: |
+          echo "Current directory structure:"
+          find packages/core -type d | sort
+          echo "Core package.json:"
+          cat packages/core/package.json
+          echo "Core tsconfig.json:"
+          cat packages/core/tsconfig.json
+        
       - name: Copy core output to node_modules for CLI build
         run: |
           mkdir -p node_modules/@gevals
-          cp -r packages/core/dist node_modules/@gevals/core
+          # Adjust this path if needed based on debug output
+          cp -r packages/core/dist node_modules/@gevals/core || echo "Failed to copy dist directory"
           cp packages/core/package.json node_modules/@gevals/core/
         
       - name: Build CLI package
