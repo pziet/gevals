@@ -120,7 +120,7 @@ jobs:
       - name: Run baseline evaluation
         run: |
           # Run the CLI directly using Node
-          node apps/cli/dist/index.js run configs/baseline.yaml --ci
+          node apps/cli/dist/index.js run configs/baseline.yaml 
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           
