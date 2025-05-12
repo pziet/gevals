@@ -21,7 +21,6 @@ model Run {
   finishedAt  DateTime?
   latencyMs   Float?
   costUsd     Float?
-  bertScore   Float?
-  semantic    Float?
-  resultJson  Json?
+  metrics     Json?    // Store all metrics as a JSON object
+  resultJson  Json?    // Store the full result
 }
