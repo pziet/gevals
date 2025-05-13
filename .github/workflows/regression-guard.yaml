@@ -119,31 +119,42 @@ jobs:
         run: |
           # Start worker using the same command as local development
           echo "Starting worker process..."
+          # Run with more verbose logging and in foreground for debugging
           pnpm worker:dev > worker.log 2>&1 &
           echo $! > worker_pid
           echo "worker_pid=$!" >> $GITHUB_OUTPUT
           
           # Give worker time to initialize
           sleep 5
+          
+          # Check if worker is connected to Redis
+          echo "Checking worker connection to Redis..."
+          redis-cli -h localhost -p 6379 CLIENT LIST | grep worker || echo "No worker connections to Redis"
+          
           # Display first few log lines to verify startup
-          head -10 worker.log || echo "Worker log not available"
-        env:
-          REDIS_HOST: localhost
-          REDIS_PORT: 6379
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        
-      - name: Run baseline evaluation
+          echo "Worker startup logs:"
+          head -20 worker.log || echo "Worker log not available"
+          
+      - name: Run baseline evaluation with timeout
         run: |
           # Clean baseline results
           rm -rf results/baseline
           
-          # Run directly using Node
-          node apps/cli/dist/index.js run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          # Run with a timeout to prevent hanging indefinitely
+          timeout 2m node apps/cli/dist/index.js run configs/baseline/baseline.yaml || {
+            echo "Evaluation timed out or failed";
+            echo "Checking Redis queue status:";
+            redis-cli -h localhost -p 6379 KEYS "*" | grep eval;
+            redis-cli -h localhost -p 6379 LLEN bull:eval:wait;
+            echo "Checking latest worker logs:";
+            tail -30 worker.log;
+          }
         env:
           REDIS_HOST: localhost
           REDIS_PORT: 6379
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          DATA_PATH: ${{ github.workspace }}/data/cwt
+          DATA_PATH: ${{ github.workspace }}/data
+          DEBUG: "bull*"  # Enable Bull queue debugging
           
       - name: Run Prisma Migrations
         run: |
@@ -163,5 +174,23 @@ jobs:
           echo "Worker logs:"
           cat worker.log || echo "Worker log not available"
           kill $(cat worker_pid) || echo "Worker process already stopped"
+
+      - name: Debug Jobs and Worker
+        if: always() # Run this even if previous steps failed
+        run: |
+          echo "Checking Redis connection..."
+          redis-cli -h localhost -p 6379 PING
+          
+          echo "Checking active connections to Redis..."
+          redis-cli -h localhost -p 6379 CLIENT LIST
+          
+          echo "Checking queue state..."
+          redis-cli -h localhost -p 6379 KEYS "*" | grep eval
+          
+          echo "Checking worker process..."
+          ps aux | grep worker
+          
+          echo "Latest worker logs:"
+          tail -50 worker.log
 
 
