@@ -146,6 +146,27 @@ jobs:
           echo "Worker startup logs:"
           cat worker.log || echo "Worker log not available"
           
+      - name: Create baseline metrics file
+        run: |
+          echo "Creating mock baseline metrics file for comparison"
+          mkdir -p data/cwt
+          cat > data/cwt/baseline-metrics.json << EOF
+          {
+            "llmCritic": {
+              "mean": 0.75,
+              "std": 0.05
+            },
+            "latency": {
+              "mean": 1200,
+              "std": 100
+            },
+            "cost": {
+              "mean": 0.0015,
+              "std": 0.0005
+            }
+          }
+          EOF
+
       - name: Skip real evaluation in CI and create mock results
         run: |
           echo "Skipping real evaluation in CI environment - creating mock results instead"
@@ -166,9 +187,10 @@ jobs:
               "latencyMs": 1200,
               "cost": 0.0015,
               "metrics": {
-                "rouge": 0.75,
-                "bleu": 0.68,
-                "bertscore": 0.82
+                "llmCritic": {
+                  "mean": 0.75,
+                  "std": 0.05
+                }
               }
             }
           }
