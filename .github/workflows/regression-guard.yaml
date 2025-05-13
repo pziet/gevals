@@ -143,11 +143,19 @@ jobs:
           REDIS_HOST: localhost
           REDIS_PORT: 6379
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DATA_PATH: ${{ github.workspace }}/data/cwt
+          
+      - name: Run Prisma Migrations
+        run: |
+          echo "Running database migrations..."
+          pnpm prisma migrate deploy
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/gevals
           
       - name: Check for regressions
         run: pnpm tsx scripts/check-regression.ts || echo "Regression check failed"
         env:
-          DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/gevals' }}
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/gevals
         
       - name: Stop worker process
         if: always() && steps.start_worker.outputs.worker_pid != ''
