@@ -20,107 +20,52 @@ jobs:
           version: 9.0.0
           
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install
+          
+      - name: Build all packages
+        run: pnpm run build
         
-      - name: Create simplified BullMQ worker
-        run: |
-          # Create a simple standalone worker script that doesn't depend on the gevals codebase
-          mkdir -p ci-worker
-          cat > ci-worker/worker.js << 'EOL'
-          const { Worker, Queue, QueueEvents } = require('bullmq');
-          const fs = require('fs');
-          const path = require('path');
-
-          console.log('[CI Worker] Starting simplified worker implementation');
-          
-          // Create the worker
-          const worker = new Worker('eval', async (job) => {
-            console.log(`[CI Worker] Processing job ${job.id}`);
-            const { config, transcriptName, resultFile } = job.data;
-            
-            // Create a mock result
-            const mockResult = {
-              metadata: {
-                latencyMs: 500,
-                cost: 0.05,
-                metrics: {
-                  llmCritic: { mean: 0.85, std: 0.1 },
-                  latency: { mean: 500, std: 50 },
-                  cost: { mean: 0.05, std: 0.01 }
-                }
-              }
-            };
-            
-            // Ensure directory exists
-            const resultDir = path.dirname(resultFile);
-            fs.mkdirSync(resultDir, { recursive: true });
-            
-            // Write result to file
-            const resultData = { config, transcriptName, result: mockResult };
-            fs.writeFileSync(resultFile, JSON.stringify(resultData, null, 2));
-            
-            console.log(`[CI Worker] Saved result to ${resultFile}`);
-            return mockResult;
-          }, {
-            connection: {
-              host: process.env.REDIS_HOST || 'localhost',
-              port: parseInt(process.env.REDIS_PORT || '6379')
-            },
-            concurrency: 5
-          });
-          
-          // Handle events
-          worker.on('completed', job => console.log(`[CI Worker] Job ${job.id} completed`));
-          worker.on('failed', (job, error) => console.error(`[CI Worker] Job ${job?.id} failed:`, error));
-          
-          console.log('[CI Worker] Worker initialized and waiting for jobs...');
-          EOL
-      
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
         
-      - name: Run baseline evaluation
-        id: run_evaluation
+      - name: Start worker process
+        id: start_worker
         run: |
-          echo "Starting mock worker and running evaluation..."
-          # Start the worker in background
-          node ci-worker/worker.js > worker.log 2>&1 &
+          # Start worker using the same command as local development
+          echo "Starting worker process..."
+          pnpm worker:dev > worker.log 2>&1 &
           echo $! > worker_pid
           echo "worker_pid=$!" >> $GITHUB_OUTPUT
           
           # Give worker time to initialize
-          sleep 3
-          
-          # Create mock baseline results
-          mkdir -p results/baseline/noise-level-0
-          cat > results/baseline/noise-level-0/0.json << 'EOL'
-          {
-            "config": { "id": "baseline" },
-            "transcriptName": "noise-level-0",
-            "result": {
-              "metadata": {
-                "latencyMs": 500,
-                "cost": 0.05,
-                "metrics": {
-                  "llmCritic": { "mean": 0.85, "std": 0.1 },
-                  "latency": { "mean": 500, "std": 50 },
-                  "cost": { "mean": 0.05, "std": 0.01 }
-                }
-              }
-            }
-          }
-          EOL
-          echo "Created mock baseline results"
+          sleep 5
+          # Display first few log lines to verify startup
+          head -10 ../../worker.log
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           REDIS_HOST: localhost
           REDIS_PORT: 6379
-          
-      - name: Check for regressions (mock)
-        run: echo "✅ No regressions detected in mock evaluation"
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         
-      - name: Debug and stop worker process
-        if: always()
-        run: cat worker.log && (kill $(cat worker_pid) || echo "Worker process already stopped")
+      - name: Run baseline evaluation
+        run: |
+          # Clean baseline results
+          rm -rf results/baseline
+          
+          # Run evaluation using CLI via npm script
+          pnpm cli run configs/baseline/baseline.yaml
+        env:
+          REDIS_HOST: localhost
+          REDIS_PORT: 6379
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          
+      - name: Check for regressions
+        run: pnpm tsx scripts/check-regression.ts
+        
+      - name: Stop worker process
+        if: always() && steps.start_worker.outputs.worker_pid != ''
+        run: |
+          echo "Worker logs:"
+          cat worker.log
+          kill $(cat worker_pid) || echo "Worker process already stopped"
 
 
