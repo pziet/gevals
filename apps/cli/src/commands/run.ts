@@ -45,7 +45,15 @@ const runCmd = new Command("run")
     console.log("Transcript files:", transcriptFiles);
     // only run on first transcript file for now
     // console.log("Transcript files:", transcriptFiles);
-
+    // If the config is baseline.yaml, only use the first noise level transcript
+    if (configFiles.some(file => file.includes('baseline/baseline.yaml'))) {
+      console.log("Baseline config detected - using only the first noise level transcript");
+      // Sort to ensure we get the lowest noise level (assuming naming convention like noise-level-0.json)
+      transcriptFiles.sort();
+      // Take only the first transcript file
+      transcriptFiles = [transcriptFiles[0]];
+      console.log("Using only:", transcriptFiles);
+    }
     // Create jobs array to track all jobs
     const jobs = [];
 

@@ -122,7 +122,7 @@ jobs:
           # Remove baseline files if they exist
           rm -rf results/baseline
           # Run the CLI directly using Node
-          node apps/cli/dist/index.js run configs/baseline.yaml 
+          node apps/cli/dist/index.js run configs/baseline/baseline.yaml 
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           
