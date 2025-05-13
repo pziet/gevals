@@ -10,6 +10,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { AggregatedResult } from '@/lib/types';
+import { DataVisualization } from '@/components/leaderboard/DataVisualization';
 
 type SortKey = keyof AggregatedResult | 'latency' | 'cost' | 'llmCritic';
 type SortOrder = 'asc' | 'desc';
@@ -76,6 +77,11 @@ export default function LeaderboardPage() {
   return (
     <div className="container mx-auto py-10">
       <h1 className="text-2xl font-bold mb-6">Evaluation Results Leaderboard</h1>
+      
+      {/* Add the visualization component */}
+      <DataVisualization data={results} />
+
+      {/* Existing table */}
       <Table>
         <TableHeader>
           <TableRow>
