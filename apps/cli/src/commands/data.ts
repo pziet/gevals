@@ -24,7 +24,6 @@ const dataCmd = new Command('data')
       }
       
       console.log(`Processing ${url}...`);
-      console.log(`Output directory: ${outputDir}`); // Log the absolute path
       await generateSyntheticDataset(url, options.chatter, levels, outputDir);
       console.log(`Dataset generated in ${outputDir}`);
     } catch (error: unknown) {

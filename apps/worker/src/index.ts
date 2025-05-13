@@ -81,8 +81,6 @@ const worker = new Worker('eval', async (job) => {
     
     writeFileSync(absoluteResultFile, JSON.stringify(resultData, null, 2));
     console.log(`Saved result to ${absoluteResultFile}`);
-
-    console.log(`Job ${job.id} completed successfully`);
     return result;
   } catch (error) {
     console.error(`Job ${job.id} failed:`, error);

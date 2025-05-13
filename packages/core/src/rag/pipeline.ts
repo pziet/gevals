@@ -12,7 +12,6 @@ import { getWorkspacePath } from "../utils/paths.js";
 
 
 // usage: gevals run configs/<config-name>.yaml or gevals run . 
-
 export async function runPipeline(
   config: EvalConfig,
   transcriptName: string,
@@ -24,7 +23,6 @@ export async function runPipeline(
   const startTime = Date.now(); // Start timing the entire pipeline
 
   // 1. Process files: Chunk and embed transcript 
-  // console.log("Processing file:", transcriptName);
   await processTranscript(
     config.id, 
     transcriptName,
@@ -53,12 +51,8 @@ export async function runPipeline(
       { role: "user", content: prompt.prompt }
     ],
   });
-  // 
-  // console.log("Input tokens:", response.usage?.prompt_tokens);
-  // console.log("Output tokens:", response.usage?.completion_tokens);
   const enhancedNotes = response.choices[0].message.content;
-  // console.log("Enhanced notes:", enhancedNotes);
-  // console.log("End of enhanced notes");
+
 
   // 4. Compute metrics
   // Read gold standard and compute metrics
