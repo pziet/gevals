@@ -1,20 +1,8 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "lib": ["ES2020", "DOM"],
-    "jsx": "react-jsx",
-    "declaration": true,
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": "."
-  },
   "files": [],
   "references": [
     { "path": "packages/core" },
-    { "path": "apps/cli" }
+    { "path": "apps/cli" },
+    { "path": "apps/worker" }
   ]
 }
