@@ -22,6 +22,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
           
+      - name: Link workspace packages 
+        run: |
+          echo "Linking workspace packages..."
+          # Force pnpm to recreate workspace links
+          pnpm install --force
+          # Verify core package is linked
+          ls -la node_modules/@gevals || echo "No @gevals namespace"
+          ls -la node_modules/@gevals/core || echo "Core package not linked"
+          
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
 
