@@ -103,7 +103,7 @@ jobs:
           cd apps/cli
           # Print the module resolution path
           echo "Module resolution test:"
-          node -e "try { require.resolve('@gevals/core'); console.log('Core module can be resolved!'); } catch(e) { console.log('Core module cannot be resolved:', e.message); }"
+          # node -e "try { require.resolve('@gevals/core'); console.log('Core module can be resolved!'); } catch(e) { console.log('Core module cannot be resolved:', e.message); }"
           pnpm build || echo "CLI build failed - continuing for debug purposes"
           echo "CLI build attempted"
           
@@ -137,6 +137,10 @@ jobs:
           # Clean baseline results
           rm -rf results/baseline
           
+          # list the contents of the current directory
+          ls -la
+          # List the contents of the configs directory
+          ls -la configs/*
           # Run evaluation using CLI via npm script
           pnpm run configs/baseline/baseline.yaml || echo "CLI execution failed"
         env:
