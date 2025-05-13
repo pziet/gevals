@@ -23,7 +23,7 @@ jobs:
         run: pnpm install
           
       - name: Build all packages
-        run: pnpm run build
+        run: pnpm build
         
       - name: Start infrastructure
         run: docker compose -f infra/docker-compose.yml up -d
