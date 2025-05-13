@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { AggregatedResult } from '@/lib/types';
 import {
   Select,
@@ -34,6 +34,26 @@ export function DataVisualization({ data }: DataVisualizationProps) {
     { value: 'rag', label: 'RAG' },
     { value: 'transcriptName', label: 'Transcript' },
   ];
+
+  // Define a color palette
+  const COLORS = [
+    "#8884d8", "#82ca9d", "#ffc658", "#ff7300", "#0088FE",
+    "#00C49F", "#FFBB28", "#FF8042", "#A28FD0", "#FF6699"
+  ];
+
+  // Group data by the selected colorBy category
+  const groupedData = useMemo(() => {
+    const groups: Record<string, AggregatedResult[]> = {};
+    data.forEach(item => {
+      const key = item[colorBy];
+      if (!groups[key]) groups[key] = [];
+      groups[key].push(item);
+    });
+    return groups;
+  }, [data, colorBy]);
+
+  // Get unique group keys for legend and coloring
+  const groupKeys = Object.keys(groupedData);
 
   return (
     <div className="mb-8">
@@ -105,12 +125,15 @@ export function DataVisualization({ data }: DataVisualizationProps) {
               formatter={(value: any, name: string) => [value, name]}
             />
             <Legend />
-            <Scatter
-              name="Results"
-              data={data}
-              fill="#8884d8"
-              shape="circle"
-            />
+            {groupKeys.map((group, idx) => (
+              <Scatter
+                key={group}
+                name={group}
+                data={groupedData[group]}
+                fill={COLORS[idx % COLORS.length]}
+                shape="circle"
+              />
+            ))}
           </ScatterChart>
         </ResponsiveContainer>
       </div>
