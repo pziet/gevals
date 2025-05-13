@@ -1,5 +1,5 @@
 id: baseline
 model: gpt-4.1-mini
-embedding: default
+embedding: text-embedding-3-small
 rag: simple
 prompt: system-prompt-1.txt
