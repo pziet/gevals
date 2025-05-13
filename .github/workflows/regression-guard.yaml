@@ -61,18 +61,6 @@ jobs:
           cd packages/core
           npx tsc --listFiles --listEmittedFiles
           
-          echo "Creating dist directory manually:"
-          mkdir -p dist
-          
-          echo "Creating minimal exports for testing:"
-          echo "export const getWorkspacePath = (path) => path;" > dist/index.js
-          echo "export const generateSyntheticDataset = async () => {};" >> dist/index.js
-          echo "export declare function getWorkspacePath(path: string): string;" > dist/index.d.ts
-          echo "export declare function generateSyntheticDataset(): Promise<void>;" >> dist/index.d.ts
-          
-          echo "Files created:"
-          ls -la dist
-
       - name: Build Core Package
         run: |
           echo "Building Core Package..."
@@ -81,17 +69,19 @@ jobs:
           echo "Core build completed"
           echo "Files in dist directory:"
           ls -la dist
-          echo "Types file exists?"
-          test -f dist/index.d.ts && echo "YES - index.d.ts exists" || echo "NO - index.d.ts missing"
+          # Fail fast if tsc skipped emit (dist is missing or empty)
+          if [ ! -d dist ] || [ -z "$(ls -A dist 2>/dev/null)" ]; then
+            echo "::error::dist directory is empty – TypeScript emit failed"
+            exit 1
+          fi
           
       - name: Verify Core Package
         run: |
           echo "Checking Core package installation..."
-          ls -la node_modules/@gevals/core || echo "Core package not in node_modules"
-          mkdir -p node_modules/@gevals/core/dist || echo "Already exists"
-          cp -r packages/core/dist/* node_modules/@gevals/core/dist/ || echo "Copy failed"
-          echo "After copy, files in node_modules/@gevals/core/dist:"
-          ls -la node_modules/@gevals/core/dist
+          ls -la node_modules/@gevals/core/dist || {
+            echo "::error::@gevals/core is not linked into node_modules";
+            exit 1;
+          }
 
       - name: Build CLI Package
         run: |
