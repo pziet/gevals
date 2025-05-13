@@ -137,12 +137,14 @@ jobs:
           # Clean baseline results
           rm -rf results/baseline
           
-          # list the contents of the current directory
-          ls -la
-          # List the contents of the configs directory
-          ls -la configs/*
-          # Run evaluation using CLI via npm script
-          gevals run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          # Option 1: Use npx to find the CLI in the current workspace
+          npx gevals run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          
+          # OR Option 2: Use the node CLI directly with the CLI entry point
+          # node apps/cli/dist/index.js run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          
+          # OR Option 3: Use pnpm CLI shortcut if defined in root package.json
+          # pnpm cli run configs/baseline/baseline.yaml || echo "CLI execution failed"
         env:
           REDIS_HOST: localhost
           REDIS_PORT: 6379
