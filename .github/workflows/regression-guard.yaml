@@ -138,7 +138,7 @@ jobs:
           rm -rf results/baseline
           
           # Run evaluation using CLI via npm script
-          pnpm cli run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          pnpm run configs/baseline/baseline.yaml || echo "CLI execution failed"
         env:
           REDIS_HOST: localhost
           REDIS_PORT: 6379
