@@ -2,7 +2,7 @@
 
 Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods.
 
-[<1min demo]()
+[1min demo]()
 
 ### Features
 
@@ -17,6 +17,18 @@ Framework designed for comparing different configurations of prompts, embedding 
 * **ffmpeg + yt-dlp** to automate `.mp3` data generation.
 * **BullMQ + Redis** for efficient job queue management.
 * **Docker** for consistent and quick environment setup.
+
+### Application
+
+* Extract the first 21 minutes from the [*Conversations with Tyler* podcast](https://youtu.be/U1ZMmKMMHgQ?si=PYEgcZBfCfVzW5g7) featuring Jack Clark and overlay it with [indistinct chatter](https://youtu.be/50bYnrmaTfE?si=ldJUkdMrNdgXP5me) at varying audio levels using `ffmpeg`.
+* [Transcribe](https://github.com/pziet/gevals/blob/main/packages/core/src/data-pipeline/transcribe.ts) generated `.mp3` files with OpenAI’s Speech-to-Text [model](https://platform.openai.com/docs/guides/speech-to-text).
+* Run evaluation configs to measure latency, cost, and accuracy via a critic LLM, comparing generated "Enhanced Notes" to an authored ["Ideal Notes"](https://github.com/pziet/gevals/blob/main/data/cwt/gold_standard.txt).
+
+### Post-mortem
+
+* **Data**: Speech-to-text models performed robustly; however, increased data diversity would further enhance reliability. Creating a synthetic data pipeline with varied backgrounds (noise, accents) could improve the robustness of future evaluations.
+* **Models**: The `gpt-4.1-nano` model shows remarkable performance across multiple tasks.
+* **CI/CD**: Initial setup of GitHub Actions for regression detection was started. Ensuring precise environmental consistency remains challenging and requires careful handling.
 
 ## Quickstart 🚀
 
