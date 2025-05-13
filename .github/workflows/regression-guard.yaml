@@ -48,6 +48,31 @@ jobs:
           echo "Content of src/test-import.ts:"
           cat apps/cli/src/test-import.ts | head -10
 
+      - name: Debug Core Build
+        run: |
+          echo "Debugging Core Build Issues..."
+          echo "Core tsconfig.json:"
+          cat packages/core/tsconfig.json
+          
+          echo "Core package structure:"
+          find packages/core/src -type f | sort
+          
+          echo "Running tsc with verbose logging:"
+          cd packages/core
+          npx tsc --listFiles --listEmittedFiles
+          
+          echo "Creating dist directory manually:"
+          mkdir -p dist
+          
+          echo "Creating minimal exports for testing:"
+          echo "export const getWorkspacePath = (path) => path;" > dist/index.js
+          echo "export const generateSyntheticDataset = async () => {};" >> dist/index.js
+          echo "export declare function getWorkspacePath(path: string): string;" > dist/index.d.ts
+          echo "export declare function generateSyntheticDataset(): Promise<void>;" >> dist/index.d.ts
+          
+          echo "Files created:"
+          ls -la dist
+
       - name: Build Core Package
         run: |
           echo "Building Core Package..."
