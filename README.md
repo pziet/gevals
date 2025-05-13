@@ -2,7 +2,7 @@
 
 Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods.
 
-[1min demo]()
+Watch this [1min demo]().
 
 ### Features
 
@@ -35,11 +35,16 @@ Framework designed for comparing different configurations of prompts, embedding 
 <details>
 <summary>Setup & Usage Instructions</summary>
 
+### Prerequisites
+
+Before you begin, ensure you have Node.js (v18 or higher), pnpm (v9.0.0), Docker with Docker Compose, ffmpeg, and Git installed on your system. Docker must be running and your user should have the necessary permissions to execute Docker commands. If you're using Linux, you may need to add your user to the docker group and log out and back in for the changes to take effect.
+
 ### Installation
 
 ```bash
 git clone https://github.com/yourname/gevals.git
 cd gevals
+chmod +x ./scripts/bootstrap.sh
 ./scripts/bootstrap.sh
 pnpm dev
 ```
