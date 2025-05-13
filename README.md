@@ -1,110 +1,61 @@
-# gevals:
+# gevals: Granola eval framework 🚀
 
+Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods.
 
+[<1min demo]()
 
-### Pipeline (?better name)
+### Features
 
-- Models: `gpt-4o-mini`, `gpt-4.1`, `gpt-4.1-mini`, `gpt-4.1-nano`
-- Embeddings: `text-embedding-3-large`, `text-embedding-3-small`, 
-- RAG:
-    - `simple`:
-    - `rerank`: 
-- Metrics:
-    - Latency
-    - Cost:
-    - LLM critic:
+* **Configurable Evaluations**: Easily test and compare different prompt-engineering approaches, embedding techniques, and RAG pipelines with respect to cost, latency and LLM critics.
+* **Data fly wheel**: Automated creation of conversational audio datasets with optional overlay of indistinct chatter.
+* **Efficient Processing**: Utilizes parallel processing through a BullMQ worker queue with Redis for scalability.
 
+### Tech Stack
 
+* **TypeScript Monorepo** for streamlined development and modularity.
+* **CLI Tool** for simple interaction and execution.
+* **ffmpeg + yt-dlp** to automate `.mp3` data generation.
+* **BullMQ + Redis** for efficient job queue management.
+* **Docker** for consistent and quick environment setup.
 
-
-Build
+## Quickstart 🚀
 
 <details>
+<summary>Setup & Usage Instructions</summary>
 
-<summary>Turborepo starter info</summary>
+### Installation
 
-# Turborepo starter
-
-This Turborepo starter is maintained by the Turborepo core team.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
-
-## What's inside?
-
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
+```bash
+git clone https://github.com/yourname/gevals.git
+cd gevals
+./scripts/bootstrap.sh
 pnpm dev
 ```
 
-### Remote Caching
+### CLI Commands
 
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+**Launch Dashboard:**
 
-Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
+```bash
+gevals display
 ```
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+Opens a browser-based leaderboard with interactive plots for evaluation results.
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+**Run Evaluations:**
 
+```bash
+# Run evaluations (ensure worker is running with `pnpm worker:dev`)
+gevals run .  # Run all configurations
+gevals run configs/{model}-{embedding}-{rag}.yaml  # Run specific configuration
 ```
-npx turbo link
+
+**Generate Synthetic Data:**
+
+```bash
+gevals data <conversation_url> --chatter <chatter_url> --levels 3
 ```
 
-## Useful Links
+Generates `.mp3` conversational audio with indistinct chatter overlays from provided YouTube links.
 
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turborepo.com/docs/crafting-your-repository/running-tasks)
-- [Caching](https://turborepo.com/docs/crafting-your-repository/caching)
-- [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching)
-- [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
-- [Configuration Options](https://turborepo.com/docs/reference/configuration)
-- [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
 </details>
