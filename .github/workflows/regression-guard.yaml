@@ -142,7 +142,7 @@ jobs:
           # List the contents of the configs directory
           ls -la configs/*
           # Run evaluation using CLI via npm script
-          pnpm run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          gevals run configs/baseline/baseline.yaml || echo "CLI execution failed"
         env:
           REDIS_HOST: localhost
           REDIS_PORT: 6379
