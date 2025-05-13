@@ -39,10 +39,10 @@ async function main() {
       throw new Error('No evaluation run found');
     }
     
-    const metrics = latestRun.metrics as BaselineMetrics;
+    const metrics = latestRun.metrics as unknown as BaselineMetrics;
     
     // Check for regressions
-    const regressions = [];
+    const regressions: string[] = [];
     
     // Check LLM Critic score (higher is better)
     if (metrics.llmCritic.mean < baseline.llmCritic.mean * 0.95) {
