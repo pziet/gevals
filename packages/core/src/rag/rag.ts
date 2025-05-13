@@ -86,22 +86,12 @@ async function addToCollection(
   docs: string[],
   metas: Metadata[],
 ) {
-  // console.log("Getting collection");
   const collection = await chroma.getCollection({ name: collectionId });
-  // console.log("Collection got");
-
-  // Add debug logging
-  // console.log("Adding to collection with:", {
-  //   ids: ids.slice(0, 2), // Log first 2 items
-  //   docs: docs.slice(0, 2),
-  //   metas: metas.slice(0, 2)
-  // });
 
   await collection.add({ 
     ids: ids, 
     documents: docs, 
     metadatas: metas});
-  // console.log("Added to collection");
 }
 
 export async function processTranscript(
@@ -113,25 +103,20 @@ export async function processTranscript(
 ) {
   // Make collection
   const collectionName = make_collection_name(collectionId, fileName, runId);
-  // console.log("Collection name:", collectionName);
   await makeCollection(collectionName, efName);
-  // console.log("Collection made");
 
   // Create a document from the text
   const docs = [{ 
     pageContent: transcriptContent, 
     metadata: { source: fileName } 
   }];
-  // console.log("Docs created");
 
   // Split the text into chunks
   const splitter = new RecursiveCharacterTextSplitter({
     chunkSize: CHUNK_SIZE,
     chunkOverlap: CHUNK_OVERLAP,
   });
-  // console.log("Splitter:", splitter);
   const chunks = await splitter.splitDocuments(docs);
-  // console.log("Chunks computed");
   // Format the chunks for the collection
   const chunkIds: string[] = [];
   const chunkTexts: string[] = [];
@@ -142,14 +127,12 @@ export async function processTranscript(
     chunkTexts.push(c.pageContent);
     chunkMetas.push(c.metadata.loc.lines);
   });
-  // console.log("Chunks formatted");
   // Add the chunks to the collection
   await addToCollection(
     collectionName, 
     chunkIds, 
     chunkTexts, 
     chunkMetas);
-  // console.log("Chunks added to collection");
 }
 
 
@@ -177,7 +160,6 @@ export async function getRAGprompt(
     const textResultsString = textResults.documents[0].map((chunk, index) => 
       `[${index + 1}] ${chunk}`
     ).join("\n\n");
-    // console.log("Text results string:", textResultsString);
     const openai = new OpenAI({
       apiKey: process.env.OPENAI_API_KEY,
     });
@@ -189,7 +171,6 @@ export async function getRAGprompt(
       ],
     });
     textAugmentation = response.choices[0].message.content || "";
-    // console.log("Reranked text results:", textAugmentation);
     prompt_tokens = response.usage?.prompt_tokens || 0;
     completion_tokens = response.usage?.completion_tokens || 0;
   }

@@ -42,10 +42,6 @@ const runCmd = new Command("run")
 
     // Get all transcript files
     let transcriptFiles = glob.sync("data/cwt/noise-level-*.json");
-    console.log("Transcript files:", transcriptFiles);
-    // only run on first transcript file for now
-    // console.log("Transcript files:", transcriptFiles);
-    // If the config is baseline.yaml, only use the first noise level transcript
     if (configFiles.some(file => file.includes('baseline/baseline.yaml'))) {
       console.log("Baseline config detected - using only the first noise level transcript");
       // Sort to ensure we get the lowest noise level (assuming naming convention like noise-level-0.json)
@@ -61,24 +57,17 @@ const runCmd = new Command("run")
       console.log(`Processing config: ${configFile}`);
       const configContent = readFileSync(configFile, "utf-8");
       const config = parse(configContent);
-      // console.log("Config:", config);
       const promptFile = glob.sync(`prompts/${config.prompt}`);
-      // console.log("Prompt file:", promptFile);
       const promptFileContent = readFileSync(promptFile[0], "utf-8");
-      // console.log("Prompt file content:", promptFileContent);
 
       for (const transcriptFile of transcriptFiles) {
         console.log(`Processing transcript: ${transcriptFile}`);
         const transcriptJson = JSON.parse(readFileSync(transcriptFile, "utf-8"));
         const transcriptContent = transcriptJson.text;
-        // console.log("Transcript content:", transcriptContent);
         // Extract transcript name from filename
         const transcriptName = path.basename(transcriptFile, ".json");
-        // console.log("Transcript name:", transcriptName);
         // For now, using a dummy rough notes - you might want to modify this
         const roughNotes = readFileSync("data/cwt/rough_notes.txt", "utf-8");
-        // console.log("Rough notes:", roughNotes);
-
         
         // Create results directory for this config if it doesn't exist
         const resultsDir = path.join(process.cwd(), "results", config.id, transcriptName);
@@ -90,7 +79,6 @@ const runCmd = new Command("run")
         for (let i = 0; i < NSIM; i++) {
           const jobId = `${config.id}-${transcriptName}-${i}`;
           const resultFile = path.join(resultsDir, `${i}.json`);
-          console.log(`Result file: ${resultFile}`);
           // Skip if result already exists
           if (existsSync(resultFile)) {
             console.log(`Skipping run ${i} for ${config.id} - result already exists`);
