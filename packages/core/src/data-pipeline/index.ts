@@ -2,8 +2,7 @@ import { execa } from 'execa';
 import ffmpeg from 'fluent-ffmpeg';
 import { tmpdir } from 'os';
 import { join } from 'path';
-import { promisify } from 'util';
-import { writeFile, rename } from 'fs/promises';
+import { rename } from 'fs/promises';
 import { existsSync } from 'fs';
 
 export async function downloadAudio(url: string, outPath: string): Promise<void> {
