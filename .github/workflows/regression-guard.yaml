@@ -114,26 +114,33 @@ jobs:
           pnpm build || echo "Worker build failed - continuing for debug purposes"
           echo "Worker build attempted"
           
+      - name: Install Redis CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y redis-tools
+          
       - name: Start worker process
         id: start_worker
         run: |
-          # Start worker using the same command as local development
           echo "Starting worker process..."
-          # Run with more verbose logging and in foreground for debugging
-          pnpm worker:dev > worker.log 2>&1 &
-          echo $! > worker_pid
+          
+          # Run with more debugging enabled
+          cd apps/worker
+          DEBUG=bull* DATA_PATH=${{ github.workspace }}/data REDIS_HOST=localhost REDIS_PORT=6379 OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} node dist/index.js > ../../worker.log 2>&1 &
+          echo $! > ../../worker_pid
           echo "worker_pid=$!" >> $GITHUB_OUTPUT
+          cd ../..
           
           # Give worker time to initialize
-          sleep 5
+          sleep 10
           
           # Check if worker is connected to Redis
           echo "Checking worker connection to Redis..."
-          redis-cli -h localhost -p 6379 CLIENT LIST | grep worker || echo "No worker connections to Redis"
+          redis-cli -h localhost -p 6379 CLIENT LIST
           
-          # Display first few log lines to verify startup
+          # Display logs to verify startup
           echo "Worker startup logs:"
-          head -20 worker.log || echo "Worker log not available"
+          cat worker.log || echo "Worker log not available"
           
       - name: Run baseline evaluation with timeout
         run: |
