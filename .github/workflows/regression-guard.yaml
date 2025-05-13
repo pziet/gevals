@@ -137,14 +137,8 @@ jobs:
           # Clean baseline results
           rm -rf results/baseline
           
-          # Option 1: Use npx to find the CLI in the current workspace
-          npx gevals run configs/baseline/baseline.yaml || echo "CLI execution failed"
-          
-          # OR Option 2: Use the node CLI directly with the CLI entry point
-          # node apps/cli/dist/index.js run configs/baseline/baseline.yaml || echo "CLI execution failed"
-          
-          # OR Option 3: Use pnpm CLI shortcut if defined in root package.json
-          # pnpm cli run configs/baseline/baseline.yaml || echo "CLI execution failed"
+          # Run directly using Node
+          node apps/cli/dist/index.js run configs/baseline/baseline.yaml || echo "CLI execution failed"
         env:
           REDIS_HOST: localhost
           REDIS_PORT: 6379
@@ -152,6 +146,8 @@ jobs:
           
       - name: Check for regressions
         run: pnpm tsx scripts/check-regression.ts || echo "Regression check failed"
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL || 'postgresql://postgres:postgres@localhost:5432/gevals' }}
         
       - name: Stop worker process
         if: always() && steps.start_worker.outputs.worker_pid != ''
