@@ -11,6 +11,14 @@
       "dependsOn": [],
       "outputs": ["dist/**", "*.tsbuildinfo"]
     },
+    "cli#build": {
+      "dependsOn": ["core#build"],
+      "outputs": ["dist/**"]
+    },
+    "worker#build": {
+      "dependsOn": ["core#build"],
+      "outputs": ["dist/**"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },
