@@ -2,8 +2,6 @@
 
 Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods.
 
-### Application
-
 * Extract the first 21 minutes from the [*Conversations with Tyler* podcast](https://youtu.be/U1ZMmKMMHgQ?si=PYEgcZBfCfVzW5g7) featuring Jack Clark and overlay it with [indistinct chatter](https://youtu.be/50bYnrmaTfE?si=ldJUkdMrNdgXP5me) at varying audio levels using `ffmpeg`.
 * [Transcribe](https://github.com/pziet/gevals/blob/main/packages/core/src/data-pipeline/transcribe.ts) generated `.mp3` files with OpenAI’s Speech-to-Text [model](https://platform.openai.com/docs/guides/speech-to-text).
 * Run evaluation configs to measure latency, cost, and accuracy via a critic LLM, comparing generated "Enhanced Notes" to an authored ["Gold Standard"](https://github.com/pziet/gevals/blob/main/data/cwt/gold_standard.txt).
