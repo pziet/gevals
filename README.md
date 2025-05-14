@@ -4,10 +4,16 @@ Framework designed for comparing different configurations of prompts, embedding 
 
 Watch this [1min demo]().
 
+### Application
+
+* Extract the first 21 minutes from the [*Conversations with Tyler* podcast](https://youtu.be/U1ZMmKMMHgQ?si=PYEgcZBfCfVzW5g7) featuring Jack Clark and overlay it with [indistinct chatter](https://youtu.be/50bYnrmaTfE?si=ldJUkdMrNdgXP5me) at varying audio levels using `ffmpeg`.
+* [Transcribe](https://github.com/pziet/gevals/blob/main/packages/core/src/data-pipeline/transcribe.ts) generated `.mp3` files with OpenAI’s Speech-to-Text [model](https://platform.openai.com/docs/guides/speech-to-text).
+* Run evaluation configs to measure latency, cost, and accuracy via a critic LLM, comparing generated "Enhanced Notes" to an authored ["Ideal Notes"](https://github.com/pziet/gevals/blob/main/data/cwt/gold_standard.txt).
+
 ### Features
 
 * **Configurable Evaluations**: Easily test and compare different prompt-engineering approaches, embedding techniques, and RAG pipelines with respect to cost, latency and LLM critics.
-* **Data fly wheel**: Automated creation of conversational audio datasets with optional overlay of indistinct chatter.
+* **Data fly wheel**: Automated creation of conversational audio datasets with overlay of indistinct chatter.
 * **Efficient Processing**: Utilizes parallel processing through a BullMQ worker queue with Redis for scalability.
 
 ### Tech Stack
@@ -17,12 +23,6 @@ Watch this [1min demo]().
 * **ffmpeg + yt-dlp** to automate `.mp3` data generation.
 * **BullMQ + Redis** for efficient job queue management.
 * **Docker** for consistent and quick environment setup.
-
-### Application
-
-* Extract the first 21 minutes from the [*Conversations with Tyler* podcast](https://youtu.be/U1ZMmKMMHgQ?si=PYEgcZBfCfVzW5g7) featuring Jack Clark and overlay it with [indistinct chatter](https://youtu.be/50bYnrmaTfE?si=ldJUkdMrNdgXP5me) at varying audio levels using `ffmpeg`.
-* [Transcribe](https://github.com/pziet/gevals/blob/main/packages/core/src/data-pipeline/transcribe.ts) generated `.mp3` files with OpenAI’s Speech-to-Text [model](https://platform.openai.com/docs/guides/speech-to-text).
-* Run evaluation configs to measure latency, cost, and accuracy via a critic LLM, comparing generated "Enhanced Notes" to an authored ["Ideal Notes"](https://github.com/pziet/gevals/blob/main/data/cwt/gold_standard.txt).
 
 ### Post-mortem
 
