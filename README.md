@@ -2,8 +2,6 @@
 
 Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods.
 
-Watch this [1min demo]().
-
 ### Application
 
 * Extract the first 21 minutes from the [*Conversations with Tyler* podcast](https://youtu.be/U1ZMmKMMHgQ?si=PYEgcZBfCfVzW5g7) featuring Jack Clark and overlay it with [indistinct chatter](https://youtu.be/50bYnrmaTfE?si=ldJUkdMrNdgXP5me) at varying audio levels using `ffmpeg`.
