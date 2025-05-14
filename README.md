@@ -1,6 +1,6 @@
 # gevals: Granola eval framework 🚀
 
-Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods.
+Framework designed for comparing different configurations of prompts, embedding functions, and RAG methods. Here is a [1min demo](https://youtu.be/VqZRHs8NRJw).
 
 ### Approach
 
