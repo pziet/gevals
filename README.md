@@ -37,7 +37,7 @@ Watch this [1min demo]().
 
 ### Prerequisites
 
-Before you begin, ensure you have Node.js (v18 or higher), pnpm (v9.0.0), Docker with Docker Compose, ffmpeg, and Git installed on your system. Docker must be running and your user should have the necessary permissions to execute Docker commands. If you're using Linux, you may need to add your user to the docker group and log out and back in for the changes to take effect.
+Before you begin, ensure you have Node.js (v18 or higher), pnpm (v9.0.0), Docker, and ffmpeg installed on your system. Docker must be running and your user should have the necessary permissions to execute Docker commands. If you're using Linux, you may need to add your user to the docker group and log out and back in for the changes to take effect.
 
 ### Installation
 
