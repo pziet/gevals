@@ -1,142 +1,142 @@
-import { useState, useMemo } from 'react';
-import { AggregatedResult } from '@/lib/types';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { ScatterChart, Scatter, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { useState, useMemo } from 'react'; // import statement
+import { AggregatedResult } from '@/lib/types'; // import statement
+import { // import statement
+  Select, // statement
+  SelectContent, // statement
+  SelectItem, // statement
+  SelectTrigger, // statement
+  SelectValue, // statement
+} from "@/components/ui/select"; // close block
+import { ScatterChart, Scatter, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from 'recharts'; // import statement
 
-type MetricKey = 'latency' | 'cost' | 'llmCritic';
-type CategoryKey = 'model' | 'prompt' | 'embedding' | 'rag' | 'transcriptName';
+type MetricKey = 'latency' | 'cost' | 'llmCritic'; // type definition
+type CategoryKey = 'model' | 'prompt' | 'embedding' | 'rag' | 'transcriptName'; // type definition
 
-interface DataVisualizationProps {
-  data: AggregatedResult[];
-}
+interface DataVisualizationProps { // interface definition
+  data: AggregatedResult[]; // statement
+} // close block
 
-export function DataVisualization({ data }: DataVisualizationProps) {
-  const [xAxis, setXAxis] = useState<MetricKey>('latency');
-  const [yAxis, setYAxis] = useState<MetricKey>('cost');
-  const [colorBy, setColorBy] = useState<CategoryKey>('model');
+export function DataVisualization({ data }: DataVisualizationProps) { // exported component
+  const [xAxis, setXAxis] = useState<MetricKey>('latency'); // constant declaration
+  const [yAxis, setYAxis] = useState<MetricKey>('cost'); // constant declaration
+  const [colorBy, setColorBy] = useState<CategoryKey>('model'); // constant declaration
 
-  const metricOptions = [
-    { value: 'latency', label: 'Latency (ms)' },
-    { value: 'cost', label: 'Cost ($)' },
-    { value: 'llmCritic', label: 'LLM Critic Score' },
-  ];
+  const metricOptions = [ // constant declaration
+    { value: 'latency', label: 'Latency (ms)' }, // statement
+    { value: 'cost', label: 'Cost ($)' }, // statement
+    { value: 'llmCritic', label: 'LLM Critic Score' }, // statement
+  ]; // statement
 
-  const categoryOptions = [
-    { value: 'model', label: 'Model' },
-    { value: 'prompt', label: 'Prompt' },
-    { value: 'embedding', label: 'Embedding' },
-    { value: 'rag', label: 'RAG' },
-    { value: 'transcriptName', label: 'Transcript' },
-  ];
+  const categoryOptions = [ // constant declaration
+    { value: 'model', label: 'Model' }, // statement
+    { value: 'prompt', label: 'Prompt' }, // statement
+    { value: 'embedding', label: 'Embedding' }, // statement
+    { value: 'rag', label: 'RAG' }, // statement
+    { value: 'transcriptName', label: 'Transcript' }, // statement
+  ]; // statement
 
-  // Define a color palette
-  const COLORS = [
-    "#8884d8", "#82ca9d", "#ffc658", "#ff7300", "#0088FE",
-    "#00C49F", "#FFBB28", "#FF8042", "#A28FD0", "#FF6699"
-  ];
+  // Define a color palette // statement
+  const COLORS = [ // constant declaration
+    "#8884d8", "#82ca9d", "#ffc658", "#ff7300", "#0088FE", // statement
+    "#00C49F", "#FFBB28", "#FF8042", "#A28FD0", "#FF6699" // statement
+  ]; // statement
 
-  // Group data by the selected colorBy category
-  const groupedData = useMemo(() => {
-    const groups: Record<string, AggregatedResult[]> = {};
-    data.forEach(item => {
-      const key = item[colorBy];
-      if (!groups[key]) groups[key] = [];
-      groups[key].push(item);
-    });
-    return groups;
-  }, [data, colorBy]);
+  // Group data by the selected colorBy category // statement
+  const groupedData = useMemo(() => { // constant declaration
+    const groups: Record<string, AggregatedResult[]> = {}; // constant declaration
+    data.forEach(item => { // statement
+      const key = item[colorBy]; // constant declaration
+      if (!groups[key]) groups[key] = []; // statement
+      groups[key].push(item); // statement
+    }); // close block
+    return groups; // return JSX
+  }, [data, colorBy]); // close block
 
-  // Get unique group keys for legend and coloring
-  const groupKeys = Object.keys(groupedData);
+  // Get unique group keys for legend and coloring // statement
+  const groupKeys = Object.keys(groupedData); // constant declaration
 
-  return (
-    <div className="mb-8">
-      <div className="flex gap-4 mb-4">
-        <div className="w-48">
-          <label className="block text-sm font-medium mb-1">X Axis</label>
-          <Select value={xAxis} onValueChange={(value) => setXAxis(value as MetricKey)}>
-            <SelectTrigger>
-              <SelectValue placeholder="Select X axis" />
-            </SelectTrigger>
-            <SelectContent>
-              {metricOptions.map((option) => (
-                <SelectItem key={option.value} value={option.value}>
-                  {option.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
+  return ( // return JSX
+    <div className="mb-8"> // JSX markup
+      <div className="flex gap-4 mb-4"> // JSX markup
+        <div className="w-48"> // JSX markup
+          <label className="block text-sm font-medium mb-1">X Axis</label> // JSX markup
+          <Select value={xAxis} onValueChange={(value) => setXAxis(value as MetricKey)}> // JSX markup
+            <SelectTrigger> // JSX markup
+              <SelectValue placeholder="Select X axis" /> // JSX markup
+            </SelectTrigger> // JSX markup
+            <SelectContent> // JSX markup
+              {metricOptions.map((option) => ( // statement
+                <SelectItem key={option.value} value={option.value}> // JSX markup
+                  {option.label} // statement
+                </SelectItem> // JSX markup
+              ))} // statement
+            </SelectContent> // JSX markup
+          </Select> // JSX markup
+        </div> // JSX markup
 
-        <div className="w-48">
-          <label className="block text-sm font-medium mb-1">Y Axis</label>
-          <Select value={yAxis} onValueChange={(value) => setYAxis(value as MetricKey)}>
-            <SelectTrigger>
-              <SelectValue placeholder="Select Y axis" />
-            </SelectTrigger>
-            <SelectContent>
-              {metricOptions.map((option) => (
-                <SelectItem key={option.value} value={option.value}>
-                  {option.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
+        <div className="w-48"> // JSX markup
+          <label className="block text-sm font-medium mb-1">Y Axis</label> // JSX markup
+          <Select value={yAxis} onValueChange={(value) => setYAxis(value as MetricKey)}> // JSX markup
+            <SelectTrigger> // JSX markup
+              <SelectValue placeholder="Select Y axis" /> // JSX markup
+            </SelectTrigger> // JSX markup
+            <SelectContent> // JSX markup
+              {metricOptions.map((option) => ( // statement
+                <SelectItem key={option.value} value={option.value}> // JSX markup
+                  {option.label} // statement
+                </SelectItem> // JSX markup
+              ))} // statement
+            </SelectContent> // JSX markup
+          </Select> // JSX markup
+        </div> // JSX markup
 
-        <div className="w-48">
-          <label className="block text-sm font-medium mb-1">Color By</label>
-          <Select value={colorBy} onValueChange={(value) => setColorBy(value as CategoryKey)}>
-            <SelectTrigger>
-              <SelectValue placeholder="Select category" />
-            </SelectTrigger>
-            <SelectContent>
-              {categoryOptions.map((option) => (
-                <SelectItem key={option.value} value={option.value}>
-                  {option.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-      </div>
+        <div className="w-48"> // JSX markup
+          <label className="block text-sm font-medium mb-1">Color By</label> // JSX markup
+          <Select value={colorBy} onValueChange={(value) => setColorBy(value as CategoryKey)}> // JSX markup
+            <SelectTrigger> // JSX markup
+              <SelectValue placeholder="Select category" /> // JSX markup
+            </SelectTrigger> // JSX markup
+            <SelectContent> // JSX markup
+              {categoryOptions.map((option) => ( // statement
+                <SelectItem key={option.value} value={option.value}> // JSX markup
+                  {option.label} // statement
+                </SelectItem> // JSX markup
+              ))} // statement
+            </SelectContent> // JSX markup
+          </Select> // JSX markup
+        </div> // JSX markup
+      </div> // JSX markup
 
-      <div className="h-[400px] border rounded-lg bg-white">
-        <ResponsiveContainer width="100%" height="100%">
-          <ScatterChart>
-            <XAxis
-              type="number"
-              dataKey={`${xAxis}.mean`}
-              name={metricOptions.find(opt => opt.value === xAxis)?.label}
-            />
-            <YAxis
-              type="number"
-              dataKey={`${yAxis}.mean`}
-              name={metricOptions.find(opt => opt.value === yAxis)?.label}
-            />
-            <Tooltip
-              cursor={{ strokeDasharray: '3 3' }}
-              formatter={(value: any, name: string) => [value, name]}
-            />
-            <Legend />
-            {groupKeys.map((group, idx) => (
-              <Scatter
-                key={group}
-                name={group}
-                data={groupedData[group]}
-                fill={COLORS[idx % COLORS.length]}
-                shape="circle"
-              />
-            ))}
-          </ScatterChart>
-        </ResponsiveContainer>
-      </div>
-    </div>
-  );
-}
+      <div className="h-[400px] border rounded-lg bg-white"> // JSX markup
+        <ResponsiveContainer width="100%" height="100%"> // JSX markup
+          <ScatterChart> // JSX markup
+            <XAxis // JSX markup
+              type="number" // type definition
+              dataKey={`${xAxis}.mean`} // statement
+              name={metricOptions.find(opt => opt.value === xAxis)?.label} // statement
+            /> // statement
+            <YAxis // JSX markup
+              type="number" // type definition
+              dataKey={`${yAxis}.mean`} // statement
+              name={metricOptions.find(opt => opt.value === yAxis)?.label} // statement
+            /> // statement
+            <Tooltip // JSX markup
+              cursor={{ strokeDasharray: '3 3' }} // statement
+              formatter={(value: any, name: string) => [value, name]} // statement
+            /> // statement
+            <Legend /> // JSX markup
+            {groupKeys.map((group, idx) => ( // statement
+              <Scatter // JSX markup
+                key={group} // statement
+                name={group} // statement
+                data={groupedData[group]} // statement
+                fill={COLORS[idx % COLORS.length]} // statement
+                shape="circle" // statement
+              /> // statement
+            ))} // statement
+          </ScatterChart> // JSX markup
+        </ResponsiveContainer> // JSX markup
+      </div> // JSX markup
+    </div> // JSX markup
+  ); // statement
+} // close block
